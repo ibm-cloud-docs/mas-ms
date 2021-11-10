@@ -6,9 +6,6 @@ Maximo Application Suite Managed Service
 
     {: .navgroup id="learn"}
     getting-started.md
-    [What is continuous delivery?](https://www.ibm.com/cloud/learn/continuous-delivery)
-    tell-me.md
-    [Demo: Car Dashboard](https://conversation-demo.mybluemix.net/)
     {: .navgroup-end}
 
     {: .navgroup id="tutorial"}
