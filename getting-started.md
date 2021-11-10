@@ -30,6 +30,7 @@ completion-time: 10m
 ## About
 {: #about}
 
+## About
 Maximo Application Suite Managed Service (MAS-MS) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud platform. MAS-MS combines key IBM technologies: IBM Cloud, Red Hat Open Shift, IBM Cloud Pak for Data and IBM Watson - into a focused MAS services solution, allowing customers to make implementation of product functionality & features a priority.
 
 ## Before you begin
