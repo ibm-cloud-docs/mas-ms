@@ -8,6 +8,10 @@ Maximo Application Suite Managed Service
     getting-started.md
     {: .navgroup-end}
 
+    {: .navgroup id="services"}
+    services.md
+    {: .navgroup-end}
+
     {: .navgroup id="tutorial"}
     mytutorialfile.md
     myothertutorial.md
