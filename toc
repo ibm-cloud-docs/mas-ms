@@ -18,7 +18,6 @@ Maximo Application Suite Managed Service
     myothertask.md
 
     {: .topicgroup}
-    Deploying applications
         mydeployfile.md
         supportingconcepts.md
     mylogsfile.md
@@ -26,33 +25,15 @@ Maximo Application Suite Managed Service
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://www.ibm.com/watson/developercloud/conversation/api/v1/)
-
-    [Command line reference](https://cloud.ibm.com/docs/cli/plugins/auto-scaling?topic=cloud-cli-overview) <!-- Links to your command line reference docs should be included in the Reference navigation group. -->
-
-    [Sample app: Simple chat app](http://conversation-simple.mybluemix.net/)
 
     {: .topicgroup}
-        [Simple chat app](http://conversation-simple.mybluemix.net/)
-        [Conversation and car dashboard UI](https://conversation-demo.mybluemix.net/)
-        [Text message weather bot](https://text-bot.mybluemix.net/)
-        [Conversation and Discovery](https://conversation-with-discovery-within-ui.mybluemix.net/)
-        [Conversation and Tone Analyzer](https://food-coach.mybluemix.net/)
 
     {: .topicgroup}
-    SDKs
-        [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
-        [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
-        [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
-        [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
-        [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
-        [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
     
     {: .topicgroup}
     Related links
+        [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
         [IBM Cloud](https://www.ibm.com/cloud)
-        [Getting started](https://www.ibm.com/cloud/get-started)
-        [Learn about the hybrid model](https://www.ibm.com/cloud/hybrid)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
