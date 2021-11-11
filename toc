@@ -29,15 +29,16 @@ Maximo Application Suite Managed Service
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-
+    Related links
+    [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
+    [IBM Cloud](https://www.ibm.com/cloud)
+    
     {: .topicgroup}
 
     {: .topicgroup}
     
     {: .topicgroup}
-    Related links
-        [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
-        [IBM Cloud](https://www.ibm.com/cloud)
+    
     {: .navgroup-end}
 
     {: .navgroup id="help"}
