@@ -8,10 +8,6 @@ Maximo Application Suite Managed Service
     getting-started.md
     {: .navgroup-end}
 
-    {: .navgroup id="services"}
-    services.md
-    {: .navgroup-end}
-
     {: .navgroup id="tutorial"}
     mytutorialfile.md
     myothertutorial.md
@@ -23,13 +19,13 @@ Maximo Application Suite Managed Service
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    Related links
-    [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
-    [IBM Cloud](https://www.ibm.com/cloud)
+    reference.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    support.md
+    Helpful links
+    [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
+    [IBM Cloud](https://www.ibm.com/cloud)support.md
     faq.md
     release-notes.md
     {: .navgroup-end}
@@ -45,7 +41,5 @@ Maximo Application Suite Managed Service
     {: .topicgroup}
     
     {: .topicgroup}
-    
-    {: .navgroup-end}
 
     
