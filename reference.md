@@ -33,5 +33,5 @@ Before you can use Maximo Application Suite Managed Service, environments must f
 # Operations and Support
 Text goes here
 
-# Provisiong
+# Provisioning
 Text goes here
