@@ -25,7 +25,7 @@ completion-time: 10m
 
 IBM Maximo Application Suite Managed Service (MAS-MS) is an offering supported by IBM's Cloud Delivery Services and Development Operations team. IBM has been hosting Maximo systems for over 12 years and has deep experience provisioning and supporting Maximo on IBM Cloud. The Managed Services team is solely focused on Maximo Application Suite delivery, providing expert IT administration for both infrastructure and operations and support for customers through the IBM Support Community Portal. Customers interact with the IBM Managed Services team members via case creation, interaction and followup. Team members are based out of Canada, the United States, Brazil, Ireland, India, China and Australia. MAS-MS is a subscription based hosting service exclusively offered on the IBM Cloud platform. The diagram below shows the general scope of MAS-MS:
 
-![Enter image alt text right here.](../images/MAS-MS Scope of Services.jpg "MAS-MS Scope of Services"){: caption="Figure 1. MAS-MS Scope of Services" caption-side="bottom"}
+![Enter image alt text right here.](images/MAS-MS Scope of Services.jpg "MAS-MS Scope of Services"){: caption="Figure 1. MAS-MS Scope of Services" caption-side="bottom"}
 
 ## Service Description
 Maximo Application Suite Managed Service (MAS-MS) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud platform. MAS-MS combines key IBM technologies: IBM Cloud, Red Hat Open Shift, IBM Cloud Pak for Data and IBM Watson - into a focused MAS services solution, allowing customers to make implementation of product functionality & features a priority.
