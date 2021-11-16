@@ -9,13 +9,9 @@ Maximo Application Suite Managed Service
     {: .navgroup-end}
 
     {: .navgroup id="tutorial"}
-    mytutorialfile.md
-    myothertutorial.md
     {: .navgroup-end}
     
     {: .navgroup id="howto"}
-    mytaskfile.md
-    myothertask.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -26,20 +22,8 @@ Maximo Application Suite Managed Service
     Helpful links
     [Maximo Application Suite - IBM Documentation](https://www.ibm.com/docs/mas)
     [IBM Cloud](https://www.ibm.com/cloud)support.md
-    faq.md
-    release-notes.md
     {: .navgroup-end}
 
-    {: .topicgroup}
-        mydeployfile.md
-        supportingconcepts.md
-    mylogsfile.md
-    plan-upgrade.md
-
-    {: .topicgroup}
-
-    {: .topicgroup}
-    
     {: .topicgroup}
 
     

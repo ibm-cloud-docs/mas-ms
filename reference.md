@@ -6,9 +6,6 @@ lastupdated: "2020-11-12"
 
 subcollection: mas-ms
 
-content-type: tutorial
-completion-time: 10m
-
 ---
 
 {:shortdesc: .shortdesc}
