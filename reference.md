@@ -44,6 +44,7 @@ SLA Summary for Maximo Application Suite Managed Service (MAS-MS):
     Availability credits for availability of less than 99.9%
 
 # Operations and Support
+
 ## Operations
 
 IBM Maximo Application Suite Managed Service includes:
@@ -99,7 +100,7 @@ https://www.ibm.com/support/home/pages/support-guide/?product=4558485
 
 # Provisioning
 
-#  Provisioning Process
+## Provisioning Process
 
 Important:
 
@@ -180,7 +181,6 @@ The letter will contain similar instructions to below:
     Some IBM products require license keys to use them. The IBM License Key Center is an online software license key delivery tool that provides easy access to your license keys 24 hours a day, 7 days a week. 
 
  How to log in
- 
 
      To access your license keys:
         Please click here to create your Password
