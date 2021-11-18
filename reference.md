@@ -16,7 +16,7 @@ subcollection: mas-ms
 {:note: .note}
 {:external: target="_blank" .external}
 
-# Scope of Services
+# Services
 
 ## Scope of Services
 
@@ -35,28 +35,26 @@ The Service Level Agreement (SLA) for MAS-MS is described in Section 3 of the se
 
 SLA Summary for Maximo Application Suite Managed Service (MAS-MS):
 
-    99.9 % Availability (production)
+99.9 % Availability (production)
 
-    SLA does not include planned or emergency maintenance windows. For details on the maintenance window schedule, see Maintenance & Outage Calendar
+SLA does not include planned or emergency maintenance windows. For details on the maintenance window schedule, see Maintenance & Outage Calendar
 
-    SLA applies to production environments only
+SLA applies to production environments only
 
-    Availability credits for availability of less than 99.9%
-
-# Operations and Support
+Availability credits for availability of less than 99.9%
 
 ## Operations
 
 IBM Maximo Application Suite Managed Service includes:
 
-    System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
-    MAS Environment provisioning including sizing, product installation, configuration and deployment
-    Ongoing maintenance including Application, Middleware and O/S upgrades, updates, patches and fixes
-    Ongoing environment and database monitoring, logging & tuning
-    24 x 7 system administration support on call
-    24 x 7 support and monitoring for systems and applications
-    ITIL managed operations (Service Request, Incident, Problem and Change management)
-    Disaster Recovery and Backup / Restore support & services
+- System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
+- MAS Environment provisioning including sizing, product installation, configuration and deployment
+- Ongoing maintenance including Application, Middleware and O/S upgrades, updates, patches and fixes
+- Ongoing environment and database monitoring, logging & tuning
+- 24 x 7 system administration support on call
+- 24 x 7 support and monitoring for systems and applications
+- ITIL managed operations (Service Request, Incident, Problem and Change management)
+- Disaster Recovery and Backup / Restore support & services
 
 ## Support - General
 
@@ -71,26 +69,26 @@ Maximo Application Suite Managed Service is currently offered from the following
 
 North America:
 
-    Washington, DC, US
-    Dallas, TX US
+Washington, DC, US
+Dallas, TX US
 
 Europe:
 
-    Amsterdam, Netherlands
-    Frankfurt, Germany
+Amsterdam, Netherlands
+Frankfurt, Germany
 
 ## Operations Support Locations
 
 IBM's MAS-MS support personnel are located across the globe in the following countries:
 
-    United States
-    Canada
-    Brazil
-    United Kingdom
-    Ireland
-    China
-    India
-    Australia
+United States
+Canada
+Brazil
+United Kingdom
+Ireland
+China
+India
+Australia
 
 ## IBM Support Guides
 
@@ -98,9 +96,7 @@ An IBM Support Guide for Maximo Application Suite is available. See link below. 
 
 https://www.ibm.com/support/home/pages/support-guide/?product=4558485
 
-# Provisioning
-
-## Provisioning Process
+## Provisioning - Process
 
 Important:
 
@@ -118,30 +114,28 @@ Each client is provisioned in an environment that is separate and distinct from 
 
 The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
  
-
-    the size of the order
-    the order complexity
-    the number of orders in the queue ahead of the order
+- the size of the order
+- the order complexity
+- the number of orders in the queue ahead of the order
 
 In general, allow for at least 1 week for provisioning to be completed.
 
 The provisioning itself can be broken down into a number of steps:
  
+- Order validation
+- Information gathering
+- Initial provisioning of MAS base environment
+- Provisioning of the individual MAS products the clients has requested
+- Internal IBM verification of the provisioned environments
+- Welcome letter sent to the client / designated contacts indicating provisioning is complete
 
-    Order validation
-    Information gathering
-    Initial provisioning of MAS base environment
-    Provisioning of the individual MAS products the clients has requested
-    Internal IBM verification of the provisioned environments
-    Welcome letter sent to the client / designated contacts indicating provisioning is complete
-
-## Order Validation
+## Provisioning - Order Validation
 
 Once an order has been placed, the initial step is to validate the order and the information submitted.  This includes checking the part numbers, ensuring the provisioning form has been completed, performing IBM internal financial checks and setting up the order to be provisioned.  In general this can take 1 to 2 days to complete.
 
 Once this is complete, the order is sent to the IBM MAS Managed Services Provisioning Team to begin the provisioning of the order.
 
-## Information Gathering
+## Provisioning - Information Gathering
 
 Once the order has been placed into the provisioning queue, additional information needs to be validated and gathered.  This includes preparing the final architecture for the order; specifying the infrastructure needed to meet the order requirements; ensuring requested URL(s) are valid and available; detailed review of the order to ensure completeness; meeting or clarifying specific items with the sales person or client as required and setting up the provisioning parameters.
 
@@ -156,7 +150,7 @@ This step can take a few hours to several days depending on the initial quality 
 
 If this information is missing or incorrect it can cause delays in the provisioning process while this information is being confirmed.
 
-## Initial Provisioning
+## Provisioning - Initial Provisioning
 
 The initial provisioning covers several key aspects of the Maximo Application Suite deployment.
 
@@ -178,16 +172,16 @@ A welcome letter is then sent to the client which will include the URL's to acce
 
 The letter will contain similar instructions to below:
 
-    Some IBM products require license keys to use them. The IBM License Key Center is an online software license key delivery tool that provides easy access to your license keys 24 hours a day, 7 days a week. 
+Some IBM products require license keys to use them. The IBM License Key Center is an online software license key delivery tool that provides easy access to your license keys 24 hours a day, 7 days a week. 
 
- How to log in
+How to log in
 
-     To access your license keys:
-        Please click here to create your Password
-        Once you have created your password click on the Attempt to Login link.
-        Select the link to log into the License Key Center.
-        Select Continue to navigate to the IBM Rational License Key Center.
-        Log into the License Key Center using your email address as your ID and your password.
-        If you do not create your password and log in within 72 hours of receiving this e-mail, you will need to request a new email by clicking  here
+To access your license keys:
+Please click here to create your Password
+Once you have created your password click on the Attempt to Login link.
+Select the link to log into the License Key Center.
+Select Continue to navigate to the IBM Rational License Key Center.
+Log into the License Key Center using your email address as your ID and your password.
+If you do not create your password and log in within 72 hours of receiving this e-mail, you will need to request a new email by clicking  here
 
 Once the client has logged in and obtained their license key, this must be sent to the MAS MS Provisioning team who will install it in the customer instance.
