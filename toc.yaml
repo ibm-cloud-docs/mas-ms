@@ -1,6 +1,7 @@
 toc:
   properties:
     subcollection: mas-ms
+    version: 2 
     category: internet_of_things
     audience: service
     href: /docs/mas-ms
@@ -17,36 +18,17 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - faq.md
       - reference.md
-      - operations.md
-      - support.md
-      - architecture.md
-      - provisioning.md
-      - maintenance.md
-      - security.md
-      - backups-disaster-recovery.md
-      - migration.md
-      - limitations-exclusions.md
-      - communicationscenter.md
-      - ssp.md
-
 
   - navgroup:
       id: help
       topics:
-        - link:
-            label: Maximo Application Suite - IBM Documentation
-            href: https://www.ibm.com/docs/mas
-        - link:
-            label: Get an IBMid
-            href: https://myibm.ibm.com
-        - link:
-            label: IBM Support Portal
-            href: https://www.ibm.com/mysupport
-        - link:
-            label: IBM License Key Center Support
-            href: https://www.ibm.com/support/pages/ibm-support-licensing-start-page
-        - link:
-            label: IBM Cloud
-            href: https://www.ibm.com/cloud
+      - topicgroup:
+          label: Helpful links
+          links:
+          - link:
+              label: Maximo Application Suite - IBM Documentation
+              href: https://www.ibm.com/docs/mas
+          - link:
+              label: IBM Cloud
+              href: https://www.ibm.com/cloud
