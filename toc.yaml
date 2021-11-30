@@ -18,6 +18,8 @@ toc:
       id: reference
       topics:
       - reference.md
+      - operations.md
+      - provisioning.md
 
   - navgroup:
       id: help
