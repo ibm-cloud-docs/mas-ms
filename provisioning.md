@@ -18,7 +18,7 @@ subcollection: mas-ms
 
 # Provisioning
 
-## Provisioning Process
+## Process
 
 Important:
 
