@@ -27,7 +27,7 @@ Customers must purchase (or own) App Points for MAS prior to (or in conjunction 
 The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
 D02QTZX - Capacity
-D02QUZX  - Data
+D02QUZX - Data
 D02QWZX - VPC (Virtual Processor Core)
 
 For details, per see Part Numbers and Order consideration
