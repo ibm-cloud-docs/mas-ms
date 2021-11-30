@@ -18,7 +18,7 @@ subcollection: mas-ms
 
 # Provisioning
 
-## Provisioning - Process
+## Provisioning Process
 
 Important:
 
@@ -51,13 +51,13 @@ The provisioning itself can be broken down into a number of steps:
 - Internal IBM verification of the provisioned environments
 - Welcome letter sent to the client / designated contacts indicating provisioning is complete
 
-## Provisioning - Order Validation
+## Order Validation
 
 Once an order has been placed, the initial step is to validate the order and the information submitted.  This includes checking the part numbers, ensuring the provisioning form has been completed, performing IBM internal financial checks and setting up the order to be provisioned.  In general this can take 1 to 2 days to complete.
 
 Once this is complete, the order is sent to the IBM MAS Managed Services Provisioning Team to begin the provisioning of the order.
 
-## Provisioning - Information Gathering
+## Information Gathering
 
 Once the order has been placed into the provisioning queue, additional information needs to be validated and gathered.  This includes preparing the final architecture for the order; specifying the infrastructure needed to meet the order requirements; ensuring requested URL(s) are valid and available; detailed review of the order to ensure completeness; meeting or clarifying specific items with the sales person or client as required and setting up the provisioning parameters.
 
@@ -72,7 +72,7 @@ This step can take a few hours to several days depending on the initial quality 
 
 If this information is missing or incorrect it can cause delays in the provisioning process while this information is being confirmed.
 
-## Provisioning - Initial Provisioning
+## Initial Provisioning
 
 The initial provisioning covers several key aspects of the Maximo Application Suite deployment.
 

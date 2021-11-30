@@ -31,7 +31,7 @@ IBM Maximo Application Suite Managed Service includes:
 - ITIL managed operations (Service Request, Incident, Problem and Change management)
 - Disaster Recovery and Backup / Restore support & services
 
-## Support - General
+## Support
 
 Technical support for the cloud service is available as part of the customer's subscription period.
 
