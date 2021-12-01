@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2020-11-12"
 
 subcollection: mas-ms
 
@@ -17,35 +17,37 @@ subcollection: mas-ms
 {:external: target="_blank" .external}
 
 # Maintenance
-{: #maintenance}
 
-## 2022 Maintenance Windows
-{: #2021-maintenance-windows}
+## Sub Topics
 
-Maintenance Windows generally apply to production environments only.
+Important:
 
-Standard maintenance times are planned twice monthly, in a 6 hour window from 21:00 to 03:00 UTC Saturday / Sunday. 
+Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
 
-The IBM Maximo Application Suite Managed Services team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
+The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
-Systems are not available to users during maintenance windows.
+D02QTZX - Capacity
+D02QUZX - Data
+D02QWZX - VPC (Virtual Processor Core)
 
-Non-Production systems may be scheduled for maintenance during the week, 1- 2 weeks prior to planned maintenance on Production systems to allow additional time for testing.
+For details, per see Part Numbers and Order consideration
 
-Change Freeze period for year end 2022 is December 17, 2022 through January 2, 2023
-Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Managed Services team also does not schedule any maintenance during the change freeze period. 
+Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
-## Upgrade Policy
-{: #upgrade-policy}
+The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
+ 
+- the size of the order
+- the order complexity
+- the number of orders in the queue ahead of the order
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
+In general, allow for at least 1 week for provisioning to be completed.
 
-## Emergency Maintenance
-{: #emergency-maintenance}
+The provisioning itself can be broken down into a number of steps:
+ 
+- Order validation
+- Information gathering
+- Initial provisioning of MAS base environment
+- Provisioning of the individual MAS products the clients has requested
+- Internal IBM verification of the provisioned environments
+- Welcome letter sent to the client / designated contacts indicating provisioning is complete
 
-In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Managed Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Managed Services team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible.
-
-## Exception / Deferral Maintenance Requests
-{: #exception-deferral-maintenance-requests}
-
-All customer environments are managed to several internal and external security and compliance standards. IBM initiated planned maintenance is governed by these standards. For this reason, exceptions or deferral requests are **not available**. There are **no exceptions**. 

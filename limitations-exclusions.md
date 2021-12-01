@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2020-11-12"
 
 subcollection: mas-ms
 
@@ -17,50 +17,37 @@ subcollection: mas-ms
 {:external: target="_blank" .external}
 
 # Limitations & Exclusions
-{: #limitations-exclusions}
 
-Maximo Application Suite Managed Services is implemented using a defined set of technologies and operates within a security profile designed to ensure our client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Managed Services and what a client could do if they hosted and operated the Suite themselves.
+## Sub Topics
 
-The following items are not included or allowed in the Maximo Application Suite Managed Services offering:
+Important:
 
-## Databases
-{: #databases}
+Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
 
-Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
+The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
-Note: DB2 Text Search is not supported.
+D02QTZX - Capacity
+D02QUZX - Data
+D02QWZX - VPC (Virtual Processor Core)
 
-Note: Running SQL statements (update/insert/delete) directly on databases (production or non-production) is not allowed and IBM SRE team will not be able to execute those statements for you. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
+For details, per see Part Numbers and Order consideration
 
-https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
+Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
-## Manage Application
-{: #manage-application}
+The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
+ 
+- the size of the order
+- the order complexity
+- the number of orders in the queue ahead of the order
 
-No Java extensions are supported.  It is assumed the Manage auomation scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into automation scripts within the application. See link above for further details
+In general, allow for at least 1 week for provisioning to be completed.
 
-## 3rd Party Applications
-{: #3rd-party-applications}
-
-Maximo Application Suite Managed Services will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-MS environment can be integrated to applications with the Suite provided they follow standard integration protocols.
-
-## Access
-{: #access}
-
-Clients will not have access to the operating system, file system or overall system administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
-
-## MAS Administrator Functions
-{: #mas-administrator-functions}
-
-Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute. 
-
-## AppConnect
-{: #mas-app-connect}
-
-AppConnect is included as an entitlement with the Maximo Application Suite, but the Managed Service does not implement or support this within the MAS-MS environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
-
-## Self-Service Portal
-{: #mas-ssp}
-
-A self service portal (SSP) for MAS Managed Service is not available at this time and is under construction.
+The provisioning itself can be broken down into a number of steps:
+ 
+- Order validation
+- Information gathering
+- Initial provisioning of MAS base environment
+- Provisioning of the individual MAS products the clients has requested
+- Internal IBM verification of the provisioned environments
+- Welcome letter sent to the client / designated contacts indicating provisioning is complete
 

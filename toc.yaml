@@ -19,7 +19,14 @@ toc:
       topics:
       - reference.md
       - operations.md
+      - architecture.md
       - provisioning.md
+      - maintenance.md
+      - security.md
+      - backups-disaster-recovery.md
+      - migration.md
+      - limitations-exclusions.md
+
 
   - navgroup:
       id: help

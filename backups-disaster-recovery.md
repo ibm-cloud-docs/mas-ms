@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2020-11-12"
 
 subcollection: mas-ms
 
@@ -17,49 +17,37 @@ subcollection: mas-ms
 {:external: target="_blank" .external}
 
 # Backups and Disaster Recovery
-{: #backups-and-disaster-recovery}
 
-## Application Backups
-{: #application-backups}
+## Sub Topics
 
-Data used by applications within the Maximo Application Suite portfolio are backed up according to the following:
+Important:
 
-All backups are encrypted. Communication between applications, backup scripts the storage layer and DB services are perfromed via secure transport and accessed only via private endpoints that are offered by the service. Production backups are performed once a day. Backups are stored in a separate IBM Cloud data center location.
+Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
 
-## System Configuration Backups
-{: #system-configuration-backups}
+The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
-Maximo Application Suite utilizes different components to deliver the applications to clients.  Each of these services are backed up using the appropriate backup tool for that component.  In general, all component backups:
+D02QTZX - Capacity
+D02QUZX - Data
+D02QWZX - VPC (Virtual Processor Core)
 
-* are encrypted
-* are taken daily
-* are stored in a separate data center
-* are saved for 30 days
+For details, per see Part Numbers and Order consideration
 
-## Restore
-{: #restore}
+Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
-Restore requests must be submitted via case (ticket) through the IBM Support Community Portal.  The expected turn around time will depend on the severity and the size of the restore required.  Generally for non-production systems, expect 1 - 3 days for a restore to happen. Database restore can only be done to one of the previous daily backups (cannot restore to point in time).
+The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
+ 
+- the size of the order
+- the order complexity
+- the number of orders in the queue ahead of the order
 
-## Disaster Recovery
-{: #disaster-recovery}
+In general, allow for at least 1 week for provisioning to be completed.
 
-In the event of a DR issue with the Maximo Application Suite Managed Service offering for a specific customer, IBM's focus will be in the following order:
+The provisioning itself can be broken down into a number of steps:
+ 
+- Order validation
+- Information gathering
+- Initial provisioning of MAS base environment
+- Provisioning of the individual MAS products the clients has requested
+- Internal IBM verification of the provisioned environments
+- Welcome letter sent to the client / designated contacts indicating provisioning is complete
 
-1. Recover the existing infrastructure in place
-2. Recover within the same IBM Cloud data center to a new infrastructure
-3. Recover to a secondary IBM Cloud data center
-
-In the event a disaster is declared, the base parameters are:
-
-Recovery Time Objective (RTO)  - 72 hours
-Recovery Point Objective (RPO) - 24 hours
-
-RTO is the longest possible time needed to make the application available.
-RPO is the longest possible time since data was last backed up.
-
-These are Service Level Objectives (SLO's) and not Service Level Agreements.
-
-For information on IBM business continuity, please refer to IBM's Business Continuity Management Position Paper:
-
-https://www.ibm.com/downloads/cas/81M5VGP7
