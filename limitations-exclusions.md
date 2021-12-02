@@ -18,36 +18,26 @@ subcollection: mas-ms
 
 # Limitations & Exclusions
 
-## Sub Topics
+Maximo Application Suite Managed Services is implemented using a defined set of technologies and operates within a security profile designed to ensure our  client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Managed Services and what a client could do if they hosted and operated the Suite themselves.
 
-Important:
+The following items are not included or allowed in the Maximo Application Suite Managed Services offering:
 
-Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
+## Databases
 
-The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
+Only DBb is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
 
-D02QTZX - Capacity
-D02QUZX - Data
-D02QWZX - VPC (Virtual Processor Core)
+## Manage Application
 
-For details, per see Part Numbers and Order consideration
+No Java extensions are supported.  It is assumed the Manage scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into scripts within the application.
 
-Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
+## 3rd Party Applications
 
-The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
- 
-- the size of the order
-- the order complexity
-- the number of orders in the queue ahead of the order
+Maximo Application Suite Managed Services will not host or support any 3rd party application.  3rd Party applications hosted outside the MS environment can be integrated to applications with the Suite provided they follow standard integration protocols.
 
-In general, allow for at least 1 week for provisioning to be completed.
+## Access
 
-The provisioning itself can be broken down into a number of steps:
- 
-- Order validation
-- Information gathering
-- Initial provisioning of MAS base environment
-- Provisioning of the individual MAS products the clients has requested
-- Internal IBM verification of the provisioned environments
-- Welcome letter sent to the client / designated contacts indicating provisioning is complete
+Clients will not have access to the operating system, file system or overall administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
 
+## MAS Administrator Functions
+
+Direct access to the clusters is not available.  Changes required must be submitted using the ticketing system and then the SRE team will execute. 

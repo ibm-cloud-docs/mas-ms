@@ -18,36 +18,86 @@ subcollection: mas-ms
 
 # Architecture
 
-## Sub Topic
+Maximo Application Suite (MAS) is a feature rich suite of application delivered using the key IBM and Red Hat technologies.  The MAS Managed Service delivers this functionality on the IBM Cloud.
 
-Important:
+The current IBM Cloud data centers being leveraged for MAS-MS are:
 
-Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
-
-The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
-
-D02QTZX - Capacity
-D02QUZX - Data
-D02QWZX - VPC (Virtual Processor Core)
-
-For details, per see Part Numbers and Order consideration
-
-Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
-
-The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
+- Washington, DC, United States
+- Dallas, TX, United States
+- Amsterdam, Netherlands
+- Frankfurt, Germany
  
-- the size of the order
-- the order complexity
-- the number of orders in the queue ahead of the order
+On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
-In general, allow for at least 1 week for provisioning to be completed.
+Below are two video tours of IBM Cloud Data Centers that describe general layout and architecture. Please note IBM acquired SoftLayer in 2013 and it is now referred to as "IBM Cloud"
 
-The provisioning itself can be broken down into a number of steps:
- 
-- Order validation
-- Information gathering
-- Initial provisioning of MAS base environment
-- Provisioning of the individual MAS products the clients has requested
-- Internal IBM verification of the provisioned environments
-- Welcome letter sent to the client / designated contacts indicating provisioning is complete
+https://www.youtube.com/watch?v=U1ROjNxTcqQ
 
+https://www.youtube.com/watch?v=-sk-zjRfXSk
+
+## Network Architecture
+
+IBM Cloud has a unique Triple Network architecture.  Every server provisioned in the IBM Cloud has 3 distinct networks:
+
+Public Network
+Two network interfaces are dedicated to the public network.  This network serves as the internet facing network for the server.  IBM MAS-MS uses this network as the way for external clients to access the application. This network is also secured by a firewall pair managed by IBM Cloud Delivery Services. 
+
+Private Network
+Two network interfaces are dedicated to the private network.  This network serves as a secure private network dedicated to IBM Cloud.  IBM Cloud uses this network for secure server to server communication as well as data center to data center communications.  This network has no access to the internet.
+
+Management Network
+One network interface is dedicated to the Management network.  This secure out-of-band network is accessible via an IBM managed VPN.  It is used by IBM Cloud staff for maintenance and administration purposes such as firmware updates, OS reloads, power-cycle or other IPMI functions like keyboard, video, mouse control (KVM over IP).
+
+For the MAS Managed Service each client is provisioned with their own application instance and dedicated namespace(s).  The IBM MAS-MS team will provision and configure all necessary underlying infrastructure and components.
+
+IBM Cloud Data Centers are SOC compliant and have full hardware redundancy implemented for all servers. All data centers have an N1 redundant power and cooling infrastructure, including backup power generators. All servers have redundant power supplies, NICs and use SAN based RAID storage. 
+
+The following diagram shows a high level overview of the architecture for each individual client instance which will be available in MAS v8.4 (due to be released in Q2 2021).  Until then, Manage (Maximo EAM) will be provisioned using Maximo v7.6.1.2 SaaS Flex architecture.
+
+(Insert Diagram Here)
+
+Maximo Application Suite Managed Service Architecture highlights:
+
+MAS MS customers are provisioned two (2) environments by default: PROD and NON-PROD
+All clients will be provisioned in their own application instance using dedicated namespace(s).
+IT Administration for the PROD and NON-PROD environments is solely managed by IBM's Cloud Delivery Services (CDS) and Development Operations (DevOps) teams
+Clients can access PROD and NON-PROD systems via URL
+MAS-MS is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS MS.
+Clients are provided application administrator access for all applications they have ordered.
+All Servers are Red Hat Linux O/S
+Databases are DB2.  Oracle is not currently supported or SQLServer. 
+Integrations available are described on the Integrations page for MAS MS
+
+## Integrations
+
+IBM Maximo Application Suite Managed Service supports integration to / from external systems. There are different options available to provide secure integration connections such as SSL, VPN, and Cloud Object Storage integration. HTTPS (SSL) is the standard encryption method and is supported for XML based interfaces using HTTP Post and Web Service endpoints. In addition, the REST API is available over HTTPS.   All these integration methods can also be implemented with authentication. Cloud Object Storage is available for integrations that require file based transfers. A Site-to-Site IPsec VPN Tunnel can also be established between the client network and the IBM cloud environment using IBM's firewall in order to support other integration transport methods.
+
+ Integration options include, but are not limited to:
+
+Support for synchronous and asynchronous exchange of data with applications within the Suite
+
+Use of common protocols and format such as Web Services, HTTP, JMS, REST, OSLC, XML, JSON, XML and .csv files, DB tables
+
+Support of Create, Replace, Update, Delete and Query operation
+
+Support for customizing integration processing using Processing Rules and Scripting
+     
+For the MS-Manage Application:
+
+Maximo integration message generation and delivery based on application object events
+
+Support for implementation (batch) data loading
+
+Pre-defined (75+) interface components provided along with applications to configure new interfaces
+
+Support for customizing integration processing using Processing Rules and Scripting
+
+For file based integrations, an IBM Cloud Object Storage location will be allocated for each order.  5 API Keys will be generated for the client to use to move files in and out of the location.  Additional keys can be ordered.  To initiate this process, customers must submit a case
+
+One Site-to-Site VPN is included in the order.  To initiate the creation of this VPN, customers must submit a case.  At this time, the VPN is only available for LDAP integrations.
+
+For clients wanting to use App Connect or File integration for other applications within the suite:
+
+- App Connect is included as an entitlement, but the appconnect SaaS offering must be purchased as a special part number to be used.  App Connect is not included within the Maximo Application Suite Managed Service.
+
+- For clients wanting file integrations with applications other than Manage, this needs to be discussed with the Sales team and an appropriate solution implemented.  COS is only included for the Manage application in the Managed Service.
