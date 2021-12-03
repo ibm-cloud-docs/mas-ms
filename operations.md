@@ -22,14 +22,14 @@ subcollection: mas-ms
 
 IBM Maximo Application Suite Managed Service includes:
 
-- System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
-- MAS Environment provisioning including sizing, product installation, configuration and deployment
-- Ongoing maintenance including Application, Middleware and O/S upgrades, updates, patches and fixes
-- Ongoing environment and database monitoring, logging & tuning
-- 24 x 7 system administration support on call
-- 24 x 7 support and monitoring for systems and applications
-- ITIL managed operations (Service Request, Incident, Problem and Change management)
-- Disaster Recovery and Backup / Restore support & services
+* System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
+* MAS Environment provisioning including sizing, product installation, configuration and deployment
+* Ongoing maintenance including Application, Middleware and O/S upgrades, updates, patches and fixes
+* Ongoing environment and database monitoring, logging & tuning
+* 24 x 7 system administration support on call
+* 24 x 7 support and monitoring for systems and applications
+* ITIL managed operations (Service Request, Incident, Problem and Change management)
+* Disaster Recovery and Backup / Restore support & services
 
 ## Support
 
@@ -44,35 +44,38 @@ Maximo Application Suite Managed Service is currently offered from the following
 
 North America:
 
-Washington, DC, US
-Dallas, TX US
+* Washington, DC, US
+* Dallas, TX US
 
 Europe:
 
-Amsterdam, Netherlands
-Frankfurt, Germany
+* Amsterdam, Netherlands
+* Frankfurt, Germany
 
 ## Operations Support Locations
 
 IBM's MAS-MS support personnel are located across the globe in the following countries:
 
-United States
-Canada
-Brazil
-United Kingdom
-Ireland
-China
-India
-Australia
+* United States
+* Canada
+* Brazil
+* United Kingdom
+* Ireland
+* China
+* India
+* Australia
 
 ## Roles & Responsibilities Matrix (RACI)
 
 The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Managed Service (MAS-MS) environment.
- 
-R   Responsible   The person who performs the work
-A   Accountable   The person who is ultimately accountable for the process or task being completed appropriately
-C   Consulted     The person who is a subject matter expert who provides input / opinion
-I   Informed      The person who receives communication to keep appraised of status
+
+| RACI | Role | Description |
+| -------------- | -------------- | -------------- |
+| R | Responsible | The person who performs the work |
+| A | Accountable | The person who is ultimately accountable for the process or task being completed appropriately |
+| C | Consulted | The person who is a subject matter expert who provides input / opinion |
+| I | Informed | The person who receives communication to keep appraised of status|
+{: caption="Table 1. RACI Roles" caption-side="bottom"}
 
 ![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
 
