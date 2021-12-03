@@ -56,17 +56,16 @@ The following diagram shows a high level overview of the architecture for each i
 
 ![MAS-MS Architecture](images/MAS-MS-Architecture.jpg "MAS-MS Architecture"){: caption="Figure 1. MAS-MS Architecture" caption-side="bottom"}
 
-Maximo Application Suite Managed Service Architecture highlights:
+## Architecture Highlights
 
-MAS MS customers are provisioned two (2) environments by default: PROD and NON-PROD
-All clients will be provisioned in their own application instance using dedicated namespace(s).
-IT Administration for the PROD and NON-PROD environments is solely managed by IBM's Cloud Delivery Services (CDS) and Development Operations (DevOps) teams
-Clients can access PROD and NON-PROD systems via URL
-MAS-MS is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS MS.
-Clients are provided application administrator access for all applications they have ordered.
-All Servers are Red Hat Linux O/S
-Databases are DB2.  Oracle is not currently supported or SQLServer. 
-Integrations available are described on the Integrations page for MAS MS
+* MAS MS customers are provisioned two (2) environments by default: (1) PROD and (1) NON-PROD
+* All clients will be provisioned in their own application instance using dedicated namespace(s)
+* IT Administration for the PROD and NON-PROD environments is solely managed by IBM's MAS-MS operations team
+* Clients can access PROD and NON-PROD systems via brwoser based URL
+* MAS-MS is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS-MS
+* Clients are provided application administrator access for all applications ordered
+* All servers are Red Hat Linux O/S
+* Maximo Manage databases are IBM DB2.  Oracle and MS SQLServer are not supported
 
 ## Integrations
 
