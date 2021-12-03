@@ -54,7 +54,7 @@ IBM Cloud Data Centers are SOC compliant and have full hardware redundancy imple
 
 The following diagram shows a high level overview of the architecture for each individual client instance which will be available in MAS v8.4 (due to be released in Q2 2021).  Until then, Manage (Maximo EAM) will be provisioned using Maximo v7.6.1.2 SaaS Flex architecture.
 
-(Insert Diagram Here)
+![MAS-MS Architecture](images/MAS-MS-Architecture.jpg "MAS-MS Architecture"){: caption="Figure 1. MAS-MS Architecture" caption-side="bottom"}
 
 Maximo Application Suite Managed Service Architecture highlights:
 
