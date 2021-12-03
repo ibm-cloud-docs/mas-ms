@@ -74,7 +74,7 @@ A   Accountable   The person who is ultimately accountable for the process or ta
 C   Consulted     The person who is a subject matter expert who provides input / opinion
 I   Informed      The person who receives communication to keep appraised of status
 
-(Insert Table Here)
+![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
 
 ## IBM Support Guides
 
