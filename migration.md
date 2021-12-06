@@ -68,10 +68,12 @@ Both IBM and the client have critical roles in the successful transition to the 
 
 IBM and the customer share the responsibility to ensure the appropriate personnel are available to meet the agreed project plan.
 
-A high-level overview of the different steps can be found in the attached documents
+A high-level overview of the different steps can be found in the attached documents.
 
-Spreadsheet with Roles and Responsibilities
-Migration Swimlanes - v1.xlsx
+Spreadsheet with MAS-MS Migration Swimlanes (Roles and Responsibilities):
 
-Presentation of Migration Steps
-IBM MAS Migration Steps - v1_0.pptx
+[MAS-MS Spreadsheet with Roles and Responsibilities](downloads/MAS-MS-Migration-Swimlanes-v1.xlsx)
+
+Presentation of MS-MS Migration Steps:
+
+[MAS-MS Presentation of Migration Steps](downloads/MAS-MS-Migration-Steps-v1-0.pptx)
