@@ -35,10 +35,7 @@ The Service Level Agreement (SLA) for MAS-MS is described in Section 3 of the se
 
 SLA Summary for Maximo Application Suite Managed Service (MAS-MS):
 
-99.9 % Availability (production)
-
-SLA does not include planned or emergency maintenance windows. For details on the maintenance window schedule, see Maintenance & Outage Calendar
-
-SLA applies to production environments only
-
-Availability credits for availability of less than 99.9%
+* 99.9 % Availability (production)
+* SLA does not include planned or emergency maintenance windows. For details on the maintenance window schedule, see Maintenance & Outage Calendar
+* SLA applies to production environments only
+* Availability credits for availability of less than 99.9%

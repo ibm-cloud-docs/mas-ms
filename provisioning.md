@@ -36,20 +36,20 @@ Each client is provisioned in an environment that is separate and distinct from 
 
 The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
  
-- the size of the order
-- the order complexity
-- the number of orders in the queue ahead of the order
+* the size of the order
+* the order complexity
+* the number of orders in the queue ahead of the order
 
 In general, allow for at least 1 week for provisioning to be completed.
 
 The provisioning itself can be broken down into a number of steps:
  
-- Order validation
-- Information gathering
-- Initial provisioning of MAS base environment
-- Provisioning of the individual MAS products the clients has requested
-- Internal IBM verification of the provisioned environments
-- Welcome letter sent to the client / designated contacts indicating provisioning is complete
+* Order validation
+* Information gathering
+* Initial provisioning of MAS base environment
+* Provisioning of the individual MAS products the clients has requested
+* Internal IBM verification of the provisioned environments
+* Welcome letter sent to the client / designated contacts indicating provisioning is complete
 
 ## Order Validation
 
@@ -63,12 +63,11 @@ Once the order has been placed into the provisioning queue, additional informati
 
 This step can take a few hours to several days depending on the initial quality and completeness of the information.  Critical information that is needed includes:
  
-- products that to be deployed (not all products will be deployed by default).
-- anticipated sizing information for each product - this can be based on users, I/O or other metrics specific to each product
-- URL's being requested
-- Languages required
-- Add On and/or Industry Solutions required
-- location of the majority of users to determine optimal placement of the Suite in the proper IBM Cloud data center
+* products that to be deployed (not all products will be deployed by default).
+* anticipated sizing information for each product - this can be based on users, I/O or other metrics specific to each product URL being requested
+* Languages required
+* Add On and/or Industry Solutions required
+* location of the majority of users to determine optimal placement of the Suite in the proper IBM Cloud data center
 
 If this information is missing or incorrect it can cause delays in the provisioning process while this information is being confirmed.
 
@@ -99,11 +98,13 @@ Some IBM products require license keys to use them. The IBM License Key Center i
 How to log in
 
 To access your license keys:
-Please click here to create your Password
-Once you have created your password click on the Attempt to Login link.
-Select the link to log into the License Key Center.
-Select Continue to navigate to the IBM Rational License Key Center.
-Log into the License Key Center using your email address as your ID and your password.
+
+1. Please click here to create your Password
+2. Once you have created your password click on the Attempt to Login link
+3. Select the link to log into the License Key Center
+4. Select Continue to navigate to the IBM Rational License Key Center
+5. Log into the License Key Center using your email address as your ID and your password
+
 If you do not create your password and log in within 72 hours of receiving this e-mail, you will need to request a new email by clicking  here
 
 Once the client has logged in and obtained their license key, this must be sent to the MAS MS Provisioning team who will install it in the customer instance.

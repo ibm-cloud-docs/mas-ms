@@ -32,15 +32,15 @@ Please note there is a 2-3 week turnaround time required for the CDS security te
 
 IBM maintains and follows standard mandatory employment verification requirements for all hires. In accordance with IBM internal process and procedures, these requirements are periodically reviewed and include, but may not be limited to, criminal background check, proof of identity validation, and additional checks as deemed necessary by IBM.
 
-All IBMers are required to complete mandatory Cyber Security & Privacy training annually
+* All IBMers are required to complete mandatory Cyber Security & Privacy training annually
 
-All IBMers are required to complete GDPR training annually
+* All IBMers are required to complete GDPR training annually
 
-All IBMers are required to complete mandatory Business Conduct Guidelines training annually
+* All IBMers are required to complete mandatory Business Conduct Guidelines training annually
 
-Only IBM Maximo Application Suite Managed Service personnel are permitted access to customer systems
+* Only IBM Maximo Application Suite Managed Service personnel are permitted access to customer systems
 
-IBM Maximo Application Suite Managed Service personnel are required to use privileged access workstations to connect and work with our customer's IBM systems. These workstations meet IBM's highest and most stringent security guidelines.
+* IBM Maximo Application Suite Managed Service personnel are required to use privileged access workstations to connect and work with our customer's IBM systems. These workstations meet IBM's highest and most stringent security guidelines.
 
 IBM Maximo Application Suite Managed Service personnel who are granted O/S or console level access to customer servers are required to use multi-factor authentication. Unique 2048-bit ssh keys are issued to each IBM user in order to connect to the IBM Cloud VPN. Phone based authentication via PIN is also required each time an IBMer connects. These factoring mechanisms are maintained, managed and issued by IBM Cloud Security and the IBM Maximo Application Suite Managed Service Environment Operations Manager.
 
@@ -118,9 +118,8 @@ Setup of SSL certificates and DNS registration. This is standard by default and 
 
 Setup of IPsec Virtual Private Network (VPN) between client locations and IBM Cloud data center(s). VPN setup is optional, and is used to provide the following:
 
-Direct read-only access to IBM on Cloud databases
-
-LDAP authentication
+* Direct read-only access to IBM on Cloud databases
+* LDAP authentication
 
 Other uses are not currently available using VPN.
 
@@ -133,11 +132,13 @@ All IBM Maximo Application Suite Managed Service customer environments are manag
 IBM Cloud holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports to customers
 
 IBM Cloud (IaaS) ISO certificates:
+
 ISO-27001:2013 - https://www.ibm.com/downloads/cas/KDMPXMKA
 ISO-27017:2015 - https://www.ibm.com/downloads/cas/GLL9ZBZX
 ISO-27018:2019 - https://www.ibm.com/downloads/cas/DNM7GMKY
 
 IBM Enterprise & Technology Security ISO certificates:
+
 ISO 27017: 2015 - https://www.ibm.com/downloads/cas/QV8Q6ZVY
 ISO 27018: 2019 - https://www.ibm.com/downloads/cas/BKGPEYLQ
 ISO 27701: 2019 - https://www.ibm.com/downloads/cas/X42E0VBD
@@ -158,17 +159,12 @@ The following information is required in order for CDS to send a SOC1 or SOC2 re
 
 Type of Report Requested: (SOC1 or SOC2)
 
-Company Name:
-
-Requestor First Name:
-
-Requestor Last Name:
-
-Requestor Title:
-
-Email:
-
-Reason for Request:
+* Company Name:
+* Requestor First Name:
+* Requestor Last Name:
+* Requestor Title:
+* Email:
+* Reason for Request:
 
 Once submitted by the IBM Maximo Application Suite Managed Service team, customer identified as the requestor will receive an email from trust_and_assurance@wwpdl.vnet.ibm.com through which they can download the SOC 1 or 2 report.
 
@@ -210,7 +206,7 @@ IBM Data Security and Privacy Principles for IBM Cloud services can be found at 
 https://www.ibm.com/support/customer/csol/terms/?cat=data-security 
 
 IBM Privacy Shield Privacy Policy for Certified IBM Cloud Services can be found below. This is applicable to EU-US and Swiss-US customers:
- https://www.ibm.com/privacy/details/us/en/privacy_shield.html 
+https://www.ibm.com/privacy/details/us/en/privacy_shield.html 
 
 Data Responsibility at IBM
 https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
@@ -229,48 +225,48 @@ Right to Lodge a Complaint
 In the event a client or customer considers our processing of personal information not to be compliant with applicable data protection laws, a complaint can be submitted directly with IBM by using the form in the link below.
 https://www.ibm.com/scripts/contact/contact/us/en/privacy/
 
-NIST
+# NIST
 
 IBM Maximo Application Suite Manage Servers (commercial public offerings) follow NIST guidelines and assess against NIST controls, but claim no specific NIST compliance(s).
 
-Data Leakage Prevention / Data Loss Prevention (DLP)
+# Data Leakage Prevention / Data Loss Prevention (DLP)
 
 IBM Cloud Delivery Services does not use DLP monitoring. Access controls are implemented on all databases restricted to privileged users only. Database auditing is enabled and logs are retained for 365 days. Customers configure and manage the data their users can view, update and export within the Maximo Application Sutie  applications, as well as determine which of their users is permitted direct read-only access to their database(s).
 
 IBM purchases Professional Errors and Omissions including cyber risk insurance (see below) for IBM's liability arising out of actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission committed in the conduct of IBM’s professional services. This includes coverage for loss of intangible property, such as customer data, due to IBM’s negligence. This coverage is global in scope. 
 
-DDoS Protection
+# DDoS Protection
 
 IBM Cloud provides DDoS (Distributed Denial of Service) protection for its environment, designed to protect the entire network. IBM Cloud uses automated DDoS mitigation controls and an in-house Network Operations Center (NOC) team to monitor network performance and security 24x7.
 
-Media Sanitization
+# Media Sanitization
 
 IBM securely sanitizes physical media intended for reuse prior to such reuse, and will destroy physical media not intended for reuse, consistent with National Institute of Standards and Technology, United States Department of Commerce (NIST) guidelines for media sanitization (see link below)
     https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf
 
-Cyber Insurance
+# Cyber Insurance
 
 IBM carries standard cyber risk insurance under its Professional Errors & Omissions policy. PE&O insurance provides coverage for actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission, solely for acts or omissions committed by IBM in providing professional services to our client(s). Coverage includes network security, unauthorized access, unauthorized use, receipt or transmission of a malicious code, denial of service attack, unauthorized disclosure or misappropriation of private information, privacy liability, notification costs, credit card monitoring, and fine & penalties incurred by the customer.
 
 The PE&O Policy itself is IBM Confidential information. Further details on this subject can be accessed (IBMers only) here:
 https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/Wc0a20474fb23_478a_8f6d_1c6dfd3d680f/page/IBM%20cyber%20insurance%20details
 
-Regulated Content
+# Regulated Content
 
 IBM Maximo Application Suite offerings are not intended to host government regulated content. Please see the Cloud Services Agreement (link below) Section 2c for details
 
-Clock synchronization
+# Clock synchronization
 
 All customer Maximo EAM SaaS Flex and TRIRIGA SaaS Flex Application and Database servers leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
 
 Customers are responsible or synchronizing their local environments (workstations, on premise servers) with an authoritative time source.
 
-Terms of Use
+# Terms of Use
 
 General Terms of Use for IBM Cloud Offerings:
 https://www.ibm.com/software/sla/sladb.nsf/sla/tou-gen-terms
 
-Cloud Service Agreement
+# Cloud Service Agreement
 
 IBM Cloud Services Agreement (CSA)
 https://www.ibm.com/support/customer/pdf/csa_us.pdf
