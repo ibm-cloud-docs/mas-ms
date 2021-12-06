@@ -18,7 +18,7 @@ subcollection: mas-ms
 
 # Architecture
 
-Maximo Application Suite (MAS) is a feature rich suite of application delivered using the key IBM and Red Hat technologies.  The MAS Managed Service delivers this functionality on the IBM Cloud.
+Maximo Application Suite (MAS) is a feature rich suite of application delivered using key IBM and Red Hat technologies. The MAS Managed Service (MS) delivers this functionality on the IBM Cloud.
 
 The current IBM Cloud data centers being leveraged for MAS-MS are:
 
@@ -29,11 +29,13 @@ The current IBM Cloud data centers being leveraged for MAS-MS are:
  
 On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
-Below are two video tours of IBM Cloud Data Centers that describe general layout and architecture. Please note IBM acquired SoftLayer in 2013 and it is now referred to as "IBM Cloud"
+YouTube Video - Inside the heart of an IBM Cloud Data Center:
 
-https://www.youtube.com/watch?v=U1ROjNxTcqQ
+https://www.youtube.com/watch?v=HkIJTyjE4zo
 
-https://www.youtube.com/watch?v=-sk-zjRfXSk
+Further information on IBM Cloud Data Centers:
+
+https://www.ibm.com/cloud/data-centers
 
 ## Network Architecture
 
