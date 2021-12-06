@@ -18,6 +18,8 @@ subcollection: mas-ms
 
 # Architecture
 
+## Cloud Architecture
+
 Maximo Application Suite (MAS) is a feature rich suite of application delivered using key IBM and Red Hat technologies. The MAS Managed Service (MS) delivers this functionality on the IBM Cloud.
 
 The current IBM Cloud data centers being leveraged for MAS-MS are:
@@ -64,7 +66,7 @@ The following diagram shows a high level overview of the architecture for each i
 
 ![MAS-MS Architecture](images/MAS-MS-Architecture.jpg "MAS-MS Architecture"){: caption="Figure 1. MAS-MS Architecture" caption-side="bottom"}
 
-## Architecture Highlights
+## MAS-MS Architecture Highlights
 
 * MAS MS customers are provisioned two (2) environments by default: (1) PROD and (1) NON-PROD
 * All clients will be provisioned in their own application instance using dedicated namespace(s)
@@ -75,7 +77,7 @@ The following diagram shows a high level overview of the architecture for each i
 * All servers are Red Hat Linux O/S
 * Maximo Manage databases are IBM DB2.  Oracle and MS SQLServer are not supported
 
-## Integrations
+## MAS-MS Integrations
 
 IBM Maximo Application Suite Managed Service supports integration to / from external systems. There are different options available to provide secure integration connections such as SSL, VPN, and Cloud Object Storage integration. HTTPS (SSL) is the standard encryption method and is supported for XML based interfaces using HTTP Post and Web Service endpoints. In addition, the REST API is available over HTTPS.   All these integration methods can also be implemented with authentication. Cloud Object Storage is available for integrations that require file based transfers. A Site-to-Site IPsec VPN Tunnel can also be established between the client network and the IBM cloud environment using IBM's firewall in order to support other integration transport methods.
 
