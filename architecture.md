@@ -29,9 +29,15 @@ The current IBM Cloud data centers being leveraged for MAS-MS are:
  
 On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
-YouTube Video - Inside the heart of an IBM Cloud Data Center:
+IBM Cloud - YouTube Videos
+
+Inside the heart of an IBM Cloud Data Center:
 
 https://www.youtube.com/watch?v=HkIJTyjE4zo
+
+Do you have a cloud designed for data?
+
+https://www.youtube.com/watch?v=TrbQbM_xtBw
 
 Further information on IBM Cloud Data Centers:
 
