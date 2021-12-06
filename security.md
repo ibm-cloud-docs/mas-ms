@@ -225,48 +225,48 @@ Right to Lodge a Complaint
 In the event a client or customer considers our processing of personal information not to be compliant with applicable data protection laws, a complaint can be submitted directly with IBM by using the form in the link below.
 https://www.ibm.com/scripts/contact/contact/us/en/privacy/
 
-# NIST
+## NIST
 
 IBM Maximo Application Suite Manage Servers (commercial public offerings) follow NIST guidelines and assess against NIST controls, but claim no specific NIST compliance(s).
 
-# Data Leakage Prevention / Data Loss Prevention (DLP)
+## Data Leakage Prevention / Data Loss Prevention (DLP)
 
 IBM Cloud Delivery Services does not use DLP monitoring. Access controls are implemented on all databases restricted to privileged users only. Database auditing is enabled and logs are retained for 365 days. Customers configure and manage the data their users can view, update and export within the Maximo Application Sutie  applications, as well as determine which of their users is permitted direct read-only access to their database(s).
 
 IBM purchases Professional Errors and Omissions including cyber risk insurance (see below) for IBM's liability arising out of actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission committed in the conduct of IBM’s professional services. This includes coverage for loss of intangible property, such as customer data, due to IBM’s negligence. This coverage is global in scope. 
 
-# DDoS Protection
+## DDoS Protection
 
 IBM Cloud provides DDoS (Distributed Denial of Service) protection for its environment, designed to protect the entire network. IBM Cloud uses automated DDoS mitigation controls and an in-house Network Operations Center (NOC) team to monitor network performance and security 24x7.
 
-# Media Sanitization
+## Media Sanitization
 
 IBM securely sanitizes physical media intended for reuse prior to such reuse, and will destroy physical media not intended for reuse, consistent with National Institute of Standards and Technology, United States Department of Commerce (NIST) guidelines for media sanitization (see link below)
     https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf
 
-# Cyber Insurance
+## Cyber Insurance
 
 IBM carries standard cyber risk insurance under its Professional Errors & Omissions policy. PE&O insurance provides coverage for actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission, solely for acts or omissions committed by IBM in providing professional services to our client(s). Coverage includes network security, unauthorized access, unauthorized use, receipt or transmission of a malicious code, denial of service attack, unauthorized disclosure or misappropriation of private information, privacy liability, notification costs, credit card monitoring, and fine & penalties incurred by the customer.
 
 The PE&O Policy itself is IBM Confidential information. Further details on this subject can be accessed (IBMers only) here:
 https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/Wc0a20474fb23_478a_8f6d_1c6dfd3d680f/page/IBM%20cyber%20insurance%20details
 
-# Regulated Content
+## Regulated Content
 
 IBM Maximo Application Suite offerings are not intended to host government regulated content. Please see the Cloud Services Agreement (link below) Section 2c for details
 
-# Clock synchronization
+## Clock synchronization
 
 All customer Maximo EAM SaaS Flex and TRIRIGA SaaS Flex Application and Database servers leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
 
 Customers are responsible or synchronizing their local environments (workstations, on premise servers) with an authoritative time source.
 
-# Terms of Use
+## Terms of Use
 
 General Terms of Use for IBM Cloud Offerings:
 https://www.ibm.com/software/sla/sladb.nsf/sla/tou-gen-terms
 
-# Cloud Service Agreement
+## Cloud Service Agreement
 
 IBM Cloud Services Agreement (CSA)
 https://www.ibm.com/support/customer/pdf/csa_us.pdf
