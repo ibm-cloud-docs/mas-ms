@@ -49,13 +49,13 @@ https://www.ibm.com/cloud/data-centers
 
 IBM Cloud has a unique Triple Network architecture.  Every server provisioned in the IBM Cloud has 3 distinct networks:
 
-Public Network
+* Public Network:
 Two network interfaces are dedicated to the public network.  This network serves as the internet facing network for the server.  IBM MAS-MS uses this network as the way for external clients to access the application. This network is also secured by a firewall pair managed by IBM Cloud Delivery Services. 
 
-Private Network
+* Private Network:
 Two network interfaces are dedicated to the private network.  This network serves as a secure private network dedicated to IBM Cloud.  IBM Cloud uses this network for secure server to server communication as well as data center to data center communications.  This network has no access to the internet.
 
-Management Network
+* Management Network:
 One network interface is dedicated to the Management network.  This secure out-of-band network is accessible via an IBM managed VPN.  It is used by IBM Cloud staff for maintenance and administration purposes such as firmware updates, OS reloads, power-cycle or other IPMI functions like keyboard, video, mouse control (KVM over IP).
 
 For the MAS Managed Service each client is provisioned with their own application instance and dedicated namespace(s).  The IBM MAS-MS team will provision and configure all necessary underlying infrastructure and components.
