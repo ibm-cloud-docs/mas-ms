@@ -20,6 +20,8 @@ subcollection: mas-ms
 {: #backups-and-disaster-recovery}
 
 ## Application Backups
+{: #application-backups}
+
 
 Data used by applications within the Maximo Application Suite portfolio are backed up according to the following:
 
