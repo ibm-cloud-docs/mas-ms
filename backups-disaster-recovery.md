@@ -17,6 +17,7 @@ subcollection: mas-ms
 {:external: target="_blank" .external}
 
 # Backups and Disaster Recovery
+{: #backups-and-disaster-recovery}
 
 ## Application Backups
 
@@ -28,6 +29,7 @@ Production backups are performed once a day
 Backups are stored in a separate IBM Cloud data center location
 
 ## System Configuration Backups
+{: #system-configuration-backups}
 
 Maximo Application Suite utilizes different components to deliver the applications to clients.  Each of these services are backed up using the appropriate backup tool for that component.  In general, all components backups:
 
@@ -36,10 +38,12 @@ are taken daily
 are stored in a separate data center
 
 ## Restore
+{: #restore}
 
 Restore requests must be submitted via case (ticket) through the IBM Support Community Portal.  The expected turn around time will depend on the severity and the size of the restore required.  Generally for non-production systems, expect 1 - 3 days for a restore to happen.
 
 ## Disaster Recovery
+{: #disaster-recovery}
 
 In the event of a DR issue with the Maximo Application Suite Managed Service offering for a specific customer, IBM's focus will be in the following order:
 
