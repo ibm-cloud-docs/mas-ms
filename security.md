@@ -262,6 +262,7 @@ IBM securely sanitizes physical media intended for reuse prior to such reuse, an
 
 ## Cyber Insurance
 {: #cyber-insurance}
+
 IBM carries standard cyber risk insurance under its Professional Errors & Omissions policy. PE&O insurance provides coverage for actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission, solely for acts or omissions committed by IBM in providing professional services to our client(s). Coverage includes network security, unauthorized access, unauthorized use, receipt or transmission of a malicious code, denial of service attack, unauthorized disclosure or misappropriation of private information, privacy liability, notification costs, credit card monitoring, and fine & penalties incurred by the customer.
 
 The PE&O Policy itself is IBM Confidential information. Further details on this subject can be accessed (IBMers only) here:
