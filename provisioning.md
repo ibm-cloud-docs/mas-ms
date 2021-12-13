@@ -21,6 +21,7 @@ subcollection: mas-ms
 
 ## Process
 {: #process}
+
 Important:
 
 Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
@@ -54,12 +55,14 @@ The provisioning itself can be broken down into a number of steps:
 
 ## Order Validation
 {: #order-validation}
+
 Once an order has been placed, the initial step is to validate the order and the information submitted.  This includes checking the part numbers, ensuring the provisioning form has been completed, performing IBM internal financial checks and setting up the order to be provisioned.  In general this can take 1 to 2 days to complete.
 
 Once this is complete, the order is sent to the IBM MAS Managed Services Provisioning Team to begin the provisioning of the order.
 
 ## Information Gathering
 {: #information-gathering}
+
 Once the order has been placed into the provisioning queue, additional information needs to be validated and gathered.  This includes preparing the final architecture for the order; specifying the infrastructure needed to meet the order requirements; ensuring requested URL(s) are valid and available; detailed review of the order to ensure completeness; meeting or clarifying specific items with the sales person or client as required and setting up the provisioning parameters.
 
 This step can take a few hours to several days depending on the initial quality and completeness of the information.  Critical information that is needed includes:
@@ -74,18 +77,21 @@ If this information is missing or incorrect it can cause delays in the provision
 
 ## Initial Provisioning
 {: #initial-provisioning}
+
 The initial provisioning covers several key aspects of the Maximo Application Suite deployment.
 
 The base architecture is finalized regarding the size and number of OpenShift clusters needed.  The provisioning of all based components and configuration is performed and the initial DNS registration for the Maximo Application Suite done.  A temporary license file is installed.  The client will need to supply the final license file (described below).
 
 ## Provisioning of the Individual Products
-{: #provisioning-of-the-individual-products
+{: #provisioning-of-the-individual-products}
+
 At this point, the products the client has selected is provisioned based on the sizing parameters that were specified.  This includes deploying the appropriate containers within OpenShift and configuring the products to be available to the client.  This includes the application, database, any network configuration required, DNS registrations and set up of client administration users. 
 
 At this stage, all operational configuration is finalized including ensuring backups are configured properly, monitoring in place and security scans completed.  Alerting is configured and the sites added to the MAS-MS escalation process.
 
 ## Final Verification of the Provisioning
 {: #final-verification-of-the-provisioning}
+
 A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete.
 
 # Welcome Letter

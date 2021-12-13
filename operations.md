@@ -18,8 +18,10 @@ subcollection: mas-ms
 
 # Operations & Support
 {: #operations-support}
+
 ## Operations
 {: #operations}
+
 IBM Maximo Application Suite Managed Service includes:
 
 * System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
@@ -33,6 +35,7 @@ IBM Maximo Application Suite Managed Service includes:
 
 ## Support
 {: #support}
+
 Technical support for the cloud service is available as part of the customer's subscription period.
 
 IBM Maximo Application Suite Managed Service customers receive support coverage 24 hours per day, 7 days per week, 365 days per year. This includes IBM Support Community Portal access, comprehensive backup and restore, system monitoring and patching.
@@ -40,6 +43,7 @@ IBM Maximo Application Suite Managed Service customers receive support coverage 
 
 ## Data Center Locations
 {: #data-center-locations}
+
 Maximo Application Suite Managed Service is currently offered from the following IBM Cloud data center locations (regions).
 
 North America:
@@ -54,6 +58,7 @@ Europe:
 
 ## Operations Support Locations
 {: #operations-support-locations}
+
 IBM's MAS-MS support personnel are located across the globe in the following countries:
 
 * United States
@@ -67,6 +72,7 @@ IBM's MAS-MS support personnel are located across the globe in the following cou
 
 ## Roles & Responsibilities Matrix (RACI)
 {: #roles-responsibilities-matrix-raci}
+
 The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Managed Service (MAS-MS) environment.
 
 | RACI | Role | Description |

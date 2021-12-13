@@ -18,8 +18,10 @@ subcollection: mas-ms
 
 # Maintenance
 {: #maintenance}
+
 ## 2021 Maintenance Windows
 {: #2021-maintenance-windows}
+
 Maintenance Windows generally apply to production environments only.
 
 Standard maintenance times are planned twice monthly, in a 6 hour window from 21:00 to 03:00 UTC Saturday / Sunday. 
@@ -38,12 +40,15 @@ Change Freeze period is in red above. Systems are available to users and all sta
 
 ## Upgrade Policy
 {: #upgrade-policy}
+
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
 
 ## Emergency Maintenance
 {: #emergency-maintenance}
+
 In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Managed Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Managed Services team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible.
 
 ## Exception / Deferral Maintenance Requests
 {: #exception-deferral-maintenance-requests}
+
 All customer environments are managed to several internal and external security and compliance standards. IBM initiated planned maintenance is governed by these standards. For this reason, exceptions or deferral requests are generally not available, but can be evaluated on a case by case basis.  Please submit a request by opening a case in the IBM Support Community portal and the The IBM Maximo Application Suite Managed Services team will contact you. 
