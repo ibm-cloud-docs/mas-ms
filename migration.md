@@ -27,13 +27,9 @@ This page covers migration of an existing Maximo application, either on the IBM 
 1. Migration of client from the IBM Maximo EAM SaaS Flex offering
 2. Migration of client from an on-premise or 3rd party Cloud provider
 
-The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks.
-
-This diagram represents a high-level overview of the migration path to MAS MS:
+The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks. This diagram represents a high-level overview of the migration path to MAS MS:
 
 ![MAS-MS-Migration](images/MAS-MS-Migration.png "MAS-MS-Migration"){: caption="Figure 1. MAS-MS Migration" caption-side="bottom"}
-
-(Insert Diagram Here)
 
 ## Planning
 {: #planning}
