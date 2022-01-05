@@ -24,12 +24,14 @@ subcollection: mas-ms
 
 This page covers migration of an existing Maximo application, either on the IBM Maximo EAM SaaS Flex offering or a client-managed installation to Maximo Application Suite Managed Service (MAS-MS). This document focuses on the MAS Manage (Maximo EAM) application.  There are two paths that can be followed:
 
-Migration of client from the IBM Maximo EAM SaaS Flex offering
-Migration of client from an on-premise or 3rd party Cloud provider
+1. Migration of client from the IBM Maximo EAM SaaS Flex offering
+2. Migration of client from an on-premise or 3rd party Cloud provider
 
 The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks.
 
-This diagram represents a high-level overview of the migration path to MAS MS.  
+This diagram represents a high-level overview of the migration path to MAS MS:
+
+![MAS-MS-Migration](images/MAS-MS-Migration.png "MAS-MS-Migration"){: caption="Figure 1. MAS-MS Migration" caption-side="bottom"}
 
 (Insert Diagram Here)
 
@@ -74,10 +76,11 @@ This is the support for customers after the go live.  Any new issue is investiga
 
 There are several preconditions that need to be met in order to migrate to the new Managed Service offering.
 
-The existing version of Maximo has to be 7.6.1.2.  For SaaS Flex clients, the technical upgrade is performed by the CDS Team as part of the SaaS Flex offering as per normal upgrade procedures.  For on-premise clients, the upgrade is performed by the client or a partner. 
-The existing system is on DB2 (the supported version depends on the timing of the migration).
-All items to be migrated are identified and confirmed.  For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
-A new Maximo Application Suite Managed Service contract is in place.
+1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the CDS Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner. 
+2. The existing system is on DB2 (the supported version depends on the timing of the migration).
+3. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
+4. Remediation and removal of all custom JAVA classes.
+5. A new Maximo Application Suite Managed Service contract is in place.
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
