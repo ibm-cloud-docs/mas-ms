@@ -1,0 +1,42 @@
+toc:
+  properties:
+    subcollection: mas-ms
+    category: internet_of_things
+    audience: service
+    href: /docs/mas-ms
+    product-page: https://www.ibm.com/products/maximo
+    path: mas-ms
+    label: Maximo Application Suite Managed Service
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - reference.md
+      - operations.md
+      - architecture.md
+      - provisioning.md
+      - maintenance.md
+      - security.md
+      - backups-disaster-recovery.md
+      - migration.md
+      - limitations-exclusions.md
+
+
+  - navgroup:
+      id: help
+      topics:
+      - topicgroup:
+          label: Helpful links
+          links:
+          - link:
+              label: Maximo Application Suite - IBM Documentation
+              href: https://www.ibm.com/docs/mas
+          - link:
+              label: IBM Cloud
+              href: https://www.ibm.com/cloud
