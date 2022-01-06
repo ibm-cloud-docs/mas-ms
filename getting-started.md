@@ -35,7 +35,7 @@ Maximo Application Suite Managed Service (MAS-MS) provides IBM managed provision
 ## Before you begin
 {: #before-you-begin}
 
-Before you can use Maximo Application Suite Managed Service, environments must first be ordered and provisioned by the IBM MAS-MS operations team. To obtain more information about the MAS-MS offering and available options, please contact your IBM Salesperson or an Authorized IBM Partner. If you do not know or do not have an IBM Saleperson or Authorized reseller, please complete and submit the consultation form (link below). An IBM representative will be in contact with you.
+Before you can use Maximo Application Suite Managed Service, environments must first be ordered and provisioned by the IBM MAS-MS operations team. To obtain more information about the MAS-MS offering and available options, please contact your IBM Salesperson or an Authorized IBM Partner. If you do not have an IBM Saleperson or Authorized reseller, please complete and submit the consultation form (link below). An IBM representative will be in contact with you.
 
 https://www.ibm.com/products/maximo?schedulerform=
 
@@ -73,7 +73,7 @@ michael.cookson@ibm.com
 When your MAS-MS environments have been provisioned, you will receive a Welcome Letter from the IBM MAS-MS Operations team. This letter will contain:
 
 * The URLs of each environment that have been provisioned
-* The Username, corresponding email and password for each environment
+* The username, corresponding email and password for each environment
 * Information on how to activate your environment(s)
 * Information on how to access your environment logs
 * Information on downloading IBM Watson Studio and Watson Machine Learning (if applicable)
