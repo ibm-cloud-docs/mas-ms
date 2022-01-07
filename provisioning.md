@@ -92,4 +92,4 @@ At this stage, all operational configuration is finalized including ensuring bac
 ## Final Verification of the Provisioning
 {: #final-verification-of-the-provisioning}
 
-A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete and a [welcome letter](docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#welcome-letter) is sent to the client.
+A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete and a [welcome letter](/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#welcome-letter) is sent to the client.
