@@ -162,7 +162,8 @@ After verification/creation of your IBMid has been completed, proceed to the nex
 
 ## How to Register for Maximo Application Suite Support
 {: #how-to-register-for-mas-support}
-Maximo Application Suite support covers both the Application and your Managed Service (MS) environments.
+
+Maximo Application Suite Support covers both the Application and your Managed Service (MS) environments.
 
 1. Visit the following link:
 
