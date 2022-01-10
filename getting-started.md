@@ -97,7 +97,7 @@ To acquire your license keys:
 7. Enter the number of keys to generate. These correspond to the AppPoints that are allocated to the license key
 8. Provide the following Maximo Application Suite license server parameters. These are provided in your welcome letter:
 
-    | Parameter | Example |
+    | Parameter | Value (Example) |
     | -------------- | -------------- |
     | Version | IBM Maximo Application Suite App Point License |
     | Configuration | Single License Server |
