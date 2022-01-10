@@ -81,7 +81,7 @@ When your MAS-MS environments have been provisioned, you will receive a Welcome 
 ## How to activate your environment(s)
 {: #how-to-activate-your-environments}
 
-To complete the activation of your Maximo Application Suite Managed Service environment(s), you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activiate them. You will need to generate one (1) license key file per environment (for example one license key for PROD and one license key for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
+To complete the activation of your Maximo Application Suite Managed Service environment(s), you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activate them. You will need to generate one (1) license key file per environment (for example one license key for PROD and one license key for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
 
 For further information on the IBM License Key Center, see the link below:
 
@@ -113,7 +113,7 @@ To acquire your license keys:
 
     https://www.ibm.com/mysupport/s/?language=en_US
 
-    Note: to open a case, you must have an IBMid and have registered for Maximo Application Suite Support Services. After IBM receives your support case and attached license key(s), your environment will be activated and the case updated.
+    Note: to open a case, you must have an IBMid and have registered for Maximo Application Suite Support. After IBM receives your support case and attached license key(s), your environment will be activated and the case updated.
 
 For further information on AppPoints, see the link below:
 
@@ -122,7 +122,7 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 ## How to Create an IBMid
 {: #how-to-create-an-ibmid}
 
-Note: If you already have an IBMid, please proceed to [How to Register for MAS-MS Support Services](#how-to-register-for-mas-ms-support-services)
+Note: If you already have an IBMid, please proceed to [How to Register for Maximo Application Suite Support](#how-to-register-for-mas-support)
 
 
 1. To create an IBMid, click on the following link:
@@ -163,7 +163,7 @@ After verification/creation of your IBMid has been completed, proceed to the nex
 ## How to Register for Maximo Application Suite Support
 {: #how-to-register-for-mas-support}
 
-Maximo Application Suite Support covers both the Application and your Managed Service (MS) environments.
+Maximo Application Suite Support covers support for both the Application and your Managed Service (MS) environments.
 
 1. Visit the following link:
 
