@@ -25,19 +25,16 @@ subcollection: mas-ms
 
 Data used by applications within the Maximo Application Suite portfolio are backed up according to the following:
 
-All backups are encrypted
-Communication between applications, backup scripts the storage layer and DB services are perfromed via secure transport and accessed only via private endpoints that are offered by the service
-Production backups are performed once a day
-Backups are stored in a separate IBM Cloud data center location
+All backups are encrypted. Communication between applications, backup scripts the storage layer and DB services are perfromed via secure transport and accessed only via private endpoints that are offered by the service. Production backups are performed once a day. Backups are stored in a separate IBM Cloud data center location.
 
 ## System Configuration Backups
 {: #system-configuration-backups}
 
-Maximo Application Suite utilizes different components to deliver the applications to clients.  Each of these services are backed up using the appropriate backup tool for that component.  In general, all components backups:
+Maximo Application Suite utilizes different components to deliver the applications to clients.  Each of these services are backed up using the appropriate backup tool for that component.  In general, all component backups:
 
-are encrypted
-are taken daily
-are stored in a separate data center
+* are encrypted
+* are taken daily
+* are stored in a separate data center
 
 ## Restore
 {: #restore}
@@ -49,9 +46,9 @@ Restore requests must be submitted via case (ticket) through the IBM Support Com
 
 In the event of a DR issue with the Maximo Application Suite Managed Service offering for a specific customer, IBM's focus will be in the following order:
 
-Recover the existing infrastructure in place.
-Recover within the same IBM Cloud data center to a new infrastructure.
-Recover to a secondary IBM Cloud data center.
+1. Recover the existing infrastructure in place
+2. Recover within the same IBM Cloud data center to a new infrastructure
+3. Recover to a secondary IBM Cloud data center
 
 In the event a disaster is declared, the base parameters are:
 
