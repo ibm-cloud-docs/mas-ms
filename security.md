@@ -142,15 +142,15 @@ IBM Cloud holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports t
 
 IBM Cloud (IaaS) ISO certificates:
 
-  * ISO-27001:2013 - https://www.ibm.com/downloads/cas/KDMPXMKA
-  * ISO-27017:2015 - https://www.ibm.com/downloads/cas/GLL9ZBZX
-  * ISO-27018:2019 - https://www.ibm.com/downloads/cas/DNM7GMKY
+* ISO-27001:2013 - https://www.ibm.com/downloads/cas/KDMPXMKA
+* ISO-27017:2015 - https://www.ibm.com/downloads/cas/GLL9ZBZX
+* ISO-27018:2019 - https://www.ibm.com/downloads/cas/DNM7GMKY
 
 IBM Enterprise & Technology Security ISO certificates:
 
-  * ISO 27017: 2015 - https://www.ibm.com/downloads/cas/QV8Q6ZVY
-  * ISO 27018: 2019 - https://www.ibm.com/downloads/cas/BKGPEYLQ
-  * ISO 27701: 2019 - https://www.ibm.com/downloads/cas/X42E0VBD
+* ISO 27017: 2015 - https://www.ibm.com/downloads/cas/QV8Q6ZVY
+* ISO 27018: 2019 - https://www.ibm.com/downloads/cas/BKGPEYLQ
+* ISO 27701: 2019 - https://www.ibm.com/downloads/cas/X42E0VBD
 
 There are 3 different SOC reports prepared by external auditors that attest that IBM Cloud has the appropriate security and compliance, financial, and operational controls and procedures in place:
 
