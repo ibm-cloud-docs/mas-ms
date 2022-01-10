@@ -111,7 +111,7 @@ To acquire your license keys:
 
     https://www.ibm.com/mysupport/s/?language=en_US
 
-After IBM receives your support case and attached license key(s), your environment will be activated and the case updated.
+    Note: to open a case, you must have an IBMid and have registered for Maximo Application Suite Support Services. After IBM receives your support case and attached license key(s), your environment will be activated and the case updated.
 
 For further information on AppPoints, see the link below:
 
