@@ -81,7 +81,7 @@ When your MAS-MS environments have been provisioned, you will receive a Welcome 
 ## How to activate your environment(s)
 {: #how-to-activate-your-environments}
 
-To complete the activation of your Maximo Application Suite environment, you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activiate them. IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
+To complete the activation of your Maximo Application Suite environment, you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activiate them. You will need one (1) license key file per environment (for example one license for PROD and one license for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
 
 For further information on the IBM License Key Center, see the link below:
 
@@ -99,11 +99,13 @@ To acquire your license keys:
 
     | Parameter | Example |
     | -------------- | -------------- |
-    | Configuration | Single |
+    | Version | IBM Maximo Application Suite App Point License |
+    | Configuration | Single License Server |
+    | Host ID Type | Ethernet Address (Windows, Linux, UNIX or Solaris) |
     | Host ID | 99999xxx9x99 |
     | Hostname | customerinstancename-rlks-0.rlks |
-    | Port | 99999 |
-    | Host ID Type | {ethernet address} |
+    | Port | 27000 |
+    | Description | Environment Name |
     {: caption="Table 1. MAS-MS License Key Parameter Examples" caption-side="bottom"}
 
 9. Download your license key(s)
