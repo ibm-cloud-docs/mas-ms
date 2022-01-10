@@ -156,10 +156,11 @@ Note: If you already have an IBMid, please proceed to [How to Register for MAS-M
 
     ![MAS-MS-IBMid-Activated](images/MAS-MS-IBMid-Activated.png "MAS-MS-IBMid-Activated.png"){: caption="Figure 8. MAS-MS IBMid Activated" caption-side="bottom"}
 
-After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS-MS Support Services](#how-to-register-for-mas-ms-support-services)
+After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS-MS Support Services](#how-to-register-for-mas-support)
 
-## How to Register for MAS-MS Support Services
-{: #how-to-register-for-mas-ms-support-services}
+## How to Register for Maximo Application Suite Support
+{: #how-to-register-for-mas-support}
+Maximo Application Suite support covers both the Application and your Managed Service (MS) environments.
 
 1. Visit the following link:
 
