@@ -89,8 +89,8 @@ A high-level overview of the different steps can be found in the attached docume
 
 Spreadsheet with MAS-MS Migration Swimlanes (Roles and Responsibilities):
 
-[MAS-MS Spreadsheet with Roles and Responsibilities](downloads/MAS-MS-Migration-Swimlanes-v1.xlsx){: external download="MAS-MS-Migration-Swimlanes-v1.xlsx"}
+[MAS-MS Spreadsheet with Roles and Responsibilities](https://www.ibm.com/support/pages/system/files/inline-files/Swimlanes-v3.xlsx){: external download="MAS-MS-Migration-Swimlanes-v1.xlsx"}
 
 Presentation of MS-MS Migration Steps:
 
-[MAS-MS Presentation of Migration Steps](downloads/MAS-MS-Migration-Steps-v1-0.pptx){: external download="wMAS-MS-Migration-Steps-v1-0.pptx"}
+[MAS-MS Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2.pptx){: external download="wMAS-MS-Migration-Steps-v1-0.pptx"}
