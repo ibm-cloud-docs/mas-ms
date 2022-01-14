@@ -190,7 +190,7 @@ IBM Maximo Application Suite Managed Service environments are ISO-27001 certifie
 
 ISO-27001:
 
-ISO 27001 Certificate
+https://www.ibm.com/downloads/cas/EEO0NVLK
 
 Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only) 
 
