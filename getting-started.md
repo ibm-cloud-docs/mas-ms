@@ -222,7 +222,35 @@ Maximo Application Suite Support covers support for both the Application and you
 ## How to Create a Case
 {: #how-to-create-a-case}
 
-This section will describe how to create a case for Maximo Application Suite Mnaged Service (MAS-MS)
+This section describes how to create a case for Maximo Application Suite Managed Service (MAS-MS)
+
+1. Access the IBM Support Community
+
+(Note: right click on this link to launch it in a separate browser tab): 
+
+https://www.ibm.com/mysupport
+
+2. Click the Open a case button on top right of page:
+
+3. Sign in with valid IBMid:
+
+    Please note:  If you do not have an IBMid, or your IBMid has not been registered with a valid product and customer account, go to the following link(s):
+
+    How to Create An IBMid
+
+    Register for Maximo Application Suite Support
+
+4. The following page will be displayed:
+
+5. Populate all required (*) fields ensuring Maximo Application Suite is selected for Product and click on the Submit Case button:
+
+6. Case Creation will be confirmed and case number referenced:
+    
+    Note: Cases are (9) digit numbers preceded with “TS”
+
+    You will also receive an email confirming the case #:
+
+7. Click *Back to all cases* (upper left hand corner) or go to https://www.ibm.com/mysupport/s/my-cases to see a full list of your cases:
 
 ## Next steps
 {: #next-steps}
