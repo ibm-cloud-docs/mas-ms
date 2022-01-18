@@ -192,7 +192,7 @@ ISO-27001:
 
 https://www.ibm.com/downloads/cas/EEO0NVLK
 
-Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only) 
+Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only).
 
 All IBM Maximo Application Suite Managed Services servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/  
 

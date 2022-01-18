@@ -222,6 +222,8 @@ Maximo Application Suite Support covers support for both the Application and you
 ## How to Create a Case
 {: #how-to-create-a-case}
 
+This section will describe how to create a case for Maximo Application Suite Mnaged Service (MAS-MS)
+
 ## Next steps
 {: #next-steps}
 
