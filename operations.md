@@ -88,6 +88,6 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 ## IBM Support Guides
 {: #ibm-support-guides}
 
-An IBM Support Guide for Maximo Application Suite is available. See link below. The guide contains information such as Contact Information, Hours of Operation, Severity Level Guidelines & Response Time Objectives and Issue Escalation
+An IBM Support Guide for Maximo Application Suite is available. See link below. The guide contains information such as Contact Information, Hours of Operation, Severity Level Guidelines and Response Time Objectives and Issue Escalation
 
 https://www.ibm.com/support/home/pages/support-guide/?product=4558485
