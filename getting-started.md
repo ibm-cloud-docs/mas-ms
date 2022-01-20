@@ -226,9 +226,9 @@ This section describes how to create a case for Maximo Application Suite Managed
 
 1. Access the IBM Support Community
 
-(Note: right click on this link to launch it in a separate browser tab): 
+    (Note: right click on this link to launch it in a separate browser tab): 
 
-https://www.ibm.com/mysupport
+    https://www.ibm.com/mysupport
 
 2. Click the Open a case button on top right of page:
 
