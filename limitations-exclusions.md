@@ -26,7 +26,7 @@ The following items are not included or allowed in the Maximo Application Suite 
 ## Databases
 {: #databases}
 
-Only DBb is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
+Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
 
 ## Manage Application
 {: #manage-application}
