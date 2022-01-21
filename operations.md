@@ -45,7 +45,6 @@ Please follow this link for Severity and Repsonse guidelines from the IBM Global
 
 https://www.ibm.com/support/pages/node/738881
 
-
 ## Data Center Locations
 {: #data-center-locations}
 
