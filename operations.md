@@ -41,6 +41,11 @@ Technical support for the cloud service is available as part of the customer's s
 IBM Maximo Application Suite Managed Service customers receive support coverage 24 hours per day, 7 days per week, 365 days per year. This includes IBM Support Community Portal access, comprehensive backup and restore, system monitoring and patching.
 24x7 emergency on-call support is available for Severity 1 or system down incidents. This is reserved for production outages where the application is unavailable or service has been severely degraded. IBM leverages an automated alert system integrated with our case ticketing system to provide timely customer response to Sev1 issues.
 
+Please follow this link for Severity and Repsonse guidelines from the IBM Global Support Team:
+
+https://www.ibm.com/support/pages/node/738881
+
+
 ## Data Center Locations
 {: #data-center-locations}
 
@@ -90,4 +95,4 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 
 An IBM Support Guide for Maximo Application Suite is available. See link below. The guide contains information such as Contact Information, Hours of Operation, Severity Level Guidelines and Response Time Objectives and Issue Escalation
 
-https://www.ibm.com/support/home/pages/support-guide/?product=4558485
+https://www.ibm.com/support/pages/node/733923
