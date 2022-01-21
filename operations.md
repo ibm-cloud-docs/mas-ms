@@ -54,12 +54,17 @@ Maximo Application Suite Managed Service is currently offered from the following
 North America:
 
 * Washington, DC, US
-* Dallas, TX US
+* Dallas, TX, US
 
 Europe:
 
 * Amsterdam, Netherlands
 * Frankfurt, Germany
+* London, UK
+
+Asia Pacific:
+
+* Sydney, Australia
 
 ## Operations Support Locations
 {: #operations-support-locations}
