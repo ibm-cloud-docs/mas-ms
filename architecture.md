@@ -87,23 +87,17 @@ IBM Maximo Application Suite Managed Service supports integration to / from exte
 
  Integration options include, but are not limited to:
 
-Support for synchronous and asynchronous exchange of data with applications within the Suite
-
-Use of common protocols and format such as Web Services, HTTP, JMS, REST, OSLC, XML, JSON, XML and .csv files, DB tables
-
-Support of Create, Replace, Update, Delete and Query operation
-
-Support for customizing integration processing using Processing Rules and Scripting
+* Support for synchronous and asynchronous exchange of data with applications within the Suite
+* Use of common protocols and format such as Web Services, HTTP, JMS, REST, OSLC, XML, JSON, XML and .csv files, DB tables
+* Support of Create, Replace, Update, Delete and Query operation
+* Support for customizing integration processing using Processing Rules and Scripting
      
 For the MS-Manage Application:
 
-Maximo integration message generation and delivery based on application object events
-
-Support for implementation (batch) data loading
-
-Pre-defined (75+) interface components provided along with applications to configure new interfaces
-
-Support for customizing integration processing using Processing Rules and Scripting
+* Maximo integration message generation and delivery based on application object events
+* Support for implementation (batch) data loading
+* Pre-defined (75+) interface components provided along with applications to configure new interfaces
+* Support for customizing integration processing using Processing Rules and Scripting
 
 For file based integrations, an IBM Cloud Object Storage location will be allocated for each order.  5 API Keys will be generated for the client to use to move files in and out of the location.  Additional keys can be ordered.  To initiate this process, customers must submit a case
 
