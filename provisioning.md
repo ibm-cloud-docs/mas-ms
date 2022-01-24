@@ -42,7 +42,7 @@ The provisioning process has several steps, most of them automated, but some tha
 * the order complexity
 * the number of orders in the queue ahead of the order
 
-In general, allow for at least 1 week for provisioning to be completed.
+In general, allow for at least 4 weeks for provisioning to be completed.  
 
 The provisioning itself can be broken down into a number of steps:
  
