@@ -28,11 +28,11 @@ Customers must purchase (or own) App Points for MAS prior to (or in conjunction 
 
 The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
-- D02QTZX - Capacity
-- D02QUZX - Data
-- D02QWZX - VPC (Virtual Processor Core)
+* D02QTZX - Capacity
+* D02QUZX - Data
+* D02QWZX - VPC (Virtual Processor Core)
 
-For details, per see Part Numbers and Order consideration
+For details, see [Part Numbers and Order Considerations](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#part-numbers-and-order-considerations)
 
 Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
