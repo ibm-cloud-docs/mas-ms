@@ -16,11 +16,11 @@ subcollection: mas-ms
 {:note: .note}
 {:external: target="_blank" .external}
 
-# Operations & Support
-{: #operations-support}
-
-## Operations
+# Operations
 {: #operations}
+
+## Service Components
+{: #service-components}
 
 IBM Maximo Application Suite Managed Service includes:
 
@@ -33,8 +33,8 @@ IBM Maximo Application Suite Managed Service includes:
 * ITIL managed operations (Service Request, Incident, Problem and Change management)
 * Disaster Recovery and Backup / Restore support & services
 
-## Support
-{: #support}
+## Technical Support
+{: #technical-support}
 
 Technical support for the cloud service is available as part of the customer's subscription period.
 

@@ -19,6 +19,7 @@ toc:
       topics:
       - reference.md
       - operations.md
+      - support.md
       - architecture.md
       - provisioning.md
       - maintenance.md
