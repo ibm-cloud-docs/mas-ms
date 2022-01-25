@@ -19,7 +19,7 @@ subcollection: mas-ms
 # Limitations & Exclusions
 {: #limitations-exclusions}
 
-Maximo Application Suite Managed Services is implemented using a defined set of technologies and operates within a security profile designed to ensure our  client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Managed Services and what a client could do if they hosted and operated the Suite themselves.
+Maximo Application Suite Managed Services is implemented using a defined set of technologies and operates within a security profile designed to ensure our client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Managed Services and what a client could do if they hosted and operated the Suite themselves.
 
 The following items are not included or allowed in the Maximo Application Suite Managed Services offering:
 
@@ -36,12 +36,12 @@ No Java extensions are supported.  It is assumed the Manage scripting capability
 ## 3rd Party Applications
 {: #3rd-party-applications}
 
-Maximo Application Suite Managed Services will not host or support any 3rd party application.  3rd Party applications hosted outside the MS environment can be integrated to applications with the Suite provided they follow standard integration protocols.
+Maximo Application Suite Managed Services will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-MS environment can be integrated to applications with the Suite provided they follow standard integration protocols.
 
 ## Access
 {: #access}
 
-Clients will not have access to the operating system, file system or overall administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
+Clients will not have access to the operating system, file system or overall system administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
 
 ## MAS Administrator Functions
 {: #mas-administrator-functions}

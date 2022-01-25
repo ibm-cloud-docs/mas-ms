@@ -64,7 +64,7 @@ For the MAS Managed Service each client is provisioned with their own applicatio
 
 IBM Cloud Data Centers are SOC compliant and have full hardware redundancy implemented for all servers. All data centers have an N1 redundant power and cooling infrastructure, including backup power generators. All servers have redundant power supplies, NICs and use SAN based RAID storage. 
 
-The following diagram shows a high level overview of the architecture for each individual client instance which will be available in MAS v8.4 (due to be released in Q2 2021).  Until then, Manage (Maximo EAM) will be provisioned using Maximo v7.6.1.2 SaaS Flex architecture.
+The following diagram shows a high level overview of the architecture for each individual client instance.
 
 ![MAS-MS Architecture](images/MAS-MS-Architecture.jpg "MAS-MS Architecture"){: caption="Figure 1. MAS-MS Architecture" caption-side="bottom"}
 
@@ -74,11 +74,11 @@ The following diagram shows a high level overview of the architecture for each i
 * MAS MS customers are provisioned two (2) environments by default: (1) PROD and (1) NON-PROD
 * All clients will be provisioned in their own application instance using dedicated namespace(s)
 * IT Administration for the PROD and NON-PROD environments is solely managed by IBM's MAS-MS operations team
-* Clients can access PROD and NON-PROD systems via brwoser based URL
+* Clients can access PROD and NON-PROD systems via browser based URL
 * MAS-MS is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS-MS
 * Clients are provided application administrator access for all applications ordered
 * All servers are Red Hat Linux O/S
-* Maximo Manage databases are IBM DB2.  Oracle and MS SQLServer are not supported
+* Maximo Manage databases are IBM DB2.  Oracle and MS SQLServer are not supported.
 
 ## MAS-MS Integrations
 {: #mas-ms-integrations}
@@ -99,12 +99,12 @@ For the MS-Manage Application:
 * Pre-defined (75+) interface components provided along with applications to configure new interfaces
 * Support for customizing integration processing using Processing Rules and Scripting
 
-For file based integrations, an IBM Cloud Object Storage location will be allocated for each order.  5 API Keys will be generated for the client to use to move files in and out of the location.  Additional keys can be ordered.  To initiate this process, customers must submit a case
+For file based integrations, an IBM Cloud Object Storage location will be allocated for each order.  5 API Keys will be generated for the client to use to move files in and out of the location.  Additional keys can be ordered.  To initiate this process, customers must submit a case.
 
 One Site-to-Site VPN is included in the order.  To initiate the creation of this VPN, customers must submit a case.  At this time, the VPN is only available for LDAP integrations.
 
 For clients wanting to use App Connect or File integration for other applications within the suite:
 
-- App Connect is included as an entitlement, but the appconnect SaaS offering must be purchased as a special part number to be used.  App Connect is not included within the Maximo Application Suite Managed Service.
+- App Connect is included as an entitlement, but the AppConnect SaaS offering must be purchased as a special part number to be used.  App Connect is not included within the Maximo Application Suite Managed Service.
 
 - For clients wanting file integrations with applications other than Manage, this needs to be discussed with the Sales team and an appropriate solution implemented.  COS is only included for the Manage application in the Managed Service.
