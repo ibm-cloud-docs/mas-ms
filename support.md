@@ -33,7 +33,7 @@ Please note this section is under construction.
 ## Development in MAS-MS
 {: #development-mas-ms}
 
-## Production vs Non-production
+## Production vs Non-Production
 {: #production-vs-non-production}
 
 ## Maximo Mobile
