@@ -43,8 +43,3 @@ For questions related to use of Maximo Mobile in MAS-MS, please refer to the lin
 
 * Version 8.2 - https://www.ibm.com/docs/en/maximo-manage/8.2.0?topic=managing-maximo-mobile
 * Version 8.1 - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=managing-maximo-mobile
-
-### Sub Section
-{: #sub-section}
-
-Sub Section Content
