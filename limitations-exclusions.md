@@ -47,3 +47,6 @@ Clients will not have access to the operating system, file system or overall sys
 {: #mas-administrator-functions}
 
 Direct access to the clusters is not available.  Changes required must be submitted using the ticketing system and then the SRE team will execute. 
+
+A self service portal (SSP) for MAS Managed Service is not available at this time and is under construction.
+
