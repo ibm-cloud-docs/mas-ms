@@ -58,20 +58,20 @@ https://www.ibm.com/support/pages/maximo-product-configuration-matrix
 The below steps can only be performed by the client once they have received their Welcome Letter.
 
 ## Rclone Config for COS file Upload and Download - Step-by-Step Guide
-{: configure-rclone}
+{: #configure-rclone}
 
 ### Pre-requisite Steps:
-{: rclone-pre-req-steps}
+{: #rclone-pre-req-steps}
 
 1. Installation of Rclone - https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-rclone
-2. Your Welcome Letter from the MAS MS Provision Team with the following details. 
-  * Public Endpoint (ie. s3.us-east.cloud-object-storage.appdomain.cloud ==> us-east or s3.eu-de.cloud-object-storage.appdomain.cloud ==> eu-de)
-  * Access_key_id
-  * Secret_access_key
-  * Bucket Name
+2. Your Welcome Letter from the MAS MS Provision Team with the following details:
+* Public Endpoint (ie. s3.us-east.cloud-object-storage.appdomain.cloud ==> us-east or s3.eu-de.cloud-object-storage.appdomain.cloud ==> eu-de)
+* Access_key_id
+* Secret_access_key
+* Bucket Name
 
 ### Terminal Steps:
-{: rclone-terminal-steps}
+{: #rclone-terminal-steps}
 
 1. Run rclone config and select n for a new remote
 2. Enter a name for the configuration
@@ -90,7 +90,7 @@ The below steps can only be performed by the client once they have received thei
 15. After you successfully completed above steps you will have the RemoteName (The one you have just created).
 
 ### Common Commands to Upload/Download data to and from COS
-{: common-cos-commands}
+{: #common-cos-commands}
 
 | Description | Command Example |
 | -------------- | -------------- |
