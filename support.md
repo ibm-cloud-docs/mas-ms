@@ -94,20 +94,20 @@ The below steps can only be performed by the client once they have received thei
 ### Common Commands to Upload/Download data to and from COS
 {: common-cos-commands}
 
-* List available buckets
-  rclone lsd RemoteName:
+List available buckets
+rclone lsd RemoteName:
 
-* List contents of a bucket
-  rclone ls RemoteName:newbucket
+List contents of a bucket
+rclone ls RemoteName:newbucket
 
-* Copy a file from local to remote (COS)
-  rclone copy /Users/file.txt RemoteName:bucketname
+Copy a file from local to remote (COS)
+rclone copy /Users/file.txt RemoteName:bucketname
 
-* Copy a file from remote(COS) to local
-  rclone copy RemoteName:bucketname /Users/Documents/
+Copy a file from remote(COS) to local
+rclone copy RemoteName:bucketname /Users/Documents/
 
-* rclone sync
-  rclone sync source:path dest:path 
+rclone sync
+rclone sync source:path dest:path 
 
 ## Development in MAS-MS
 {: #development-mas-ms}
