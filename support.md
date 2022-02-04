@@ -49,21 +49,21 @@ https://www.ibm.com/support/pages/maximo-product-configuration-matrix
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
 
-* To access IBM COS bucket you have to configure Rclone. Rclone is the utility via which you can access IBM COS bucket and upload/download the content.
+* To access IBM COS bucket you have to configure Rclone. Rclone is the utility via which you can access IBM COS bucket(s) and upload/download the content.
 
-* To configure Rclone please use steps below. You will be needing below information while configuring the Rclone. 
+* To configure Rclone please use steps below. You will need the information while configuring Rclone. 
 
 * A separate Rclone config is needed for each bucket as the access credentials for each bucket is unique.
 
-* Some buckets are readonly which means you can only download data from that bucket while some are read/write meaning you can upload and download data. 
+* Some buckets are read-only which means you can only download data from that bucket while some are read/write meaning you can upload and download data. 
 
 The below steps can only be performed by the client once they have received their Welcome Letter.
 
 ## Rclone Config for COS file Upload and Download - Step-by-Step Guide
 {: configure-rclone}
 
-### Pre-req Steps:
-{: rclone-pre-req-steps]
+### Pre-requisite Steps:
+{: rclone-pre-req-steps}
 
 1. Installation of Rclone - https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-rclone
 2. Your Welcome Letter from the MAS MS Provision Team with the following details. 
