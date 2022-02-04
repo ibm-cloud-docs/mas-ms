@@ -19,7 +19,7 @@ subcollection: mas-ms
 # Support
 {: #support}
 
-Please note this section is under construction.
+Please note some of these sections are under construction.
 
 ## Database Support and Access
 {: #database-support}
@@ -98,7 +98,7 @@ The below steps can only be performed by the client once they have received thei
 | Copy a file from local to remote (COS) | rclone copy /Users/file.txt RemoteName:bucketname |
 | Copy a file from remote (COS) to local | rclone copy RemoteName:bucketname /Users/Documents/ |
 | rclone sync | rclone sync source:path dest:path |
-{: caption="Table 1. Common COS Commands" caption-side="bottom"} 
+{: caption="Table 1. Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"} 
 
 ## Development in MAS-MS
 {: #development-mas-ms}
