@@ -37,14 +37,12 @@ One ticket is required for each database.
 
 All users created is the client responsibility to ensure once access is no longer required a support ticket created to remove that access.
 
-
 ## Compatibility and Dependencies
 {: #compatibility-dependencies}
 
 Please see the following link for the compatibility matrix:
 
 https://www.ibm.com/support/pages/maximo-product-configuration-matrix
-
 
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
@@ -94,20 +92,13 @@ The below steps can only be performed by the client once they have received thei
 ### Common Commands to Upload/Download data to and from COS
 {: common-cos-commands}
 
-List available buckets
-rclone lsd RemoteName:
-
-List contents of a bucket
-rclone ls RemoteName:newbucket
-
-Copy a file from local to remote (COS)
-rclone copy /Users/file.txt RemoteName:bucketname
-
-Copy a file from remote(COS) to local
-rclone copy RemoteName:bucketname /Users/Documents/
-
-rclone sync
-rclone sync source:path dest:path 
+| Description | Command Example |
+| -------------- | -------------- |
+| List contents of a bucket | rclone ls RemoteName:newbucket |
+| Copy a file from local to remote (COS) | rclone copy /Users/file.txt RemoteName:bucketname |
+| Copy a file from remote (COS) to local | rclone copy RemoteName:bucketname /Users/Documents/ |
+| rclone sync | rclone sync source:path dest:path |
+{: caption="Table 1. Common COS Commands" caption-side="bottom"} 
 
 ## Development in MAS-MS
 {: #development-mas-ms}
