@@ -107,11 +107,11 @@ Below are the steps required to upload server bundle logs from your log location
 
 Make the following API request: 
 
-    POST:  https://<hostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest 
+* POST:  https://<hostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest 
 
-    Header:  Provide the API key in the header of the request
+* Header:  Provide the API key in the header of the request
 
-    Body:  The body is empty
+* Body:  The body is empty
 
 The API request creates an entry in the LOGREQUEST table of the Maximo Manage database for each server bundle. A continuously running cron task uploads the compressed log files to your S3 storage location when the table is updated. The name of each file contains the source location and the timestamp of when the command started to run.  You will have a Bucket for Logs.  This bucket name will be defined in your Welcome Letter.
 
