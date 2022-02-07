@@ -105,6 +105,6 @@ One Site-to-Site VPN is included in the order.  To initiate the creation of this
 
 For clients wanting to use App Connect or File integration for other applications within the suite:
 
-- App Connect is included as an entitlement, but the AppConnect SaaS offering must be purchased as a special part number to be used.  App Connect is not included within the Maximo Application Suite Managed Service.
+- AppConnect is included as an entitlement with the Maximo Application Suite, but the Managed Service does not implement or support this within the MAS-MS environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
 
 - For clients wanting file integrations with applications other than Manage, this needs to be discussed with the Sales team and an appropriate solution implemented.  COS is only included for the Manage application in the Managed Service.
