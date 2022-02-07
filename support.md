@@ -100,6 +100,47 @@ The below steps can only be performed by the client once they have received thei
 | rclone sync | rclone sync source:path dest:path |
 {: caption="Table 1. Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"} 
 
+## Accessing Server Logs for Maximo Manage
+{: #accessing-server-logs}
+
+Below are the steps required to upload server bundle logs from your log location on WebSphere Application Server Liberty.
+
+Make the following API request: 
+
+    POST:  https://<hostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest 
+
+    Header:  Provide the API key in the header of the request
+
+    Body:  The body is empty
+
+The API request creates an entry in the LOGREQUEST table of the Maximo Manage database for each server bundle. A continuously running cron task uploads the compressed log files to your S3 storage location when the table is updated. The name of each file contains the source location and the timestamp of when the command started to run.  You will have a Bucket for Logs.  This bucket name will be defined in your Welcome Letter.
+
+* Maximo Manage API Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
+
+### Integration
+{: #integration}
+
+### Server Folder Access
+{: #integration-server-folder-access}
+
+In your welcome letter you will receive details on a bucket for customer files.  Use that bucket to upload all files you would like the Maximo Manage server to have access to.  The path for that directory will be /MeaGlobalDirs
+
+Flat File Consumer directory:  /MeaGlobalDirs
+
+All integrations are done through API Keys. See link below for further details.
+
+https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
+
+### Maximo Manage Queues
+{: #integration-maximo-manage-queues}
+
+The MAS environments use Kafka queues as JMS queues are not configured. If your MAS order indicates you will be using integrations then all of the Kafka setup will be completed by the IBM MAS-MS provisioning team.
+
+* EndPoints will need to be configured to use the Kafka queues
+* Cron activation will need to be enabled by the customer
+
+* Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
+
 ## Development in MAS-MS
 {: #development-mas-ms}
 
