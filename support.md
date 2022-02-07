@@ -107,7 +107,7 @@ Below are the steps required to upload server bundle logs from your log location
 
 Make the following API request: 
 
-* POST:  https://<hostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest 
+* POST:  https://hostname/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest 
 
 * Header:  Provide the API key in the header of the request
 
@@ -117,7 +117,7 @@ The API request creates an entry in the LOGREQUEST table of the Maximo Manage da
 
 * Maximo Manage API Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
 
-### Integration
+## Integration
 {: #integration}
 
 ### Server Folder Access
