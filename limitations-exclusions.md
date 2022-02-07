@@ -55,5 +55,6 @@ AppConnect is included as an entitlement with the Maximo Application Suite, but 
 
 ## Self-Service Portal
 {: #mas-ssp}
+
 A self service portal (SSP) for MAS Managed Service is not available at this time and is under construction.
 
