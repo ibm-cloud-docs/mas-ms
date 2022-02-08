@@ -141,6 +141,26 @@ The MAS environments use Kafka queues as JMS queues are not configured. If your 
 
 * Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
 
+## SAML SSO Configuration
+{: #saml-sso-config}
+
+The first step of the configuration is for the MAS SRE team to create the SAML Service Provider Information metadata file. For this setup the customer will need to provide the the User Identifier (Name ID) format. Below are the possible options for Name ID's.
+
+* email: 'urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress',
+* customize: formatMessage(messages.nameIDFormatCustomize),
+* encrypted: 'urn:oasis:names:tc:SAML:2.0:nameid-format:encrypted',
+* entity: 'urn:oasis:names:tc:SAML:2.0:nameid-format:entity',
+* kerberos: 'urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos',
+* persistent: 'urn:oasis:names:tc:SAML:1.1:nameid-format:persistent',
+* unspecified: 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
+* windowsDomainQualifiedName:'urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName',
+* x509SubjectName: 'urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName',
+
+Note: When creating a Case requesting your SAML SSO setup please include one of the above User Identifiers in your Case details.  
+
+MAS User and Identity Details:
+https://www.ibm.com/docs/en/mas85/8.5.0?topic=administering-configuring-suite#users-id-section
+
 ## Development in MAS-MS
 {: #development-mas-ms}
 
