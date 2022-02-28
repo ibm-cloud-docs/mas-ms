@@ -161,8 +161,37 @@ Note: When creating a Case requesting your SAML SSO setup please include one of 
 MAS User and Identity Details:
 https://www.ibm.com/docs/en/mas85/8.5.0?topic=administering-configuring-suite#users-id-section
 
-## Development in MAS-MS
-{: #development-mas-ms}
+## SMTP Setup
+{: #smtp-setup}
+
+### MAS SMTP Configuration
+{: #mas-smtp-config}
+
+To enable outbound emails from your Maximo Application Suite Manage environment from the provided SMTP relay, you must raise an IBM Support case to configure SMTP Domain Authentication. Completing this configuration will allow you to send email from hosted Manage environment as your %CUSTOMERNAME% domain email addresses. If you plan to use your own SMTP host, this process will not apply.
+
+In the case, please include:
+
+* Case title: SMTP / outbound email activation
+* Case description:   Please initiate domain authentication for customerdomain.com
+
+### Customer Managed SMTP Configuration
+{: #customer-smtp-config}
+
+If you plan to use your own SMTP server instead of the provided MAS SMTP relay, you must raise an IBM Support case.
+
+In the case, please include:
+
+* Case title: SMTP / outbound email activation
+* Case description: Please configure our MASMS environment to use the following SMTP server:
+
+- SMTP hostname
+- SMTP Port
+- SMTP user
+- SMTP password
+- SMTP SSL Certificate (if using SMTP over SSL / port 465)
+- Sender Address (the email address that MAS should send FROM / as)
+
+Once this case and details are received, we generate and send 3 DNS records for you to add to your DNS server to complete the outbound email configuration.
 
 ## Production vs Non-Production
 {: #production-vs-non-production}
