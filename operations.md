@@ -84,14 +84,6 @@ IBM's MAS-MS support personnel are located across the globe in the following cou
 
 The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Managed Service (MAS-MS) environment.
 
-| RACI | Role | Description |
-| -------------- | -------------- | -------------- |
-| R | Responsible | The person who performs the work |
-| A | Accountable | The person who is ultimately accountable for the process or task being completed appropriately |
-| C | Consulted | The person who is a subject matter expert who provides input / opinion |
-| I | Informed | The person who receives communication to keep appraised of status|
-{: caption="Table 1. RACI Roles" caption-side="bottom"}
-
 ![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
 
 ## Incident Management and RCA Process
