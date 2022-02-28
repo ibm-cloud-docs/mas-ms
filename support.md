@@ -179,15 +179,15 @@ If you plan to use your own SMTP server instead of the provided MAS SMTP relay, 
 
 In the case, please include:
 
-* Case title: SMTP / outbound email activation
-* Case description: Please configure our MASMS environment to use the following SMTP server:
+1. Case title: SMTP / outbound email activation
+2. Case description: Please configure our MASMS environment to use the following SMTP server:
 
-SMTP hostname
-SMTP Port
-SMTP user
-SMTP password
-SMTP SSL Certificate (if using SMTP over SSL / port 465)
-Sender Address (the email address that MAS should send FROM / as)
+* SMTP hostname
+* SMTP Port
+* SMTP user
+* SMTP password
+* SMTP SSL Certificate (if using SMTP over SSL / port 465)
+* Sender Address (the email address that MAS should send FROM / as)
 
 Once this case and details are received, we generate and send 3 DNS records for you to add to your DNS server to complete the outbound email configuration.
 
