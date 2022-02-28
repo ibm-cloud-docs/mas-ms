@@ -109,11 +109,11 @@ The IRT is organized into a 2-person rotating schedule on 8-hour cycles over 7 d
 
 Client Communicator
 
-  The Client Communicator (CC) is responsible for ensuring that any customer affected by a Severity 1 incident or alert is receiving prompt and frequent communication regarding the status of their incident. This resource does not necessarily have technical skills or access to investigate / act upon systems that are failing. The CC may also be expected to triage requests that do not fall within the definition of Severity 1 and communicate with the customer regarding these issues.
+* The Client Communicator (CC) is responsible for ensuring that any customer affected by a Severity 1 incident or alert is receiving prompt and frequent communication regarding the status of their incident. This resource does not necessarily have technical skills or access to investigate / act upon systems that are failing. The CC may also be expected to triage requests that do not fall within the definition of Severity 1 and communicate with the customer regarding these issues.
 
 First Responder
 
-  The First Responder (FR) is a technical role that requires access to systems that may be in a failed or failing state, as well as the skills required to understand what can be done to recover affected environment(s). It may not be possible for the FR to correct all problems and he/she should be equipped to escalate issues to specific individuals for resolution if necessary. The FR remains focused on incident resolution at all times and is not expected to communicate directly with customers; they remain in regular contact with the Client Communicator on duty. It is important to note that the First Responder is precisely that, the first responder - he/she is not solely responsible for solving every incident.
+* The First Responder (FR) is a technical role that requires access to systems that may be in a failed or failing state, as well as the skills required to understand what can be done to recover affected environment(s). It may not be possible for the FR to correct all problems and he/she should be equipped to escalate issues to specific individuals for resolution if necessary. The FR remains focused on incident resolution at all times and is not expected to communicate directly with customers; they remain in regular contact with the Client Communicator on duty. It is important to note that the First Responder is precisely that, the first responder - he/she is not solely responsible for solving every incident.
 
 The first responder will respond to alerts and off hours Severity 1 cases to:
 
