@@ -57,7 +57,7 @@ https://www.ibm.com/support/pages/maximo-product-configuration-matrix
 
 The below steps can only be performed by the client once they have received their Welcome Letter.
 
-## Rclone Config for COS file Upload and Download - Step-by-Step Guide
+### Rclone Config for COS file Upload and Download - Step-by-Step Guide
 {: #configure-rclone}
 
 ### Pre-requisite Steps:
