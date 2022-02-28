@@ -193,9 +193,6 @@ In the case, please include:
 
 Once this case and details are received, we generate and send 3 DNS records for you to add to your DNS server to complete the outbound email configuration.
 
-## Production vs Non-Production
-{: #production-vs-non-production}
-
 ## Maximo Mobile
 {: #maximo-mobile}
 
