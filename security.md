@@ -28,8 +28,8 @@ Should a customer suspect a Cyber Security issue with their system, client shoul
 {: #client-security-questionnaires}
 
 Before submitting questionnaires, IBMers and clients should first refer to the security information, links and certifications that are available on this page.
-Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper CDS security resource for review / completion.
-Please note there is a 2-3 week turnaround time required for the CDS security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review
+Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper SRE security resource for review / completion.
+Please note there is a 2-3 week turnaround time required for the SRE security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review
 
 ## Security Management
 {: #security-management}
@@ -159,12 +159,12 @@ The SOC 3 report is publicly available and can be downloaded here:
 https://www.ibm.com/downloads/cas/MVN9G536
 
 SOC2:
-The SOC 2 report is intended for both current and prospective clients. It outlines IBM Cloud's policies and processes regarding security and compliance in our data centers. A member of the IBM CDS team can request this report on behalf of an IBM Salesperson for their customer or prospect.
+The SOC 2 report is intended for both current and prospective clients. It outlines IBM Cloud's policies and processes regarding security and compliance in our data centers. A member of the IBM SRE team can request this report on behalf of an IBM Salesperson for their customer or prospect.
 
 SOC1:
-The SOC 1 (SSAE16) report outlines an organization's internal control over financial reporting. This is a controlled distribution report managed by IBM Cloud compliance for business controls purposes. The SOC 1 report is intended for current IBM Cloud clients and/or their compliance auditors only and can be requested by IBM. SOC1 reports are not available if a client is currently a prospect. A member of the IBM CDS team can request this report on behalf of an IBM Salesperson for their customer.
+The SOC 1 (SSAE16) report outlines an organization's internal control over financial reporting. This is a controlled distribution report managed by IBM Cloud compliance for business controls purposes. The SOC 1 report is intended for current IBM Cloud clients and/or their compliance auditors only and can be requested by IBM. SOC1 reports are not available if a client is currently a prospect. A member of the IBM SRE team can request this report on behalf of an IBM Salesperson for their customer.
 
-The following information is required in order for CDS to send a SOC1 or SOC2 report:
+The following information is required in order for SRE to send a SOC1 or SOC2 report:
 
 Type of Report Requested: (SOC1 or SOC2)
 

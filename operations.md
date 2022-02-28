@@ -105,7 +105,7 @@ Please note IRT is not considered standard support. It is for emergency and Sev1
 
 How is the IBM SRE Incident Response Team (IRT) organized?
 
-The IRT is organized into a 2-person rotating schedule on 8-hour cycles over 7 days. This means that there are two IRT members for each 8 hour period: a Client Communicator and a First Responder. IBM SRE uses a region based “follow the sun” support model. The IRT schedule is maintained and updated by CDS on a regular basis.
+The IRT is organized into a 2-person rotating schedule on 8-hour cycles over 7 days. This means that there are two IRT members for each 8 hour period: a Client Communicator and a First Responder. IBM SRE uses a region based “follow the sun” support model. The IRT schedule is maintained and updated by IBM on a regular basis.
 
 Client Communicator
 
@@ -125,7 +125,7 @@ The first responder will respond to alerts and off hours Severity 1 cases to:
 The IBM first responder’s priority will be to restore service.  The IBM client communicator is notified if there are any challenges to restoring service.  The IBM client communicator will lead the recovery activities and escalate to any personnel required to resolve the issue, while also ensuring that continuous communication is maintained with the customer throughout the length of the incident.
 
 Escalation Manager / Discipline Team Members
-Additional support for IRT members is provided by an Escalation Manager as well as dedicated Database and Network discipline team members. These specific CDS individuals are assigned to the IRT schedule to also provide coverage. 
+Additional support for IRT members is provided by an Escalation Manager as well as dedicated Database and Network discipline team members. These specific SRE individuals are assigned to the IRT schedule to also provide coverage. 
 
 ## IBM Support Guides
 {: #ibm-support-guides}
