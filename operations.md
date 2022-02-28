@@ -94,6 +94,39 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 
 ![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
 
+## Incident Management and RCA Process
+{: #incident-management-and-rca-process}
+
+The IBM SRE team has monitoring in place for all sites and infrastructure under our control.  These are designed to allow the SRE team to pro-actively respond to service impacting or service threatening events or conditions.  When a site is unavailable, or there are infrastructure issues leading to monitor alerts, an incident record is automatically generated within our Incident Management System.
+
+At the same time, for production environments, a SRE Incident Response Team (IRT) provides 24/7 critical outage support. The goal of IRT is to ensure our customer's applications are running when they should, and to provide effective and timely customer communication during availability incidents or Severity 1 cases during off hours. IRT is sometimes referred to as the "on call" team.
+
+Please note IRT is not considered standard support. It is for emergency and Sev1 cases only. Please see our Support & Operations section for standard support details and hours of operation. 
+
+How is the IBM SRE Incident Response Team (IRT) organized?
+
+The IRT is organized into a 2-person rotating schedule on 8-hour cycles over 7 days. This means that there are two IRT members for each 8 hour period: a Client Communicator and a First Responder. IBM SRE uses a region based “follow the sun” support model. The IRT schedule is maintained and updated by CDS on a regular basis.
+
+Client Communicator
+
+The Client Communicator (CC) is responsible for ensuring that any customer affected by a Severity 1 incident or alert is receiving prompt and frequent communication regarding the status of their incident. This resource does not necessarily have technical skills or access to investigate / act upon systems that are failing. The CC may also be expected to triage requests that do not fall within the definition of Severity 1 and communicate with the customer regarding these issues.
+
+First Responder
+
+The First Responder (FR) is a technical role that requires access to systems that may be in a failed or failing state, as well as the skills required to understand what can be done to recover affected environment(s). It may not be possible for the FR to correct all problems and he/she should be equipped to escalate issues to specific individuals for resolution if necessary. The FR remains focused on incident resolution at all times and is not expected to communicate directly with customers; they remain in regular contact with the Client Communicator on duty. It is important to note that the First Responder is precisely that, the first responder - he/she is not solely responsible for solving every incident.
+
+The first responder will respond to alerts and off hours Severity 1 cases to:
+
+* Determine the impact of the alert or case
+* Determine the cause of the alert or case 
+* Initiate corrective action if appropriate
+* Alert the Client Communicator if escalation is determined necessary.
+
+The IBM first responder’s priority will be to restore service.  The IBM client communicator is notified if there are any challenges to restoring service.  The IBM client communicator will lead the recovery activities and escalate to any personnel required to resolve the issue, while also ensuring that continuous communication is maintained with the customer throughout the length of the incident.
+
+Escalation Manager / Discipline Team Members
+Additional support for IRT members is provided by an Escalation Manager as well as dedicated Database and Network discipline team members. These specific CDS individuals are assigned to the IRT schedule to also provide coverage. 
+
 ## IBM Support Guides
 {: #ibm-support-guides}
 
