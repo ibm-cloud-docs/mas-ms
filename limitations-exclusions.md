@@ -31,7 +31,8 @@ Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion serv
 ## Manage Application
 {: #manage-application}
 
-No Java extensions are supported.  It is assumed the Manage scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into scripts within the application.
+No Java extensions are supported.  It is assumed the Manage scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into automation scripts within the application. See link below for further details:
+https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
 
 ## 3rd Party Applications
 {: #3rd-party-applications}
