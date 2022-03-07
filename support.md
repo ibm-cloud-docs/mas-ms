@@ -198,3 +198,8 @@ For questions related to use of Maximo Mobile in MAS-MS Manage, please refer to 
 
 * Maximo Manage Version 8.2 - https://www.ibm.com/docs/en/maximo-manage/8.2.0?topic=managing-maximo-mobile
 * Maximo Manage Version 8.1 - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=managing-maximo-mobile
+
+## Self-Service Portal
+{: #ssp}
+
+A self service portal (SSP) for MAS Managed Service is not available at this time and is under construction.
