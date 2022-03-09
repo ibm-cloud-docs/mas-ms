@@ -30,6 +30,10 @@ IBM Maximo Application Suite Managed Services supports DB2 as the database for t
 
 * Read / Write users can be requested for development databases.
 
+* Connections is currently JDBC only.
+
+Please note, if a client has been granted write access to a database, and there are issues with data, the SRE team will only restore the database back to the last version.  SRE personnel will not trouble shoot queries or data issues in these databases. 
+
 A support ticket must be submitted listing the names and emails of the users needing access.  
 One ticket is required for each database.
 
