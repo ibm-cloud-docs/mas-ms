@@ -134,26 +134,11 @@ All integrations are done through API Keys. See link below for further details.
 
 https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
 
-| Description | API Call Example |
-| -------------- | -------------- |
-| Generate the integrity checker log | POST https://<;Adminurl>/toolsapi/toolservice/icheckerreport |
-| Get an integrity checker log | GET https://<; Adminurl>/toolsapi/toolservice/toolslog?logfile=name of report from icheckerreport request |
-| Get a list of all tools logs | GET https://<; Adminurl>/toolsapi/toolservice/toolslog |
-| Run the integrity checker utility | POST https://<; Adminurl>/toolsapi/toolservice/icheckerrepair |
-| Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://<;ManageInstanceHostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
-| Stop the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestop |
-| Start the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestart |
-{: caption="Table 1. Sample API Calls" caption-side="bottom"}
-
-The Admin will be defined in the Welcome Letter.
- 
-Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
-
 ### Environment Route URLs
 {: #environment-route-urls}
  
-MAS Application Suite Instance -  https://main.home.INSTANCE_NAME.suite.maximo.com/
-Admin - https://maxinst.manage.<;INSTANCE_NAME>.suite.maximo.com/toolsapi
+MAS Application Suite Instance -  https://main.home.**INSTANCE_NAME**.suite.maximo.com/
+Admin - https://maxinst.manage.<;**INSTANCE_NAME**>.suite.maximo.com/toolsapi
  
 INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
@@ -173,6 +158,21 @@ The MAS environments use Kafka queues as JMS queues are not configured. If your 
 You can run script commands for several key utilities by using API requests. The script commands can run the integrity checker utilities, start and stop the Maximo® Manage pods, download log files or a list of log files, and upload logs to Simple Storage Service (S3) Cloud Object Storage.
  
 * More details can be found at: https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
+
+| Description | API Call Example |
+| -------------- | -------------- |
+| Generate the integrity checker log | POST https://<;Adminurl>/toolsapi/toolservice/icheckerreport |
+| Get an integrity checker log | GET https://<; Adminurl>/toolsapi/toolservice/toolslog?logfile=name of report from icheckerreport request |
+| Get a list of all tools logs | GET https://<; Adminurl>/toolsapi/toolservice/toolslog |
+| Run the integrity checker utility | POST https://<; Adminurl>/toolsapi/toolservice/icheckerrepair |
+| Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://<;ManageInstanceHostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
+| Stop the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestop |
+| Start the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestart |
+{: caption="Table 1. Sample API Calls" caption-side="bottom"}
+
+The Admin will be defined in the Welcome Letter.
+ 
+Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
 
 ## SAML SSO Configuration
 {: #saml-sso-config}
