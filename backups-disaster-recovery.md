@@ -22,7 +22,6 @@ subcollection: mas-ms
 ## Application Backups
 {: #application-backups}
 
-
 Data used by applications within the Maximo Application Suite portfolio are backed up according to the following:
 
 All backups are encrypted. Communication between applications, backup scripts the storage layer and DB services are perfromed via secure transport and accessed only via private endpoints that are offered by the service. Production backups are performed once a day. Backups are stored in a separate IBM Cloud data center location.
@@ -35,6 +34,7 @@ Maximo Application Suite utilizes different components to deliver the applicatio
 * are encrypted
 * are taken daily
 * are stored in a separate data center
+* are saved for 30 days
 
 ## Restore
 {: #restore}
@@ -49,7 +49,6 @@ In the event of a DR issue with the Maximo Application Suite Managed Service off
 1. Recover the existing infrastructure in place
 2. Recover within the same IBM Cloud data center to a new infrastructure
 3. Recover to a secondary IBM Cloud data center
-4. are saved for 30 days
 
 In the event a disaster is declared, the base parameters are:
 

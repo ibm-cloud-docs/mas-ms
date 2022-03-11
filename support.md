@@ -26,18 +26,18 @@ IBM Maximo Application Suite Managed Services supports DB2 as the database for t
 
 * Direct access to the production database is not allowed.  If a client wishes to access production data, they must order a data replica and a read only user can be created against this replica.  This replica is near real time so it will mirror the production data.
 
-* Read only users can be requested for non-productin databases.
+* Read only users can be requested for non-production databases.
 
 * Read / Write users can be requested for development databases.
 
-* Connections is currently JDBC only.
+* Connection is currently JDBC only.
 
-Please note, if a client has been granted write access to a database, and there are issues with data, the SRE team will only restore the database back to the last version.  SRE personnel will not trouble shoot queries or data issues in these databases. 
+Please note, if a client has been granted write access to a database, and there are issues with data, the SRE team will only restore the database back to the last version.  SRE personnel will not troubleshoot queries or data issues in these databases. 
 
-A support ticket must be submitted listing the names and emails of the users needing access.  
+A support case must be submitted listing the names and emails of the users needing access.  
 One ticket is required for each database.
 
-All users created is the client responsibility to ensure once access is no longer required a support ticket created to remove that access.
+It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
 
 ## Compatibility and Dependencies
 {: #compatibility-dependencies}
@@ -51,9 +51,9 @@ https://www.ibm.com/support/pages/maximo-product-configuration-matrix
 
 * To access IBM COS bucket you have to configure Rclone. Rclone is the utility via which you can access IBM COS bucket(s) and upload/download the content.
 
-* To configure Rclone please use steps below. You will need the information while configuring Rclone. 
+* To configure Rclone please use steps below. You will need this information while configuring Rclone. 
 
-* A separate Rclone config is needed for each bucket as the access credentials for each bucket is unique.
+* A separate Rclone config is needed for each bucket as the access credentials for each bucket are unique.
 
 * Some buckets are read-only which means you can only download data from that bucket while some are read/write meaning you can upload and download data. 
 
@@ -82,8 +82,8 @@ The below steps can only be performed by the client once they have received thei
 5. Press Enter for env_auth (false)
 6. Enter access_key_id from above
 7. Enter secret_access_key for secret_access_key
-8. Press Enter  for region
-9. Enter 9 ( US Region East Endpoint / us-east) or 23 (EU Region DE Endpoint / eu-de) for endpoint
+8. Press Enter for region
+9. Enter 9 (US Region East Endpoint / us-east) or 23 (EU Region DE Endpoint / eu-de) for endpoint
 10. Enter 5 (US East Region Standard / us-east-standard) or 13 (EU Cross Region Standard / eu-standard) for location_constraint
 11. Hit Enter for acl (This will take the default value).
 12. Enter No for "Edit advanced config?": You will see the details of your newly created configuration
@@ -145,7 +145,7 @@ INSTANCE_NAME = Your environment instance identifier found in your Welcome Lette
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
-The MAS environments use Kafka queues as JMS queues are not configured. If your MAS order indicates you will be using integrations then all of the Kafka setup will be completed by the IBM MAS-MS provisioning team.
+The MAS environments use Kafka queues as JMS queues are not configured. If your MAS order indicates you will be using integrations then all of the Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
 
 * EndPoints will need to be configured to use the Kafka queues
 * Cron activation will need to be enabled by the customer
@@ -189,7 +189,7 @@ The first step of the configuration is for the MAS SRE team to create the SAML S
 * windowsDomainQualifiedName:'urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName',
 * x509SubjectName: 'urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName',
 
-Note: When creating a Case requesting your SAML SSO setup please include one of the above User Identifiers in your Case details.  
+Note: When creating a case requesting your SAML SSO setup please include one of the above User Identifiers in the case details.  
 
 MAS User and Identity Details:
 https://www.ibm.com/docs/en/mas85/8.5.0?topic=administering-configuring-suite#users-id-section
@@ -227,7 +227,7 @@ Other:
 * Identity provider
 * Default permissions
  
-Note: typically a site-to-site VPN is required to make a connection from the MAS MS environment to your LDAP server.
+Note: typically a site-to-site VPN is required to make a connection from the MAS-MS environment to your LDAP server.
  
 Additional details on LDAP user registry synchronization can be found here:
 https://www.ibm.com/docs/en/mas86/8.6.0?topic=access-administering-ldap-user-registry-synchronization 
@@ -243,7 +243,7 @@ To enable outbound emails from your Maximo Application Suite Manage environment 
 In the case, please include:
 
 * Case title: SMTP / outbound email activation
-* Case description:   Please initiate domain authentication for customerdomain.com
+* Case description:  Please initiate domain authentication for customerdomain.com
 
 ### Customer Managed SMTP Configuration
 {: #customer-smtp-config}
@@ -253,7 +253,7 @@ If you plan to use your own SMTP server instead of the provided MAS SMTP relay, 
 In the case, please include:
 
 1. Case title: SMTP / outbound email activation
-2. Case description: Please configure our MASMS environment to use the following SMTP server:
+2. Case description: Please configure our MAS-MS environment to use the following SMTP server:
 
 * SMTP hostname
 * SMTP Port
@@ -267,7 +267,7 @@ Once this case and details are received, we generate and send 3 DNS records for 
 ## Site-to-Site IPsec VPN
 {: #site-to-site-vpn}
  
-A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-site VPNs are not configured by default. The setup and configuration of a site-to-site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for VPN build when planning integrations or services will that depend on it for connectivity. MAS MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
+A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-Site VPNs are not configured by default. The setup and configuration of a Site-to-Site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for a VPN build when planning integrations or services will that depend on it for connectivity. MAS-MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
 
 * Note: Only one case is needed for VPN setup and can cover configuration for multiple environments (DEV, TEST, PROD, etc).
 * Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or SFTP and may not require a VPN.

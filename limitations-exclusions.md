@@ -32,6 +32,7 @@ Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion serv
 {: #manage-application}
 
 No Java extensions are supported.  It is assumed the Manage scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into automation scripts within the application. See link below for further details:
+
 https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
 
 ## 3rd Party Applications
@@ -47,7 +48,7 @@ Clients will not have access to the operating system, file system or overall sys
 ## MAS Administrator Functions
 {: #mas-administrator-functions}
 
-Direct access to the clusters is not available.  Changes required must be submitted using the ticketing system and then the SRE team will execute. 
+Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute. 
 
 ## AppConnect
 {: #mas-app-connect}
