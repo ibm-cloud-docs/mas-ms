@@ -150,6 +150,7 @@ The Admin will be defined in the Welcome Letter.
 Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
 
 ### Environment Route URLs
+{: #environment-route-urls}
  
 MAS Application Suite Instance -  https://main.home.INSTANCE_NAME.suite.maximo.com/
 Admin - https://maxinst.manage.<;INSTANCE_NAME>.suite.maximo.com/toolsapi
@@ -264,7 +265,7 @@ In the case, please include:
 Once this case and details are received, we generate and send 3 DNS records for you to add to your DNS server to complete the outbound email configuration.
 
 ## Site-to-Site IPsec VPN
-{: site-to-site-vpn}
+{: #site-to-site-vpn}
  
 A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-site VPNs are not configured by default. The setup and configuration of a site-to-site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for VPN build when planning integrations or services will that depend on it for connectivity. MAS MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
 
