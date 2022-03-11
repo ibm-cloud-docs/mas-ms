@@ -127,11 +127,34 @@ The API request creates an entry in the LOGREQUEST table of the Maximo Manage da
 
 In your welcome letter you will receive details on a bucket for customer files.  Use that bucket to upload all files you would like the Maximo Manage server to have access to.  The path for that directory will be /MeaGlobalDirs
 
-Flat File Consumer directory:  /MeaGlobalDirs
+* Flat File Consumer directory:         /MeaGlobalDirs
+* Migration Manager Target directory:   /MeaGlobalDirs/MigrationManager
 
 All integrations are done through API Keys. See link below for further details.
 
 https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
+
+| Description | API Call Example |
+| -------------- | -------------- |
+| Generate the integrity checker log | POST https://<;Adminurl>/toolsapi/toolservice/icheckerreport |
+| Get an integrity checker log | GET https://<; Adminurl>/toolsapi/toolservice/toolslog?logfile=name of report from icheckerreport request |
+| Get a list of all tools logs | GET https://<; Adminurl>/toolsapi/toolservice/toolslog |
+| Run the integrity checker utility | POST https://<; Adminurl>/toolsapi/toolservice/icheckerrepair |
+| Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://<;ManageInstanceHostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
+| Stop the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestop |
+| Start the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestart |
+{: caption="Table 1. Sample API Calls" caption-side="bottom"}
+
+The Admin will be defined in the Welcome Letter.
+ 
+Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
+
+### Environment Route URLs
+ 
+MAS Application Suite Instance -  https://main.home.INSTANCE_NAME.suite.maximo.com/
+Admin - https://maxinst.manage.<;INSTANCE_NAME>.suite.maximo.com/toolsapi
+ 
+INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
@@ -142,6 +165,13 @@ The MAS environments use Kafka queues as JMS queues are not configured. If your 
 * Cron activation will need to be enabled by the customer
 
 * Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
+
+### Administrative Utilities (API Calls)
+{: #admin-util-api-calls)}
+
+You can run script commands for several key utilities by using API requests. The script commands can run the integrity checker utilities, start and stop the Maximo® Manage pods, download log files or a list of log files, and upload logs to Simple Storage Service (S3) Cloud Object Storage.
+ 
+* More details can be found at: https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
 
 ## SAML SSO Configuration
 {: #saml-sso-config}
@@ -162,6 +192,44 @@ Note: When creating a Case requesting your SAML SSO setup please include one of 
 
 MAS User and Identity Details:
 https://www.ibm.com/docs/en/mas85/8.5.0?topic=administering-configuring-suite#users-id-section
+
+MAS SAML Authentication:
+https://www.ibm.com/docs/en/mas86/8.6.0?topic=administering-configuring-suite#sa
+
+## LDAP user registry synchronization
+{: #ldap-registry-sync}
+
+User registry synchronization simplifies Maximo Application Suite user management by synchronizing users and groups between an LDAP server and your local Maximo Application Suite user registry. To initiate the LDAP Authentication setup you will need to submit a case to the IBM Support Community with the following details.
+ 
+Configuration parameters
+ 
+LDAP domain attributes:
+* URL – ldaps://hostname:port
+* Bind DN
+* Bind Password
+* Base DN
+* User ID map
+ 
+User synchronization:
+* User Base DN
+* User ID map
+* User filter
+ 
+Group synchronization:
+* Group Base DN
+* Group filter
+* Group ID map
+* Group member ID map
+ 
+Other:
+* Synchronization schedule
+* Identity provider
+* Default permissions
+ 
+Note: typically a site-to-site VPN is required to make a connection from the MAS MS environment to your LDAP server.
+ 
+Additional details on LDAP user registry synchronization can be found here:
+https://www.ibm.com/docs/en/mas86/8.6.0?topic=access-administering-ldap-user-registry-synchronization 
 
 ## SMTP Setup
 {: #smtp-setup}
@@ -194,6 +262,14 @@ In the case, please include:
 * Sender Address (the email address that MAS should send FROM / as)
 
 Once this case and details are received, we generate and send 3 DNS records for you to add to your DNS server to complete the outbound email configuration.
+
+## Site-to-Site IPsec VPN
+{: site-to-site-vpn}
+ 
+A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-site VPNs are not configured by default. The setup and configuration of a site-to-site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for VPN build when planning integrations or services will that depend on it for connectivity. MAS MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
+
+* Note: Only one case is needed for VPN setup and can cover configuration for multiple environments (DEV, TEST, PROD, etc).
+* Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or SFTP and may not require a VPN.
 
 ## Maximo Mobile
 {: #maximo-mobile}

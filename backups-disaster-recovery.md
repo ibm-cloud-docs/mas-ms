@@ -39,7 +39,7 @@ Maximo Application Suite utilizes different components to deliver the applicatio
 ## Restore
 {: #restore}
 
-Restore requests must be submitted via case (ticket) through the IBM Support Community Portal.  The expected turn around time will depend on the severity and the size of the restore required.  Generally for non-production systems, expect 1 - 3 days for a restore to happen.
+Restore requests must be submitted via case (ticket) through the IBM Support Community Portal.  The expected turn around time will depend on the severity and the size of the restore required.  Generally for non-production systems, expect 1 - 3 days for a restore to happen. Database restore can only be done to one of the previous daily backups (cannot restore to point in time).
 
 ## Disaster Recovery
 {: #disaster-recovery}
@@ -49,6 +49,7 @@ In the event of a DR issue with the Maximo Application Suite Managed Service off
 1. Recover the existing infrastructure in place
 2. Recover within the same IBM Cloud data center to a new infrastructure
 3. Recover to a secondary IBM Cloud data center
+4. are saved for 30 days
 
 In the event a disaster is declared, the base parameters are:
 
