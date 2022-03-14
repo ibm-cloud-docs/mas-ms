@@ -27,6 +27,7 @@ toc:
       - backups-disaster-recovery.md
       - migration.md
       - limitations-exclusions.md
+      - clientcommunicationscenter.md
 
 
   - navgroup:
