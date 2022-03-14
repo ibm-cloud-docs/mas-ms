@@ -27,7 +27,7 @@ https://status.suite.maximo.com/
 
 The IBM MAS-MS Client Communication Center (CCC) is the primary communication channel for environment alerts, incidents, maintenance, security and announcement notices for all MAS-MS customer environments. 
 
-It is important that all customers designate members of their staff to log in to the CCC and subscribe to email push notifications in order to receive important information and notice of upcoming maintenance  regarding their environment(s).
+It is important that all customers designate members of their staff to log in to the CCC and subscribe to email notifications in order to receive important information and notice of upcoming maintenance regarding their environment(s).
 
 ## CCC Access
 {: #ccc-access}
