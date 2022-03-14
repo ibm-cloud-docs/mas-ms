@@ -39,13 +39,6 @@ One ticket is required for each database.
 
 It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
 
-## Compatibility and Dependencies
-{: #compatibility-dependencies}
-
-Please see the following link for the compatibility matrix:
-
-https://www.ibm.com/support/pages/maximo-product-configuration-matrix
-
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
 
@@ -137,8 +130,8 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 ### Environment Route URLs
 {: #environment-route-urls}
  
-MAS Application Suite Instance -  https://main.home.**INSTANCE_NAME**.suite.maximo.com/
-Admin - https://maxinst.manage.<;**INSTANCE_NAME**>.suite.maximo.com/toolsapi
+* MAS Application Suite Instance -  https://main.home.**INSTANCE_NAME**.suite.maximo.com/
+* Admin URL - https://maxinst.manage.**INSTANCE_NAME**.suite.maximo.com/toolsapi
  
 INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
@@ -161,16 +154,16 @@ You can run script commands for several key utilities by using API requests. The
 
 | Description | API Call Example |
 | -------------- | -------------- |
-| Generate the integrity checker log | POST https://<;Adminurl>/toolsapi/toolservice/icheckerreport |
-| Get an integrity checker log | GET https://<; Adminurl>/toolsapi/toolservice/toolslog?logfile=name of report from icheckerreport request |
-| Get a list of all tools logs | GET https://<; Adminurl>/toolsapi/toolservice/toolslog |
-| Run the integrity checker utility | POST https://<; Adminurl>/toolsapi/toolservice/icheckerrepair |
-| Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://<;ManageInstanceHostname>/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
-| Stop the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestop |
-| Start the Maximo Manage pods | POST http://<; Adminurl>/toolsapi/toolservice/managestart |
+| Generate the integrity checker log | POST https://**Adminurl**/toolsapi/toolservice/icheckerreport |
+| Get an integrity checker log | GET https://**Adminurl**/toolsapi/toolservice/toolslog?logfile=name of report from icheckerreport request |
+| Get a list of all tools logs | GET https://**Adminurl**/toolsapi/toolservice/toolslog |
+| Run the integrity checker utility | POST https://**Adminurl**/toolsapi/toolservice/icheckerrepair |
+| Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://**ManageInstanceHostname**/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
+| Stop the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestop |
+| Start the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestart |
 {: caption="Table 1. Sample API Calls" caption-side="bottom"}
 
-The Admin will be defined in the Welcome Letter.
+The **Adminurl** will be defined in the Welcome Letter.
  
 Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
 
