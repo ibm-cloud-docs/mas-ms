@@ -24,13 +24,13 @@ subcollection: mas-ms
 
 MAS Application Suite Instance:
 
-https://main.home.**INSTANCE_NAME**.suite.maximo.com/
+https://main.home.INSTANCE_NAME.suite.maximo.com/
 
 Admin:
 
-https://maxinst.manage.**INSTANCE_NAME**.suite.maximo.com/toolsapi
+https://maxinst.manage.INSTANCE_NAME.suite.maximo.com/toolsapi
  
-**INSTANCE_NAME** = Your environment instance identifier found in your Welcome Letter.
+INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
 ## Database Support and Access
 {: #database-support}
