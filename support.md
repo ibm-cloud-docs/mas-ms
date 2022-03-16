@@ -19,6 +19,19 @@ subcollection: mas-ms
 # Support
 {: #support}
 
+## MAS-MS Environment Route URLs
+{: #environment-route-urls}
+
+MAS Application Suite Instance:
+
+https://main.home.**INSTANCE_NAME**.suite.maximo.com/
+
+Admin:
+
+https://maxinst.manage.**INSTANCE_NAME**.suite.maximo.com/toolsapi
+ 
+**INSTANCE_NAME** = Your environment instance identifier found in your Welcome Letter.
+
 ## Database Support and Access
 {: #database-support}
 
