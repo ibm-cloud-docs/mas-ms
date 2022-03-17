@@ -140,14 +140,6 @@ All integrations are done through API Keys. See link below for further details.
 
 https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
 
-### Environment Route URLs
-{: #environment-route-urls}
- 
-* MAS Application Suite Instance -  https://main.home.**INSTANCE_NAME**.suite.maximo.com/
-* Admin URL - https://maxinst.manage.**INSTANCE_NAME**.suite.maximo.com/toolsapi
- 
-INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
-
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
