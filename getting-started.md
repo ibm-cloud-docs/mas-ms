@@ -265,7 +265,7 @@ To add additional users to your account, login to Maximo Application Suite, clic
 
 For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
-https://www.ibm.com/support/knowledgecenter/SSRHPA_current/appsuite/kc_welcome.html
+https://www.ibm.com/docs/en/mas
 
 To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
 
