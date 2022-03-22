@@ -74,9 +74,10 @@ There are several preconditions that need to be met in order to migrate to the n
 
 1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the SRE Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner. 
 2. The existing system is on DB2 (the supported version depends on the timing of the migration).
-3. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
-4. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-MS. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
-5. A new Maximo Application Suite Managed Service contract is in place.
+3. Customer has run Integrity Checker on source database and resolved all errors prior to sending to IBM.
+4. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
+5. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-MS. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
+6. A new Maximo Application Suite Managed Service contract is in place.
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
