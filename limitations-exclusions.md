@@ -28,7 +28,7 @@ The following items are not included or allowed in the Maximo Application Suite 
 
 Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
 
-Note: Running SQL statements (update/insert/delete) directly on the Production database is not allowed and IBM SRE team will not be able to execute those statements for you. You have to carry out all these changes using UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
+Note: Running SQL statements (update/insert/delete) directly on databases (production or non-production) is not allowed and IBM SRE team will not be able to execute those statements for you. You have to carry out all these changes using UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
 
 https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
 
