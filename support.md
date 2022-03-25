@@ -241,7 +241,9 @@ To enable outbound emails from your Maximo Application Suite Manage environment 
 In the case, please include:
 
 * Case title: SMTP / outbound email activation
-* Case description:  Please initiate domain authentication for customerdomain.com
+* Case description: Please initiate domain authentication for customerdomain.com. This domain should align with the email addresses used in Manage.
+Please provide contact details / email address of a person who has access to add DNS records for the domain(s) you specify. With these details the IBM SRE Team can generate the DKIM / Domain Authentication records which will be sent to the contact you specify (which has access to add DNS records). Once said contact adds the DNS records, the IBM SRE team will then need to perform a lookup / validation to ensure these records are intact. Once validated, customer will be able to send email as email addresses from the domain(s) specified.
+* Note: If SendGrid DKIM records already exist in the DNS server in question, please let the IBM SRE team know so they can generate a unique DKIM selector.
 
 ### Customer Managed SMTP Configuration
 {: #customer-smtp-config}
