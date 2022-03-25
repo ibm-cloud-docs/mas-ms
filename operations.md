@@ -91,20 +91,20 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 
 The following table lists the expected lead time for IBM SRE (CDS) to complete certain types of tasks based on the initial case or service request response date. Lead times are in business days and are approximate.
 
-  | IBM SRE Task | Duration |
-  | -------------- | -------------- |
-  | VPN Setup | 15 Days |
-  | Enable New App | 2 Days |
-  | SSO/LDAP setup | 2 Days |
-  | Backflow (refresh) Database | 3 Days |
-  | On Demand Backup and Restore | 3 days |
-  | Cloud Object Storage (COS) Setup | 2 days |
-  | Environment Migration (Database and Declines) | 3 Days |
-  | Access to CP4D | 1 Day |
-  | Access to Logs | 1 Day |
-  | Maximo Manage ConfigDB request | 2 Days |
-  | Application Server Restarts | 1 Day |
-  {: caption="Table 1. MAS-MS IBM SRE Lead Times" caption-side="bottom"}
+| IBM SRE Task | Duration |
+| -------------- | -------------- |
+| VPN Setup | 15 Days |
+| Enable New App | 2 Days |
+| SSO/LDAP setup | 2 Days |
+| Backflow (refresh) Database | 3 Days |
+| On Demand Backup and Restore | 3 days |
+| Cloud Object Storage (COS) Setup | 2 days |
+| Environment Migration (Database and Declines) | 3 Days |
+| Access to CP4D | 1 Day |
+| Access to Logs | 1 Day |
+| Maximo Manage configdb request | 2 Days |
+| Application Server Restarts | 1 Day |
+{: caption="Table 1. MAS-MS IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
 {: #incident-management-and-rca-process}
