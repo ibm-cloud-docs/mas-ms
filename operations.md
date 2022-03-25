@@ -86,10 +86,10 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 
 ![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
 
-## IBM SRE Task - Lead Times
+## IBM SRE Task Lead Times
 {: #sre-task-lead-times}
 
-The following table lists the expected lead time for IBM SRE (CDS) to complete certain types of tasks based on the initial case or service request response date. Lead times are in business days and are approximate.
+The following table lists the expected lead time for the IBM SRE team (CDS) to complete certain types of tasks based on the initial case or service request response date. Lead times are in business days and are approximate.
 
 | IBM SRE Task | Duration |
 | -------------- | -------------- |
