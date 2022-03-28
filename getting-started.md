@@ -83,9 +83,41 @@ When your MAS-MS environments have been provisioned, you will receive a Welcome 
 
 You will need to set a temporary password and then change it when you first login to your MAS-MS environment(s).
 
-1. Navigate to your MAS-MS login URL and enter your username (sent via Welcome Letter in the username file) and click continue.
+1. Navigate to your MAS-MS login URL and enter your username (sent via Welcome Letter in the username file) and click **Continue**.
 
     ![MAS-MS-Password-Change-1](images/MAS-MS-Password-Change-1.png "MAS-MS-Password-Change-1"){: caption="Figure 1. MAS Login Screen" caption-side="bottom"}
+
+2. Click on **Forgot password?** option in below screen.
+
+    ![MAS-MS-Password-Change-2](images/MAS-MS-Password-Change-2.png "MAS-MS-Password-Change-2"){: caption="Figure 2. MAS Login Screen" caption-side="bottom"}
+
+3. A confirmation code will be sent to your e-mail address. Enter the code contained in your email and click **Continue**
+
+    ![MAS-MS-Password-Change-3](images/MAS-MS-Password-Change-3.png "MAS-MS-Password-Change-3"){: caption="Figure 3. MAS Login Code Confirmation" caption-side="bottom"}
+
+4. The email with the confirmation code will look similar to below.
+
+    ![MAS-MS-Password-Change-4](images/MAS-MS-Password-Change-4.png "MAS-MS-Password-Change-4"){: caption="Figure 4. MAS Login Code Email" caption-side="bottom"}
+
+5. After the code is enter in the above screen with the code you received over an email, you will see below screen asking for the password. You will receive the temporary password (again via email).
+
+    ![MAS-MS-Password-Change-5](images/MAS-MS-Password-Change-5.png "MAS-MS-Password-Change-5"){: caption="Figure 5. MAS Login Temp Password" caption-side="bottom"}
+
+6. Email with the temporary password will look similar to below.
+
+     ![MAS-MS-Password-Change-6](images/MAS-MS-Password-Change-6.png "MAS-MS-Password-Change-6"){: caption="Figure 6. MAS Login Temp Password email" caption-side="bottom"}
+
+7. Enter the temporary password you received via email in the below screen and you will be able to login to MAS.
+
+    ![MAS-MS-Password-Change-7](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-7"){: caption="Figure 7. MAS Login Temp Password" caption-side="bottom"}
+
+8. After you login to MAS, change your password by clicking **Manage profile** under profile in the right top hand corner.
+
+    ![MAS-MS-Password-Change-8](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-8"){: caption="Figure 8. MAS Login Manage Profile" caption-side="bottom"}
+
+9. Select **Change password** to change your password. Enter the temporary password and then set your new password.
+
+    ![MAS-MS-Password-Change-9](images/MAS-MS-Password-Change-9.png "MAS-MS-Password-Change-9"){: caption="Figure 9. MAS Login Set Password" caption-side="bottom"}
 
 ## How to activate your environment(s)
 {: #how-to-activate-your-environments}
