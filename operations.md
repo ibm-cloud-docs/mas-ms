@@ -99,7 +99,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Backflow (refresh) Database | 3 Days |
 | On Demand Backup and Restore | 3 days |
 | Cloud Object Storage (COS) Setup | 2 days |
-| Environment Migration (Database and Declines) | 3 Days |
+| Environment Migration (Database and Doclinks) | 3 Days |
 | Access to CP4D | 1 Day |
 | Access to Logs | 1 Day |
 | Maximo Manage configdb request | 2 Days |

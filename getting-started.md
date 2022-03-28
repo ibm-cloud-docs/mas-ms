@@ -255,7 +255,7 @@ This section describes how to create a case for Maximo Application Suite Managed
 ## Next steps
 {: #next-steps}
 
-Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
+Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
 https://status.suite.maximo.com
 
