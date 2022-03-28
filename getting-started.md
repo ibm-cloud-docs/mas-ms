@@ -78,6 +78,15 @@ When your MAS-MS environments have been provisioned, you will receive a Welcome 
 * Information on how to access your environment logs
 * Information on downloading IBM Watson Studio and Watson Machine Learning (if applicable)
 
+## How to set password and login to MAS
+{: #how-to-set-password}
+
+You will need to set a temporary password and then change it when you first login to your MAS-MS environment(s).
+
+1. Navigate to your MAS-MS login URL and enter your username (sent via Welcome Letter in the username file) and click continue.
+
+    ![MAS-MS-Password-Change-1](images/MAS-MS-Password-Change-1.png "MAS-MS-Password-Change-1"){: caption="Figure 1. MAS Login Screen" caption-side="bottom"}
+
 ## How to activate your environment(s)
 {: #how-to-activate-your-environments}
 
