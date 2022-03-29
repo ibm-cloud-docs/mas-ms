@@ -111,7 +111,7 @@ You will need to set a temporary password and then change it when you first logi
 
     ![MAS-MS-Password-Change-7](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-7"){: caption="Figure 7. MAS Login Temp Password" caption-side="bottom"}
 
-8. After you login to MAS, change your password by clicking **Manage profile** under profile in the right top hand corner.
+8. After you login to MAS, change your password by clicking **Manage profile** under Profile in the right top hand corner.
 
     ![MAS-MS-Password-Change-8](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-8"){: caption="Figure 8. MAS Login Manage Profile" caption-side="bottom"}
 
