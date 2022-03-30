@@ -88,8 +88,6 @@ MAS-MS RACI Spreadsheet (excel download):
 
 [MAS-MS RACI Spreadsheet](https://www.ibm.com/support/pages/system/files/inline-files/MAS-MS-RACI.xlsx){: external download="MAS-MS-RACI-v1.xlsx"}
 
-![MAS-MS RACI](images/MAS-MS-RACI.png "MAS-MS RACI"){: caption="Figure 1. MAS-MS RACI" caption-side="bottom"}
-
 ## IBM SRE Task Lead Times
 {: #sre-task-lead-times}
 
