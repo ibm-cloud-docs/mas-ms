@@ -277,19 +277,17 @@ This section describes how to create a case for Maximo Application Suite Managed
 
     [How to Create An IBMid](#how-to-create-an-ibmid)
 
-    [Register for Maximo Application Suite Support](#how-to-register-for-maximo-application-suite-support)
+    [Register for Maximo Application Suite Support](#how-to-register-for-mas-support)
 
-4. The following page will be displayed:
-
-5. Populate all required (*) fields ensuring Maximo Application Suite is selected for Product and click on the Submit Case button:
+4. On the following page, populate all required (*) fields ensuring Maximo Application Suite is selected for Product and click on the **Submit Case** button
 
 6. Case Creation will be confirmed and case number referenced:
     
     Note: Cases are (9) digit numbers preceded with “TS”
 
-    You will also receive an email confirming the case #:
+    You will also receive an email confirming the Case #
 
-7. Click *Back to all cases* (upper left hand corner) or go to https://www.ibm.com/mysupport/s/my-cases to see a full list of your cases:
+7. Click *Back to all cases* (in the upper left hand corner) or go to https://www.ibm.com/mysupport/s/my-cases to see a full list of your cases.
 
 ## Next steps
 {: #next-steps}
