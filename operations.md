@@ -84,7 +84,7 @@ IBM's MAS-MS support personnel are located across the globe in the following cou
 
 The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Managed Service (MAS-MS) environment.
 
-MAS-MS RACI Spreadsheet (execl download):
+MAS-MS RACI Spreadsheet (excel download):
 
 [MAS-MS RACI Spreadsheet](https://www.ibm.com/support/pages/system/files/inline-files/MAS-MS-RACI.xlsx){: external download="MAS-MS-RACI-v1.xlsx"}
 
