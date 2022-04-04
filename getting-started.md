@@ -177,7 +177,7 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
     ![MAS-MS-IBMid-Enter-Applicable-Information](images/MAS-MS-IBMid-Enter-Applicable-Information.png "MAS-MS-IBMid-Enter-Applicable-Information"){: caption="Figure 2. IBMid - Enter Applicable Information" caption-side="bottom"} 
 
-4. Upon submission, a confirmation code will be sent from ibmacct@iam.ibm.com to the email address you provided
+4. Upon submission, a confirmation code will be sent from `ibmacct@iam.ibm.com` to the email address you provided
 
     ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="Figure 3. MAS-MS IBMid Confirmation Code" caption-side="bottom"} 
 
@@ -235,7 +235,7 @@ Maximo Application Suite Support covers support for both the Application and you
     ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="Figure 13. MAS-MS Select Product" caption-side="bottom"}
     
 7. If you are not already registered for Maximo Application Suite support, the following screen will appear.
-    Complete the applicable information. Ensure Client / account name is populated and click Submit 
+    Complete the applicable information. Ensure Client / account name is populated and click **Submit** 
 
     ![MAS-MS-Register-Enter-Customer-Number](images/MAS-MS-Register-Enter-Customer-Number.png "MAS-MS-Register-Enter-Customer-Number"){: caption="Figure 13. MAS-MS Enter Customer Number" caption-side="bottom"}
     
@@ -292,13 +292,13 @@ This section describes how to create a case for Maximo Application Suite Managed
 ## Next steps
 {: #next-steps}
 
-Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
+1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
 https://status.suite.maximo.com
 
-Refer to the Reference section for further information on MAS-MS operations and support, maintenance, security and the additional topics.
+2. Add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
 
-To add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
+3. Refer to the Reference section for further information on MAS-MS operations and support, maintenance, security and the additional topics.
 
 For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
