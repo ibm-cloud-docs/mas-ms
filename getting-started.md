@@ -281,20 +281,20 @@ This section describes how to create a case for Maximo Application Suite Managed
 
 4. On the following page, populate all required (*) fields ensuring Maximo Application Suite is selected for Product and click on the **Submit Case** button
 
-6. Case Creation will be confirmed and case number referenced:
+5. Case Creation will be confirmed and case number referenced:
     
     Note: Cases are (9) digit numbers preceded with “TS”
 
     You will also receive an email confirming the Case #
 
-7. Click *Back to all cases* (in the upper left hand corner) or go to https://www.ibm.com/mysupport/s/my-cases to see a full list of your cases.
+6. Click *Back to all cases* (in the upper left hand corner) or go to https://www.ibm.com/mysupport/s/my-cases to see a full list of your cases.
 
 ## Next steps
 {: #next-steps}
 
 1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
-https://status.suite.maximo.com
+    https://status.suite.maximo.com
 
 2. Add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
 
@@ -302,8 +302,8 @@ https://status.suite.maximo.com
 
 For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
-https://www.ibm.com/docs/en/mas
+    https://www.ibm.com/docs/en/mas
 
 To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
 
-https://www.ibm.com/support/pages/node/733923
+    https://www.ibm.com/support/pages/node/733923
