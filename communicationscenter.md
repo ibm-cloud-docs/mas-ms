@@ -38,4 +38,4 @@ Submit a case on the IBM Suport Portal: https://www.ibm.com/mysupport with the f
 3. Provide your email address (Important: must be associated with an [IBMid](https://myibm.ibm.com){: external})
 4. Provide your customer (Account) name
 5. A member of the IBM support team will add you to the CCC and update the case.
-6. Once you are able to login, be sure to click on "Email Subscription" to receive notifications via email.
+6. Once you are able to login, be sure to click on "Email Subscription" (see above) to receive notifications via email.
