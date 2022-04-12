@@ -300,10 +300,10 @@ This section describes how to create a case for Maximo Application Suite Managed
 
 3. Refer to the Reference section for further information on MAS-MS operations and support, maintenance, security and the additional topics.
 
-For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
+4. For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
     https://www.ibm.com/docs/en/mas
 
-To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
+5. To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
 
     https://www.ibm.com/support/pages/node/733923
