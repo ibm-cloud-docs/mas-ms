@@ -143,7 +143,7 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
-The MAS environments use Kafka queues as JMS queues are not configured. If your MAS order indicates you will be using integrations then all of the Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
+The MAS Manage environments use Kafka queues for event stream processing. The Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
 
 * EndPoints will need to be configured to use the Kafka queues
 * Cron activation will need to be enabled by the customer
