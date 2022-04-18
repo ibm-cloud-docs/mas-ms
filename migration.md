@@ -103,7 +103,7 @@ Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
 * Note: The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It will be your responsibility to change all the reference. We would prefer you carry out this database change and then take the database export so that the database we will restore will have this change already.
 
-A high-level overview of the different migration steps can be found in the attached documents.
+High-level overviews of the different migration considerations can be found in the attached documents.
 
 Spreadsheet with MAS-MS Migration Swimlanes (Roles and Responsibilities):
 
