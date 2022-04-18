@@ -113,6 +113,6 @@ Presentation of MS-MS Migration Steps:
 
 [MAS-MS Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2.pptx){: external download="MAS-MS-Migration-Steps-v1-0.pptx"}
 
-MS-MS Migration Questionairre:
+MS-MS Migration Questionaire:
 
 [MAS-MS Migration Questionaire](https://www.ibm.com/support/pages/system/files/inline-files/IBM-MAS-MS-Migration-Questionaire-v1.xls){: external download="IBM-MAS-MS-Migration-Questionaire-v1.xls"}
