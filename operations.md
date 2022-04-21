@@ -54,6 +54,7 @@ North America:
 
 * Washington, DC, US
 * Dallas, TX, US
+* Toronto, Canada
 
 Europe:
 

@@ -32,6 +32,7 @@ The current IBM Cloud data centers being leveraged for MAS-MS are:
 - Frankfurt, Germany
 - London, UK
 - Sydney, Australia
+- Toronto, Canada
  
 On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
