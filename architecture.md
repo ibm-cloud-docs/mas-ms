@@ -22,7 +22,7 @@ subcollection: mas-ms
 ## Cloud Architecture
 {: #cloud-architecture}
 
-Maximo Application Suite (MAS) is a feature rich suite of application delivered using key IBM and Red Hat technologies. The MAS Managed Service (MS) delivers this functionality on the IBM Cloud.
+Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Managed Service (MS) delivers this functionality on the IBM Cloud.
 
 The current IBM Cloud data centers being leveraged for MAS-MS are:
 
