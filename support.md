@@ -134,7 +134,7 @@ The API request creates an entry in the LOGREQUEST table of the Maximo Manage da
 In your welcome letter you will receive details on a bucket for customer files.  Use that bucket to upload all files you would like the Maximo Manage server to have access to.  The path for that directory will be /MeaGlobalDirs
 
 * Flat File Consumer directory:         /MeaGlobalDirs
-* Migration Manager Target directory:   /MeaGlobalDirs/MigrationManager
+* Migration Manager Target directory:   /MeaGlobalDirs
 
 All integrations are done through API Keys. See link below for further details.
 
