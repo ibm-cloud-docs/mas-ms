@@ -83,8 +83,8 @@ The below steps can only be performed by the client once they have received thei
 
 1. Run rclone config and select n for a new remote
 2. Enter a name for the configuration
-3. Enter "4" for Storage (IBM COS)
-4. Enter "6" for Provider (IBMCOS)
+3. Enter "5" for Storage (IBM COS)
+4. Enter "7" for Provider (IBMCOS)
 5. Press Enter for env_auth (false)
 6. Enter access_key_id from above
 7. Enter secret_access_key for secret_access_key
