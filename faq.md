@@ -29,10 +29,9 @@ Answer: Yes, customer can request via IBM Case ticket.
 Answer: No, this is not allowed. MAS-MS environments do not allow class file customization.
 
 4. Does MAS-MS support Site to Site VPN?
-Answer: Yes, the request has to come thru an IBM case ticket. Please keep in mind this requires the customer’s network team to collaborate with MAS-MS SRE Network team. For turnaround time please refer to:
-https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-operations#sre-task-lead-times
-For details on Site to Site VPN refer to:
-https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-support#site-to-site-vpn
+Answer: Yes, the request has to come thru an IBM case ticket. Please keep in mind this requires the customer’s network team to collaborate with MAS-MS SRE Network team. For turnaround time please refer to [SRE Task Lead Times](/docs/mas-ms?topic=mas-ms-operations#sre-task-lead-times)
+
+Click here for details on [Site to Site VPN](/docs/mas-ms?topic=mas-ms-support#site-to-site-vpn)
 
 5. Does MAS-MS allow connection to the database?
 Answer: Please refer to the following link for more information:
