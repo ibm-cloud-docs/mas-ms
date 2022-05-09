@@ -151,7 +151,7 @@ The MAS Manage environments use Kafka queues for event stream processing. The Ka
 * Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
 
 ### Administrative Utilities (API Calls)
-{: #admin-util-api-calls)}
+{: #admin-util-api-calls}
 
 You can run script commands for several key utilities by using API requests. The script commands can run the integrity checker utilities, start and stop the Maximo® Manage pods, download log files or a list of log files, and upload logs to Simple Storage Service (S3) Cloud Object Storage.
  
