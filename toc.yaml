@@ -17,6 +17,7 @@ toc:
   - navgroup:
       id: reference
       topics:
+      - faq.md
       - reference.md
       - operations.md
       - support.md
