@@ -61,4 +61,3 @@ Answer: Technically, IBM does not support MXLoader, but customers can use MXLoad
 12. Does MAS-MS Manage support email, is there one provided out of the box? Can customer configure their own SMTP server?
 Answer: Yes, please refer to to https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-support#smtp-setup
 If customer wants to use their own SMTP server, they can open ticket with IBM and provide details.
-
