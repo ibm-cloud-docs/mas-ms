@@ -66,7 +66,7 @@ IBM Cloud Delivery Services employs a defense in depth strategy (DiD) for bounda
 
 The IBM Cloud network ports are protected with firewalls, which serve as intrusion detection (IDS) and intrusion prevention (IPS) agents. Details regarding on IBM Cloud intrusion detection management is IBM Confidential information and covered under IBM Cloud SOC2 compliance (see compliance section below).
 
-All IBM Maximo and TRIRIGA SaaS environments are configured for Anti-Malware (Anti-Virus) protection and Endpoint Detection and Response (EDR) technology with associated telemetry. Status and alerts are monitored continuously.
+All IBM Maximo environments are configured for Anti-Malware (Anti-Virus) protection and Endpoint Detection and Response (EDR) technology with associated telemetry. Status and alerts are monitored continuously.
 
 IBM Trust Center - Enterprise IT Security and Trust:
 https://www.ibm.com/trust/security
@@ -221,7 +221,7 @@ https://www.ibm.com/privacy/details/us/en/privacy_shield.html
 
 Data Responsibility at IBM
 https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
-If a government wants access to data held by IBM on behalf of a SaaS client, IBM would expect that government to deal directly with that client 
+If a government wants access to data held by IBM on behalf of a MAS-MS client, IBM would expect that government to deal directly with that client 
 
 Data Processing Addendum (GDPR)
 https://www.ibm.com/support/customer/zz/en/dpa.html
@@ -276,7 +276,7 @@ IBM Maximo Application Suite offerings are not intended to host government regul
 ## Clock synchronization
 {: #clock-synchronization}
 
-All customer Maximo EAM SaaS Flex and TRIRIGA SaaS Flex Application and Database servers leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
+All customer MAS-MS environments leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
 
 Customers are responsible or synchronizing their local environments (workstations, on premise servers) with an authoritative time source.
 
