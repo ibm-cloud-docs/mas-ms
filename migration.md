@@ -82,7 +82,7 @@ There are several preconditions that need to be met in order to migrate to the n
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
 
-Both IBM and the client have critical roles in the successful transition to the Maximo Application Suite Managed Service offering. These responsibilities are summarized in the attached spreadsheet.  At a high level, IBM is responsible for the technical components of the migration and the client would be responsible for ensuring business processes are working, custom and unique features of their implementation are identified, and updates to integration's and accounted for in the plan.
+Both IBM and the client have critical roles in the successful transition to the Maximo Application Suite Managed Service offering. These responsibilities are summarized in the attached spreadsheet below (MAS-MS Migration Swimlanes).  At a high level, IBM is responsible for the technical components of the migration and the client would be responsible for ensuring business processes are working, custom and unique features of their implementation are identified, and updates to integration's and accounted for in the plan.
 
 If the source database is being converted from another platform (for example Oracle or SQLServer) it is the customers responsibility to perform validation of the converted DB2 database and correct any issues identified before providing to the SRE team for import into the target MAS-MS environment.
 
@@ -93,29 +93,29 @@ IBM and the customer share the responsibility to ensure the appropriate personne
 
 * Database Backup Image/Export
 
-  The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-MS.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
+ The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-MS.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
 
-  Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
+ Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
 * Doclink and Attachment Files
 
-  Doclink and Attachment Files should be uploaded to the following IBM Cloud COS bucket. Please upload your doclinks directory with all required subfolders. The structure of these files and directories will be maintained when copied to the Manage server location.
+ Doclink and Attachment Files should be uploaded to the following IBM Cloud COS bucket. Please upload your doclinks directory with all required subfolders The structure of these files and directories will be maintained when copied to the Manage server location.
 
-  Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
+ Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
 * Note:
 
-  The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It is the customer's responsibility to change all the reference. The IBM SRE team prefers customers to carry out this database change and then take the database export so that the database IBM will restore will have this change already.
+ The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It is the customer's responsibility to change all the reference. The IBM SRE team prefers customers to carry out this database change and then take the database export so that the database IBM will restore will have this change already.
 
 High-level overviews of the different migration considerations can be found in the attached documents.
 
 Spreadsheet with MAS-MS Migration Swimlanes (Roles and Responsibilities):
 
-[MAS-MS Spreadsheet with Roles and Responsibilities](https://www.ibm.com/support/pages/system/files/inline-files/Swimlanes-v3.xlsx){: external download="MAS-MS-Migration-Swimlanes-v1.xlsx"}
+[MAS-MS Spreadsheet with Roles and Responsibilities](https://www.ibm.com/support/pages/system/files/inline-files/Swimlanes-v3_0.xlsx){: external download="MAS-MS-Migration-Swimlanes-v3_0.xlsx"}
 
 Presentation of MS-MS Migration Steps:
 
-[MAS-MS Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2.pptx){: external download="MAS-MS-Migration-Steps-v1-0.pptx"}
+[MAS-MS Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2_0.pptx){: external download="MAS-MS-Migration-Steps-v2_0.pptx"}
 
 MS-MS Migration Questionaire:
 
