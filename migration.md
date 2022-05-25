@@ -84,6 +84,8 @@ There are several preconditions that need to be met in order to migrate to the n
 
 Both IBM and the client have critical roles in the successful transition to the Maximo Application Suite Managed Service offering. These responsibilities are summarized in the attached spreadsheet.  At a high level, IBM is responsible for the technical components of the migration and the client would be responsible for ensuring business processes are working, custom and unique features of their implementation are identified, and updates to integration's and accounted for in the plan.
 
+If the source database is being converted from another platform (for example Oracle or SQLServer) it is the customers responsibility to perform validation of the converted DB2 database and correct any issues identified before providing to the SRE team for import into MAS MS environment.
+
 IBM and the customer share the responsibility to ensure the appropriate personnel are available to meet the agreed project plan.
 
 ## Additional Notes
