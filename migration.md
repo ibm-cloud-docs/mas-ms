@@ -107,7 +107,10 @@ Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
 Note:
 
-The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It is the customer's responsibility to change all the reference. The IBM SRE team prefers customers to carry out this database change and then take the database export so that the database IBM will restore will have this change already.
+The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It is the customer's responsibility to change all the references. The IBM SRE team prefers customers to carry out this database change and then take the database export so that the database IBM will restore will have this change already.
+
+## Overview Documents
+{: #migration-overview-documents}
 
 High-level overviews of the different migration considerations can be found in the attached documents.
 
