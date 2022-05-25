@@ -93,17 +93,19 @@ IBM and the customer share the responsibility to ensure the appropriate personne
 
 * Database Backup Image/Export
 
-The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-MS.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
+  The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-MS.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
 
-Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
+  Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
 * Doclink and Attachment Files
 
-Doclink and Attachment Files should be uploaded to the following IBM Cloud COS bucket. Please upload your doclinks directory with all required subfolders. The structure of these files and directories will be maintained when copied to the Manage server location.
+  Doclink and Attachment Files should be uploaded to the following IBM Cloud COS bucket. Please upload your doclinks directory with all required subfolders. The structure of these files and directories will be maintained when copied to the Manage server location.
 
-Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
+  Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
-* Note: The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It will be your responsibility to change all the reference. We would prefer you carry out this database change and then take the database export so that the database we will restore will have this change already.
+* Note:
+
+  The DOCINFO path within the Manage database will need to be updated to /doclinks/"folderStructure"/...  It is the customer's responsibility to change all the reference. The IBM SRE team prefers customers to carry out this database change and then take the database export so that the database IBM will restore will have this change already.
 
 High-level overviews of the different migration considerations can be found in the attached documents.
 
