@@ -109,7 +109,6 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Application Server Restarts | 1 Day |
 | Maximo ConfigDB request | 2 Days |
 | Adding Event Streams Topic | 2 Days |
-
 {: caption="Table 1. MAS-MS IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
