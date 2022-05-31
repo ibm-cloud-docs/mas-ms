@@ -52,6 +52,21 @@ One ticket is required for each database.
 
 It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
 
+**Summary of Database Access Rules & Guidelines**
+
+| Database Task | Non-PROD | PROD |
+| -------------- | -------------- | -------------- |
+| Direct Read Access | Yes | Not Allowed (only allowed if secondary DB ordered) |
+| Direct Write Access | Yes | Not Allowed |
+| Create/Update Access for Triggers | Not Allowed | Not Allowed |
+| Create/Update Access for Procedures | Not Allowed | Not Allowed |
+| Run Explain Plan | Not Allowed | Not Allowed |
+| Additional Schemas | Not Allowed | Not Allowed |
+| Create/Update Tables/Columns | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
+| Create/Update Access for Indexes | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
+| Cretae/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
+{: caption="Table 1. MAS-MS Database Access Rules & Guidelines" caption-side="bottom"} 
+
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
 
