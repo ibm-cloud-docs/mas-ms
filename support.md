@@ -48,7 +48,7 @@ One ticket is required for each database.
 
 It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
 
-**Summary of Database Access Rules & Guidelines**
+**Summary of MAS-MS Database Access Rules & Guidelines**
 
 | Database Task | Non-PROD | PROD |
 | -------------- | -------------- | -------------- |
