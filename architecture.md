@@ -113,8 +113,6 @@ For clients wanting to use App Connect or File integration for other application
 ## MAS-MS Bundles
 {: #mas-ms-bundles}
 
-**MAS-MS Bundles**
-
 | T-Shirt Size | Max Concurrent Users | Default | UI | MIF | RPT | CRON | VPC on Order | 
 | ------------ | -------------------- | ------- | -- | --- | --- | ---- | ------------ |
 | DEV | | 2 | | | | | 4 |
