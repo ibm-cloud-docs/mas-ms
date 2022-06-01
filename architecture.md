@@ -109,3 +109,17 @@ For clients wanting to use App Connect or File integration for other application
 - AppConnect is included as an entitlement with the Maximo Application Suite, but the Managed Service does not implement or support this within the MAS-MS environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
 
 - For clients wanting file integrations with applications other than Manage, this needs to be discussed with the Sales team and an appropriate solution implemented.  COS is only included for the Manage application in the Managed Service.
+
+## MAS-MS Bundles
+{: #mas-ms-bundles}
+
+**MAS-MS Bundles**
+
+| T-Shirt Size | Max Concurrent Users | Default | UI | MIF | RPT | CRON | VPC on Order | 
+| ------------ | -------------------- | ------- | -- | --- | --- | ---- | ------------ |
+| DEV | | 2 | | | | | 4 |
+| Extra Small | 50 | 2 | | | | | 4 |
+| Small | 100 | | 2 | 1 | 1 | 1 | 8 |
+| Medium | 250 | | 6 | 2 | 2 | 1 | 24 |
+| Large | 500 | | 12 | 3 | 2 | 2 | 48 |
+{: caption="Table 1. MAS-MS Bundles" caption-side="bottom"} 
