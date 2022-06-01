@@ -115,7 +115,7 @@ For clients wanting to use App Connect or File integration for other application
 
 | T-Shirt Size | Max Concurrent Users | Default | UI | MIF | RPT | CRON | VPC on Order | 
 | ------------ | -------------------- | ------- | -- | --- | --- | ---- | ------------ |
-| DEV | | 2 | | | | | 4 |
+| Development | | 2 | | | | | 4 |
 | Extra Small | 50 | 2 | | | | | 4 |
 | Small | 100 | | 2 | 1 | 1 | 1 | 8 |
 | Medium | 250 | | 6 | 2 | 2 | 1 | 24 |
