@@ -153,6 +153,7 @@ All integrations are done through API Keys. See link below for further details.
 https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
 
 ### Standard MAS-MS Event Stream / Kafka Configuration
+{: #standard-kafka-configuration}
 
 | Name | Partitions | Retention Time | Retention Size | Cleanup Policy |
 | ---- | ---------- | --------------- |---------------- | -------------- |
@@ -160,6 +161,7 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 | cqinerr | 1 | 2 wk | 1 GB | delete |
 | sqin | 1 | 2 wk | 1 GB | delete |
 | sqout | 1 | 2 wk | 1 GB | delete |
+{: caption="Table 2. Event Stream / Kafka Configuration" caption-side="bottom"} 
 
 Note: changes in the above configuration such as retention size and/or additional topics can be made available at an additional cost.
 
