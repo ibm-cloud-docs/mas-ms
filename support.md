@@ -118,7 +118,7 @@ The below steps can only be performed by the client once they have received thei
 | Copy a file from local to remote (COS) | rclone copy /Users/file.txt RemoteName:bucketname |
 | Copy a file from remote (COS) to local | rclone copy RemoteName:bucketname /Users/Documents/ |
 | rclone sync | rclone sync source:path dest:path |
-{: caption="Table 1. Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"} 
+{: caption="Table 2. Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"} 
 
 ## Accessing Server Logs for Maximo Manage
 {: #accessing-server-logs}
@@ -171,7 +171,7 @@ The MAS Manage environments use Kafka queues for event stream processing. The Ka
 | cqinerr | 1 | 2 wk | 1 GB | delete |
 | sqin | 1 | 2 wk | 1 GB | delete |
 | sqout | 1 | 2 wk | 1 GB | delete |
-{: caption="Table 2. Event Stream / Kafka Configuration" caption-side="bottom"} 
+{: caption="Table 3. Event Stream / Kafka Configuration" caption-side="bottom"} 
 
 Note: changes in the above configuration such as retention size and/or additional topics can be made available at an additional cost.
 
@@ -191,7 +191,7 @@ You can run script commands for several key utilities by using API requests. The
 | Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://**ManageInstanceHostname**/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
 | Stop the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestop |
 | Start the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestart |
-{: caption="Table 1. Sample API Calls" caption-side="bottom"}
+{: caption="Table 4. Sample API Calls" caption-side="bottom"}
 
 The **Adminurl** will be defined in the Welcome Letter.
  
