@@ -152,6 +152,16 @@ All integrations are done through API Keys. See link below for further details.
 
 https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
 
+### Maximo Manage Queues
+{: #integration-maximo-manage-queues}
+
+The MAS Manage environments use Kafka queues for event stream processing. The Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
+
+* EndPoints will need to be configured to use the Kafka queues
+* Cron activation will need to be enabled by the customer
+
+* Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
+
 ### Standard MAS-MS Event Stream / Kafka Configuration
 {: #standard-kafka-configuration}
 
@@ -164,16 +174,6 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 {: caption="Table 2. Event Stream / Kafka Configuration" caption-side="bottom"} 
 
 Note: changes in the above configuration such as retention size and/or additional topics can be made available at an additional cost.
-
-### Maximo Manage Queues
-{: #integration-maximo-manage-queues}
-
-The MAS Manage environments use Kafka queues for event stream processing. The Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
-
-* EndPoints will need to be configured to use the Kafka queues
-* Cron activation will need to be enabled by the customer
-
-* Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
 
 ### Administrative Utilities (API Calls)
 {: #admin-util-api-calls}
