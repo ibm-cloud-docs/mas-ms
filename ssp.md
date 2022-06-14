@@ -19,19 +19,14 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
+**Note: This section is under construction**
+
 ## Access Management Tool
 {: #access-management-tool}
 
-The Access Management Tool is a self-service tool, located in the IBM IoT Saas Self-Service Portal, where users can manage accesses to their MAS-MS environments and additional tooling.
+The Access Management Tool is a self-service tool, located in the IBM IoT Saas Self-Service Portal, where users can manage access to their MAS-MS environments.
 
 IBM IoT Saas Self-Service Portal URL: 
 
 https://devops.maximo.com
 
-How to Get Access to the Access Management Tool?
-
-Navigate to the Obtaining Access to the Access Management Tool page to learn how to get access.
-
-Access Management Tool Guide
-
-Download the Access Management Tool Guide below to learn more about the tool and how to complete common actions such as viewing your existing access records, submitting access requests, and more.
