@@ -264,5 +264,29 @@ Follow these steps to review an access request if your user role is Manager.
 
     ![SSP-AM-Approve-Reject-Access-4](images/SSP-AM-Approve-Reject-Access-4.png "SSP-AM-Approve-Reject-Access-4"){: caption="Figure 3. Save Icon" caption-side="bottom"}
 
+## Access Re-Validation
+{: #access-revalidation-am-tool}
+
+Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually. 
+
+Note: The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
+
+When notified of the need to re-validate, follow these steps to review your current accesses and re-validate your need to keep them.
+
+1. Sign into the Self Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting Security → Access Management.
+
+    ![SSP-AM-Access-Revalidation-1](images/SSP-AM-Access-Revalidation-1.png "SSP-AM-Access-Revalidation-1"){: caption="Figure 1. Access Management" caption-side="bottom"}
+
+3. Select your IBM ID from the list and proceed to the "Manage Access" tab. There you will see tables with all the assets and associated accesses. Remove any accesses you no longer have a business need for and press the “Save” button. 
+
+    ![SSP-AM-Access-Revalidation-2](images/SSP-AM-Access-Revalidation-2.png "SSP-AM-Access-Revalidation-2"){: caption="Figure 2. Manage Access" caption-side="bottom"}
+
+4. Press the “Re-validate CBN” button to validate your continued need for the remaining accesses.
+
+    ![SSP-AM-Access-Revalidation-3](images/SSP-AM-Access-Revalidation-3.png "SSP-AM-Access-Revalidation-3"){: caption="Figure 3. Re-validate CBN" caption-side="bottom"}
+
+5. The “Re-validate CBN” button should be removed from the panel (indicating successful validation).
 
 
