@@ -127,3 +127,20 @@ Follow these steps to remove a user’s access if your user role is Manager.
 8. The status of the access will be updated to “REMOVED” once the access removal process is completed.
 
     ![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption="Figure 8. Status Removed" caption-side="bottom"}
+
+## How to Grant a User Access to a Customer
+{: #grant-user-access-customer-am-tool}
+
+Managers in the Access Management application are able to grant existing users access to the customer they are managing. This process is similar to adding a new user to the Access Management tool. Once a user is granted access to a customer they can submit access requests for that customer. All access requests must be approved by a Manager User for that customer before they are granted.
+
+Follow these steps to grant a user access to the customer you are assigned to manage.
+
+1. Sign into the Self Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management tool.
+
+   ![SSP-AM-Grant-User-Customer-1](images/SSP-AM-Grant-User-Customer-1.png "SSP-AM-Grant-User-Customer-1"){: caption="Figure 1. Access Management Tool" caption-side="bottom"}
+
+3. Click on the Plus (+) icon.
+
+   ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption="Figure 2. Plus Icon" caption-side="bottom"}
