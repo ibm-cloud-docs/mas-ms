@@ -169,3 +169,32 @@ Follow these steps to grant a user access to the customer you are assigned to ma
     ![SSP-AM-Grant-User-Customer-6](images/SSP-AM-Grant-User-Customer-6.png "SSP-AM-Grant-User-Customer-6"){: caption="Figure 6. List View" caption-side="bottom"}
 
     ![SSP-AM-Grant-User-Customer-7](images/SSP-AM-Grant-User-Customer-7.png "SSP-AM-Grant-User-Customer-7"){: caption="Figure 7. List View" caption-side="bottom"}
+
+## How to Remove a User's Access to a Customer
+{: #remove-user-access-customer-am-tool}}
+
+Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated. Note: Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
+
+Follow these steps to remove the user’s accesses if your user role is Manager.
+
+1. Sign into the Self Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application.
+
+    ![SSP-AM-Remove-User-Customer-1](images/SSP-AM-Remove-User-Customer-1.png "SSP-AM-Remove-User-Customer-1"){: caption="Figure 1. Access Management Application" caption-side="bottom"}
+
+3. Select the user’s IBMid from the List View that you want to remove the accesses from.
+
+    ![SSP-AM-Remove-User-Customer-2](images/SSP-AM-Remove-User-Customer-2.png "SSP-AM-Remove-User-Customer-2"){: caption="Figure 2. Select IBMid" caption-side="bottom"}
+
+4. In the Customer Access List table, select the delete icon next to the customer row you want to remove the user’s access to.
+
+    ![SSP-AM-Remove-User-Customer-3](images/SSP-AM-Remove-User-Customer-3.png "SSP-AM-Remove-User-Customer-3"){: caption="Figure 3. Delete User" caption-side="bottom"}
+
+5. A warning message will pop-up indicating that removing the user’s access to the customer will also remove all accesses under the customer for the user. If you are removing the last customer in the user’s Customer Access List, their account will be deactivated. If you want to continue with the removal process, select “Yes”. 
+
+    ![SSP-AM-Remove-User-Customer-4](images/SSP-AM-Remove-User-Customer-4.png "SSP-AM-Remove-User-Customer-4"){: caption="Figure 4. Warning Message" caption-side="bottom"}
+
+6. Save the record and return to the List View. Note: The user will not be viewable in the List View because they no longer have access to the customer you are managing.
+
+    ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
