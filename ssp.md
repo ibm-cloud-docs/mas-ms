@@ -239,3 +239,30 @@ Follow these steps to create a new user if your user role is Manager.
 
 ## How to Approve / Reject an Access Request
 {: #approve-reject-access-am-tool}
+
+Managers in the Access Management application are responsible for approving/rejecting access requests submitted by users assigned to their customer/vendor. Managers will receive an email when a user with their customer/vendor assignment submits an access request. 
+
+Follow these steps to review an access request if your user role is Manager.
+
+1. Sign into the Self Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting Security → Access Management. The initial screen will show a list of users that you have access to manage and process access requests.
+
+    ![SSP-AM-Approve-Reject-Access-1](images/SSP-AM-Approve-Reject-Access-1.png "SSP-AM-Approve-Reject-Access-1"){: caption="Figure 1. List of Users" caption-side="bottom"}
+
+3. Select your IBMid from the list and proceed to the "Access Approvals" tab. There you will see a table with all the access requests that you can process.
+
+    ![SSP-AM-Approve-Reject-Access-2](images/SSP-AM-Approve-Reject-Access-2.png "SSP-AM-Approve-Reject-Access-2"){: caption="Figure 2. Table of Access Requests" caption-side="bottom"}
+
+4. Open the details on the request you want to process by choosing the twistie (>) to the left of the user.
+
+    ![SSP-AM-Approve-Reject-Access-3](images/SSP-AM-Approve-Reject-Access-3.png "SSP-AM-Approve-Reject-Access-3"){: caption="Figure 3. Select Request" caption-side="bottom"}
+
+5. Select the Disposition for the request (APPROVED, REJECTED). If the Disposition is REJECTED comments are required for reason why request was denied.
+
+6. Once you have processed all the requests you intend to, select the "Save" icon near the upper left part of the console to start the back end processing of the requests. The requestors will be notified by email if their request has been rejected or when the processing is complete and they have been granted the requested access.
+
+    ![SSP-AM-Approve-Reject-Access-4](images/SSP-AM-Approve-Reject-Access-4.png "SSP-AM-Approve-Reject-Access-4"){: caption="Figure 3. Save Icon" caption-side="bottom"}
+
+
+
