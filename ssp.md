@@ -89,7 +89,7 @@ A user managing the customer you want access to must add you to the tool. Contac
 Navigate to the Access Management Tool by logging into the IBM IoT Saas Self-Service Portal with your IBMid. Once logged in, select Security > Access Management from the navigation menu.
 
 ## How to Remove a User's Access
-{: remove-user-access-am-tool}
+{: #remove-user-access-am-tool}
 
 Manager users in the Access Management tool are able to remove a user’s access under the customer they are managing. 
 
@@ -101,30 +101,30 @@ https://devops.maximo.com
 
 2. Navigate to the Access Management application.
 
-![SSP-AM-Remove-User-1](images/SSP-AM-Remove-User-1.png "SSP-AM-Remove-User-1"){: caption="Figure 1. Access Management Application" caption-side="bottom"}
+    ![SSP-AM-Remove-User-1](images/SSP-AM-Remove-User-1.png "SSP-AM-Remove-User-1"){: caption="Figure 1. Access Management Application" caption-side="bottom"}
 
 3. Select the user’s IBM ID from the List View that you want to remove the access from.
 
-![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption="Figure 2. Select User ID" caption-side="bottom"}
+    ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption="Figure 2. Select User ID" caption-side="bottom"}
 
 4. Select the user’s Manage Access tab to view their existing accesses.
 
-![SSP-AM-Remove-User-3](images/SSP-AM-Remove-User-3.png "SSP-AM-Remove-User-3"){: caption="Figure 3. Manage Access Tab" caption-side="bottom"}
+    ![SSP-AM-Remove-User-3](images/SSP-AM-Remove-User-3.png "SSP-AM-Remove-User-3"){: caption="Figure 3. Manage Access Tab" caption-side="bottom"}
 
 5. Select the asset from the Assets table that the access is linked to. This will populate all existing and pending accesses for the asset in the Specific Access in the Environment table below.
 
-![SSP-AM-Remove-User-4](images/SSP-AM-Remove-User-4.png "SSP-AM-Remove-User-4"){: caption="Figure 4. Select Asset" caption-side="bottom"}
+    ![SSP-AM-Remove-User-4](images/SSP-AM-Remove-User-4.png "SSP-AM-Remove-User-4"){: caption="Figure 4. Select Asset" caption-side="bottom"}
 
 6. Select the “>” icon next to the access you want to remove. This will show the access details and actions that can be run against the access.
 
-![SSP-AM-Remove-User-5](images/SSP-AM-Remove-User-5.png "SSP-AM-Remove-User-5"){: caption="Figure 5. Select Arrow Icon" caption-side="bottom"}
+    ![SSP-AM-Remove-User-5](images/SSP-AM-Remove-User-5.png "SSP-AM-Remove-User-5"){: caption="Figure 5. Select Arrow Icon" caption-side="bottom"}
 
 7. Select the “Remove Access” button to initiate the access removal process. The access status will be updated to “PENDING REMOVAL”.
 
-![SSP-AM-Remove-User-6](images/SSP-AM-Remove-User-6.png "SSP-AM-Remove-User-6"){: caption="Figure 6. Remove Access" caption-side="bottom"}
+    ![SSP-AM-Remove-User-6](images/SSP-AM-Remove-User-6.png "SSP-AM-Remove-User-6"){: caption="Figure 6. Remove Access" caption-side="bottom"}
 
-![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7"){: caption="Figure 7. Pending Removal" caption-side="bottom"}
+    ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7"){: caption="Figure 7. Pending Removal" caption-side="bottom"}
 
 8. The status of the access will be updated to “REMOVED” once the access removal process is completed.
 
-![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption="Figure 8. Status Removed" caption-side="bottom"}
+    ![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption="Figure 8. Status Removed" caption-side="bottom"}
