@@ -82,11 +82,11 @@ An IBMid is required to login to the Access Management Tool. To create an IBMid 
 
 2. Request Access
 
-A user managing the customer you want access to must add you to the tool. Contact one of the manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for a specific customer, submit a [support case](https://www.ibm.mysupport){: external} requesting this information.
+    A user managing the customer you want access to must add you to the tool. Contact one of the manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for a specific customer, submit a [support case](https://www.ibm.mysupport){: external} requesting this information.
 
 3. Navigate to the Access Management Tool
 
-Navigate to the Access Management Tool by logging into the IBM IoT Saas Self-Service Portal with your IBMid. Once logged in, select Security > Access Management from the navigation menu.
+    Navigate to the Access Management Tool by logging into the IBM IoT Saas Self-Service Portal with your IBMid. Once logged in, select Security > Access Management from the navigation menu.
 
 ## How to Remove a User's Access
 {: #remove-user-access-am-tool}
