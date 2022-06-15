@@ -76,15 +76,14 @@ The Access Approvals tab is where manager users review access requests submitted
 
 Follow the steps below to obtain access to the Access Management Tool.
 
-Step 1: Create an IBMid
-An IBMid is required to login to the Access Management Tool. Create an IBMid by following the steps outlined here.
+1. Create an IBMid
 
-Step 2: Request Access
+An IBMid is required to login to the Access Management Tool. To create an IBMid click [here](https://myibm.ibm.com){: external}
 
-A user managing the customer you want access to must add you to the tool. Contact one of the manager users to request they add you to the Access Management Tool.
+2. Request Access
 
-If you do not know who the manager users are for a specific customer, submit a support case requesting this information.
+A user managing the customer you want access to must add you to the tool. Contact one of the manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for a specific customer, submit a [support case](https://www.ibm.mysupport){: external} requesting this information.
 
-Step 3: Navigate to the Access Management Tool
+3. Navigate to the Access Management Tool
 
 Navigate to the Access Management Tool by logging into the IBM IoT Saas Self-Service Portal with your IBMid. Once logged in, select Security > Access Management from the navigation menu.
