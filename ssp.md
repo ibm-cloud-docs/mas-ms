@@ -224,7 +224,7 @@ Follow these steps to create a new user if your user role is Manager.
     | First Name | The user's First Name |
     | Last Name | The user's Last Name |
     | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self Service Portal. Usually same as their IBMid |
-    | Role | The role for the new user: STD_USER = Standard User MANAGER = Manager |
+    | Role | The role for the new user:  \n STD_USER = Standard User  \n MANAGER = Manager |
     | Managing Customer | ** This will be set to the customer you are assigned to manage if the user role is set to "MANAGER". |
     | Customer Access List | ** A row will be added to this list with the customer you are assigned to manage once the user is activated. |
     {: caption="Table 1. Create New User Values" caption-side="bottom"}
