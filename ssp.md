@@ -202,5 +202,40 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 ## How to Create a New User
 {: #create-new-user-am-tool}
 
+Managers in the Access Management application are able to create new users. These users can be another Manager or Standard User. When the new user is created they are granted access to submit access requests for the customer the Manager user is managing. Note: Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
+
+Follow these steps to create a new user if your user role is Manager.
+
+1. Sign into the Self Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application.
+
+    ![SSP-AM-Create-User-1](images/SSP-AM-Create-User-1.png "SSP-AM-Create-User-1"){: caption="Figure 1. Access Management Application" caption-side="bottom"}
+
+3. Click on the "New Access" icon (Plus sign) to create a new user.
+
+    ![SSP-AM-Create-User-2](images/SSP-AM-Create-User-2.png "SSP-AM-Create-User-2"){: caption="Figure 2. Create New User" caption-side="bottom"}
+
+4. Enter the requested information for the new user in the following order:
+
+    | Value | Description |
+    | -------------- | -------------- |
+    | IBM ID | The user's IBMid (email address). The new user's IBM ID. This will be the new user's username when they login to the Self Service Portal. |
+    | First Name | The user's First Name |
+    | Last Name | The user's Last Name |
+    | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self Service Portal. Usually same as their IBMid |
+    | Role | The role for the new user: STD_USER = Standard User MANAGER = Manager |
+    | Managing Customer | ** This will be set to the customer you are assigned to manage if the user role is set to "MANAGER". |
+    | Customer Access List | ** A row will be added to this list with the customer you are assigned to manage once the user is activated. |
+    {: caption="Table 1. Create New User Values" caption-side="bottom"}
+
+    ![SSP-AM-Create-User-3](images/SSP-AM-Create-User-3.png "SSP-AM-Create-User-3"){: caption="Figure 3. Person Information" caption-side="bottom"}
+
+5. Save the record.
+
+    ![SSP-AM-Create-User-4](images/SSP-AM-Create-User-4.png "SSP-AM-Create-User-4"){: caption="Figure 4. Save Record" caption-side="bottom"}
+
+6. The new user will be created once the backend processing is completed. You will know the new user was successfully created when the user status changes to "ACTIVE". The new user will receive an email with instructions on how to login to the Self-Service Portal once their user is activated.
+
 ## How to Approve / Reject an Access Request
 {: #approve-reject-access-am-tool}
