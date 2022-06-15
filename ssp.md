@@ -201,3 +201,6 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
 ## How to Create a New User
 {: #create-new-user-am-tool}
+
+## How to Approve / Reject an Access Request
+{: #approve-reject-access-am-tool}
