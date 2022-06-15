@@ -78,7 +78,7 @@ Follow the steps below to obtain access to the Access Management Tool.
 
 1. Create an IBMid
 
-An IBMid is required to login to the Access Management Tool. To create an IBMid click [here](https://myibm.ibm.com){: external}
+    An IBMid is required to login to the Access Management Tool. To create an IBMid click [here](https://myibm.ibm.com){: external}
 
 2. Request Access
 
