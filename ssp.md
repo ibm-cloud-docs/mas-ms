@@ -95,7 +95,9 @@ Manager users in the Access Management tool are able to remove a user’s access
 
 Follow these steps to remove a user’s access if your user role is Manager.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self Service Portal:
+
+    https://devops.maximo.com
 
 2. Navigate to the Access Management application.
 
