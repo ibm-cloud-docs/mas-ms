@@ -65,7 +65,7 @@ The Person Information tab contains user account details. These details include 
 
 Manage Access
 
-The Manage Access tab contains the user account’s existing and pending accesses. Access records are filtered by selecting the asset in the Assets table. Once selected, accesses for the selected asset can be seen in the Specific Access in the Environment table below. In addition to viewing accesses, users can submit access requests for their user account from this tab. Go to the How to Submit an Access Request wiki to read more about requesting accesses.
+The Manage Access tab contains the user account’s existing and pending accesses. Access records are filtered by selecting the asset in the Assets table. Once selected, accesses for the selected asset can be seen in the Specific Access in the Environment table. In addition to viewing accesses, users can submit access requests for their user account from this tab.
 
 Access Approvals
 
@@ -144,3 +144,27 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 3. Click on the Plus (+) icon.
 
    ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption="Figure 2. Plus Icon" caption-side="bottom"}
+
+4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBM ID field. Note: If a question mark icon does not pop up in the IBM ID field, the user does not exist yet. Follow the steps in the How to Create a New User document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+
+   | Value | Description |
+   | -------------- | -------------- |
+   | IBM ID | The user's IBMid (email address) |
+   | First Name | The user's First Name |
+   | Last Name | The user's Last Name |
+
+    ![SSP-AM-Grant-User-Customer-3](images/SSP-AM-Grant-User-Customer-3.png "SSP-AM-Grant-User-Customer-3"){: caption="Figure 3. Enter User Information" caption-side="bottom"}
+
+5. Select the question mark (?) icon. A message will pop up asking if you want to grant the user access to the customer you are managing. Select “Yes”.
+
+   ![SSP-AM-Grant-User-Customer-4](images/SSP-AM-Grant-User-Customer-4.png "SSP-AM-Grant-User-Customer-4"){: caption="Figure 4. Grant User Access" caption-side="bottom"}
+
+6.  Return to the List View without saving.
+
+   ![SSP-AM-Grant-User-Customer-5](images/SSP-AM-Grant-User-Customer-5.png "SSP-AM-Grant-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
+
+7. The user should now be viewable in your List View and have access to the customer you are managing. Note: If the user is not viewable in your List View refresh the page.
+
+   ![SSP-AM-Grant-User-Customer-6](images/SSP-AM-Grant-User-Customer-6.png "SSP-AM-Grant-User-Customer-6"){: caption="Figure 6. List View" caption-side="bottom"}
+
+   ![SSP-AM-Grant-User-Customer-7](images/SSP-AM-Grant-User-Customer-7.png "SSP-AM-Grant-User-Customer-7"){: caption="Figure 7. List View" caption-side="bottom"}
