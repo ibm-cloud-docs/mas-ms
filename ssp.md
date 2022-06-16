@@ -267,7 +267,7 @@ Follow these steps to review an access request if your user role is Manager.
 
 Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually. 
 
-Note: The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
+**Note:** The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
 
 When notified of the need to re-validate, follow these steps to review your current accesses and re-validate your need to keep them.
 
