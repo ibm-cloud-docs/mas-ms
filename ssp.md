@@ -95,7 +95,7 @@ Manager users in the Access Management tool are able to remove a user’s access
 
 Follow these steps to remove a user’s access if your user role is Manager.
 
-1. Sign into the Self Service Portal:
+1. Sign into the Self-Service Portal:
 
     https://devops.maximo.com
 
@@ -103,7 +103,7 @@ Follow these steps to remove a user’s access if your user role is Manager.
 
     ![SSP-AM-Remove-User-1](images/SSP-AM-Remove-User-1.png "SSP-AM-Remove-User-1"){: caption="Figure 1. Access Management Application" caption-side="bottom"}
 
-3. Select the user’s IBM ID from the List View that you want to remove the access from.
+3. Select the user’s IBMid from the List View that you want to remove the access from.
 
     ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption="Figure 2. Select User ID" caption-side="bottom"}
 
@@ -135,7 +135,7 @@ Managers in the Access Management application are able to grant existing users a
 
 Follow these steps to grant a user access to the customer you are assigned to manage.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self-Service Portal: https://devops.maximo.com
 
 2. Navigate to the Access Management tool.
 
@@ -145,11 +145,11 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption="Figure 2. Plus Icon" caption-side="bottom"}
 
-4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBM ID field. Note: If a question mark icon does not pop up in the IBM ID field, the user does not exist yet. Follow the steps in the How to Create a New User document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. Note: If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the How to Create a New User document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
 
     | Value | Description |
     | -------------- | -------------- |
-    | IBM ID | The user's IBMid (email address) |
+    | IBMid | The user's IBMid (email address) |
     | First Name | The user's First Name |
     | Last Name | The user's Last Name |
     {: caption="Table 1. IBMid and User Values" caption-side="bottom"}
@@ -177,7 +177,7 @@ Manager users in the Access Management tool are able to remove a user’s access
 
 Follow these steps to remove the user’s accesses if your user role is Manager.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self-Service Portal: https://devops.maximo.com
 
 2. Navigate to the Access Management application.
 
@@ -206,7 +206,7 @@ Managers in the Access Management application are able to create new users. Thes
 
 Follow these steps to create a new user if your user role is Manager.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self-Service Portal: https://devops.maximo.com
 
 2. Navigate to the Access Management application.
 
@@ -220,10 +220,10 @@ Follow these steps to create a new user if your user role is Manager.
 
     | Value | Description |
     | -------------- | -------------- |
-    | IBM ID | The user's IBMid (email address). The new user's IBM ID. This will be the new user's username when they login to the Self Service Portal. |
+    | IBMid | The user's IBMid (email address). The new user's IBMid. This will be the new user's username when they login to the Self-Service Portal. |
     | First Name | The user's First Name |
     | Last Name | The user's Last Name |
-    | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self Service Portal. Usually same as their IBMid |
+    | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self-Service Portal. Usually same as their IBMid |
     | Role | The role for the new user:  \n STD_USER = Standard User  \n MANAGER = Manager |
     | Managing Customer | ** This will be set to the customer you are assigned to manage if the user role is set to "MANAGER". |
     | Customer Access List | ** A row will be added to this list with the customer you are assigned to manage once the user is activated. |
@@ -244,7 +244,7 @@ Managers in the Access Management application are responsible for approving/reje
 
 Follow these steps to review an access request if your user role is Manager.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self-Service Portal: https://devops.maximo.com
 
 2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting Security → Access Management. The initial screen will show a list of users that you have access to manage and process access requests.
 
@@ -273,13 +273,13 @@ Note: The re-validation process is run on an annual basis for all users, so it i
 
 When notified of the need to re-validate, follow these steps to review your current accesses and re-validate your need to keep them.
 
-1. Sign into the Self Service Portal: https://devops.maximo.com
+1. Sign into the Self-Service Portal: https://devops.maximo.com
 
 2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting Security → Access Management.
 
     ![SSP-AM-Access-Revalidation-1](images/SSP-AM-Access-Revalidation-1.png "SSP-AM-Access-Revalidation-1"){: caption="Figure 1. Access Management" caption-side="bottom"}
 
-3. Select your IBM ID from the list and proceed to the "Manage Access" tab. There you will see tables with all the assets and associated accesses. Remove any accesses you no longer have a business need for and press the “Save” button. 
+3. Select your IBMid from the list and proceed to the "Manage Access" tab. There you will see tables with all the assets and associated accesses. Remove any accesses you no longer have a business need for and press the “Save” button. 
 
     ![SSP-AM-Access-Revalidation-2](images/SSP-AM-Access-Revalidation-2.png "SSP-AM-Access-Revalidation-2"){: caption="Figure 2. Manage Access" caption-side="bottom"}
 
