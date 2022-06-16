@@ -31,7 +31,7 @@ https://devops.maximo.com
 ## Access Management Tool Overview
 {: #access-management-overview}
 
-User Roles
+**User Roles**
 
 The Access Management Tool supports two user roles - standard users and manager users. Manager users have elevated accesses to manage the tool for their customer.
 
