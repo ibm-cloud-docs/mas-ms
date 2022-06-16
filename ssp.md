@@ -171,7 +171,9 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 ## How to Remove a User's Access to a Customer
 {: #remove-user-access-customer-am-tool}
 
-Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated. Note: Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
+Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated. 
+
+**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
 
 Follow these steps to remove the user’s accesses if your user role is Manager.
 
@@ -193,14 +195,17 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
     ![SSP-AM-Remove-User-Customer-4](images/SSP-AM-Remove-User-Customer-4.png "SSP-AM-Remove-User-Customer-4"){: caption="Figure 4. Warning Message" caption-side="bottom"}
 
-6. Save the record and return to the List View. Note: The user will not be viewable in the List View because they no longer have access to the customer you are managing.
+6. Save the record and return to the List View. 
+**Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
 
     ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
 
 ## How to Create a New User
 {: #create-new-user-am-tool}
 
-Managers in the Access Management application are able to create new users. These users can be another Manager or Standard User. When the new user is created they are granted access to submit access requests for the customer the Manager user is managing. Note: Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
+Managers in the Access Management application are able to create new users. These users can be another Manager or Standard User. When the new user is created they are granted access to submit access requests for the customer the Manager user is managing.
+
+**Note:** Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
 
 Follow these steps to create a new user if your user role is Manager.
 
@@ -218,10 +223,10 @@ Follow these steps to create a new user if your user role is Manager.
 
     | Value | Description |
     | -------------- | -------------- |
-    | IBMid | The user's IBMid (email address). The new user's IBMid. This will be the new user's username when they login to the Self-Service Portal. |
+    | IBMid | The user's IBMid (email address). The new user's IBMid. This will be the new user's username when they login to the Self-Service Portal.  \n If the user does not have an IBMid, they can create one [here](https://myibm.ibm.com){: external}) |
     | First Name | The user's First Name |
     | Last Name | The user's Last Name |
-    | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self-Service Portal. Usually same as their IBMid |
+    | Primary Email | The email for contacting the new user. This is where the new user will receive initial login instructions for the Self-Service Portal. |
     | Role | The role for the new user:  \n STD_USER = Standard User  \n MANAGER = Manager |
     | Managing Customer | ** This will be set to the customer you are assigned to manage if the user role is set to "MANAGER". |
     | Customer Access List | ** A row will be added to this list with the customer you are assigned to manage once the user is activated. |
