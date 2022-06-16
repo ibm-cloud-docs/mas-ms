@@ -196,7 +196,7 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
     ![SSP-AM-Remove-User-Customer-4](images/SSP-AM-Remove-User-Customer-4.png "SSP-AM-Remove-User-Customer-4"){: caption="Figure 4. Warning Message" caption-side="bottom"}
 
 6. Save the record and return to the List View.
- 
+
 **Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
 
     ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
@@ -291,6 +291,6 @@ When notified of the need to re-validate, follow these steps to review your curr
 
     ![SSP-AM-Access-Revalidation-3](images/SSP-AM-Access-Revalidation-3.png "SSP-AM-Access-Revalidation-3"){: caption="Figure 3. Re-validate CBN" caption-side="bottom"}
 
-5. The “Re-validate CBN” button should be removed from the panel (indicating successful validation).
+5. The **Re-validate CBN** button should be removed from the panel (indicating successful validation).
 
 
