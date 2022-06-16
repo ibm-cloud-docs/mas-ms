@@ -19,8 +19,6 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
-**Note: This section is under construction**
-
 ## Access Management Tool
 {: #access-management-tool}
 
@@ -86,7 +84,7 @@ Follow the steps below to obtain access to the Access Management Tool.
 
 3. Navigate to the Access Management Tool
 
-    Navigate to the Access Management Tool by logging into the IBM IoT Saas Self-Service Portal with your IBMid. Once logged in, select Security > Access Management from the navigation menu.
+    Navigate to the Access Management Tool by logging into the [IBM IoT Saas Self-Service Portal](https://devops.maximo.com){: external} with your IBMid. Once logged in, select **Security** > **Access Management** from the navigation menu.
 
 ## How to Remove a User's Access
 {: #remove-user-access-am-tool}
@@ -145,7 +143,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption="Figure 2. Plus Icon" caption-side="bottom"}
 
-4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. Note: If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the How to Create a New User document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. Note: If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
 
     | Value | Description |
     | -------------- | -------------- |
@@ -246,7 +244,7 @@ Follow these steps to review an access request if your user role is Manager.
 
 1. Sign into the Self-Service Portal: https://devops.maximo.com
 
-2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting Security → Access Management. The initial screen will show a list of users that you have access to manage and process access requests.
+2. Navigate to the Access Management application by selecting the drop down menu in the top left of the window and selecting **Security** → **Access Management**. The initial screen will show a list of users that you have access to manage and process access requests for.
 
     ![SSP-AM-Approve-Reject-Access-1](images/SSP-AM-Approve-Reject-Access-1.png "SSP-AM-Approve-Reject-Access-1"){: caption="Figure 1. List of Users" caption-side="bottom"}
 
