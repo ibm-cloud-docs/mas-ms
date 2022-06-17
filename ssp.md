@@ -31,11 +31,12 @@ https://devops.maximo.com
 ## Access Management Tool Overview
 {: #access-management-overview}
 
-User Roles
-
+### User Roles
+{: access-management-user-roles}
+    
 The Access Management Tool supports two user roles - standard users and manager users. Manager users have elevated accesses to manage the tool for their customer.
 
-Manager User
+**Manager User**
 
 A manager user is a user in the Access Management Tool with a role assignment of MANAGER. Manager user responsibilities include:
 
@@ -45,7 +46,7 @@ A manager user is a user in the Access Management Tool with a role assignment of
 * Viewing, modifying, and removing user accesses.
 * Standard user responsibilities.
 
-Standard User
+**Standard User**
 
 A standard user is a user in the Access Management Tool with a role assignment of STD_USER. Standard user responsibilities include:
 
