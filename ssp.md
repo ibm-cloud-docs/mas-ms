@@ -54,19 +54,19 @@ A standard user is a user in the Access Management Tool with a role assignment o
 * Viewing, modifying, and removing their accesses.
 * Deactivating their user account.
 
-List View
+*   **List View**
 
 The List View page is the homepage of the Access Management Tool. This is where you can view the user accounts you have access to. Manager users can view user accounts that have access to the customer they are managing from this page. Standard users can view their user account from this page.
 
-Person Information
+*   **Person Information**
 
 The Person Information tab contains user account details. These details include the user’s IBMid, name, email address, role, and customer(s) they have access to. This tab will also contain the customer a user is managing if they are a manager user.
 
-Manage Access
+*   **Manage Access**
 
 The Manage Access tab contains the user account’s existing and pending accesses. Access records are filtered by selecting the asset in the Assets table. Once selected, accesses for the selected asset can be seen in the Specific Access in the Environment table. In addition to viewing accesses, users can submit access requests for their user account from this tab.
 
-Access Approvals
+*   **Access Approvals**
 
 The Access Approvals tab is where manager users review access requests submitted for the customer they are managing. This tab is only accessible through the manager user’s account. Go to the How to Approve/Reject an Access Request wiki to read more about reviewing access requests.
 
