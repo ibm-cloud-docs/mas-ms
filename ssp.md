@@ -36,6 +36,8 @@ https://devops.maximo.com
     
 The Access Management Tool supports two user roles - standard users and manager users. Manager users have elevated accesses to manage the tool for their customer.
 
+![SSP-AM-Overview-User-Roles](images/SSP-AM-Overview-User-Roles.png "SSP-AM-Overview-User-Roles"){: caption="Figure 1. Access Management Users" caption-side="bottom"}
+
 *   **Manager User**
 
 A manager user is a user in the Access Management Tool with a role assignment of MANAGER. Manager user responsibilities include:
@@ -57,6 +59,8 @@ A standard user is a user in the Access Management Tool with a role assignment o
 *   **List View**
 
 The List View page is the homepage of the Access Management Tool. This is where you can view the user accounts you have access to. Manager users can view user accounts that have access to the customer they are managing from this page. Standard users can view their user account from this page.
+
+![SSP-AM-Overview-List-View](images/SSP-AM-Overview-List-View.png "SSP-AM-Overview-List-View"){: caption="Figure 1. Access Management List View" caption-side="bottom"}
 
 *   **Person Information**
 
