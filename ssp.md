@@ -310,5 +310,3 @@ When notified of the need to re-validate, follow these steps to review your curr
     ![SSP-AM-Access-Revalidation-3](images/SSP-AM-Access-Revalidation-3.png "SSP-AM-Access-Revalidation-3"){: caption="Figure 3. Re-validate CBN" caption-side="bottom"}
 
 5. The "Re-validate CBN" button should be removed from the panel (indicating successful validation).
-
-
