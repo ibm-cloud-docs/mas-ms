@@ -31,7 +31,7 @@ https://devops.maximo.com
 ## Access Management Tool Overview
 {: #access-management-overview}
 
-**User Roles**
+User Roles
 
 The Access Management Tool supports two user roles - standard users and manager users. Manager users have elevated accesses to manage the tool for their customer.
 
@@ -143,7 +143,9 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption="Figure 2. Plus Icon" caption-side="bottom"}
 
-4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. Note: If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. 
+
+    **Note:** If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
 
     | Value | Description |
     | -------------- | -------------- |
@@ -162,7 +164,9 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-5](images/SSP-AM-Grant-User-Customer-5.png "SSP-AM-Grant-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
 
-7. The user should now be viewable in your List View and have access to the customer you are managing. Note: If the user is not viewable in your List View refresh the page.
+7. The user should now be viewable in your List View and have access to the customer you are managing. 
+
+    **Note:** If the user is not viewable in your List View refresh the page.
 
     ![SSP-AM-Grant-User-Customer-6](images/SSP-AM-Grant-User-Customer-6.png "SSP-AM-Grant-User-Customer-6"){: caption="Figure 6. List View" caption-side="bottom"}
 
@@ -195,7 +199,9 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
     ![SSP-AM-Remove-User-Customer-4](images/SSP-AM-Remove-User-Customer-4.png "SSP-AM-Remove-User-Customer-4"){: caption="Figure 4. Warning Message" caption-side="bottom"}
 
-6. Save the record and return to the List View. **Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
+6. Save the record and return to the List View.
+
+    **Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
 
     ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption="Figure 5. List View" caption-side="bottom"}
 
