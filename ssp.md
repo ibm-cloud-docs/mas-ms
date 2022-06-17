@@ -63,25 +63,25 @@ List View
 
 The List View page is the homepage of the Access Management Tool. This is where you can view the user accounts you have access to. Manager users can view user accounts that have access to the customer they are managing from this page. Standard users can view their user account from this page.
 
-![SSP-AM-Overview-List-View](images/SSP-AM-Overview-List-View.png "SSP-AM-Overview-List-View"){: caption="Figure 1. Access Management List View" caption-side="bottom"}
+![SSP-AM-Overview-List-View](images/SSP-AM-Overview-List-View.png "SSP-AM-Overview-List-View"){: caption="Figure 2. Access Management List View" caption-side="bottom"}
 
 Person Information Tab
 
 The Person Information tab contains user account details. These details include the user’s IBMid, name, email address, role, and customer(s) they have access to. This tab will also contain the customer a user is managing if they are a manager user.
 
-![SSP-AM-Overview-Person-Info-Tab](images/SSP-AM-Overview-Person-Info-Tab.png "SSP-AM-Overview-Person-Info-Tab"){: caption="Figure 1. Person Info Tab" caption-side="bottom"}
+![SSP-AM-Overview-Person-Info-Tab](images/SSP-AM-Overview-Person-Info-Tab.png "SSP-AM-Overview-Person-Info-Tab"){: caption="Figure 3. Person Info Tab" caption-side="bottom"}
 
 Manage Access Tab
 
 The Manage Access tab contains the user account’s existing and pending accesses. Access records are filtered by selecting the asset in the Assets table. Once selected, accesses for the selected asset can be seen in the Specific Access in the Environment table. In addition to viewing accesses, users can submit access requests for their user account from this tab.
 
-![SSP-AM-Overview-Manage-Access-Tab](images/SSP-AM-Overview-Manage-Access-Tab.png "SSP-AM-Overview-Manage-Access-Tab"){: caption="Figure 1. Manage Access Tab" caption-side="bottom"}
+![SSP-AM-Overview-Manage-Access-Tab](images/SSP-AM-Overview-Manage-Access-Tab.png "SSP-AM-Overview-Manage-Access-Tab"){: caption="Figure 4. Manage Access Tab" caption-side="bottom"}
 
 Access Approvals Tab
 
-The Access Approvals tab is where manager users review access requests submitted for the customer they are managing. This tab is only accessible through the manager user’s account. Go to the How to Approve/Reject an Access Request wiki to read more about reviewing access requests.
+The Access Approvals tab is where manager users review access requests submitted for the customer they are managing. This tab is only accessible through the manager user’s account. Go to [How to Approve/Reject an Access Request](#how-to-approve--reject-an-access-request) to read more about reviewing access requests.
 
-![SSP-AM-Overview-Access-Approvals-Tab](images/SSP-AM-Overview-Access-Approvals-Tab.png "SSP-AM-Overview-Access-Approvals-Tab"){: caption="Figure 1. Access Approvals Tab" caption-side="bottom"}
+![SSP-AM-Overview-Access-Approvals-Tab](images/SSP-AM-Overview-Access-Approvals-Tab.png "SSP-AM-Overview-Access-Approvals-Tab"){: caption="Figure 5. Access Approvals Tab" caption-side="bottom"}
 
 ## Obtaining Access to the Access Management Tool
 {: #obtaining-access-to-am-tool}
