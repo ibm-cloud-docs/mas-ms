@@ -119,6 +119,7 @@ You will need to set a temporary password and then change it when you first logi
 
     ![MAS-MS-Password-Change-9](images/MAS-MS-Password-Change-9.png "MAS-MS-Password-Change-9"){: caption="Figure 9. MAS Login Set Password" caption-side="bottom"}
 
+
 ## How to activate your environments
 {: #how-to-activate-your-environments}
 
@@ -258,7 +259,7 @@ Maximo Application Suite Support covers support for both the Application and you
 
     ![MAS-MS-Register-Request-Approved](images/MAS-MS-Register-Request-Approved.png "MAS-MS-Register-Request-Approved"){: caption="Figure 13. MAS-MS Request Approved" caption-side="bottom"}
 
-    If you need support, see the next section [How to Create a Case](#how-to-create-a-case)
+    If you need support, see the next section **How to Create a Case**
 
 ## How to Create a Case
 {: #how-to-create-a-case}
