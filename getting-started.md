@@ -119,7 +119,7 @@ You will need to set a temporary password and then change it when you first logi
 
     ![MAS-MS-Password-Change-9](images/MAS-MS-Password-Change-9.png "MAS-MS-Password-Change-9"){: caption="Figure 9. MAS Login Set Password" caption-side="bottom"}
 
-## How to activate your environment(s)
+## How to activate your environments
 {: #how-to-activate-your-environments}
 
 To complete the activation of your Maximo Application Suite Managed Service environment(s), you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activate them. You will need to generate one (1) license key file per environment (for example one license key for PROD and one license key for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
