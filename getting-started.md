@@ -279,7 +279,7 @@ This section describes how to create a case for Maximo Application Suite Managed
 
     [Register for Maximo Application Suite Support](#how-to-register-for-mas-support)
 
-4. On the following page, populate all required (*) fields ensuring **Maximo Application Suite on Cloud** is selected for Product and click on the **Submit Case** button
+4. On the following page, populate all required (*) fields ensuring **Maximo Application Suite** is selected for Product and click on the **Submit Case** button
 
 5. Case Creation will be confirmed and case number referenced:
     
