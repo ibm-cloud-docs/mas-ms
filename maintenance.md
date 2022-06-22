@@ -48,4 +48,4 @@ In exceptional cases such as critical security patching, the The IBM Maximo Appl
 ## Exception / Deferral Maintenance Requests
 {: #exception-deferral-maintenance-requests}
 
-All customer environments are managed to several internal and external security and compliance standards. IBM initiated planned maintenance is governed by these standards. For this reason, exceptions or deferral requests **not available**. There are **no exceptions**. 
+All customer environments are managed to several internal and external security and compliance standards. IBM initiated planned maintenance is governed by these standards. For this reason, exceptions or deferral requests are **not available**. There are **no exceptions**. 
