@@ -235,7 +235,7 @@ Maximo Application Suite Support covers support for both the Application and you
 
     ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="Figure 13. MAS-MS Select Product" caption-side="bottom"}
     
-7. If you are not already registered for Maximo Application Suite support, the following screen will appear.
+7. If you are not already registered for Maximo Application Suite on Cloud support, the following screen will appear.
     Complete the applicable information. Ensure Client / account name is populated and click **Submit** 
 
     ![MAS-MS-Register-Enter-Customer-Number](images/MAS-MS-Register-Enter-Customer-Number.png "MAS-MS-Register-Enter-Customer-Number"){: caption="Figure 13. MAS-MS Enter Customer Number" caption-side="bottom"}
