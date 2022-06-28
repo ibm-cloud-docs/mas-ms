@@ -230,8 +230,8 @@ Maximo Application Suite Support covers support for both the Application and you
 
     ![MAS-MS-Register-Request-Access-Dialog](images/MAS-MS-Register-Request-Access-Dialog.png "MAS-MS-Register-Request-Access-Dialog.png"){: caption="Figure 12. MAS-MS Request Access Dialog" caption-side="bottom"}
 
-6. Be sure the I consent checkbox is checked, then type **Maximo Application Suite** in the Product field.
-    Select **Maximo Application Suite** from the drop down list and click **Submit**
+6. Be sure the I consent checkbox is checked, then type **Maximo Application Suite on Cloud** in the Product field.
+    Select **Maximo Application Suite on Cloud** from the drop down list and click **Submit**
 
     ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="Figure 13. MAS-MS Select Product" caption-side="bottom"}
     
@@ -280,7 +280,7 @@ This section describes how to create a case for Maximo Application Suite Managed
 
     [Register for Maximo Application Suite Support](#how-to-register-for-mas-support)
 
-4. On the following page, populate all required (*) fields ensuring **Maximo Application Suite** is selected for Product and click on the **Submit Case** button
+4. On the following page, populate all required (*) fields ensuring **Maximo Application Suite on Cloud** is selected for Product and click on the **Submit Case** button
 
 5. Case Creation will be confirmed and case number referenced:
     
