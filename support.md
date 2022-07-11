@@ -137,7 +137,9 @@ The API request creates an entry in the LOGREQUEST table of the Maximo Manage da
 
 * Maximo Manage API Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
 
-* How to use the new Tools API with Maximo Application Suite - https://www.ibm.com/support/pages/node/6519816?myns=swgother&mynp=OCSSRHPA&mync=E&cm_sp=swgother
+How to use the new Tools API with Maximo Application Suite:
+
+https://www.ibm.com/support/pages/node/6519816?myns=swgother&mynp=OCSSRHPA&mync=E&cm_sp=swgother-_-OCSSRHPA-_-E
 
 ## Integration
 {: #integration}
