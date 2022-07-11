@@ -139,7 +139,7 @@ The API request creates an entry in the LOGREQUEST table of the Maximo Manage da
 
 How to use the new Tools API with Maximo Application Suite:
 
-https://www.ibm.com/support/pages/node/6519816?myns=swgother&mynp=OCSSRHPA&mync=E&cm_sp=swgother-_-OCSSRHPA-_-E
+https://www.ibm.com/support/pages/node/6519816?myns=swgother&mynp=OCSSRHPA&mync=E&cm_sp=swgother-
 
 ## Integration
 {: #integration}
