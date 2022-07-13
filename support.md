@@ -39,7 +39,7 @@ IBM Maximo Application Suite Managed Services supports DB2 as the database for t
 
 * Direct access to the production database is not allowed.  If a client wishes to access production data, they must order a data replica and a read only user can be created against this replica.  This replica is near real time so it will mirror the production data.
 
-* Connection is currently JDBC only.
+* Connection can be done using JDBC or ODBC.  IBM is not responsible for any tool a client selects to make this connection with and it will be the client responsibility to troubleshoot issues connecting their chosen tool to the database.
 
 Please note, if a client has been granted write access to a database, and there are issues with data, the SRE team will only restore the database back to the last version.  SRE personnel will not troubleshoot queries or data issues in these databases. 
 
