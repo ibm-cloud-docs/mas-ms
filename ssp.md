@@ -312,6 +312,7 @@ When notified of the need to re-validate, follow these steps to review your curr
 5. The "Re-validate CBN" button should be removed from the panel (indicating successful validation).
 
 ## Supported Access Requests
+{: #suported-access-requests}
 
 The Access Management Tool provides the ability for users to request and manage accesses to their MAS-MS environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
 
@@ -320,7 +321,8 @@ The Access Management Tool provides the ability for users to request and manage 
 | Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page   \n For details on how to request Client Communications Center access, see How to Request Client Communications Center Access|
 {: caption="Table 1. Supported Access Requests" caption-side="bottom"}
 
-### How to request CCC Access
+### How to Request CCC Access
+{: #how-to-request-ccc-access}
 
 How to Request Client Communications Center Access
 
