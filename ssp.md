@@ -79,7 +79,7 @@ The Manage Access tab contains the user account’s existing and pending accesse
 
 Access Approvals Tab
 
-The Access Approvals tab is where manager users review access requests submitted for the customer they are managing. This tab is only accessible through the manager user’s account. Go to [How to Approve/Reject an Access Request](#how-to-approve--reject-an-access-request) to read more about reviewing access requests.
+The Access Approvals tab is where manager users review access requests submitted for the customer they are managing. This tab is only accessible through the manager user’s account. Go to [How to Approve/Reject an Access Request](#approve-reject-access-am-tool) to read more about reviewing access requests.
 
 ![SSP-AM-Overview-Access-Approvals-Tab](images/SSP-AM-Overview-Access-Approvals-Tab.png "SSP-AM-Overview-Access-Approvals-Tab"){: caption="Figure 5. Access Approvals Tab" caption-side="bottom"}
 
