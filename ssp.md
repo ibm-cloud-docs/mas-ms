@@ -318,7 +318,7 @@ The Access Management Tool provides the ability for users to request and manage 
 
 | Access Type | Summary |
 | -------------- | -------------- |
-| Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.   \n For details on how to request Client Communications Center access, see How to Request Client Communications Center Access (below)|
+| Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.   \n For details on how to request Client Communications Center access, see [How to Request Client Communications Center Access](#how-to-request-ccc-access)|
 {: caption="Table 1. Supported Access Requests" caption-side="bottom"}
 
 ### How to Request CCC Access
