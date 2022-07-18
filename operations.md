@@ -58,7 +58,6 @@ North America:
 
 Europe:
 
-* Amsterdam, Netherlands
 * Frankfurt, Germany
 * London, UK
 

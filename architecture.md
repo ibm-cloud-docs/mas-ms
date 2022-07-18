@@ -28,7 +28,6 @@ The current IBM Cloud data centers being leveraged for MAS-MS are:
 
 - Washington, DC, United States
 - Dallas, TX, United States
-- Amsterdam, Netherlands
 - Frankfurt, Germany
 - London, UK
 - Sydney, Australia
