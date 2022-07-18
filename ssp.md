@@ -310,3 +310,74 @@ When notified of the need to re-validate, follow these steps to review your curr
     ![SSP-AM-Access-Revalidation-3](images/SSP-AM-Access-Revalidation-3.png "SSP-AM-Access-Revalidation-3"){: caption="Figure 3. Re-validate CBN" caption-side="bottom"}
 
 5. The "Re-validate CBN" button should be removed from the panel (indicating successful validation).
+
+## Supported Access Requests
+
+The Access Management Tool provides the ability for users to request and manage accesses to their MAS-MS environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
+
+| Access Type | Summary |
+| -------------- | -------------- |
+| Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page   \n For details on how to request Client Communications Center access, see How to Request Client Communications Center Access|
+{: caption="Table 1. Supported Access Requests" caption-side="bottom"}
+
+### How to request CCC Access
+
+How to Request Client Communications Center Access
+
+Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.
+
+1.	Sign into the Self-Service Portal with your IBMid. 
+
+2.	Navigate to the Access Management Tool by selecting Security > Access Management from the applications menu.
+
+    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption="Figure 1. Access Management Tool" caption-side="bottom"}
+
+3.	Select your IBMid from the list of users.
+
+    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption="Figure 2. Select IBMid" caption-side="bottom"}
+
+4.	Select the Manage Access tab.
+
+    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption="Figure 3. Manage Access Tab" caption-side="bottom"}
+
+5.	Add an asset to the Assets table by selecting the “New Row” button.
+
+    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption="Figure 4. New Row" caption-side="bottom"}
+
+6.	Select the search icon to bring up a list of assets you have access to.
+    
+    Note: If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case here to request this information.
+
+    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption="Figure 5. Search Assets" caption-side="bottom"}
+
+7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
+
+    ![MAS-MS-CCC-Access-6](images/MAS-MS-CCC-Access-6.png "MAS-MS-CCC-Access-6"){: caption="Figure 6. Select Asset" caption-side="bottom"}
+
+8.	Click on the row in the Assets table of the asset you just added. This will link the asset to the access requested in the next step.
+
+    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption="Figure 7. Asset Row" caption-side="bottom"}
+
+9.	Begin the access request process by selecting the “New Row” button under the Specific Access in the Environment table.
+
+    ![MAS-MS-CCC-Access-8](images/MAS-MS-CCC-Access-8.png "MAS-MS-CCC-Access-8"){: caption="Figure 8. New Row" caption-side="bottom"}
+
+10.	Select the search icon to bring up the list of accesses to choose from.
+
+    ![MAS-MS-CCC-Access-9](images/MAS-MS-CCC-Access-9.png "MAS-MS-CCC-Access-9"){: caption="Figure 9. Search Icon" caption-side="bottom"}
+
+11.	Select the access type “Client Communication Center” from the list.
+
+    ![MAS-MS-CCC-Access-10](images/MAS-MS-CCC-Access-10.png "MAS-MS-CCC-Access-10"){: caption="Figure 10. Select Access Type" caption-side="bottom"}
+
+12.	Once selected, a warning message will popup indicating that you only need to request Client Communications Center access for one asset per organization and that you will be automatically subscribed to email notifications for that organization. You can unsubscribe at any time by following the unsubscribe option located in the notification emails. Click “OK” to continue.
+
+    ![MAS-MS-CCC-Access-11](images/MAS-MS-CCC-Access-11.png "MAS-MS-CCC-Access-11"){: caption="Figure 11. Warning Message" caption-side="bottom"}
+
+13.	Enter a reason for requesting Client Communications Center access in the Justification field.
+
+    ![MAS-MS-CCC-Access-12](images/MAS-MS-CCC-Access-12.png "MAS-MS-CCC-Access-12"){: caption="Figure 12. Enter Reason" caption-side="bottom"}
+
+14.	Save the record to submit the access request. You will receive an email notification when your access request has been approved.
+
+    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption="Figure 13. Save Record" caption-side="bottom"}
