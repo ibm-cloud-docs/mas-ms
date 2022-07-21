@@ -115,7 +115,9 @@ The Access Management Tool provides the ability for users to request and manage 
 
 Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.
 
-1.	Sign into the Self-Service Portal with your IBMid. 
+1.	Sign into the Self-Service Portal with your IBMid:
+
+    https://devops.maximo.com
 
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
