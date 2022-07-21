@@ -117,7 +117,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 1.	Sign into the Self-Service Portal with your IBMid. 
 
-2.	Navigate to the Access Management Tool by selecting Security > Access Management from the applications menu.
+2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
     ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption="Figure 1. Access Management Tool" caption-side="bottom"}
 
@@ -125,17 +125,17 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption="Figure 2. Select IBMid" caption-side="bottom"}
 
-4.	Select the Manage Access tab.
+4.	Select the **Manage Access** tab.
 
     ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption="Figure 3. Manage Access Tab" caption-side="bottom"}
 
-5.	Add an asset to the Assets table by selecting the “New Row” button.
+5.	Add an asset to the **Assets** table by selecting the “New Row” button.
 
     ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption="Figure 4. New Row" caption-side="bottom"}
 
 6.	Select the search icon to bring up a list of assets you have access to.
     
-    Note: If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+    **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption="Figure 5. Search Assets" caption-side="bottom"}
 
@@ -143,11 +143,11 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-6](images/MAS-MS-CCC-Access-6.png "MAS-MS-CCC-Access-6"){: caption="Figure 6. Select Asset" caption-side="bottom"}
 
-8.	Click on the row in the Assets table of the asset you just added. This will link the asset to the access requested in the next step.
+8.	Click on the row in the **Assets** table of the asset you just added. This will link the asset to the access requested in the next step.
 
     ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption="Figure 7. Asset Row" caption-side="bottom"}
 
-9.	Begin the access request process by selecting the “New Row” button under the Specific Access in the Environment table.
+9.	Begin the access request process by selecting the “New Row” button under the **Specific Access in the Environment** table.
 
     ![MAS-MS-CCC-Access-8](images/MAS-MS-CCC-Access-8.png "MAS-MS-CCC-Access-8"){: caption="Figure 8. New Row" caption-side="bottom"}
 
