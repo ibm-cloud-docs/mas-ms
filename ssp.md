@@ -119,6 +119,8 @@ Follow the steps below to request access to the Client Communications Center Das
 
     https://devops.maximo.com
 
+    If you are unable to login to the Self-Service Portal please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-am-tool)
+
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
     ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption="Figure 1. Access Management Tool" caption-side="bottom"}

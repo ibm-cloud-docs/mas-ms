@@ -32,7 +32,9 @@ It is important that all customers designate members of their staff to log in to
 ## CCC Access
 {: #ccc-access}
 
-Submit a case on the IBM Suport Portal: https://www.ibm.com/mysupport with the following information:
+In order to obtain access, please see [How to Request CCC Access](/docs/mas-ms?topic=mas-ms-ssp#how-to-request-ccc-access)
+
+You can also submit a case on the IBM Suport Portal: https://www.ibm.com/mysupport with the following information:
 
 Note: you must have an IBMid and be registered for MAS support in order to submit a case. For details, please see [Getting Started](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service)
 
