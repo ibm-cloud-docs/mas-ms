@@ -165,7 +165,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-11](images/MAS-MS-CCC-Access-11.png "MAS-MS-CCC-Access-11"){: caption="Figure 11. Warning Message" caption-side="bottom"}
 
-13.	Enter a reason for requesting Client Communications Center access in the Justification field.
+13.	Enter a reason for requesting Client Communications Center access in the **Justification** field.
 
     ![MAS-MS-CCC-Access-12](images/MAS-MS-CCC-Access-12.png "MAS-MS-CCC-Access-12"){: caption="Figure 12. Enter Reason" caption-side="bottom"}
 
