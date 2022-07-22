@@ -34,13 +34,3 @@ It is important that all customers designate members of their staff to log in to
 
 In order to obtain access, please see [How to Request CCC Access](/docs/mas-ms?topic=mas-ms-ssp#how-to-request-ccc-access)
 
-You can also submit a case on the IBM Suport Portal: https://www.ibm.com/mysupport with the following information:
-
-Note: you must have an IBMid and be registered for MAS support in order to submit a case. For details, please see [Getting Started](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service)
-
-1. Request “Customer” access to the MAS-MS Client Communication Center (CCC)
-2. Be sure to include the CCC URL: https://status.suite.maximo.com/
-3. Provide your email address (Important: must be associated with an [IBMid](https://myibm.ibm.com){: external})
-4. Provide your customer (Account) name
-5. A member of the IBM support team will add you to the CCC and update the case.
-6. Once you are able to login, be sure to click on "Email Subscription" (see above) to receive notifications via email.
