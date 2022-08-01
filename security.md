@@ -71,6 +71,10 @@ All IBM Maximo environments are configured for Anti-Malware (Anti-Virus) protect
 IBM Trust Center - Enterprise IT Security and Trust:
 https://www.ibm.com/trust/security
 
+Physical Security for IBM Cloud:
+
+https://www.ibm.com/cloud/architecture/architectures/physical-security-arch/
+
 ## Customer Access
 {: #customer-access}
 
