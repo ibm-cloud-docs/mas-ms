@@ -136,6 +136,7 @@ Make the following API request:
 The API request creates an entry in the LOGREQUEST table of the Maximo Manage database for each server bundle. A continuously running cron task uploads the compressed log files to your S3 storage location when the table is updated. The name of each file contains the source location and the timestamp of when the command started to run.  You will have a Bucket for Logs.  This bucket name will be defined in your Welcome Letter.
 
 * Maximo Manage API Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
+* How to use Tools API with Maximo Application Suite - https://www.ibm.com/support/pages/how-use-new-tools-api-maximo-application-suite
 
 How to use the new Tools API with Maximo Application Suite:
 
