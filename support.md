@@ -312,4 +312,4 @@ For questions related to use of Maximo Mobile in MAS-MS Manage, please refer to 
 ## Self-Service Portal
 {: #ssp}
 
-Self Service Portal (SSP) for MAS Managed Service (MAS-MS) is not available at this time and is under construction.
+A Self Service Portal (SSP) for MAS Managed Service (MAS-MS) is not available at this time and is under construction.
