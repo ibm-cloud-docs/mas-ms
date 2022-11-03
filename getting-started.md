@@ -25,7 +25,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-![MAS MS Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-MS Site Banner")
+![MAS MS Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-MS Site Banner"){: caption=""} 
 
 ## About
 {: #about}
