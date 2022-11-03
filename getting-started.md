@@ -309,3 +309,4 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 5. To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
 
     https://www.ibm.com/support/pages/node/733923
+
