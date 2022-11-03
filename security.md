@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-12"
+lastupdated: "2022-07-19"
 
 subcollection: mas-ms
 
@@ -28,8 +28,8 @@ Should a customer suspect a Cyber Security issue with their system, client shoul
 {: #client-security-questionnaires}
 
 Before submitting questionnaires, IBMers and clients should first refer to the security information, links and certifications that are available on this page.
-Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper CDS security resource for review / completion.
-Please note there is a 2-3 week turnaround time required for the CDS security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review
+Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper SRE security resource for review / completion.
+Please note there is a 2-3 week turnaround time required for the SRE security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review
 
 ## Security Management
 {: #security-management}
@@ -66,10 +66,14 @@ IBM Cloud Delivery Services employs a defense in depth strategy (DiD) for bounda
 
 The IBM Cloud network ports are protected with firewalls, which serve as intrusion detection (IDS) and intrusion prevention (IPS) agents. Details regarding on IBM Cloud intrusion detection management is IBM Confidential information and covered under IBM Cloud SOC2 compliance (see compliance section below).
 
-All IBM Maximo and TRIRIGA SaaS environments are configured for Anti-Malware (Anti-Virus) protection and Endpoint Detection and Response (EDR) technology with associated telemetry. Status and alerts are monitored continuously.
+All IBM Maximo environments are configured for Anti-Malware (Anti-Virus) protection and Endpoint Detection and Response (EDR) technology with associated telemetry. Status and alerts are monitored continuously.
 
 IBM Trust Center - Enterprise IT Security and Trust:
 https://www.ibm.com/trust/security
+
+Physical Security for IBM Cloud:
+
+https://www.ibm.com/cloud/architecture/architectures/physical-security-arch/
 
 ## Customer Access
 {: #customer-access}
@@ -142,15 +146,15 @@ IBM Cloud holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports t
 
 IBM Cloud (IaaS) ISO certificates:
 
-ISO-27001:2013 - https://www.ibm.com/downloads/cas/KDMPXMKA
-ISO-27017:2015 - https://www.ibm.com/downloads/cas/GLL9ZBZX
-ISO-27018:2019 - https://www.ibm.com/downloads/cas/DNM7GMKY
+* ISO-27001:2013 - https://www.ibm.com/downloads/cas/KDMPXMKA
+* ISO-27017:2015 - https://www.ibm.com/downloads/cas/GLL9ZBZX
+* ISO-27018:2019 - https://www.ibm.com/downloads/cas/DNM7GMKY
 
 IBM Enterprise & Technology Security ISO certificates:
 
-ISO 27017: 2015 - https://www.ibm.com/downloads/cas/QV8Q6ZVY
-ISO 27018: 2019 - https://www.ibm.com/downloads/cas/BKGPEYLQ
-ISO 27701: 2019 - https://www.ibm.com/downloads/cas/X42E0VBD
+* ISO 27017: 2015 - https://www.ibm.com/downloads/cas/QV8Q6ZVY
+* ISO 27018: 2019 - https://www.ibm.com/downloads/cas/BKGPEYLQ
+* ISO 27701: 2019 - https://www.ibm.com/downloads/cas/X42E0VBD
 
 There are 3 different SOC reports prepared by external auditors that attest that IBM Cloud has the appropriate security and compliance, financial, and operational controls and procedures in place:
 
@@ -159,12 +163,12 @@ The SOC 3 report is publicly available and can be downloaded here:
 https://www.ibm.com/downloads/cas/MVN9G536
 
 SOC2:
-The SOC 2 report is intended for both current and prospective clients. It outlines IBM Cloud's policies and processes regarding security and compliance in our data centers. A member of the IBM CDS team can request this report on behalf of an IBM Salesperson for their customer or prospect.
+The SOC 2 report is intended for both current and prospective clients. It outlines IBM Cloud's policies and processes regarding security and compliance in our data centers. A member of the IBM SRE team can request this report on behalf of an IBM Salesperson for their customer or prospect.
 
 SOC1:
-The SOC 1 (SSAE16) report outlines an organization's internal control over financial reporting. This is a controlled distribution report managed by IBM Cloud compliance for business controls purposes. The SOC 1 report is intended for current IBM Cloud clients and/or their compliance auditors only and can be requested by IBM. SOC1 reports are not available if a client is currently a prospect. A member of the IBM CDS team can request this report on behalf of an IBM Salesperson for their customer.
+The SOC 1 (SSAE16) report outlines an organization's internal control over financial reporting. This is a controlled distribution report managed by IBM Cloud compliance for business controls purposes. The SOC 1 report is intended for current IBM Cloud clients and/or their compliance auditors only and can be requested by IBM. SOC1 reports are not available if a client is currently a prospect. A member of the IBM SRE team can request this report on behalf of an IBM Salesperson for their customer.
 
-The following information is required in order for CDS to send a SOC1 or SOC2 report:
+The following information is required in order for SRE to send a SOC1 or SOC2 report:
 
 Type of Report Requested: (SOC1 or SOC2)
 
@@ -190,9 +194,9 @@ IBM Maximo Application Suite Managed Service environments are ISO-27001 certifie
 
 ISO-27001:
 
-ISO 27001 Certificate
+https://www.ibm.com/downloads/cas/EEO0NVLK
 
-Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only) 
+Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only).
 
 All IBM Maximo Application Suite Managed Services servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/  
 
@@ -221,7 +225,7 @@ https://www.ibm.com/privacy/details/us/en/privacy_shield.html
 
 Data Responsibility at IBM
 https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
-If a government wants access to data held by IBM on behalf of a SaaS client, IBM would expect that government to deal directly with that client 
+If a government wants access to data held by IBM on behalf of a MAS-MS client, IBM would expect that government to deal directly with that client 
 
 Data Processing Addendum (GDPR)
 https://www.ibm.com/support/customer/zz/en/dpa.html
@@ -276,7 +280,7 @@ IBM Maximo Application Suite offerings are not intended to host government regul
 ## Clock synchronization
 {: #clock-synchronization}
 
-All customer Maximo EAM SaaS Flex and TRIRIGA SaaS Flex Application and Database servers leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
+All customer MAS-MS environments leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
 
 Customers are responsible or synchronizing their local environments (workstations, on premise servers) with an authoritative time source.
 

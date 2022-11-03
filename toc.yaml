@@ -17,8 +17,10 @@ toc:
   - navgroup:
       id: reference
       topics:
+      - faq.md
       - reference.md
       - operations.md
+      - support.md
       - architecture.md
       - provisioning.md
       - maintenance.md
@@ -26,17 +28,25 @@ toc:
       - backups-disaster-recovery.md
       - migration.md
       - limitations-exclusions.md
+      - communicationscenter.md
+      - ssp.md
 
 
   - navgroup:
       id: help
       topics:
-      - topicgroup:
-          label: Helpful links
-          links:
-          - link:
-              label: Maximo Application Suite - IBM Documentation
-              href: https://www.ibm.com/docs/mas
-          - link:
-              label: IBM Cloud
-              href: https://www.ibm.com/cloud
+        - link:
+            label: Maximo Application Suite - IBM Documentation
+            href: https://www.ibm.com/docs/mas
+        - link:
+            label: Get an IBMid
+            href: https://myibm.ibm.com
+        - link:
+            label: IBM Support Portal
+            href: https://www.ibm.com/mysupport
+        - link:
+            label: IBM License Key Center Support
+            href: https://www.ibm.com/support/pages/ibm-support-licensing-start-page
+        - link:
+            label: IBM Cloud
+            href: https://www.ibm.com/cloud

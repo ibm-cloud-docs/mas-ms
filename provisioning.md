@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-12"
+lastupdated: "2022-07-19"
 
 subcollection: mas-ms
 
@@ -28,11 +28,11 @@ Customers must purchase (or own) App Points for MAS prior to (or in conjunction 
 
 The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
 
-D02QTZX - Capacity
-D02QUZX - Data
-D02QWZX - VPC (Virtual Processor Core)
+* D02QTZX - Capacity
+* D02QUZX - Data
+* D02QWZX - VPC (Virtual Processor Core)
 
-For details, per see Part Numbers and Order consideration
+For details, see [Part Numbers and Order Considerations](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#part-numbers-and-order-considerations)
 
 Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
@@ -42,7 +42,7 @@ The provisioning process has several steps, most of them automated, but some tha
 * the order complexity
 * the number of orders in the queue ahead of the order
 
-In general, allow for at least 1 week for provisioning to be completed.
+In general, allow for at least 4 weeks for provisioning to be completed.  
 
 The provisioning itself can be broken down into a number of steps:
  
@@ -92,9 +92,4 @@ At this stage, all operational configuration is finalized including ensuring bac
 ## Final Verification of the Provisioning
 {: #final-verification-of-the-provisioning}
 
-A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete.
-
-# Welcome Letter
-{: #welcome-letter}
-
-A welcome letter is then sent to the client
+A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete and a [welcome letter](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#welcome-letter) is sent to the client.
