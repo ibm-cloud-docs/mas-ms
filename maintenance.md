@@ -24,7 +24,7 @@ subcollection: mas-ms
 
 Maintenance Windows generally apply to production environments only.
 
-Standard maintenance times are planned twice monthly, in a 6 hour window from 21:00 to 03:00 UTC Saturday / Sunday. 
+Standard maintenance times are planned twice monthly, using a variable 4 to 40 hour maintenance window from 21:00 to 03:00 UTC Saturday / Sunday. 
 
 The IBM Maximo Application Suite Managed Services team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
 
