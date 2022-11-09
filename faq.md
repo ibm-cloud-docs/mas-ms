@@ -43,5 +43,5 @@ subcollection: mas-ms
 11. Can customers use Manage (Maximo) MXLoader?
     Answer: Technically, IBM does not support MXLoader, but customers can use MXLoader outside of the IBM hosted SRE environment and connect to their database via the MIF (Maximo Integration Framework).
 12. Does MAS-MS Manage support email, is there one provided out of the box? Can customer configure their own SMTP server?
-    Answer: Yes, please refer to [SMTP Setup](/docs/mas-ms?topic=mas-ms-support#smtp-setup). If customer wants to use their own SMTP server, they can open ticket with IBM and provide more details.
+    Answer: Yes, please refer to [SMTP Setup](/docs/mas-ms?topic=mas-ms-support#smtp-setup). If a customer wants to use their own SMTP server, they can open ticket with IBM and provide more details.
     
