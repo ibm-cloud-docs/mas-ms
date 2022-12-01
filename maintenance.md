@@ -40,6 +40,11 @@ Systems are available to users and all standard automated processes such as data
 
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
 
+## Post Upgrade Customer Testing / Validation
+{: #post-upgrade-customer-testing-validation}
+
+After completion of an upgrade by the SRE team, it will be the customer's responsibility to perform regression testing and validate that the application is working as expected. Customers are required to check general applicaton functionality and any business critical components. Additionally, any customer specific integrations (Eventstream/JMS) or custom configurations (automation scripts, applications, etc) will need to be validated as well.
+
 ## Emergency Maintenance
 {: #emergency-maintenance}
 
@@ -49,3 +54,5 @@ In exceptional cases such as critical security patching, the The IBM Maximo Appl
 {: #exception-deferral-maintenance-requests}
 
 All customer environments are managed to several internal and external security and compliance standards. IBM initiated planned maintenance is governed by these standards. For this reason, exceptions or deferral requests are **not available**. There are **no exceptions**.
+
+
