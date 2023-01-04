@@ -36,6 +36,11 @@ Maximo Application Suite utilizes different components to deliver the applicatio
 * are stored in a separate data center
 * are saved for 30 days
 
+## Database Backup Retention
+{: #database-backup-retention}
+
+Database backups will be retained for the standard duration of 14 days for Production environments and 7 days for Non-Production environments. In scenarios where the customer would like to retain a backup for longer than the standard duration outlined, the IBM SRE team will perform a database backup and save it to the COS bucket. It will then be the responsibility of the customer to download and maintain these backups. If a restore using one of these downloaded backups is required, the customer will need to upload the backup back to the COS bucket and open a case specifying which backup to use and for which environment they would like the restore.
+
 ## Restore
 {: #restore}
 
