@@ -32,6 +32,8 @@ Admin:
  
 INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
+Please note... Once an environment has been provisioned, the URL can not be changed. 
+
 ## Database Support and Access
 {: #database-support}
 
@@ -58,10 +60,9 @@ It is the client's responsibility to ensure once access is no longer required fo
 | Create/Update Access for Triggers | Not Allowed | Not Allowed |
 | Create/Update Access for Procedures | Not Allowed | Not Allowed |
 | Run Explain Plan | Not Allowed | Not Allowed |
-| Additional Schemas | Not Allowed | Not Allowed |
 | Create/Update Tables/Columns | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Create/Update Access for Indexes | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
-| Cretae/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
+| Create/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 {: caption="Table 1. MAS-MS Database Access Rules & Guidelines" caption-side="bottom"} 
 
 ## How to Access IBM COS (Cloud Object Storage) Buckets

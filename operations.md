@@ -96,19 +96,19 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | IBM SRE Task | Duration |
 | -------------- | -------------- |
 | VPN Setup | 15 Days |
-| Apply Fix Pack | 5 Days | 
+| Root Cause Analysis | 10 Days |
+| Apply Patch | 5 Days | 
 | Backflow (Refresh) Database | 3 Days |
 | On Demand Backup and Restore | 3 Days |
 | Environment Migration (Database and Doclinks) | 3 Days |
-| Maximo Manage Configdb Request | 2 Days |
-| Maximo ConfigDB Request | 2 Days |
-| Enable New App | 2 Days |
+| Maximo Configdb Request | 2 Days |
 | SSO/LDAP setup | 2 Days |
 | Cloud Object Storage (COS) Setup | 2 Days |
-| Adding Event Streams Topic | 2 Days |
+| Adding Additional JMS Queues | 2 Days |
 | Access to CP4D | 1 Day |
-| Access to Logs | 1 Day |
+| Log Request | 1 Day |
 | Application Server Restarts | 1 Day |
+
 {: caption="Table 1. MAS-MS IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process

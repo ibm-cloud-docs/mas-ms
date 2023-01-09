@@ -75,6 +75,8 @@ This step can take a few hours to several days depending on the initial quality 
 
 If this information is missing or incorrect it can cause delays in the provisioning process while this information is being confirmed.
 
+Please confirm accuracy of your requested URL as it is embedded in the MAS core once provisioned and cannot be changed.
+
 ## Initial Provisioning
 {: #initial-provisioning}
 

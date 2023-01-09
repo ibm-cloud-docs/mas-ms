@@ -43,7 +43,7 @@ Application and MAS component Upgrades are on a defined schedule based on the Ma
 ## Post Upgrade Customer Testing / Validation
 {: #post-upgrade-customer-testing-validation}
 
-After completion of an upgrade by the SRE team, it will be the customer's responsibility to perform regression testing and validate that the application is working as expected. Customers are required to check general applicaton functionality and any business critical components. Additionally, any customer specific integrations (Eventstream/JMS) or custom configurations (automation scripts, applications, etc) will need to be validated as well.
+After completion of an upgrade by the SRE team, it will be the customer's responsibility to perform regression testing and validate that the application is working as expected. Customers are required to check general applicaton functionality and any business critical components. Additionally, any customer specific integrations (JMS) or custom configurations (automation scripts, applications, etc) will need to be validated as well.
 
 ## Emergency Maintenance
 {: #emergency-maintenance}
