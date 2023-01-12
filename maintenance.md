@@ -19,12 +19,12 @@ subcollection: mas-ms
 # Maintenance
 {: #maintenance}
 
-## 2022 Maintenance Windows
+## 2023 Maintenance Windows
 {: #2021-maintenance-windows}
 
 Maintenance Windows generally apply to production environments only.
 
-Standard maintenance times are planned and scheduled for weekend timeframes.  The maintenance duration can range from 4 to 40 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production sites for clients to validate and then production later.   Exact dates are communicated through the Client Communication Center.
+Standard maintenance times for PROD environments are planned and scheduled for weekend timeframes.  The maintenance duration can range from 4 to 40 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production sites for clients to validate and then production later. Exact dates are communicated through the Client Communication Center.
 
 The IBM Maximo Application Suite Managed Services team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
 

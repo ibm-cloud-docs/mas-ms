@@ -29,7 +29,7 @@ Should a customer suspect a Cyber Security issue with their system, client shoul
 
 Before submitting questionnaires, IBMers and clients should first refer to the security information, links and certifications that are available on this page.
 Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper SRE security resource for review / completion.
-Please note there is a 2-3 week turnaround time required for the SRE security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review
+Please note there is a 2-3 week turnaround time required for the SRE security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review.
 
 ## Security Management
 {: #security-management}
@@ -48,21 +48,21 @@ IBM maintains and follows standard mandatory employment verification requirement
 
 IBM Maximo Application Suite Managed Service personnel who are granted O/S or console level access to customer servers are required to use multi-factor authentication. Unique 2048-bit ssh keys are issued to each IBM user in order to connect to the IBM Cloud VPN. Phone based authentication via PIN is also required each time an IBMer connects. These factoring mechanisms are maintained, managed and issued by IBM Cloud Security and the IBM Maximo Application Suite Managed Service Environment Operations Manager.
 
-IBM's internal network prevents employees from accessing malicious websites using Symantec Bluecoat and ProofPoint Targeted Attack Protection (TAP)
+IBM's internal network prevents employees from accessing malicious websites using Symantec Bluecoat and ProofPoint Targeted Attack Protection (TAP).
 
 IBM Maximo Application Suite Managed Service personal access credentials are role based and managed using an IBM internal access management system.
 
-Access is based by job duties (least privilege principal) in accordance with IBM IT Security Policy. The IBM Cloud Delivery Services security team performs the following processes to ensure only those individuals who require access to systems have it, and to ensure the right privileges are in place:
+Access is based by job duties (least privilege principal) in accordance with IBM IT Security Policy. The IBM SRE security team performs the following processes to ensure only those individuals who require access to systems have it, and to ensure the right privileges are in place.
 
-Every quarter, a separation of duties review is performed by the IBM Maximo Application Suite Managed Service management team to ensure no one individual has a conflict of roles without adequate safeguards beings in place
+Every quarter, a separation of duties review is performed by the IBM Maximo Application Suite Managed Service management team to ensure no one individual has a conflict of roles without adequate safeguards beings in place.
 
-Every quarter, a review of user access is performed to ensure existing users and privileges are still required
+Every quarter, a review of user access is performed to ensure existing users and privileges are still required.
 
-A defined process is in place to ensure individuals who leave the IBM Cloud Delivery Services team, even if to other areas within IBM, have their UserID and privileges revoked
+A defined process is in place to ensure individuals who leave the IBM SRE team, even if to other areas within IBM, have their UserID and privileges revoked.
 
 The IBM Maximo Application Suite Managed Service team performs proactive management and deployment of patches, updates and fixes to the Application, Middleware, Database and O/S layers via a planned Maintenance & Outage Calendar
 
-IBM Cloud Delivery Services employs a defense in depth strategy (DiD) for boundary protection that includes firewalls and encrypted communications for remote connectivity to access the environment.  All communications that cross this boundary are controlled and monitored.
+IBM SRE team employs a defense in depth strategy (DiD) for boundary protection that includes firewalls and encrypted communications for remote connectivity to access the environment.  All communications that cross this boundary are controlled and monitored.
 
 The IBM Cloud network ports are protected with firewalls, which serve as intrusion detection (IDS) and intrusion prevention (IPS) agents. Details regarding on IBM Cloud intrusion detection management is IBM Confidential information and covered under IBM Cloud SOC2 compliance (see compliance section below).
 
@@ -75,24 +75,26 @@ Physical Security for IBM Cloud:
 
 https://www.ibm.com/cloud/architecture/architectures/physical-security-arch/
 
+On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
+
 ## Customer Access
 {: #customer-access}
 
-IBM Maximo Application Suite Managed Service are public internet based offerings. Customers connect to IBM Cloud using HTTPS encryption over the internet
+IBM Maximo Application Suite Managed Service are public internet based offerings. Customers connect to IBM Cloud using HTTPS encryption over the internet.
 
-There is no direct link, peering or private cloud option available for the IBM Maximo Application Suite Managed Service offering
+There is no direct link, peering or private cloud option available for the IBM Maximo Application Suite Managed Service offering.
 
 Every IBM Maximo Application Suite Managed Service customer environment is delivered in a single tenant instance of the application, running on the Openshift platform.
 
-All IBM Maximo Application Suite Managed Service customers use HTTPS (SSL) encryption (256 bit) at the browser level to access IBM hosted applications. Connections are SHA-2 and TLS v1.2 compatible
+All IBM Maximo Application Suite Managed Service customers use HTTPS (SSL) encryption (256 bit) at the browser level to access IBM hosted applications. Connections are SHA-2 and TLS v1.2 compatible.
 
-IBM obtains and implements externally facing SSL certificates from a trusted Certificate Authority (CA)
+IBM obtains and implements externally facing SSL certificates from a trusted Certificate Authority (CA).
 
-All databases use native AES-256 encryption (data is encrypted at rest)
+All databases use native AES-256 encryption (data is encrypted at rest).
 
-Customers will not have direct access to the operating system, file system or web application server.  Changes need to be requested through a Support ticket.
+Customers will not have direct access to the operating system, file system, or web application server.  Changes need to be requested through a Support ticket.
 
-Customers will not have DBAdmin or update access to any database.    Updates need to be requested through a support ticket.
+Customers will not have DBAdmin or update access to any database. Updates need to be requested through a support ticket.
 
 ## Single Sign On
 {: #single-sign-on}
@@ -140,7 +142,7 @@ Setup and configuration of SSO including OIDC (default), SAML and LDAP user auth
 ## Compliance - IBM Cloud (Infrastructure)
 {: #compliance-ibm-cloud-infrastructure}
 
-All IBM Maximo Application Suite Managed Service customer environments are managed to IBM IT Security Standards (ITSS) defined by IBM’s Chief Information Security Officer (CISO). This includes vulnerability scanning and subsequent remediation
+All IBM Maximo Application Suite Managed Service customer environments are managed to IBM IT Security Standards (ITSS) defined by IBM’s Chief Information Security Officer (CISO). This includes vulnerability scanning and subsequent remediation.
 
 IBM Cloud holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports to customers
 
@@ -204,7 +206,7 @@ An IBM SaaS-wide central health checking service is used to automatically mainta
 
 IBM Maximo development follow IBM Secure Engineering practices for application development. IBM Secure Engineering is outlined publicly at the following link: https://www.ibm.com/security/secure-engineering/index.html 
 
-IBM Maximo developers are required to follow secure coding practices, and complete education in the SANS top 25 and OWASP top 10. In addition, static (source) and web application scanning using IBM (HCL) AppScan product suite must be performed. These products check for SANS Top 25 and OWASP top 10 issues. Any vulnerabilities found by these scans must be resolved before product release or submitted through IBM's Product Security Incident Response Team (PSIRT) process for resolution via defect (IBM Authorized Program Analysis Report or APAR) 
+IBM Maximo developers are required to follow secure coding practices, and complete education in the SANS top 25 and OWASP top 10. In addition, static (source) and web application scanning using IBM (HCL) AppScan product suite must be performed. These products check for SANS Top 25 and OWASP top 10 issues. Any vulnerabilities found by these scans must be resolved before product release or submitted through IBM's Product Security Incident Response Team (PSIRT) process for resolution via defect (IBM Authorized Program Analysis Report or APAR).
 
 IBM Maximo development uses Rational Team Concert for development (management of tasks, stories, epics, version control, test management, etc) Selenium and TestNG for test automation, Jenkins for deployment automation, and Rational Performance Tester (RPT) for performance load testing. 
 
@@ -249,7 +251,7 @@ IBM Maximo Application Suite Manage Servers (commercial public offerings) follow
 ## Data Leakage Prevention / Data Loss Prevention (DLP)
 {: #data-leakage-prevention-data-loss-prevention-dlp}
 
-IBM Cloud Delivery Services does not use DLP monitoring. Access controls are implemented on all databases restricted to privileged users only. Database auditing is enabled and logs are retained for 365 days. Customers configure and manage the data their users can view, update and export within the Maximo Application Sutie  applications, as well as determine which of their users is permitted direct read-only access to their database(s).
+IBM SRE team does not use DLP monitoring. Access controls are implemented on all databases restricted to privileged users only. Database auditing is enabled and logs are retained for 365 days. Customers configure and manage the data their users can view, update and export within the Maximo Application Sutie  applications, as well as determine which of their users is permitted direct read-only access to their database(s).
 
 IBM purchases Professional Errors and Omissions including cyber risk insurance (see below) for IBM's liability arising out of actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission committed in the conduct of IBM’s professional services. This includes coverage for loss of intangible property, such as customer data, due to IBM’s negligence. This coverage is global in scope. 
 
@@ -261,7 +263,7 @@ IBM Cloud provides DDoS (Distributed Denial of Service) protection for its envir
 ## Media Sanitization
 {: #media-sanitization}
 
-IBM securely sanitizes physical media intended for reuse prior to such reuse, and will destroy physical media not intended for reuse, consistent with National Institute of Standards and Technology, United States Department of Commerce (NIST) guidelines for media sanitization (see link below)
+IBM securely sanitizes physical media intended for reuse prior to such reuse, and will destroy physical media not intended for reuse, consistent with National Institute of Standards and Technology, United States Department of Commerce (NIST) guidelines for media sanitization (see link below).
     https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf
 
 ## Cyber Insurance
@@ -275,7 +277,7 @@ https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/Wc0a20474fb23_478a_8
 ## Regulated Content
 {: #regulated-content}
 
-IBM Maximo Application Suite offerings are not intended to host government regulated content. Please see the Cloud Services Agreement (link below) Section 2c for details
+IBM Maximo Application Suite offerings are not intended to host government regulated content. Please see the Cloud Services Agreement (link below) Section 2c for details.
 
 ## Clock synchronization
 {: #clock-synchronization}
