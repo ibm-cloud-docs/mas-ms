@@ -304,11 +304,10 @@ A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and
 ## Maximo Mobile
 {: #maximo-mobile}
 
-For questions related to use of Maximo Mobile in MAS-MS Manage, please refer to the links below:
+For questions related to use of Maximo Mobile in MAS-MS Manage, please refer to the link below. 
+https://www.ibm.com/docs/en/maximo-manage/8.0.0?topic=managing-maximo-mobile
 
-* Maximo Manage Version 8.3 - https://www.ibm.com/docs/en/maximo-manage/8.3.0?topic=managing-maximo-mobile
-* Maximo Manage Version 8.2 - https://www.ibm.com/docs/en/maximo-manage/8.2.0?topic=managing-maximo-mobile
-* Maximo Manage Version 8.1 - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=managing-maximo-mobile
+Once on the resulting page, select the desired version of Maximo Mobile from the drop-down 'Change version' in the top left corner.
 
 ## Self-Service Portal
 {: #ssp}

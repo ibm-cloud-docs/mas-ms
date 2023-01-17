@@ -32,8 +32,6 @@ The current IBM Cloud data centers being leveraged for MAS-MS are:
 - London, UK
 - Sydney, Australia
 - Toronto, Canada
- 
-On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
 IBM Cloud - YouTube Videos
 
@@ -54,7 +52,7 @@ https://www.ibm.com/cloud/data-centers
 
 IBM Cloud has a unique Triple Network architecture.  Every server provisioned in the IBM Cloud has 3 distinct networks:
 
-* Public Network: Two network interfaces are dedicated to the public network.  This network serves as the internet facing network for the server.  IBM MAS-MS uses this network as the way for external clients to access the application. This network is also secured by a firewall pair managed by IBM Cloud Delivery Services. 
+* Public Network: Two network interfaces are dedicated to the public network.  This network serves as the internet facing network for the server.  IBM MAS-MS uses this network as the way for external clients to access the application. This network is also secured by a firewall pair managed by the IBM SRE team.
 
 * Private Network: Two network interfaces are dedicated to the private network.  This network serves as a secure private network dedicated to IBM Cloud.  IBM Cloud uses this network for secure server to server communication as well as data center to data center communications.  This network has no access to the internet.
 
@@ -71,14 +69,14 @@ The following diagram shows a high level overview of the architecture for each i
 ## MAS-MS Architecture Highlights
 {: #mas-ms-architecture-highlights}
 
-* MAS MS customers are provisioned two (2) environments by default: (1) PROD and (1) NON-PROD
+* MAS MS customers are required to have two (2) environments provisioned by default: (1) PROD and (1) NON-PROD
 * All clients will be provisioned in their own application instance using dedicated namespace(s)
 * IT Administration for the PROD and NON-PROD environments is solely managed by IBM's MAS-MS operations team
 * Clients can access PROD and NON-PROD systems via browser based URL
 * MAS-MS is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS-MS
 * Clients are provided application administrator access for all applications ordered
 * All servers are Red Hat Linux O/S
-* Maximo Manage databases are IBM DB2.  Oracle and MS SQLServer are not supported.
+* Maximo Manage databases are IBM DB2. Oracle and MS SQLServer are not supported.
 
 ## MAS-MS Integrations
 {: #mas-ms-integrations}
