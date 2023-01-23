@@ -86,7 +86,7 @@ The RACI defines IBM and customer responsibilities in the delivery and managemen
 
 MAS-MS RACI Spreadsheet (excel download):
 
-[MAS-MS RACI Spreadsheet](https://www.ibm.com/support/pages/system/files/inline-files/MAS-MS-RACI-V2.xlsx){: external download="MAS-MS-RACI-V2.xlsx"}
+[MAS-MS RACI Spreadsheet](https://ibm.box.com/shared/static/6rvwdbyu8uwx2qb85ovpf2btilbqnyg0.xlsx){: external download="MAS-MS-RACI.xlsx"}
 
 ## IBM SRE Task Lead Times
 {: #sre-task-lead-times}
