@@ -110,7 +110,7 @@ For clients wanting to use App Connect or File integration for other application
 ## MAS-MS Bundles
 {: #mas-ms-bundles}
 
-The following table shows the distribution of workload across worker nodes.  This is based on the T-Shirt sizes on the [Maximo Application Suite Managed Service T-Shirt Calculator v5.4](https://www.ibm.com/support/pages/system/files/inline-files/MAS%20MS%20Tshirt%20Calculator%20v5.4.xlsx){: external download="MAS-MS-Tshirt-Calculator-v5-4.xls"} and will be the setup based on the selected size of the sites. For Development and Extra Small, all workloads (UI, MIF, RPT, CRON) go through the same (2) base worker nodes. For Small, Medium and Large, the workloads are distributed through specific worker nodes as per the below table. If a client needs a different configuration, please contact your sales representative.
+The following table shows the distribution of workload across worker nodes.  This is based on the T-Shirt sizes on the [Maximo Application Suite Managed Service T-Shirt Calculator v5.4](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-MS-Tshirt-Calculator-v5-4.xls"} and will be the setup based on the selected size of the sites. For Development and Extra Small, all workloads (UI, MIF, RPT, CRON) go through the same (2) base worker nodes. For Small, Medium and Large, the workloads are distributed through specific worker nodes as per the below table. If a client needs a different configuration, please contact your sales representative.
 
 | T-Shirt Size | Max Concurrent Users | Base | UI | MIF | RPT | CRON | VPC on Order | 
 | ------------ | -------------------- | ---- | -- | --- | --- | ---- | ------------ |
