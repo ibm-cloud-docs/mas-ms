@@ -32,7 +32,7 @@ IBM Maximo Application Suite Managed Service (MAS-MS) is an offering supported b
 
 Please see link below to the current Service Description for Maximo Application Suite Managed Service. Please check this link regularly as it is updated periodically and the current service description takes precedent.
 
-https://www.ibm.com/support/customer/csol/terms/internal?id=i126-8819&lc=en#detail-document
+https://www.ibm.com/support/customer/csol/terms/?ref=i126-8819-05-12-2022-zz-en
 
 ## Service Level Agreement
 {: #service-level-agreement}
