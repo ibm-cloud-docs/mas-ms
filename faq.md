@@ -35,7 +35,7 @@ subcollection: mas-ms
 7. Can we use the HTTP and HTTPS end points to post to applications in the Cloud?
     Answer: Yes, HTTPS only.
 8. Can customers execute sql scripts that manipulate data?
-    Answer: This is not allowed. If customer needs data correction, it is recommended to perform this from the front end or use automation scripts, to ensure data integrity.
+    Answer: This is not allowed in production environments. If customer needs data correction, it is recommended to perform this from the front end or use automation scripts, to ensure data integrity.
 9. How does Single Sign On (SSO) setup work?
     Answer: Customers can request [SSO setup](/docs/mas-ms?topic=mas-ms-support#saml-sso-config) work via [IBM Case ticket](https://www.ibm.com/mysupport){: external}
 10. Can customers run dbconfig for NON_PROD and PROD?

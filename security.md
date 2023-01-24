@@ -94,7 +94,7 @@ All databases use native AES-256 encryption (data is encrypted at rest).
 
 Customers will not have direct access to the operating system, file system, or web application server.  Changes need to be requested through a Support ticket.
 
-Customers will not have DBAdmin or update access to any database. Updates need to be requested through a support ticket.
+Customers will not have DBAdmin access to any database. Updates are allowed to NON-PROD databases. Updates to PROD databases need to be requested through a support ticket.
 
 ## Single Sign On
 {: #single-sign-on}
