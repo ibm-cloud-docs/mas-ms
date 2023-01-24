@@ -59,7 +59,7 @@ There are three (3) MAS-MS part numbers:
 
 To correctly size an order, please use the MAS-MS Managed Service T-Shirt Calculator:
 
-[Maximo Application Suite Managed Service T-Shirt Calculator v5.4](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-MS-Tshirt-Calculator-v5-4.xls"}
+[Maximo Application Suite Managed Service T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-MS-Tshirt-Calculator-v6.xls"}
 
 For additional information, please contact Mike Cookson:
 
