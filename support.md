@@ -160,23 +160,14 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
-The MAS Manage environments use Kafka queues for event stream processing. The Kafka setup will be completed by the IBM MAS-MS SRE provisioning team.
+The MAS Manage environments use JMS queues for event stream processing. The JMS setup will be completed by the IBM MAS-MS SRE provisioning team.
 
-* EndPoints will need to be configured to use the Kafka queues
+* EndPoints will need to be configured to use the JMS queues
 * Cron activation will need to be enabled by the customer
 
-* Maximo Manage Kafka Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-by-using-apache-kafka
+Maximo Manage JMS Server Documentation:
 
-### Standard MAS-MS Event Stream / Kafka Configuration
-{: #standard-kafka-configuration}
-
-| Name | Partitions | Retention Time | Retention Size | Cleanup Policy |
-| ---- | ---------- | --------------- |---------------- | -------------- |
-| cqin | 3 | 2 wk | 1 GB | delete |
-| cqinerr | 1 | 2 wk | 1 GB | delete |
-| sqin | 1 | 2 wk | 1 GB | delete |
-| sqout | 1 | 2 wk | 1 GB | delete |
-{: caption="Table 3. Event Stream / Kafka Configuration" caption-side="bottom"} 
+https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=deploy-configuring-java-message-service-jms-servers
 
 Note: changes in the above configuration such as retention size and/or additional topics can be made available at an additional cost.
 
@@ -299,7 +290,7 @@ Once this case and details are received, we generate and send 3 DNS records for 
 A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-Site VPNs are not configured by default. The setup and configuration of a Site-to-Site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for a VPN build when planning integrations or services will that depend on it for connectivity. MAS-MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
 
 * Note: Only one case is needed for VPN setup and can cover configuration for multiple environments (DEV, TEST, PROD, etc).
-* Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or SFTP and may not require a VPN.
+* Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or rclone and may not require a VPN.
 
 ## Maximo Mobile
 {: #maximo-mobile}
