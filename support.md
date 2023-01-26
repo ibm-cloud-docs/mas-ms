@@ -169,8 +169,6 @@ Maximo Manage JMS Server Documentation:
 
 https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=deploy-configuring-java-message-service-jms-servers
 
-Note: changes in the above configuration such as retention size and/or additional topics can be made available at an additional cost.
-
 ### Administrative Utilities (API Calls)
 {: #admin-util-api-calls}
 
