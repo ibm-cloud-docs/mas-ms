@@ -101,7 +101,7 @@ Customers will not have DBAdmin access to any database. Updates are allowed to N
 
 IBM Maximo Application Suite Managed Service supports Single Sign On (SSO). Details can be found here:
 
-https://www.ibm.com/support/knowledgecenter/en/SSRHPA_current/appsuite/admin/manage_authentication.html
+https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=configuring-users-identity
 
 LDAP and SAML (2.0) is supported. 
 
