@@ -19,9 +19,9 @@ subcollection: mas-ms
 # Limitations & Exclusions
 {: #limitations-exclusions}
 
-Maximo Application Suite Managed Services is implemented using a defined set of technologies and operates within a security profile designed to ensure our client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Managed Services and what a client could do if they hosted and operated the Suite themselves.
+Maximo Application Suite Dedicated is implemented using a defined set of technologies and operates within a security profile designed to ensure our client's data is secure and the applications operate efficiently and effectively.  As a result of the decisions made regarding technologies and to meet the high security standards, there are differences between what is available using the Dedicated Services and what a client could do if they hosted and operated the Suite themselves.
 
-The following items are not included or allowed in the Maximo Application Suite Managed Services offering:
+The following items are not included or allowed in the Maximo Application Suite Dedicated offering:
 
 ## Databases
 {: #databases}
@@ -42,7 +42,7 @@ No Java extensions are supported.  It is assumed the Manage auomation scripting 
 ## 3rd Party Applications
 {: #3rd-party-applications}
 
-Maximo Application Suite Managed Services will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-MS environment can be integrated to applications with the Suite provided they follow standard integration protocols.
+Maximo Application Suite Dedicated will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-Dedicated environment can be integrated to applications with the Suite provided they follow standard integration protocols.
 
 ## Access
 {: #access}
@@ -57,10 +57,10 @@ Direct access to the clusters is not available.  Changes required must be submit
 ## AppConnect
 {: #mas-app-connect}
 
-AppConnect is included as an entitlement with the Maximo Application Suite, but the Managed Service does not implement or support this within the MAS-MS environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
+AppConnect is included as an entitlement with the Maximo Application Suite, but the Dedicated Service does not implement or support this within the MAS-Dedicated environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
 
 ## Self-Service Portal
 {: #mas-ssp}
 
-A self service portal (SSP) for MAS Managed Service is not available at this time and is under construction.
+A self service portal (SSP) for MAS Dedicated is not available at this time and is under construction.
 

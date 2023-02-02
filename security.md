@@ -42,25 +42,25 @@ IBM maintains and follows standard mandatory employment verification requirement
 
 * All IBMers are required to complete mandatory Business Conduct Guidelines training annually
 
-* Only IBM Maximo Application Suite Managed Service personnel are permitted access to customer systems
+* Only IBM Maximo Application Suite Dedicated Service personnel are permitted access to customer systems
 
-* IBM Maximo Application Suite Managed Service personnel are required to use privileged access workstations to connect and work with our customer's IBM systems. These workstations meet IBM's highest and most stringent security guidelines.
+* IBM Maximo Application Suite Dedicated Service personnel are required to use privileged access workstations to connect and work with our customer's IBM systems. These workstations meet IBM's highest and most stringent security guidelines.
 
-IBM Maximo Application Suite Managed Service personnel who are granted O/S or console level access to customer servers are required to use multi-factor authentication. Unique 2048-bit ssh keys are issued to each IBM user in order to connect to the IBM Cloud VPN. Phone based authentication via PIN is also required each time an IBMer connects. These factoring mechanisms are maintained, managed and issued by IBM Cloud Security and the IBM Maximo Application Suite Managed Service Environment Operations Manager.
+IBM Maximo Application Suite Dedicated Service personnel who are granted O/S or console level access to customer servers are required to use multi-factor authentication. Unique 2048-bit ssh keys are issued to each IBM user in order to connect to the IBM Cloud VPN. Phone based authentication via PIN is also required each time an IBMer connects. These factoring mechanisms are maintained, managed and issued by IBM Cloud Security and the IBM Maximo Application Suite Dedicated Environment Operations Manager.
 
 IBM's internal network prevents employees from accessing malicious websites using Symantec Bluecoat and ProofPoint Targeted Attack Protection (TAP).
 
-IBM Maximo Application Suite Managed Service personal access credentials are role based and managed using an IBM internal access management system.
+IBM Maximo Application Suite Dedicated Service personal access credentials are role based and managed using an IBM internal access management system.
 
 Access is based by job duties (least privilege principal) in accordance with IBM IT Security Policy. The IBM SRE security team performs the following processes to ensure only those individuals who require access to systems have it, and to ensure the right privileges are in place.
 
-Every quarter, a separation of duties review is performed by the IBM Maximo Application Suite Managed Service management team to ensure no one individual has a conflict of roles without adequate safeguards beings in place.
+Every quarter, a separation of duties review is performed by the IBM Maximo Application Suite Dedicated Service management team to ensure no one individual has a conflict of roles without adequate safeguards beings in place.
 
 Every quarter, a review of user access is performed to ensure existing users and privileges are still required.
 
 A defined process is in place to ensure individuals who leave the IBM SRE team, even if to other areas within IBM, have their UserID and privileges revoked.
 
-The IBM Maximo Application Suite Managed Service team performs proactive management and deployment of patches, updates and fixes to the Application, Middleware, Database and O/S layers via a planned Maintenance & Outage Calendar
+The IBM Maximo Application Suite Dedicated team performs proactive management and deployment of patches, updates and fixes to the Application, Middleware, Database and O/S layers via a planned Maintenance & Outage Calendar
 
 IBM SRE team employs a defense in depth strategy (DiD) for boundary protection that includes firewalls and encrypted communications for remote connectivity to access the environment.  All communications that cross this boundary are controlled and monitored.
 
@@ -80,13 +80,13 @@ On site customer visits to IBM Cloud data centers are not allowed for security r
 ## Customer Access
 {: #customer-access}
 
-IBM Maximo Application Suite Managed Service are public internet based offerings. Customers connect to IBM Cloud using HTTPS encryption over the internet.
+IBM Maximo Application Suite Dedicated Service are public internet based offerings. Customers connect to IBM Cloud using HTTPS encryption over the internet.
 
-There is no direct link, peering or private cloud option available for the IBM Maximo Application Suite Managed Service offering.
+There is no direct link, peering or private cloud option available for the IBM Maximo Application Suite Dedicated Service offering.
 
-Every IBM Maximo Application Suite Managed Service customer environment is delivered in a single tenant instance of the application, running on the Openshift platform.
+Every IBM Maximo Application Suite Dedicated customer environment is delivered in a single tenant instance of the application, running on the Openshift platform.
 
-All IBM Maximo Application Suite Managed Service customers use HTTPS (SSL) encryption (256 bit) at the browser level to access IBM hosted applications. Connections are SHA-2 and TLS v1.2 compatible.
+All IBM Maximo Application Suite Dedicated customers use HTTPS (SSL) encryption (256 bit) at the browser level to access IBM hosted applications. Connections are SHA-2 and TLS v1.2 compatible.
 
 IBM obtains and implements externally facing SSL certificates from a trusted Certificate Authority (CA).
 
@@ -99,7 +99,7 @@ Customers will not have DBAdmin access to any database. Updates are allowed to N
 ## Single Sign On
 {: #single-sign-on}
 
-IBM Maximo Application Suite Managed Service supports Single Sign On (SSO). Details can be found here:
+IBM Maximo Application Suite Dedicated supports Single Sign On (SSO). Details can be found here:
 
 https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=configuring-users-identity
 
@@ -112,9 +112,9 @@ Customers will be responsible to ensure the appropriate user setup and mapping i
 ## Penetration and Vulnerability Testing
 {: #penetration-and-vulnerability-testing}
 
-IBM’s Product Transformation Center (PTC) conducts penetration testing on IBM Maximo Application Suite Managed Service offering annually.
+IBM’s Product Transformation Center (PTC) conducts penetration testing on IBM Maximo Application Suite Dedicated Service offering annually.
 
-IBM performs external and internal vulnerability scanning and subsequent remediation in all IBM Maximo Application Suite Managed Service environments on a quarterly basis per IBM IT Security Standards (ITSS). This includes Operating System, Middleware, Application and TCP/IP vulnerability scanning.
+IBM performs external and internal vulnerability scanning and subsequent remediation in all IBM Maximo Application Suite Dedicated environments on a quarterly basis per IBM IT Security Standards (ITSS). This includes Operating System, Middleware, Application and TCP/IP vulnerability scanning.
 
 Vulnerabilities are assigned individual vulnerability ratings and exploitation categories (Critical, High, Medium or Low). These ratings are used to determine an IBM mandated time requirement to remediate and resolve the vulnerability.
 
@@ -126,9 +126,9 @@ https://www-01.ibm.com/support/docview.wss?uid=swg21419049
 ## Security Services
 {: #security-ervices}
 
-The IBM Maximo Application Suite Managed Service team provides the following security and system access services. These services are included as part of the IBM Maximo Application Suite Managed Service:
+The IBM Maximo Application Suite Dedicated team provides the following security and system access services. These services are included as part of IBM Maximo Application Suite Dedicated:
 
-Setup of SSL certificates and DNS registration. This is standard by default and allows for secure browser based HTTPS (encrypted) access IBM Maximo Application Suite Managed Service end users.
+Setup of SSL certificates and DNS registration. This is standard by default and allows for secure browser based HTTPS (encrypted) access IBM Maximo Application Suite Dedicated end users.
 
 Setup of IPsec Virtual Private Network (VPN) between client locations and IBM Cloud data center(s). VPN setup is optional, and is used to provide the following:
 
@@ -142,7 +142,7 @@ Setup and configuration of SSO including OIDC (default), SAML and LDAP user auth
 ## Compliance - IBM Cloud (Infrastructure)
 {: #compliance-ibm-cloud-infrastructure}
 
-All IBM Maximo Application Suite Managed Service customer environments are managed to IBM IT Security Standards (ITSS) defined by IBM’s Chief Information Security Officer (CISO). This includes vulnerability scanning and subsequent remediation.
+All IBM Maximo Application Suite Dedicated customer environments are managed to IBM IT Security Standards (ITSS) defined by IBM’s Chief Information Security Officer (CISO). This includes vulnerability scanning and subsequent remediation.
 
 IBM Cloud holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports to customers
 
@@ -181,7 +181,7 @@ Type of Report Requested: (SOC1 or SOC2)
 * Email:
 * Reason for Request:
 
-Once submitted by the IBM Maximo Application Suite Managed Service team, customer identified as the requestor will receive an email from trust_and_assurance@wwpdl.vnet.ibm.com through which they can download the SOC 1 or 2 report.
+Once submitted by the IBM Maximo Application Suite Dedicated Service team, customer identified as the requestor will receive an email from trust_and_assurance@wwpdl.vnet.ibm.com through which they can download the SOC 1 or 2 report.
 
 IBM Cloud data centers are not Tier certified, but are built to Uptime Tier 3 specifications
 
@@ -192,7 +192,7 @@ https://www.ibm.com/cloud/compliance
 ## Industry and Regulatory Compliance
 {: #industry-and-regulatory-compliance}
 
-IBM Maximo Application Suite Managed Service environments are ISO-27001 certified. This certificate is publicly available and can be viewed / downloaded via the link below.
+IBM Maximo Application Suite Dedicated environments are ISO-27001 certified. This certificate is publicly available and can be viewed / downloaded via the link below.
 
 ISO-27001:
 
@@ -200,7 +200,7 @@ https://www.ibm.com/downloads/cas/EEO0NVLK
 
 Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only).
 
-All IBM Maximo Application Suite Managed Services servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/  
+All IBM Maximo Application Suite Dedicated servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/  
 
 An IBM SaaS-wide central health checking service is used to automatically maintain baseline (hardened) configurations of systems against standard IBM policy.
 
@@ -227,7 +227,7 @@ https://www.ibm.com/privacy/details/us/en/privacy_shield.html
 
 Data Responsibility at IBM
 https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
-If a government wants access to data held by IBM on behalf of a MAS-MS client, IBM would expect that government to deal directly with that client 
+If a government wants access to data held by IBM on behalf of a MAS-Dedicated client, IBM would expect that government to deal directly with that client 
 
 Data Processing Addendum (GDPR)
 https://www.ibm.com/support/customer/zz/en/dpa.html
@@ -282,7 +282,7 @@ IBM Maximo Application Suite offerings are not intended to host government regul
 ## Clock synchronization
 {: #clock-synchronization}
 
-All customer MAS-MS environments leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
+All customer MAS-Dedicated environments leverage IBM Cloud's internal NTP service as single reference time source for information system processing clocks and security domains.
 
 Customers are responsible or synchronizing their local environments (workstations, on premise servers) with an authoritative time source.
 

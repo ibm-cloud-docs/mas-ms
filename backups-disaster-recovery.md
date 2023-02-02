@@ -49,7 +49,7 @@ Restore requests must be submitted via case (ticket) through the IBM Support Com
 ## Disaster Recovery
 {: #disaster-recovery}
 
-In the event of a DR issue with the Maximo Application Suite Managed Service offering for a specific customer, IBM's focus will be in the following order:
+In the event of a DR issue with the Maximo Application Suite Dedicated Service offering for a specific customer, IBM's focus will be in the following order:
 
 1. Recover the existing infrastructure in place
 2. Recover within the same IBM Cloud data center to a new infrastructure
