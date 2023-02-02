@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2023-02-02"
 
 subcollection: mas-ms
 
@@ -113,7 +113,7 @@ The Access Management Tool provides the ability for users to request and manage 
 ### How to Request CCC Access
 {: #how-to-request-ccc-access}
 
-Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.
+Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-dedicated-client-communications-center) page.
 
 1.	Sign into the Self-Service Portal with your IBMid:
 

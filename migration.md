@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2023-02-02"
 
 subcollection: mas-ms
 
@@ -20,7 +20,7 @@ subcollection: mas-ms
 {: #migration-from-maximo-saas-flex-or-on-premise}
 
 ## Migration of Maximo to Dedicated (MAS-Dedicated)
-{: #migration-of-maximo-to-managed-service-mas-dedicated}
+{: #migration-of-maximo-to-mas-dedicated}
 
 This page covers migration of an existing Maximo application, either on the IBM Maximo EAM SaaS Flex offering or a client-managed installation to Maximo Application Suite Dedicated (MAS-Dedicated). This document focuses on the MAS Manage (Maximo EAM) application.  There are two paths that can be followed:
 

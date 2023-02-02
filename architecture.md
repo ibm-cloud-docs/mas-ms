@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2023-01-19"
+lastupdated: "2023-02-02"
 
 subcollection: mas-ms
 
@@ -67,13 +67,13 @@ The following diagram shows a high level overview of the architecture for each i
 ![MAS-Dedicated Architecture](images/MAS-MS-Architecture.png "MAS-Dedicated Architecture"){: caption="Figure 1. MAS-Dedicated Architecture" caption-side="bottom"}
 
 ## MAS-Dedicated Architecture Highlights
-{: #mas-ms-adedicated-highlights}
+{: #mas-dedicated-highlights}
 
 * MAS MS customers are required to have two (2) environments provisioned by default: (1) PROD and (1) NON-PROD
 * All clients will be provisioned in their own application instance using dedicated namespace(s)
 * IT Administration for the PROD and NON-PROD environments is solely managed by IBM's MAS-Dedicated operations team
 * Clients can access PROD and NON-PROD systems via browser based URL
-* MAS-Dedicated is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS-MS
+* MAS-Dedicated is an internet based offering that runs over HTTPS. There is no private cloud or direct connect option for MAS-Dedicated
 * Clients are provided application administrator access for all applications ordered
 * All servers are Red Hat Linux O/S
 * Maximo Manage databases are IBM DB2. Oracle and MS SQLServer are not supported.
@@ -110,7 +110,7 @@ For clients wanting to use App Connect or File integration for other application
 ## MAS-Dedicated Bundles
 {: #mas-dedicated-bundles}
 
-The following table shows the distribution of workload across worker nodes.  This is based on the T-Shirt sizes on the [Maximo Application Suite Dedicated T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-MS-Tshirt-Calculator-v6.xls"} and will be the setup based on the selected size of the sites. For Development and Extra Small, all workloads (UI, MIF, RPT, CRON) go through the same (2) base worker nodes. For Small, Medium and Large, the workloads are distributed through specific worker nodes as per the below table. If a client needs a different configuration, please contact your sales representative.
+The following table shows the distribution of workload across worker nodes.  This is based on the T-Shirt sizes on the [Maximo Application Suite Dedicated T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-Dedicated-Tshirt-Calculator-v6.xls"} and will be the setup based on the selected size of the sites. For Development and Extra Small, all workloads (UI, MIF, RPT, CRON) go through the same (2) base worker nodes. For Small, Medium and Large, the workloads are distributed through specific worker nodes as per the below table. If a client needs a different configuration, please contact your sales representative.
 
 | T-Shirt Size | Max Concurrent Users | Base | UI | MIF | RPT | CRON | VPC on Order | 
 | ------------ | -------------------- | ---- | -- | --- | --- | ---- | ------------ |
