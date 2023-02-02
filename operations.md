@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2022-07-19"
+lastupdated: "2023-02-02"
 
 subcollection: mas-ms
 
@@ -22,7 +22,7 @@ subcollection: mas-ms
 ## Service Components
 {: #service-components}
 
-IBM Maximo Application Suite Managed Service includes:
+IBM Maximo Application Suite Dedicated includes:
 
 * System Administration and ongoing Security Compliance to meet IBM internal (ITSS) standards
 * MAS Environment provisioning including sizing, product installation, configuration and deployment
@@ -38,7 +38,7 @@ IBM Maximo Application Suite Managed Service includes:
 
 Technical support for the cloud service is available as part of the customer's subscription period.
 
-IBM Maximo Application Suite Managed Service customers receive support coverage 24 hours per day, 7 days per week, 365 days per year. This includes IBM Support Community Portal access, comprehensive backup and restore, system monitoring and patching.
+IBM Maximo Application Suite Dedicated customers receive support coverage 24 hours per day, 7 days per week, 365 days per year. This includes IBM Support Community Portal access, comprehensive backup and restore, system monitoring and patching.
 24x7 emergency on-call support is available for Severity 1 or system down incidents. This is reserved for production outages where the application is unavailable or service has been severely degraded. IBM leverages an automated alert system integrated with our case ticketing system to provide timely customer response to Sev1 issues.
 
 Please follow this link for Severity and Repsonse guidelines from the IBM Global Support Team:
@@ -48,7 +48,7 @@ https://www.ibm.com/support/pages/node/738881
 ## Data Center Locations
 {: #data-center-locations}
 
-Maximo Application Suite Managed Service is currently offered from the following IBM Cloud data center locations (regions).
+Maximo Application Suite Dedicated is currently offered from the following IBM Cloud data center locations (regions).
 
 North America:
 
@@ -68,7 +68,7 @@ Asia Pacific:
 ## Operations Support Locations
 {: #operations-support-locations}
 
-IBM's MAS-MS support personnel are located across the globe in the following countries:
+IBM's MAS-Dedicated support personnel are located across the globe in the following countries:
 
 * United States
 * Canada
@@ -82,11 +82,11 @@ IBM's MAS-MS support personnel are located across the globe in the following cou
 ## Roles & Responsibilities Matrix (RACI)
 {: #roles-responsibilities-matrix-raci}
 
-The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Managed Service (MAS-MS) environment.
+The RACI defines IBM and customer responsibilities in the delivery and management of the Maximo Application Suite Dedicated environment.
 
-MAS-MS RACI Spreadsheet (excel download):
+MAS-Dedicated RACI Spreadsheet (excel download):
 
-[MAS-MS RACI Spreadsheet](https://ibm.box.com/shared/static/6rvwdbyu8uwx2qb85ovpf2btilbqnyg0.xlsx){: external download="MAS-MS-RACI.xlsx"}
+[MAS-Dedicated RACI Spreadsheet](https://ibm.box.com/shared/static/6rvwdbyu8uwx2qb85ovpf2btilbqnyg0.xlsx){: external download="MAS-Dedicated-RACI.xlsx"}
 
 ## IBM SRE Task Lead Times
 {: #sre-task-lead-times}
@@ -109,7 +109,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Log Request | 1 Day |
 | Application Server Restarts | 1 Day |
 
-{: caption="Table 1. MAS-MS IBM SRE Lead Times" caption-side="bottom"}
+{: caption="Table 1. MAS-Dedicated IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
 {: #incident-management-and-rca-process}

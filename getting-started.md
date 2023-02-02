@@ -20,22 +20,22 @@ completion-time: 10m
 {:external: target="_blank" .external}
 { :toc-completion-time="10m"}
 
-# Getting started with IBM Maximo Application Suite Managed Service
-{: #getting-started-with-ibm-maximo-application-suite-managed-service}
+# Getting started with IBM Maximo Application Suite Dedicated
+{: #getting-started-with-ibm-maximo-application-suite-dedicated}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-![MAS MS Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-MS Site Banner"){: caption=""} 
+![MAS Dedicated Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-Dedicated Site Banner"){: caption=""} 
 
 ## About
 {: #about}
 
-Maximo Application Suite Managed Service (MAS-MS) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud platform. MAS-MS combines key IBM technologies: IBM Cloud, Red Hat Open Shift, IBM Cloud Pak for Data and IBM Watson - into a focused MAS services solution, allowing customers to make implementation of product functionality & features a priority.
+Maximo Application Suite Managed Service (MAS-Dedicated) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud platform. MAS-Dedicated combines key IBM technologies: IBM Cloud, Red Hat Open Shift, IBM Cloud Pak for Data and IBM Watson - into a focused MAS services solution, allowing customers to make implementation of product functionality & features a priority.
 
 ## Before you begin
 {: #before-you-begin}
 
-Before you can use Maximo Application Suite Managed Service, environments must first be ordered and provisioned by the IBM MAS-MS operations team. To obtain more information about the MAS-MS offering and available options, please contact your IBM Salesperson or an Authorized IBM Partner. If you do not have an IBM Saleperson or Authorized reseller, please complete and submit the consultation form (link below). An IBM representative will be in contact with you.
+Before you can use Maximo Application Suite Managed Service, environments must first be ordered and provisioned by the IBM MAS-Dedicated operations team. To obtain more information about the MAS-Dedicated offering and available options, please contact your IBM Salesperson or an Authorized IBM Partner. If you do not have an IBM Saleperson or Authorized reseller, please complete and submit the consultation form (link below). An IBM representative will be in contact with you.
 
 https://www.ibm.com/products/maximo?schedulerform=
 
@@ -51,15 +51,15 @@ Customers must purchase (or own) App Points for MAS prior to (or in conjunction 
 
 Information should be gathered about the potential usage of the suite, including which applications will be required, how many users on each application and the primary usage of the applications.
 
-There are three (3) MAS-MS part numbers:
+There are three (3) MAS-Dedicated part numbers:
 
 * D02QTZX - Capacity
 * D02QUZX - Data
 * D02QWZX - VPC (Virtual Processor Core)
 
-To correctly size an order, please use the MAS-MS Managed Service T-Shirt Calculator:
+To correctly size an order, please use the MAS-Dedicated Managed Service T-Shirt Calculator:
 
-[Maximo Application Suite Managed Service T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-MS-Tshirt-Calculator-v6.xls"}
+[Maximo Application Suite Dedicated T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-Dedicated-Tshirt-Calculator-v6.xls"}
 
 For additional information, please contact Mike Cookson:
 
@@ -70,7 +70,7 @@ michael.cookson@ibm.com
 ## Welcome Letter
 {: #welcome-letter}
 
-When your MAS-MS environments have been provisioned, you will receive a Welcome Letter from the IBM MAS-MS Operations team. This letter will contain:
+When your MAS-Dedicated environments have been provisioned, you will receive a Welcome Letter from the IBM MAS-Dedicated Operations team. This letter will contain:
 
 * The URLs of each environment that have been provisioned
 * The username, corresponding email and password for each environment
@@ -117,7 +117,7 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
     ![MAS-MS-IBMid-Activated](images/MAS-MS-IBMid-Activated.png "MAS-MS-IBMid-Activated.png"){: caption="Figure 8. MAS-MS IBMid Activated" caption-side="bottom"}
 
-After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS-MS Support Services](#how-to-register-for-mas-support)
+After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS-Dedicated Support Services](#how-to-register-for-mas-dedicated-support)
 
 ## How to Register for Maximo Application Suite Support
 {: #how-to-register-for-mas-support}
@@ -181,7 +181,7 @@ Maximo Application Suite Support covers support for both the Application and you
 ## How to Create a Case
 {: #how-to-create-a-case}
 
-This section describes how to create a case for Maximo Application Suite Managed Service (MAS-MS)
+This section describes how to create a case for Maximo Application Suite Dedicated (MAS-Dedicated)
 
 1. Access the IBM Support Community:
 
@@ -210,9 +210,9 @@ This section describes how to create a case for Maximo Application Suite Managed
 ## How to set password and login to MAS
 {: #how-to-set-password}
 
-You will need to set a temporary password and then change it when you first login to your MAS-MS environment(s).
+You will need to set a temporary password and then change it when you first login to your MAS-Dedicated environment(s).
 
-1. Navigate to your MAS-MS login URL and enter your username (sent via Welcome Letter in the username file) and click **Continue**.
+1. Navigate to your MAS-Dedicated login URL and enter your username (sent via Welcome Letter in the username file) and click **Continue**.
 
     ![MAS-MS-Password-Change-1](images/MAS-MS-Password-Change-1.png "MAS-MS-Password-Change-1"){: caption="Figure 1. MAS Login Screen" caption-side="bottom"}
 
@@ -252,7 +252,7 @@ You will need to set a temporary password and then change it when you first logi
 ## How to activate your environments
 {: #how-to-activate-your-environments}
 
-To complete the activation of your Maximo Application Suite Managed Service environment(s), you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-MS Operations team via case ticket. Your license keys will then be applied to your MAS-MS environments to activate them. You will need to generate one (1) license key file per environment (for example one license key for PROD and one license key for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
+To complete the activation of your Maximo Application Suite Managed Service environment(s), you must first generate and download Maximo Application Suite license keys and provide them to the IBM MAS-Dedicated Operations team via case ticket. Your license keys will then be applied to your MAS-Dedicated environments to activate them. You will need to generate one (1) license key file per environment (for example one license key for PROD and one license key for TEST). IBM License Key Center login information and credentials are provided in a separate License Key Center welcome letter for your organization. You will receive separate letters for each environment.
 
 For further information on the IBM License Key Center, see the link below:
 
@@ -277,7 +277,7 @@ To acquire your license keys:
     | Hostname | customerinstancename-rlks-0.rlks |
     | Port | 27000 |
     | Description | Environment Name |
-    {: caption="Table 1. MAS-MS License Key Parameter Examples" caption-side="bottom"}
+    {: caption="Table 1. MAS-Dedicated License Key Parameter Examples" caption-side="bottom"}
 
 9. Download your license key(s)
 10. Open a case using the IBM Support Portal and upload the license key files to IBM by clicking the following link:
@@ -294,19 +294,19 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 ## Next steps
 {: #next-steps}
 
-1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
+1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-dedicated-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
     https://status.suite.maximo.com
 
 2. Add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
 
-3. Refer to the Reference section for further information on MAS-MS operations and support, maintenance, security and the additional topics.
+3. Refer to the Reference section for further information on MAS-Dedicated operations and support, maintenance, security and the additional topics.
 
 4. For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
     https://www.ibm.com/docs/en/mas
 
-5. To get help and support for your Maximo Application Suite Managed Service, see the IBM support guide on IBM.com:
+5. To get help and support for your Maximo Application Suite Dedicated, see the IBM support guide on IBM.com:
 
     https://www.ibm.com/support/pages/node/733923
 

@@ -19,7 +19,7 @@ subcollection: mas-ms
 # Support
 {: #support}
 
-## MAS-MS Environment Route URLs
+## MAS-Dedicated Environment Route URLs
 {: #environment-route-urls}
 
 MAS Application Suite Instance:
@@ -37,7 +37,7 @@ Please note... Once an environment has been provisioned, the URL can not be chan
 ## Database Support and Access
 {: #database-support}
 
-IBM Maximo Application Suite Managed Services supports DB2 as the database for the Suite.  Clients who wish to directly access their data can with the following restrictions or procedures:
+IBM Maximo Application Suite Dedicated supports DB2 as the database for the Suite.  Clients who wish to directly access their data can with the following restrictions or procedures:
 
 * Direct access to the production database is not allowed.  If a client wishes to access production data, they must order a data replica and a read only user can be created against this replica.  This replica is near real time so it will mirror the production data.
 
@@ -50,8 +50,8 @@ One ticket is required for each database.
 
 It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
 
-## Summary of MAS-MS Database Access Rules & Guidelines
-{: #mas-ms-database-access-rules-summary}
+## Summary of MAS-Dedicated Database Access Rules & Guidelines
+{: #mas-dedicated-database-access-rules-summary}
 
 | Database Task | Non-PROD | PROD |
 | -------------- | -------------- | -------------- |
@@ -63,7 +63,7 @@ It is the client's responsibility to ensure once access is no longer required fo
 | Create/Update Tables/Columns | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Create/Update Access for Indexes | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Create/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
-{: caption="Table 1. MAS-MS Database Access Rules & Guidelines" caption-side="bottom"} 
+{: caption="Table 1. MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"} 
 
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
@@ -160,7 +160,7 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
-The MAS Manage environments use JMS queues for event stream processing. The JMS setup will be completed by the IBM MAS-MS SRE provisioning team.
+The MAS Manage environments use JMS queues for event stream processing. The JMS setup will be completed by the IBM MAS-Dedicated SRE provisioning team.
 
 * EndPoints will need to be configured to use the JMS queues
 * Cron activation will need to be enabled by the customer
@@ -244,7 +244,7 @@ Other:
 * Identity provider
 * Default permissions
  
-Note: typically a site-to-site VPN is required to make a connection from the MAS-MS environment to your LDAP server.
+Note: typically a site-to-site VPN is required to make a connection from the MAS-Dedicated environment to your LDAP server.
  
 Additional details on LDAP user registry synchronization can be found here:
 https://www.ibm.com/docs/en/mas86/8.6.0?topic=access-administering-ldap-user-registry-synchronization 
@@ -271,7 +271,7 @@ If you plan to use your own SMTP server instead of the provided MAS SMTP relay, 
 In the case, please include:
 
 1. Case title: SMTP / outbound email activation
-2. Case description: Please configure our MAS-MS environment to use the following SMTP server:
+2. Case description: Please configure our MAS-Dedicated environment to use the following SMTP server:
 
 * SMTP hostname
 * SMTP Port
@@ -285,7 +285,7 @@ Once this case and details are received, we generate and send 3 DNS records for 
 ## Site-to-Site IPsec VPN
 {: #site-to-site-vpn}
  
-A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-Site VPNs are not configured by default. The setup and configuration of a Site-to-Site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for a VPN build when planning integrations or services will that depend on it for connectivity. MAS-MS customers must specifically request a VPN by submitting a case to the IBM Support Community.
+A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and a customer site or third party location. This type of VPN establishes a persistent tunnel between the two sites. Site-to-Site VPNs are not configured by default. The setup and configuration of a Site-to-Site VPN can be complex and will require both IBM and the customer's network SMEs to work together. Initial VPN settings and shared parameters must first be agreed upon by both parties. Source and destination IPs must then be determined along with the type and direction of traffic. The tunnel must be stood up, along with routing, IP Address NATing, and applicable firewall rules on both sides. VPNs can take 2-4 weeks to design, setup, test and validate (from start to finish). Proper time should be allowed for a VPN build when planning integrations or services will that depend on it for connectivity. MAS-Dedicated customers must specifically request a VPN by submitting a case to the IBM Support Community.
 
 * Note: Only one case is needed for VPN setup and can cover configuration for multiple environments (DEV, TEST, PROD, etc).
 * Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or rclone and may not require a VPN.
@@ -293,7 +293,7 @@ A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and
 ## Maximo Mobile
 {: #maximo-mobile}
 
-For questions related to use of Maximo Mobile in MAS-MS Manage, please refer to the link below. 
+For questions related to use of Maximo Mobile in MAS-Dedicated Manage, please refer to the link below. 
 https://www.ibm.com/docs/en/maximo-manage/8.0.0?topic=managing-maximo-mobile
 
 Once on the resulting page, select the desired version of Maximo Mobile from the drop-down 'Change version' in the top left corner.
@@ -301,4 +301,4 @@ Once on the resulting page, select the desired version of Maximo Mobile from the
 ## Self-Service Portal
 {: #ssp}
 
-A Self Service Portal (SSP) for MAS Managed Service (MAS-MS) is not available at this time and is under construction.
+A Self Service Portal (SSP) for MAS Dedicated Service (MAS-Dedicated) is not available at this time and is under construction.

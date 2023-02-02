@@ -24,15 +24,15 @@ subcollection: mas-ms
 
 Important:
 
-Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
+Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering MAS-Dedicated. The dedicated service provides IBM Cloud based hosting, product installation, operation, maintenance and support for MAS.
 
-The provisioning process is invoked when a client has placed an order using MAS-MS part numbers. There are three (3) part numbers:
+The provisioning process is invoked when a client has placed an order using MAS-Dedicated part numbers. There are three (3) part numbers:
 
 * D02QTZX - Capacity
 * D02QUZX - Data
 * D02QWZX - VPC (Virtual Processor Core)
 
-For details, see [Part Numbers and Order Considerations](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#part-numbers-and-order-considerations)
+For details, see [Part Numbers and Order Considerations](/docs/mas-ms?topic=mas-dedicated-getting-started-with-ibm-maximo-application-suite-dedicated-service#part-numbers-and-order-considerations)
 
 Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
 
@@ -58,7 +58,7 @@ The provisioning itself can be broken down into a number of steps:
 
 Once an order has been placed, the initial step is to validate the order and the information submitted.  This includes checking the part numbers, ensuring the provisioning form has been completed, performing IBM internal financial checks and setting up the order to be provisioned.  In general this can take 1 to 2 days to complete.
 
-Once this is complete, the order is sent to the IBM MAS Managed Services Provisioning Team to begin the provisioning of the order.
+Once this is complete, the order is sent to the IBM MAS Dedicated Provisioning Team to begin the provisioning of the order.
 
 ## Information Gathering
 {: #information-gathering}
@@ -89,9 +89,9 @@ The base architecture is finalized regarding the size and number of OpenShift cl
 
 At this point, the products the client has selected is provisioned based on the sizing parameters that were specified.  This includes deploying the appropriate containers within OpenShift and configuring the products to be available to the client.  This includes the application, database, any network configuration required, DNS registrations and set up of client administration users. 
 
-At this stage, all operational configuration is finalized including ensuring backups are configured properly, monitoring in place and security scans completed.  Alerting is configured and the sites added to the MAS-MS escalation process.
+At this stage, all operational configuration is finalized including ensuring backups are configured properly, monitoring in place and security scans completed.  Alerting is configured and the sites added to the MAS-Dedicated escalation process.
 
 ## Final Verification of the Provisioning
 {: #final-verification-of-the-provisioning}
 
-A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete and a [welcome letter](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-managed-service#welcome-letter) is sent to the client.
+A final review of the install is done to ensure what has been deployed meets the order and the additional information gathered.  At this point, the order is marked complete and a [welcome letter](/docs/mas-ms?topic=mas-dedicated-getting-started-with-ibm-maximo-application-suite-dedicated-service#welcome-letter) is sent to the client.

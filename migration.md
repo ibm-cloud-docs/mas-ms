@@ -19,17 +19,17 @@ subcollection: mas-ms
 # Migration from Maximo SaaS Flex or On-Premise
 {: #migration-from-maximo-saas-flex-or-on-premise}
 
-## Migration of Maximo to Managed Service (MAS-MS)
-{: #migration-of-maximo-to-managed-service-mas-ms}
+## Migration of Maximo to Dedicated (MAS-Dedicated)
+{: #migration-of-maximo-to-managed-service-mas-dedicated}
 
-This page covers migration of an existing Maximo application, either on the IBM Maximo EAM SaaS Flex offering or a client-managed installation to Maximo Application Suite Managed Service (MAS-MS). This document focuses on the MAS Manage (Maximo EAM) application.  There are two paths that can be followed:
+This page covers migration of an existing Maximo application, either on the IBM Maximo EAM SaaS Flex offering or a client-managed installation to Maximo Application Suite Dedicated (MAS-Dedicated). This document focuses on the MAS Manage (Maximo EAM) application.  There are two paths that can be followed:
 
 1. Migration of client from the IBM Maximo EAM SaaS Flex offering
 2. Migration of client from an on-premise or 3rd party Cloud provider
 
 The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks. This diagram represents a high-level overview of the migration path to MAS MS:
 
-![MAS-MS-Migration](images/MAS-MS-Migration.png "MAS-MS-Migration"){: caption="Figure 1. MAS-MS Migration" caption-side="bottom"}
+![MAS-Dedicated-Migration](images/MAS-MS-Migration.png "MAS-Dedicated-Migration"){: caption="Figure 1. MAS-Dedicated Migration" caption-side="bottom"}
 
 ## Planning
 {: #planning}
@@ -41,7 +41,7 @@ The planning stage is driven by the customer and covers the internal processes a
 
 The initial set up includes several components including:
 
-Creation of the target MAS MS environment
+Creation of the target MAS Dedicated environment
 Identification of all components that need to be migrated (database, code, attachments)
 Final documentation of the integration's and any initial set-up that can be done (including VPN's). 
 
@@ -50,42 +50,42 @@ The goal of this step is to ensure all components are in place so the first test
 ## Test 1
 {: #test-1}
 
-Test 1 executes all of the steps required to move a customer from the SaaS Flex (or on-premise) implementation to the MAS Managed Service offering.  Data is exported from the source system, transferred to the Managed Service location and loaded into the new database instance.  Configuration is completed for integration's and any technical remediation performed for the technology differences.  Next the client tests to ensure all business flows are performing as expected.  Issues identified are then resolved until the testing is complete.
+Test 1 executes all of the steps required to move a customer from the SaaS Flex (or on-premise) implementation to the MAS Dedicated offering.  Data is exported from the source system, transferred to the Dedicated Service location and loaded into the new database instance.  Configuration is completed for integration's and any technical remediation performed for the technology differences.  Next the client tests to ensure all business flows are performing as expected.  Issues identified are then resolved until the testing is complete.
 
 ## Test 2
 {: #test-2}
 
 This is similar to test 1, except the focus is ensuring all steps are documented and accurate timings taken for the final migration of production.  This is a dress rehearsal for the go live as well as to ensure all issues identified in the first test have been resolved.  This test should take place close to the final cut-over date (within a few weeks).
 
-## Live on MAS-MS
-{: #live-on-mas-ms}
+## Live on MAS-Dedicated
+{: #live-on-mas-dedicated}
 
-The final execution of the steps in the scheduled migration window.  Once complete, the customer is now live on the Managed Service offering.
+The final execution of the steps in the scheduled migration window.  Once complete, the customer is now live on the Dedicated Service offering.
 
-## Post Live MAS-MS Activities
-{: #post-live-mas-ms-activities}
+## Post Live MAS-Dedicated Activities
+{: #post-live-mas-dedicated-activities}
 
 This is the support for customers after the go live.  Any new issue is investigated and resolved and then the client moves to steady state.
 
 ## Pre-Conditions
 {: #pre-conditions}
 
-There are several preconditions that need to be met in order to migrate to the new Managed Service offering.
+There are several preconditions that need to be met in order to migrate to the new Dedicated offering.
 
 1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the SRE Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner. 
 2. The existing system is on DB2 (the supported version depends on the timing of the migration).
-3. MAS-MS database timezone must be set to UTC. This cannot be changed.
+3. MAS-Dedicated database timezone must be set to UTC. This cannot be changed.
 4. Customer has run Integrity Checker on source database and resolved all errors prior to sending to IBM.
 5. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
-6. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-MS. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
-7. A new Maximo Application Suite Managed Service contract is in place.
+6. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-Dedicated. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
+7. A new Maximo Application Suite Dedicated contract is in place.
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
 
-Both IBM and the client have critical roles in the successful transition to the Maximo Application Suite Managed Service offering. These responsibilities are summarized in the attached spreadsheet below (MAS-MS Migration Swimlanes).  At a high level, IBM is responsible for the technical components of the migration and the client would be responsible for ensuring business processes are working, custom and unique features of their implementation are identified, and updates to integration's and accounted for in the plan.
+Both IBM and the client have critical roles in the successful transition to the Maximo Application Suite Dedicated offering. These responsibilities are summarized in the attached spreadsheet below (MAS-Dedicated Migration Swimlanes).  At a high level, IBM is responsible for the technical components of the migration and the client would be responsible for ensuring business processes are working, custom and unique features of their implementation are identified, and updates to integration's and accounted for in the plan.
 
-If the source database is being converted from another platform (for example Oracle or SQLServer) it is the customers responsibility to perform validation of the converted DB2 database and correct any issues identified before providing to the SRE team for import into the target MAS-MS environment.
+If the source database is being converted from another platform (for example Oracle or SQLServer) it is the customers responsibility to perform validation of the converted DB2 database and correct any issues identified before providing to the SRE team for import into the target MAS-Dedicated environment.
 
 IBM and the customer share the responsibility to ensure the appropriate personnel are available to meet the agreed project plan.
 
@@ -95,7 +95,7 @@ IBM and the customer share the responsibility to ensure the appropriate personne
 ## Database Backup Image/Export
 {: #migration-backup-image}
 
-The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-MS.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
+The IBM SRE team would prefer a database backup image provided the image is from the same database version as you are running in MAS-Dedicated.  We can accept/use an export done using (db2move/db2look). We would like you to send the export as well as backup image if possible.  The database backup image and export files should be uploaded to the following IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
 
 Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
  
@@ -115,14 +115,14 @@ The DOCINFO path within the Manage database will need to be updated to /doclinks
 
 High-level overviews of the different migration considerations can be found in the attached documents.
 
-Spreadsheet with MAS-MS Migration Swimlanes (Roles and Responsibilities):
+Spreadsheet with MAS-Dedicated Migration Swimlanes (Roles and Responsibilities):
 
-[MAS-MS Spreadsheet with Roles and Responsibilities](https://www.ibm.com/support/pages/system/files/inline-files/Swimlanes-v3_0.xlsx){: external download="MAS-MS-Migration-Swimlanes-v3_0.xlsx"}
+[MAS-Dedicated Spreadsheet with Roles and Responsibilities](https://www.ibm.com/support/pages/system/files/inline-files/Swimlanes-v3_0.xlsx){: external download="MAS-Dedicated-Migration-Swimlanes-v3_0.xlsx"}
 
-Presentation of MS-MS Migration Steps:
+Presentation of MS-Dedicated Migration Steps:
 
-[MAS-MS Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2_0.pptx){: external download="MAS-MS-Migration-Steps-v2_0.pptx"}
+[MAS-Dedicated Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2_0.pptx){: external download="MAS-Dedicated-Migration-Steps-v2_0.pptx"}
 
-MS-MS Migration Questionaire:
+MS-Dedicated Migration Questionaire:
 
-[MAS-MS Migration Questionaire](https://ibm.box.com/shared/static/plkrslw49s5ugr6qnf04g0p1atnujtpr.xls){: external download="IBM-MAS-MS-Migration-Questionaire.xls"}
+[MAS-Dedicated Migration Questionaire](https://ibm.box.com/shared/static/plkrslw49s5ugr6qnf04g0p1atnujtpr.xls){: external download="IBM-Dedicated-Dedicated-Migration-Questionaire.xls"}
