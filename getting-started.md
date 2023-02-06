@@ -117,7 +117,7 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
     ![MAS-MS-IBMid-Activated](images/MAS-MS-IBMid-Activated.png "MAS-MS-IBMid-Activated.png"){: caption="Figure 8. MAS-Dedicated IBMid Activated" caption-side="bottom"}
 
-After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS-Dedicated Support Services](#how-to-register-for-mas-dedicated-support)
+After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS Support Services](#how-to-register-for-mas-support)
 
 ## How to Register for Maximo Application Suite Support
 {: #how-to-register-for-mas-support}
