@@ -19,12 +19,12 @@ subcollection: mas-ms
 # Maintenance
 {: #maintenance}
 
-## 2023 Maintenance Windows
-{: #2021-maintenance-windows}
+## 2023 Maintenance Details
+{: #2021-maintenance-details}
 
 Maintenance Windows generally apply to production environments only.
 
-Standard maintenance times for PROD environments are planned and scheduled for weekend timeframes.  The maintenance duration can range from 4 to 40 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production sites for clients to validate and then production later. Exact dates are communicated through the Client Communication Center.
+Standard maintenance times for PROD environments are planned and scheduled for weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production sites for clients to validate and then production later. Exact dates are communicated through the Client Communication Center.
 
 The IBM Maximo Application Suite Dedicated team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
 
@@ -32,7 +32,11 @@ Systems are not available to users during maintenance windows.
 
 Non-Production systems may be scheduled for maintenance during the week, 1- 2 weeks prior to planned maintenance on Production systems to allow additional time for testing.
 
-Change Freeze period for year end 2022 is December 17, 2022 through January 2, 2023
+Customers can defer a scheduled maintenance window as long as 2 requirements are met:
+1. The patch is considered non-emergency
+2. Environment must remain on a supported version
+
+Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
 Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period. 
 
 ## Upgrade Policy
