@@ -32,5 +32,5 @@ It is important that all customers designate members of their staff to log in to
 ## CCC Access
 {: #ccc-access}
 
-In order to obtain access, please see [How to Request CCC Access](/docs/mas-ms?topic=mas-dedicated-ssp#how-to-request-ccc-access)
+In order to obtain access, please see [How to Request CCC Access](/docs/mas-ms?topic=mas-ms-ssp#how-to-request-ccc-access)
 
