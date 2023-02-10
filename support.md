@@ -97,13 +97,13 @@ The below steps can only be performed by the client once they have received thei
 1. Run rclone config and select n for a new remote
 2. Enter a name for the configuration
 3. Enter "5" for Storage (IBM COS)
-4. Enter "7" for Provider (IBMCOS)
+4. Enter "10" for Provider (IBMCOS)
 5. Press Enter for env_auth (false)
 6. Enter access_key_id from above
 7. Enter secret_access_key for secret_access_key
 8. Press Enter for region
-9. Enter 9 (US Region East Endpoint / us-east) or 23 (EU Region DE Endpoint / eu-de) for endpoint
-10. Enter 5 (US East Region Standard / us-east-standard) or 13 (EU Cross Region Standard / eu-standard) for location_constraint
+9. Choose a number for the region defined in your Welcome Letter - Example: Enter 9 (US Region East Endpoint / us-east) for endpoint
+10. Choose a number for the region defined in your Welcome Letter - Example: Enter 5 (US East Region Standard / us-east-standard) for location_constraint
 11. Hit Enter for acl (This will take the default value).
 12. Enter No for "Edit advanced config?": You will see the details of your newly created configuration
 13. Enter Yes for y/e/d: You will see your Current Remotes configuration list
