@@ -289,6 +289,7 @@ A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and
 
 * Note: Only one case is needed for VPN setup and can cover configuration for multiple environments (DEV, TEST, PROD, etc).
 * Note: It is important to bear in mind a VPN may not necessarily be needed to establish certain types of connectivity. Some integration types can run over HTTPS and/or rclone and may not require a VPN.
+* Note: Currently MAS does not support NAT at MAS side in Site-to-Site VPN
 
 ## Maximo Mobile
 {: #maximo-mobile}
