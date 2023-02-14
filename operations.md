@@ -149,3 +149,23 @@ Additional support for IRT members is provided by an Escalation Manager as well 
 An IBM Support Guide for Maximo Application Suite is available. See link below. The guide contains information such as Contact Information, Hours of Operation, Severity Level Guidelines and Response Time Objectives and Issue Escalation
 
 https://www.ibm.com/support/pages/node/733923
+
+## Project Implementation Guidelines
+{: #project-implementation-guildelines}
+
+Please Note: This section is under construction
+
+### Project Implementation FAQs
+{: #faqs}
+
+### Planning
+{: #planning}
+
+### Provisioning
+{: #provisioning}
+
+### Onboarding & Implementation
+{: #onboarding-implementation}
+
+### Go Live & Steady State Support
+{: #go-live-support}
