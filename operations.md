@@ -155,11 +155,130 @@ https://www.ibm.com/support/pages/node/733923
 
 Please Note: This section is under construction
 
-### Project Implementation FAQs
-{: #faqs}
-
 ### Planning
 {: #planning}
+
+There are generally two types of implementation scenarios when working with IBM SRE on a large implementation of MAS:
+
+New Implementation
+In this scenario, MAS is implemented from an "out of the box" build. Data is usually migrated manually into "net new" MAS environment(s) by the customer or system implementor. Changes and customizations are made directly in the MAS environment itself or migrated manually from one or more standalone environment(s). This type of implementation typically does not require a statement of work with the customer or IBM internal DoU (Document of Understanding) with IBM SRE, as the level of effort on the SRE side usually falls under IBM's standard SaaS support services.
+
+Migration to the IBM Cloud
+In this scenario, and existing on-premise or non-IBM Cloud production environment is migrated to the IBM cloud. This type of scenario requires an estimate, Statement of Work, or DoU with IBM Lab Services in order to ensure the correct level of IBM SRE effort is captured. It usually involves one or more test migrations and a live cutover. IBM SRE services related to a cloud migration ("Lift & Shift") effort are not included as part of IBM's standard SaaS subscription. Please see Maximo Migration to Cloud Services for further details.
+
+It is important to identify your implementation type and work with IBM SRE and Lab Services as necessary to insure all SRE related work for the project has been considered and reviewed
+
+Note: new SaaS implementations typically do not require a DoU or SOW from Lab Services; migration efforts from on-premise typically require a DoU and/or SOW
+
+1.2  MAS Order Considerations
+
+The following section contains items that should be reviewed and considered prior to MAS orders or Statements of Work being finalized and submitted.
+
+1.2.1  Provisioning Form
+
+It is important to confirm your IBM Salesperson has properly completed a provisioning form for the MAS order. This form contains important information as it relates to the project. Make sure the information on the form is accurate in order to prevent the possibility of re-work by IBM SRE after customer environments are provisioned. This can cause unnecessary project delays. Provisioning information to review:
+
+Contacts - these are the contacts that will receive the Welcome Kit when the environments are first provisioned. Be sure all proper contacts have been identified, including any key members from the implementation team (IBM Lab Services, GBS or 3rd party)
+
+Preferred Data Center Location. This is the IBM Cloud data center location where the environments will be provisioned and will serve as the primary data center. See the Architecture section for a list of currently supported locations. Be sure this location is correct and in line with the customer's expectations an nearest to the majority of their end users.
+
+Environment URL names. These are the URL names that will be setup for each provisioned environment (DEV, TEST, PROD, etc). Customers can define 3rd level domain (prefix) names for these environment URL's. Second and top level domain names (for example maximo.com and tririga.com) are controlled / defined by IBM. Be sure these are correct and in line with customer expectations and overall project plan. Click here for more information on URL names.
+
+Be sure any languages that need to be installed in the environments (other than English) are identified. Click here for more information on language support.
+
+Database - be sure the database platform has been properly identified. Does this order require an Oracle database? (standard default database for IBM SaaS is DB2)
+
+Contact your IBM salesperson or the IBM CDS Project Office: SaaSIOTPPO/Dallas/IBM to obtain a current copy of the provisioning form for your customer.
+
+1.2.2  Component Verification
+
+It is important to check with your IBM salesperson to insure all necessary products and components have been included in the customer MAS order. This will help eliminate the need for re-work by the IBM SRE team after the initial environments have been provisioned and avoid unnecesssary delays. Examples of MAS items or components that may be overlooked on an order include:
+
+The correct number and type of environments. Two (2) environments are provided by default on MAS orders: (PROD and TEST). Additional environments can be provisioned at an added cost.
+
+PROD environments are sized to support the total number of concurrent or authorized users specified on the order.
+
+Add-on Capacity:
+All NON-PROD environments will support up to 30 concurrent users by default. If more than 30 concurrent users need to be supported in any NON-PROD environment, add-on capacity should be included on the order. For example, will a performance load testing environment be required for this project? This is typically an environment that is identical to (or mimics) the production environment. If yes, one or more non-production capacity add-ons will need to be included on the order. Standard NON-PROD environments are not designed or sized for load testing activities.
+
+Enhanced Access DEV Environment:
+This type of environment is available for Maximo SaaS Flex orders only. It allows enhanced Windows Application Server console access for Maximo development activities and is usually needed for Maximo implementation projects. For further details see the Enhanced Access DEV Environment description.
+
+Will the Enhanced Access DEV environment need to support more than 30 concurrent users or more than five (5) windows console users? If yes, either a second enhanced access DEV environment should be ordered or an Enhanced Access DEV Capacity Add-on should be included on the order.
+
+If Maximo, have all applicable Industry Solutions and add-on components (Anywhere, Scheduler, SAP or Oracle Enterprise Adapter, etc) been ordered?
+
+Will a replicated copy of the PROD database be needed for offline reporting or data extraction purposes? If yes, an add-on reporting database should be included on the order
+
+Is the customer expecting full disaster recovery capabilities for the production environment in a secondary IBM Cloud data center location? If yes, the Enhanced Disaster Recovery Add-On should be included on the order.
+
+Will more than five (5) separate users or accounts be needed for SFTP access? If yes, the SFTP add-on should be on the order.
+
+If the database will be very large (TB+) or high database performance is expected or desired, has the bare-metal database server option been considered / ordered?
+
+Further details on SaaS components can be found in the Service Descriptions for each offering.
+
+If you are an IBMer and would like a copy of a customer's current SaaS order from the EngageSupport database, please contact the IBM SRE Project Office: SaaSIOTPPO/Dallas/IBM. If you are a customer or business partner, please contact an IBM SRE team member and this information can be provided
+
+1.3  Statement of Work (SOW) or Contract Considerations
+
+The following contains items that should be included and considered in any Statement of Work or Contract that involves the use of IBM MAS environments
+
+1.3.1  Project Plan and Project Schedule
+
+The following are items that should be considered for the project plan and schedule. IBM SRE has found these are often overlooked and should be reviewed and considered. Please note SRE is not ultimately responsible for establishing your project's plan and schedule, but can and should be consulted.
+
+The Project Management Plan should include, but not be limited to the following:
+
+Identification of Project Team and Roles for client, business partner(s), and IBM
+
+Scope statement that clearly defines what IBM SRE needs to do
+
+Quality Management Plan that includes the Test Plan with all testing activities, Configuration Management Plan to maintain environments, and methodology (i.e. Waterfall vs. Agile)
+
+Performance Load Testing
+
+Communication Plan that outlines how information will be disseminated
+
+Risk Management Plan that identifies risks and plan for managing them
+
+The Project Schedule should include:
+
+Project non-working days/times that are agreed by client, business partner(s), and IBM
+
+Onboarding activities
+
+Resources and lead times for all appropriate IBM SRE requests
+
+Steps for Production dry run(s)
+
+Performance Load Testing
+
+IT-mandated freeze period(s)
+
+Go Live Deployment Period(s)
+
+A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
+
+1.3.2  Infrastructure based deliverables
+
+GBS, Lab Services, or other 3rd party services projects that leverage IBM Cloud based MAS SaaS environments should avoid including infrastructure based deliverables in any contract or statement of work. This would include promising deliverables of the following nature:
+
+Infrastructure diagrams or design documents
+
+Network Diagrams
+
+Clustering Diagrams
+
+Hardware sizing and resource allocations (Cores, Memory, Storage)
+
+Listing of O/S, Middleware or other specific Software Versions
+
+IT security documents or diagrams
+
+Installation checklists or certifications
+
+In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of the IBM SRE team. IBM's MAS architecture is based on best practices and empirical experience supporting a large existing customer base. With a MAS subscription, the responsibility of IBM SRE is to deliver the application in accordance with the customer's MAS subscription terms and Service Level Agreement (SLA). IBM is not obligated to provide technical details of the infrastructure used to meet it's subscription commitments. As a result, specific infrastructure based deliverables should be avoided in consulting services contracts. Technical details regarding customer infrastructure can, in some cases, be provided by the SRE team depending on the nature of the request. Please see slide below that shows the IBM MAS model. It is consistent with most public MAS models. It is important customers understand the nature of Software as a Service delivery.
 
 ### Provisioning
 {: #provisioning}
