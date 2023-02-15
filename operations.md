@@ -166,7 +166,7 @@ New Implementation
 In this scenario, MAS is implemented from an "out of the box" build. Data is usually migrated manually into "net new" MAS environment(s) by the customer or system implementor. Changes and customizations are made directly in the MAS environment itself or migrated manually from one or more standalone environment(s). This type of implementation typically does not require a statement of work with the customer or IBM internal DoU (Document of Understanding) with IBM SRE, as the level of effort on the SRE side usually falls under IBM's standard MAS support services.
 
 Migration to the IBM Cloud
-In this scenario, an existing on-premise or non-IBM Cloud production environment is migrated to the IBM cloud. This type of scenario requires a seperate purchase of a migration part number as well as some analysis ensure the correct level of IBM SRE effort is captured. It usually involves one or more test migrations and a live cutover. IBM SRE services related to a cloud migration ("Lift & Shift") effort are not included as part of IBM's standard MAS Dedicated subscription. Please see Maximo Migration to Cloud Services for further details.
+In this scenario, an existing on-premise or non-IBM Cloud production environment is migrated to the IBM cloud. This type of scenario requires a seperate purchase of a migration part number as well as some analysis to ensure the correct level of IBM SRE effort is captured. It usually involves one or more test migrations and a live cutover. IBM SRE services related to a cloud migration ("Lift & Shift") effort are not included as part of IBM's standard MAS Dedicated subscription. Please see Maximo Migration to Cloud Services for further details.
 
 It is important to identify your implementation type and work with IBM SRE and Lab Services as necessary to insure all SRE related work for the project has been considered and reviewed.
 
@@ -230,51 +230,32 @@ The following are items that should be considered for the project plan and sched
 
 The Project Management Plan should include, but not be limited to the following:
 
-Identification of Project Team and Roles for client, business partner(s), and IBM
-
-Scope statement that clearly defines what IBM SRE needs to do
-
-Quality Management Plan that includes the Test Plan with all testing activities, Configuration Management Plan to maintain environments, and methodology (i.e. Waterfall vs. Agile)
-
-Performance Load Testing
-
-Communication Plan that outlines how information will be disseminated
-
-Risk Management Plan that identifies risks and plan for managing them
-
-The Project Schedule should include:
-
-Project non-working days/times that are agreed by client, business partner(s), and IBM
-
-Onboarding activities
-
-Resources and lead times for all appropriate IBM SRE requests
-
-Steps for Production dry run(s)
-
-Performance Load Testing
-
-IT-mandated freeze period(s)
-
-Go Live Deployment Period(s)
-
-A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
+- Identification of Project Team and Roles for client, business partner(s), and IBM
+- Scope statement that clearly defines what IBM SRE needs to do
+- Quality Management Plan that includes the Test Plan with all testing activities, Configuration Management Plan to maintain environments, and methodology (i.e. Waterfall vs. Agile)
+- Performance Load Testing
+- Communication Plan that outlines how information will be disseminated
+- Risk Management Plan that identifies risks and plan for managing them
+- The Project Schedule should include:
+- Project non-working days/times that are agreed by client, business partner(s), and IBM
+- Onboarding activities
+- Resources and lead times for all appropriate IBM SRE requests
+- Steps for Production dry run(s)
+- Performance Load Testing
+- IT-mandated freeze period(s)
+- Go Live Deployment Period(s)
+- A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
 
 1.3.2  Infrastructure based deliverables
 
 GBS, Lab Services, or other 3rd party services projects that leverage IBM Cloud based MAS environments should avoid including infrastructure based deliverables in any contract or statement of work. This would include promising deliverables of the following nature:
 
-Infrastructure diagrams or design documents
-
-Network Diagrams
-
-Clustering Diagrams
-
-Hardware sizing and resource allocations (Cores, Memory, Storage)
-
-Listing of O/S, Middleware or other specific Software Versions
-
-IT security documents or diagrams
+- Infrastructure diagrams or design documents
+- Network Diagrams
+- Clustering Diagrams
+- Hardware sizing and resource allocations (Cores, Memory, Storage)
+- Listing of O/S, Middleware or other specific Software Versions
+- IT security documents or diagrams
 
 Installation checklists or certifications
 
