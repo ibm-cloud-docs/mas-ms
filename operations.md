@@ -289,6 +289,7 @@ In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of
 
 ### Planning Guidelines
 {: #mas-planning-guidelines}
+
 * Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
 * Upgrade schedules are non-negotiable
 * All client stakeholders must register to receive CCC notifications & communications
