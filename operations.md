@@ -155,7 +155,7 @@ Please Note: This section is under construction
 ### Planning
 {: #planning}
 
-**1.1 Implementation Types**
+###### 1.1 Implementation Types
 
 There are generally two types of implementation scenarios when working with IBM SRE on a large implementation of MAS:
 
@@ -173,11 +173,11 @@ It is important to identify your implementation type and work with IBM SRE and E
 
 Note: Net-new MAS implementations typically do not require a DoU or SOW from IBM Expert Services; migration efforts from on-premise typically require a DoU and/or SOW.
 
-**1.2  MAS Order Considerations**
+##### 1.2  MAS Order Considerations
 
 The following section contains items that should be reviewed and considered prior to MAS orders or Statements of Work being finalized and submitted.
 
-**1.2.1  Provisioning Form**
+##### 1.2.1  Provisioning Form
 
 It is important to confirm your IBM Salesperson has properly completed a provisioning form for the MAS order. This form contains important information as it relates to the project. Make sure the information on the form is accurate in order to prevent the possibility of re-work by IBM SRE after customer environments are provisioned. This can cause unnecessary project delays. Provisioning information to review:
 
@@ -201,7 +201,7 @@ Be sure any languages that need to be installed in the environments (other than 
 
 Contact your IBM salesperson or the IBM CDS Project Office: SaaSIOTPPO/Dallas/IBM to obtain a current copy of the provisioning form for your customer.
 
-**1.2.2  Component Verification**
+##### 1.2.2  Component Verification
 
 It is important to check with your IBM salesperson to insure all necessary products and components have been included in the customer MAS order. This will help eliminate the need for re-work by the IBM SRE team after the initial environments have been provisioned and avoid unnecesssary delays. Examples of MAS items or components that may be overlooked on an order include:
 
@@ -221,11 +221,11 @@ Further details on MAS components can be found in the Service Descriptions for e
 
 If you are an IBMer and would like a copy of a customer's current MAS order from the EngageSupport database, please contact the IBM SRE Project Office: SaaSIOTPPO/Dallas/IBM. If you are a customer or business partner, please contact an IBM SRE team member and this information can be provided
 
-**1.3  Statement of Work (SOW) or Contract Considerations**
+##### 1.3  Statement of Work (SOW) or Contract Considerations
 
 The following contains items that should be included and considered in any Statement of Work or Contract that involves the use of IBM MAS environments
 
-**1.3.1  Project Plan and Project Schedule**
+##### 1.3.1  Project Plan and Project Schedule
 
 The following are items that should be considered for the project plan and schedule. IBM SRE has found these are often overlooked and should be reviewed and considered. Please note SRE is not ultimately responsible for establishing your project's plan and schedule, but can and should be consulted.
 
@@ -246,7 +246,7 @@ The Project Management Plan should include, but not be limited to the following:
 - Go Live Deployment Period(s)
 - A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
 
-**1.3.2  Infrastructure based deliverables**
+##### 1.3.2  Infrastructure based deliverables
 
 IBM GBS, Expert Services or other 3rd party services projects that leverage IBM Cloud or AWS based MAS environments should avoid including infrastructure based deliverables in any contract or statement of work. This would include promising deliverables of the following nature:
 
