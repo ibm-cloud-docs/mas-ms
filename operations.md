@@ -158,14 +158,16 @@ Please Note: This section is under construction
 ### Planning
 {: #planning}
 
-1.1 Implmentation Types
+1.1 Implementation Types
 
 There are generally two types of implementation scenarios when working with IBM SRE on a large implementation of MAS:
 
 New Implementation
+
 In this scenario, MAS is implemented from an "out of the box" build. Data is usually migrated manually into "net new" MAS environment(s) by the customer or system implementor. Changes and customizations are made directly in the MAS environment itself or migrated manually from one or more standalone environment(s). This type of implementation typically does not require a statement of work with the customer or IBM internal DoU (Document of Understanding) with IBM SRE, as the level of effort on the SRE side usually falls under IBM's standard MAS support services.
 
-Migration to the IBM Cloud
+Migration to IBM Cloud or AWS
+
 In this scenario, an existing on-premise or non-IBM Cloud production Maximo v7 environment is migrated and upgraded to MAS on the IBM Cloud or AWS. This type of scenario requires a separate purchase of a migration part number as well as some analysis to ensure the correct level of IBM SRE effort is captured. It usually involves one or more test migrations and a live cutover. IBM SRE services related to a cloud migration effort are not included as part of IBM's standard MAS Dedicated or MAS-MS subscription. Please see Maximo Migration to Cloud Services for further details:
 
 https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-migration-from-maximo-saas-flex-or-on-premise
@@ -192,7 +194,9 @@ Environment URL names
 These are the URL names that will be setup for each provisioned environment (PROD, DEV, TEST, etc). Customers can define a specific sub-domian level name for each environment URL. Be sure these are correct and in line with customer expectations and overall project plan.
 
 IBM MAS example domain names for a company called ACME might be:
+
 `https://main.home.ACME.suite.maximo.com`
+
 `https://main.home.ACME-DEV.suite.maximo.com`
 
 Languages
@@ -205,9 +209,11 @@ Contact your IBM salesperson or the IBM CDS Project Office: SaaSIOTPPO/Dallas/IB
 It is important to check with your IBM salesperson to insure all necessary products and components have been included in the customer MAS order. This will help eliminate the need for re-work by the IBM SRE team after the initial environments have been provisioned and avoid unnecesssary delays. Examples of MAS items or components that may be overlooked on an order include:
 
 Number of Environments:
+
 The correct number and type of environments. Two (2) environments are provided by default on MAS orders: (PROD and TEST). Additional environments can be provisioned at an added cost. PROD environments are sized to support the total number of concurrent or authorized users specified on the order.
 
 Add-on Capacity:
+
 All NON-PROD environments will support up to 30 concurrent users by default. If more than 30 concurrent users need to be supported in any NON-PROD environment, add-on capacity should be included on the order. For example, will a performance load testing environment be required for this project? This is typically an environment that is identical to (or mimics) the production environment. If yes, one or more non-production capacity add-ons will need to be included on the order. Standard NON-PROD environments are not designed or sized for load testing activities.
 
 Have all applicable Industry Solutions and add-on components (Scheduler, SAP or Oracle Connector, Health, Aviation, etc) been ordered?
@@ -261,11 +267,17 @@ In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of
 ### Provisioning
 {: #provisioning}
 
+This section is under construction
+
 ### Onboarding & Implementation
 {: #onboarding-implementation}
 
+This section is under construction
+
 ### Go Live & Steady State Support
 {: #go-live-support}
+
+This section is under construction
 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
@@ -273,9 +285,10 @@ In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of
 ### MAS Dedicated Release Planning
 {: #mas-release-planning}
 
-* MAS Dedicated comes out on first Tuesday 30 days after MAS release. 
 
-* For example MAS 8.10 will be released on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
+* MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release. 
+
+* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
 
 * The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
 
@@ -289,6 +302,8 @@ In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of
 
 ### Planning Guidelines
 {: #mas-planning-guidelines}
+
+
 * Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
 * Upgrade schedules are non-negotiable
 * All client stakeholders must register to receive CCC notifications & communications
@@ -327,6 +342,7 @@ Testing:
 
 ### Patch Upgrades
 {: #mas-patch-upgrades}
+
 
 * Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
 * 1 week of advance notice is needed in ticket for Patch upgrade
