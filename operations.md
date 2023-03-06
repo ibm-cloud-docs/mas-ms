@@ -156,6 +156,7 @@ Please Note: This section is under construction
 {: #planning}
 
 #### 1.1 Implementation Types
+{: #mas-implementation-types}
 
 There are generally two types of implementation scenarios when working with IBM SRE on a large implementation of MAS:
 
@@ -174,20 +175,25 @@ It is important to identify your implementation type and work with IBM SRE and E
 Note: Net-new MAS implementations typically do not require a DoU or SOW from IBM Expert Services; migration efforts from on-premise typically require a DoU and/or SOW.
 
 #### 1.2  MAS Order Considerations
+{: #mas-order-considerations}
 
 The following section contains items that should be reviewed and considered prior to MAS orders or Statements of Work being finalized and submitted.
 
 #### 1.2.1  Provisioning Form
+{: #mas-order-form}
 
 It is important to confirm your IBM Salesperson has properly completed a provisioning form for the MAS order. This form contains important information as it relates to the project. Make sure the information on the form is accurate in order to prevent the possibility of re-work by IBM SRE after customer environments are provisioned. This can cause unnecessary project delays. Provisioning information to review:
 
 Contacts
+
 These are the contacts that will receive the Welcome Kit when the environments are first provisioned. Be sure all proper contacts have been identified, including any key members from the implementation team (IBM Expert Services, GBS or 3rd party)
 
 Preferred Data Center Location
+
 This is the IBM Cloud or AWS data center location where the environments will be provisioned and will serve as the primary data center. See the Architecture section for a list of currently supported locations. Be sure this location is correct and in line with the customer's expectations an nearest to the majority of their end users.
 
 Environment URL names
+
 These are the URL names that will be setup for each provisioned environment (PROD, DEV, TEST, etc). Customers can define a specific sub-domian level name for each environment URL. Be sure these are correct and in line with customer expectations and overall project plan.
 
 IBM MAS example domain names for a company called ACME might be:
@@ -197,11 +203,13 @@ IBM MAS example domain names for a company called ACME might be:
 `https://main.home.ACME-DEV.suite.maximo.com`
 
 Languages
+
 Be sure any languages that need to be installed in the environments (other than English) are identified.
 
 Contact your IBM salesperson or the IBM CDS Project Office: SaaSIOTPPO/Dallas/IBM to obtain a current copy of the provisioning form for your customer.
 
 #### 1.2.2  Component Verification
+{: #mas-component-verification}
 
 It is important to check with your IBM salesperson to insure all necessary products and components have been included in the customer MAS order. This will help eliminate the need for re-work by the IBM SRE team after the initial environments have been provisioned and avoid unnecesssary delays. Examples of MAS items or components that may be overlooked on an order include:
 
@@ -222,10 +230,12 @@ Further details on MAS components can be found in the Service Descriptions for e
 If you are an IBMer and would like a copy of a customer's current MAS order from the EngageSupport database, please contact the IBM SRE Project Office: SaaSIOTPPO/Dallas/IBM. If you are a customer or business partner, please contact an IBM SRE team member and this information can be provided
 
 #### 1.3  Statement of Work (SOW) or Contract Considerations
+{: #mas-sow-considerations}
 
 The following contains items that should be included and considered in any Statement of Work or Contract that involves the use of IBM MAS environments
 
 #### 1.3.1  Project Plan and Project Schedule
+{: #mas-project-plan-schedule}
 
 The following are items that should be considered for the project plan and schedule. IBM SRE has found these are often overlooked and should be reviewed and considered. Please note SRE is not ultimately responsible for establishing your project's plan and schedule, but can and should be consulted.
 
@@ -247,6 +257,7 @@ The Project Management Plan should include, but not be limited to the following:
 - A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
 
 #### 1.3.2  Infrastructure based deliverables
+{: #mas-infrastructure-deliverables}
 
 IBM GBS, Expert Services or other 3rd party services projects that leverage IBM Cloud or AWS based MAS environments should avoid including infrastructure based deliverables in any contract or statement of work. This would include promising deliverables of the following nature:
 
@@ -282,11 +293,8 @@ This section is under construction
 ### MAS Dedicated Release Planning
 {: #mas-release-planning}
 
-
 * MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release. 
-
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
-
 * The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
 
 | Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
@@ -299,7 +307,6 @@ This section is under construction
 
 ### Planning Guidelines
 {: #mas-planning-guidelines}
-
 
 * Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
 * Upgrade schedules are non-negotiable
@@ -339,7 +346,6 @@ Testing:
 
 ### Patch Upgrades
 {: #mas-patch-upgrades}
-
 
 * Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
 * 1 week of advance notice is needed in ticket for Patch upgrade
