@@ -39,10 +39,74 @@ Customers can defer a scheduled maintenance window as long as 2 requirements are
 Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
 Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period. 
 
-## Upgrade Policy
-{: #upgrade-policy}
+## Upgrade Rules, Policy and Plans
+{: #upgrade-rules}
 
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
+
+### MAS Dedicated Release Planning
+{: #mas-release-planning}
+
+The following guidelines apply to MAS-Dedicated and MAS-MS release schedule:
+* MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release. 
+* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
+* The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
+
+| Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
+| -------------- | -------------- | -------------- | -------------- |
+| 8.9 | 1/22/22 | 1/17/23 | Mid March to June |
+| 8.10 | 3/28/23 | 5/2/23 | Late June to September |
+| 8.11 | 9/26/23 | 10/30/23 | Late Nov to Feb |
+| 8.12 | March 2024 | April 2024 | TBD |
+{: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
+
+### Planning Guidelines
+{: #mas-planning-guidelines}
+
+The following guidelines apply to planning for MAS upgrades:
+* Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
+* Upgrade schedules are non-negotiable
+* All client stakeholders must register to receive CCC notifications & communications
+* IBM will share long-range anticipated upgrade windows upon request via ticket
+* Upgrade window information is shared for planning purposes only & is not a commitment
+* Timing is subject to change at IBM’s sole discretion based on software availability & other factors
+
+Non-Production Upgrades
+
+* Clients will be notified via CCC at least 5 business days prior to non-production environment upgrades
+* All non-production environments will be upgraded concurrently, without exception
+* Non Production environments are upgraded during weekdays.
+
+Production Upgrades
+
+* Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
+* Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
+* Clients will be notified via CCC at least 10 business days prior to the Production environment upgrade
+* The Production environment will be upgraded on schedule, without exception
+* Production environments are upgraded on weekends
+
+Notes:
+
+* Upgrades of both prod or non-prod cannot requested to be done earlier or deferred to later for any reason, such as:
+* We have training scheduled on planned maintenance window
+* We are in critical stage of implementation phase and env cannot be touched
+* We have a golive coming up and system cannot be touched
+* We have an executive demo
+* Non-prod upgrade broke a business functionality that is critical to the business, so Prod cannot be updated until the bug is fixed
+* We need upgrade soon, because the new release has feature we need asap
+
+Testing:
+
+* SRE team cannot do any front end test such as can a user login check after upgrade
+* Customer needs to do smoke test of critical business functionalities
+
+### Patch Upgrades
+{: #mas-patch-upgrades}
+
+The following guidelines apply to patch upgrades:
+* Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
+* 1 week of advance notice is needed in ticket for Patch upgrade
+* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
 ## Post Upgrade Customer Testing / Validation
 {: #post-upgrade-customer-testing-validation}
