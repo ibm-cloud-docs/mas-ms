@@ -198,9 +198,9 @@ These are the URL names that will be setup for each provisioned environment (PRO
 
 IBM MAS example domain names for a company called ACME might be:
 
-`https://main.home.ACME.suite.maximo.com`
+`https://main.home.acme.suite.maximo.com`
 
-`https://main.home.ACME-DEV.suite.maximo.com`
+`https://main.home.acme-dev.suite.maximo.com`
 
 Languages
 
@@ -287,66 +287,3 @@ This section is under construction
 
 This section is under construction
 
-## Upgrade Rules, Policy and Plans
-{: #upgrade-rules}
-
-### MAS Dedicated Release Planning
-{: #mas-release-planning}
-
-* MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release. 
-* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
-* The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
-
-| Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
-| -------------- | -------------- | -------------- | -------------- |
-| 8.9 | 1/22/22 | 1/17/23 | Mid March to June |
-| 8.10 | 3/28/23 | 5/2/23 | Late June to September |
-| 8.11 | 7/25/23 | 8/29/23 | Late Oct to Jan |
-| 8.12 | 11/21/23 | 1/9/24 | TBD |
-{: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
-
-### Planning Guidelines
-{: #mas-planning-guidelines}
-
-* Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
-* Upgrade schedules are non-negotiable
-* All client stakeholders must register to receive CCC notifications & communications
-* IBM will share long-range anticipated upgrade windows upon request via ticket
-* Upgrade window information is shared for planning purposes only & is not a commitment
-* Timing is subject to change at IBM’s sole discretion based on software availability & other factors
-
-Non-Production Upgrades
-
-* Clients will be notified via CCC at least 5 business days prior to non-production environment upgrades
-* All non-production environments will be upgraded concurrently, without exception
-* Non Production environments are upgraded during weekdays.
-
-Production Upgrades
-
-* Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
-* Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
-* Clients will be notified via CCC at least 10 business days prior to the Production environment upgrade
-* The Production environment will be upgraded on schedule, without exception
-* Production environments are upgraded on weekends
-
-Notes:
-
-* Upgrades of both prod or non-prod cannot requested to be done earlier or deferred to later for any reason, such as:
-* We have training scheduled on planned maintenance window
-* We are in critical stage of implementation phase and env cannot be touched
-* We have a golive coming up and system cannot be touched
-* We have an executive demo
-* Non-prod upgrade broke a business functionality that is critical to the business, so Prod cannot be updated until the bug is fixed
-* We need upgrade soon, because the new release has feature we need asap
-
-Testing:
-
-* SRE team cannot do any front end test such as can a user login check after upgrade
-* Customer needs to do smoke test of critical business functionalities
-
-### Patch Upgrades
-{: #mas-patch-upgrades}
-
-* Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
-* 1 week of advance notice is needed in ticket for Patch upgrade
-* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
