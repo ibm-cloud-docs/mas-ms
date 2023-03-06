@@ -29,7 +29,7 @@ This page covers migration of an existing Maximo application, either on the IBM 
 
 The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks. This diagram represents a high-level overview of the migration path to MAS MS:
 
-![MAS-Migration-Steps](/images/MAS-Migration-Steps.png)
+![MAS-Migration-Steps](/images/MAS-Migration-Steps.png){: caption="Figure 1. MAS Migration Steps"} 
 
 ## Planning
 {: #planning}
