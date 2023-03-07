@@ -341,16 +341,16 @@ Certain types of special back end access are usually needed at the beginning of 
 Common back-end access types for most Maximo and TRIRIGA projects are:
 
 * VPN
-  This is particularly important if integrations, data migration or custom reports are part of the implementation. If needed, what type: OpenVPN, Site-to-Site or both? Who will need it?
+This is particularly important if integrations, data migration or custom reports are part of the implementation. If needed, what type: OpenVPN, Site-to-Site or both? Who will need it?
 
 * Direct Database Access
-  This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed?
+This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed?
 
 * RDC (Windows Remote Desktop) access
-  This access allows connection to the Maximo Enhanced Access DEV Application server console. Who will need this type of access?
+This access allows connection to the Maximo Enhanced Access DEV Application server console. Who will need this type of access?
 
 * SFTP access
-  This is typically used for files transfers to/from SaaS, file based integrations and Application Server log file access. Who will need it?
+This is typically used for files transfers to/from SaaS, file based integrations and Application Server log file access. Who will need it?
 
 IBM recommends first determining who from the implementation team will need each of the above. Create and submit a single case for each access type. Within the case list each user who require that specific type of access.
 
