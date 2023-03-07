@@ -138,7 +138,31 @@ The first responder will respond to alerts and off hours Severity 1 cases to:
 The IBM first responder’s priority will be to restore service.  The IBM client communicator is notified if there are any challenges to restoring service.  The IBM client communicator will lead the recovery activities and escalate to any personnel required to resolve the issue, while also ensuring that continuous communication is maintained with the customer throughout the length of the incident.
 
 Escalation Manager / Discipline Team Members
-Additional support for IRT members is provided by an Escalation Manager as well as dedicated Database and Network discipline team members. These specific SRE individuals are assigned to the IRT schedule to also provide coverage. 
+Additional support for IRT members is provided by an Escalation Manager as well as dedicated Database and Network discipline team members. These specific SRE individuals are assigned to the IRT schedule to also provide coverage.
+
+## Client Requests for RCA
+{: #client-request-rca}
+
+RCA (Root Cause Analysis)
+
+For Severity 1 incidents, IBM SRE and the Incident Response Team (IRT) have a primary goal to restore service and remediate any disruption as soon as possible. Addressing the symptoms of an issue can often be sufficient enough to successfully restore service, but the underlying root cause may not have been identified during this process due to time constraints. A Root Cause Analysis (RCA) can be requested by customers for further analysis to help identify the underlying cause. As part of this process,  the client and/or their implementer may be required to review specific configurations within the Maximo or TRIRIGA application. Root Cause Analysis can include specific actions to prevent the same issue occurring again in the future. This detail will be given back to the client in the case itself, or in an associated child case if opened separately. Unlike an Incident Report, an RCA is not a separate document and doesn't include a summary of the primary issue or timeline of significant activity during the event. The original case will already have this detail captured.
+
+Under what type of circumstances an RCA can be requested
+
+* RCA's are only provided for production environments
+* RCA's are provided for Severity 1 incidents that are outside of the agreed SLA (99.9% availability for the Production environment)
+* RCA’s are not provided for single/isolated incidents
+* RCA's can be provided for frequently recurring issues in production that have a significant impact on your business
+
+How to request an RCA
+
+* If the case in which the incident occurred is still open, customers can request a Root Cause Analysis as an entry within the case itself.
+* If the case in which the incident occurred is closed, a new case should be opened by the customer specifically requesting an RCA. It should include the original case number of the incident.
+* For example: "Request for RCA on TS00001111"     
+
+RCA lead times
+
+An RCA can take between 5 to 10 business days to be completed. RCA detail will be provided in the applicable case.
 
 ## IBM Support Guides
 {: #ibm-support-guides}
