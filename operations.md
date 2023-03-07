@@ -198,9 +198,11 @@ These are the URL names that will be setup for each provisioned environment (PRO
 
 IBM MAS example domain names for a company called ACME might be:
 
-`https://main.home.acme.suite.maximo.com`
+Production URL example : `https://main.home.ACME.suite.maximo.com`
 
-`https://main.home.acme-dev.suite.maximo.com`
+Non-Production URL example: `https://main.home.ACME-DEV.suite.maximo.com`
+
+Note: environment names, once specified, cannot be altered without re-provisioning. This will incurr additional costs. In addtion, no provisioning can take place until URLs have been specificed.
 
 Languages
 
@@ -217,17 +219,15 @@ Number of Environments:
 
 The correct number and type of environments. Two (2) environments are provided by default on MAS orders: (PROD and TEST). Additional environments can be provisioned at an added cost. PROD environments are sized to support the total number of concurrent or authorized users specified on the order.
 
-Add-on Capacity:
+Sizing:
 
-All NON-PROD environments will support up to 30 concurrent users by default. If more than 30 concurrent users need to be supported in any NON-PROD environment, add-on capacity should be included on the order. For example, will a performance load testing environment be required for this project? This is typically an environment that is identical to (or mimics) the production environment. If yes, one or more non-production capacity add-ons will need to be included on the order. Standard NON-PROD environments are not designed or sized for load testing activities.
+All PROD and NON-PROD environment sizing is specified on the SQO order. Clients are required to specify the sizing (Dev, extra small, small, medium, large). Environments are not designed or sized for load testing activities.
 
 Have all applicable Industry Solutions and add-on components (Scheduler, SAP or Oracle Connector, Health, Aviation, etc) been ordered?
 
-Will a replicated copy of the PROD database be needed for offline reporting or data extraction purposes? If yes, an add-on reporting database should be included on the order
+Will a replicated copy of the PROD database be needed for offline reporting or data extraction purposes? If yes, an add-on reporting database should be included on the order.
 
-Further details on MAS components can be found in the Service Descriptions for each offering.
-
-If you are an IBMer and would like a copy of a customer's current MAS order from the EngageSupport database, please contact the IBM SRE Project Office: SaaSIOTPPO/Dallas/IBM. If you are a customer or business partner, please contact an IBM SRE team member and this information can be provided
+Further details on MAS components can be found in the Service Description for the offering.
 
 #### 1.3  Statement of Work (SOW) or Contract Considerations
 {: #mas-sow-considerations}
@@ -241,20 +241,23 @@ The following are items that should be considered for the project plan and sched
 
 The Project Management Plan should include, but not be limited to the following:
 
+- Client (or designate) is responsible for the Project Manager role
 - Identification of Project Team and Roles for client, business partner(s), and IBM
 - Scope statement that clearly defines what IBM SRE needs to do
 - Quality Management Plan that includes the Test Plan with all testing activities, Configuration Management Plan to maintain environments, and methodology (i.e. Waterfall vs. Agile)
-- Performance Load Testing
+- Performance Load Testing (IBM SRE can assist but is not responsible)
 - Communication Plan that outlines how information will be disseminated
 - Risk Management Plan that identifies risks and plan for managing them
 - The Project Schedule should include:
 - Project non-working days/times that are agreed by client, business partner(s), and IBM
 - Onboarding activities
-- Resources and lead times for all appropriate IBM SRE requests
+- Resources and lead times for all appropriate IBM SRE requests (please see lead times):
+
+https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-operations#sre-task-lead-times
+
 - Steps for Production dry run(s)
 - IT-mandated freeze period(s)
 - Go Live Deployment Period(s)
-- A sample project plan for migration to Maximo MAS can be found on the Attachments tab below.
 
 #### 1.3.2  Infrastructure based deliverables
 {: #mas-infrastructure-deliverables}
@@ -267,23 +270,112 @@ IBM GBS, Expert Services or other 3rd party services projects that leverage IBM 
 - Hardware sizing and resource allocations (Cores, Memory, Storage)
 - Listing of O/S, Middleware or other specific Software Versions
 - IT security documents or diagrams
+- Installation checklists or certifications
 
-Installation checklists or certifications
-
-In the IBM MAS Dedicated model, the IT stack is the responsibility and domain of the IBM SRE team. IBM's MAS architecture is based on best practices and empirical experience supporting a large existing customer base. With a MAS subscription, the responsibility of IBM SRE is to deliver the application in accordance with the customer's MAS subscription terms and Service Level Agreement (SLA). IBM is not obligated to provide technical details of the infrastructure used to meet it's subscription commitments. As a result, specific infrastructure based deliverables should be avoided in consulting services contracts. Technical details regarding customer infrastructure can, in some cases, be provided by the SRE team depending on the nature of the request. Please see slide below that shows the IBM MAS model. It is consistent with most public MAS models. It is important customers understand the nature of Software as a Service delivery.
+In the IBM MAS-Dedicated model, the IT stack is the responsibility and domain of the IBM SRE team. IBM's MAS architecture is based on best practices and empirical experience supporting a large existing customer base. With a MAS subscription, the responsibility of IBM SRE is to deliver the application in accordance with the customer's MAS subscription terms and Service Level Agreement (SLA). IBM is not obligated to provide technical details of the infrastructure used to meet it's subscription commitments. As a result, specific infrastructure based deliverables should be avoided in consulting services contracts. Technical details regarding customer infrastructure can, in some cases, be provided by the SRE team depending on the nature of the request. 
 
 ### Provisioning
 {: #provisioning}
 
-This section is under construction
+Be sure both you an your customer are aware of IBM SRE provisioning lead times and have scheduled accordingly. Make sure the customer's MAS environments are ordered and will be available prior to any scheduled meetings or on-site engagements that require access to the environments. IBM's objective is to provision MAS environments within 1-2 weeks of their corresponding sales order being placed, approved and fully processed. The overall amount of time can vary depending on the size (user license) of the environment(s), total number of environments needed (for example DEV, TEST, PROD), number and type of industry solutions within each environment, number & type of add-on components such as Maximo Anywhere, availability of resources in the target data center location, and amount of orders in the queue.
 
 ### Onboarding & Implementation
 {: #onboarding-implementation}
 
-This section is under construction
+#### 3.1  Onboarding Roles
+{: #onboarding-roles}
+
+The following onboarding roles should be defined:
+
+* Client Business Leader - provides formal sign off of completed phases
+* Project Implementer - Top level contact of the Implementor (GBS, Partner, 3rd Party)
+* Project Manager - usually provided by the Implementor
+* IBM SRE - provides environment support via case tickets
+* Client IT Team - obtains support for MAS environments by submitting case tickets
+
+#### 3.2  Traps
+{: #traps}
+
+The following are common "traps" that can occur in Maximo and TRIRIGA SaaS implementation projects.
+
+* Report Developer Access
+* Planning & Organizing VPN configuration to support integration(s)
+* Not ordering Enhanced Access DEV Environment(s) (see section 1. 0 Planning)
+* Inability to submit case tickets (see IBM SRE Services Support)
+* Not engaging the IBM SRE team early, esp regarding networking (see section 3.6 below 'Back End Access')
+* Not planning or coordinating a detailed go live plan and schedule
+* Not planning for post-go live maintenance
+* Not allocating time or resources for performance load testing
+
+#### 3.3  Welcome Kit
+{: #welcome-kit}
+
+When the SaaS environments are provisioned and ready, the customer contacts on the order's Provisioning Form will receive a Welcome Kit from IBM with full details on accessing their environments. Customers will be provided a URL for each environment and will be able to login as the maxadmin (Maximo) or system (TRIRIGA) user. Customers are responsible for setting up additional users and security groups within each environment
+
+#### 3.4  On Boarding Meeting
+{: #onboarding-meeting}
+
+IBM can schedule and provide an on-boarding meeting. This meeting serves as a brief introduction to IBM SRE services and covers the following details:
+
+* Contacts, Support and Administration
+* Client Environments (how to access)
+* Support (How to get Help)
+* Roles & Responsibilities
+* Tools & Access Control
+* Helpful Links
+
+To schedule a meeting, please contact: cdsonboarding@ibmserviceengage.com
+
+A sample Maximo SaaS Flex onboarding slidedeck is attached below.
+
+#### 3.5  Case Ticket Submission
+{: #case-ticket-submission}
+
+At the onset of the project, Project manager(s) should determine who from their implementation team will be responsible for submitting case tickets to IBM. A single portal (https://www.ibm.com/mysupport) is used to establish cases for both SaaS environment related issues and product specific issues. It is generally advisable to have a limited number of individuals that can submit cases in order to prevent ticket duplication and better manage updates, followup and closure. Specific instructions on how to establish access to the IBM Support Community for case ticket submission can be found in the IBM SRE Services Support section.
+
+#### 3.6  Back End Access
+{: #back-end-access}
+
+Certain types of special back end access are usually needed at the beginning of projects for developers and/or consultants. It's important to note that this type of access can only be configured after environments have been provisioned and are accessible. Access of this type must be requested via case ticket submission
+
+Common back-end access types for most Maximo and TRIRIGA projects are:
+
+* VPN
+  This is particularly important if integrations, data migration or custom reports are part of the implementation. If needed, what type: OpenVPN, Site-to-Site or both? Who will need it?
+
+* Direct Database Access
+  This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed?
+
+* RDC (Windows Remote Desktop) access
+  This access allows connection to the Maximo Enhanced Access DEV Application server console. Who will need this type of access?
+
+* SFTP access
+  This is typically used for files transfers to/from SaaS, file based integrations and Application Server log file access. Who will need it?
+
+IBM recommends first determining who from the implementation team will need each of the above. Create and submit a single case for each access type. Within the case list each user who require that specific type of access.
+
+#### 3.7  Support Request (Case) Lead Times
+{: #support-case-lead-times}
+
+IBM SRE has specific lead times established based on the type of request being submitted. Lead times can vary based on number of cases in the queue and the complexity or level of effort of the specific request. It is important to consider standard lead times when planning your project and delivery commitments. For details please see Request Lead Times
+
+#### 3.8  Report Customization
+{: #report-customization}
+
+If custom reporting is part of the implementation, VPN access will first need to be established. There are 2 types of VPN access available. Please see the VPN Section in order to determine your best option.
+Please see Reporting Options section for details on reporting tools that can be leveraged with Maximo and TRIRIGA SaaS.
+
+#### 3.9  SAML and/or LDAP Authentication
+{: #saml-ladp-authentication}
+
+Maximo and TRIRIGA SaaS support Single Sign On (SSO). This can only be configured after environments have been initially provisioned. Further detail on how to initiate this configuration process with the IBM SRE support team can be found under Single Sign On (SSO) and SAML Authentication
+
+#### 3.10  Roles & Responsibilities
+{: #roles-responsibilities}
+
+Roles & Responsibilities for IBM SRE, Customers, GBS and other parties are described in the Environment Management & Responsibilities section. This includes RACI's for both Maximo and TRIRIGA that detail each level of responsibility (Responsible Accountable, Consulted, Informed) for specific tasks. It is important to review the applicable RACI and make sure all project team members agree to and understand their individual roles.
 
 ### Go Live & Steady State Support
 {: #go-live-support}
 
 This section is under construction
-
