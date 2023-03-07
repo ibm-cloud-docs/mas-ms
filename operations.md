@@ -406,4 +406,13 @@ Roles & Responsibilities for IBM SRE, Customers, GBS and other parties are descr
 ### Go Live & Steady State Support
 {: #go-live-support}
 
-This section is under construction
+It is important to determine and clearly communicate any critical phases or go live support periods in your project schedule to the IBM SRE team as early as possible. The IBM SRE support team needs to be aware of these phases as specific SRE resources (DBA, Network, Firewall, Sys Admin) will need to be lined up in advance.  Typically implemention teams would have a detailed go live task list to support this and a "dry run" of the go live cutover activities is often performed in advance to validate the task list and timings. For guidelines on notifying CDS, see Requesting Off Hours & Weekend Support
+
+It is important to determine how ownership and support will transition once the go live has been successfully completed and the system migrates to steady state. The IBM Support Community portal will be the primary means of communication for any SaaS or product related issues.
+
+5.1 Steady State Roles
+
+* Client Business Owner
+* Sustain Team (IBM AMS)
+* IBM SRE
+* Client IT Team
