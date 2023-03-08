@@ -121,7 +121,7 @@ Spreadsheet with MAS-Dedicated Migration Swimlanes (Roles and Responsibilities):
 
 Presentation of MS-Dedicated Migration Steps:
 
-[MAS-Dedicated Presentation of Migration Steps](https://ibm.box.com/s/e2e9i3dir373gdzm8kwdvpzqgfi83uvp){: external download="MAS-Dedicated-Migration-Steps.pptx"}
+[MAS-Dedicated Presentation of Migration Steps](https://ibm.box.com/s/e2e9i3dir373gdzm8kwdvpzqgfi83uvp){: external download="Migration from Maximo EAM to MAS SaaS or Dedicated February 2023"}
 
 MS-Dedicated Migration Questionaire:
 
