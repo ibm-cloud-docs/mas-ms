@@ -118,7 +118,7 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
 After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS Support Services](#how-to-register-for-mas-support)
 
-## How to Register for Maximo Application Suite Support
+## How to Register for MAS Support
 {: #how-to-register-for-mas-support}
 
 Maximo Application Suite Support covers support for both the Application and your MAS-Dedicated environments.
