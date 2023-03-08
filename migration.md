@@ -121,7 +121,7 @@ Spreadsheet with MAS-Dedicated Migration Swimlanes (Roles and Responsibilities):
 
 Presentation of MS-Dedicated Migration Steps:
 
-[MAS-Dedicated Presentation of Migration Steps](https://www.ibm.com/support/pages/system/files/inline-files/Migration%20to%20MAS%20MS%20v2_0.pptx){: external download="MAS-Dedicated-Migration-Steps-v2_0.pptx"}
+[MAS-Dedicated Presentation of Migration Steps](https://ibm.box.com/s/e2e9i3dir373gdzm8kwdvpzqgfi83uvp){: external download="MAS-Dedicated-Migration-Steps.pptx"}
 
 MS-Dedicated Migration Questionaire:
 

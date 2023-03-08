@@ -48,6 +48,7 @@ Application and MAS component Upgrades are on a defined schedule based on the Ma
 {: #mas-release-planning}
 
 The following guidelines apply to MAS-Dedicated and MAS-MS release schedule:
+* MAS (8.x) GA versions are released twice a year by IBM development (approx) 
 * MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release. 
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
 * The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
@@ -56,7 +57,7 @@ The following guidelines apply to MAS-Dedicated and MAS-MS release schedule:
 | -------------- | -------------- | -------------- | -------------- |
 | 8.9 | 1/22/22 | 1/17/23 | Mid March to June |
 | 8.10 | 3/28/23 | 5/2/23 | Late June to September |
-| 8.11 | 9/26/23 | 10/30/23 | Late Nov to Feb |
+| 8.11 | 9/29/23 | 10/30/23 | Late Nov to Feb |
 | 8.12 | March 2024 | April 2024 | TBD |
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
 
