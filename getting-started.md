@@ -97,19 +97,18 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
 4. Upon submission, a confirmation code will be sent from `ibmacct@iam.ibm.com` to the email address you provided
 
-    ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="Figure 3. MAS-Dedicated IBMid Confirmation Code" caption-side="bottom"} 
+    ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="Figure 3. MAS-Dedicated IBMid Confirmation Code" caption-side="bottom"}
 
 5. Open your email and copy & paste the 7 digit confirmation code (Verification token).
     Click **Create Account** to activate your IBMid 
 
-    ![MAS-MS-IBMid-Confirmation-Code-Email](images/MAS-MS-IBMid-Confirmation-Code-Email.png "MAS-MS-IBMid-Confirmation-Code-Email"){: caption="Figure 4. MAS-Dedicated IBMid Confirmation Code Email" caption-side="bottom"} 
+    ![MAS-MS-IBMid-Confirmation-Code-Email](images/MAS-MS-IBMid-Confirmation-Code-Email.png "MAS-MS-IBMid-Confirmation-Code-Email"){: caption="Figure 4. MAS-Dedicated IBMid Confirmation Code Email" caption-side="bottom"}
 
-    ![MAS-MS-IBMid-Create-Account](images/MAS-MS-IBMid-Create-Account.png "MAS-MS-IBMid-Create-Account"){: caption="Figure 5. MAS-Dedicated IBMid Create Account" caption-side="bottom"} 
-
+    ![MAS-MS-IBMid-Create-Account](images/MAS-MS-IBMid-Create-Account.png "MAS-MS-IBMid-Create-Account"){: caption="Figure 5. MAS-Dedicated IBMid Create Account" caption-side="bottom"}
      
 6. Accept IBM Account Privacy notification by clicking **Proceed**
 
-    ![MAS-MS-IBMid-Privacy](images/MAS-MS-IBMid-Privacy.png "MAS-MS-IBMid-Privacy.png"){: caption="Figure 6. MAS-Dedicated IBMid Privacy Notification" caption-side="bottom"} 
+    ![MAS-MS-IBMid-Privacy](images/MAS-MS-IBMid-Privacy.png "MAS-MS-IBMid-Privacy.png"){: caption="Figure 6. MAS-Dedicated IBMid Privacy Notification" caption-side="bottom"}
 
 7. Your new IBMid will be created and registration completed:
 
