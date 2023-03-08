@@ -293,7 +293,7 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 ## Next steps
 {: #next-steps}
 
-1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-dedicated-client-communications-center) in order to receive important information and notifications regarding your environment(s):
+1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
     https://status.suite.maximo.com
 
