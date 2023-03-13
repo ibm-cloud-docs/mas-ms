@@ -19,7 +19,50 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
-Need a description of the SSP here
+The purpose of the IoT SaaS Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments.  These pre-selected tasks can be run immediately or scheduled for future time. 
+
+## Supported Requests
+{: #supported-requests}
+
+### Database Tasks
+{: #database-tasks}
+
+#### Run REORG / Runstats
+{: #run-reorg-and-runstats}
+This action runs one of the following 3 operations depending on user selection
+
+Runstats only operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.  This is the default operation. 
+
+Offine reorganization of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. Please note, environment will be unavailable and depending on the size of the database this task may take up to several hours complete.
+
+Online reorganization of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space.  The environment is not stopped for this option.
+
+{:note: Most cases require only the Runstats operation. Reorganization of tablespaces need only be run if a significant amount of data has been deleted from the database since the last tablespace reorganization.}
+
+### Application Tasks
+{: #application-tasks}
+
+#### Start Application Server
+{: #start-application-server}
+This task can be used to start all servers or a comma delimited list of specified servers
+
+#### Stop Application Server
+{: #stop-application-server}
+This task can be used to stop all servers or a comma delimited list of specified servers
+
+#### Restart Application Server
+{: #restart-application-server}
+This task can be used to restart all servers or a comma delimited list of specified servers
+
+#### Run DB Config
+{: #run-configdb}
+This task stops the Maximo application, runs Maximo configdb process, then restarts Maximo.
+
+It is highly recommend a backup is performed prior to running this task. This can be performed using the portal. Client must certify they have completed a backup prior to task execution.
+
+#### Collect Application Server Logs
+{: #collect-application-server-logs}
+This task will collect Application Server logs from the target environment’s and upload the logs to the ECuRep (IBM Support) server.
 
 ## Access Management Tool
 {: #access-management-tool}
