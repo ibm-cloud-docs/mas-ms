@@ -320,11 +320,10 @@ The following onboarding roles should be defined:
 #### 3.2  Traps
 {: #traps}
 
-The following are common "traps" that can occur in Maximo and TRIRIGA SaaS implementation projects.
+The following are common "traps" that can occur in MAS implementation projects.
 
 * Report Developer Access
 * Planning & Organizing VPN configuration to support integration(s)
-* Not ordering Enhanced Access DEV Environment(s) (see section 1. 0 Planning)
 * Inability to submit case tickets (see IBM SRE Services Support)
 * Not engaging the IBM SRE team early, esp regarding networking (see section 3.6 below 'Back End Access')
 * Not planning or coordinating a detailed go live plan and schedule
@@ -334,7 +333,7 @@ The following are common "traps" that can occur in Maximo and TRIRIGA SaaS imple
 #### 3.3  Welcome Kit
 {: #welcome-kit}
 
-When the SaaS environments are provisioned and ready, the customer contacts on the order's Provisioning Form will receive a Welcome Kit from IBM with full details on accessing their environments. Customers will be provided a URL for each environment and will be able to login as the maxadmin (Maximo) or system (TRIRIGA) user. Customers are responsible for setting up additional users and security groups within each environment
+When the MAS environments are provisioned and ready, the customer contacts on the order's Provisioning Form will receive a Welcome Kit from IBM with full details on accessing their environments. Customers will be provided a URL for each environment and will be able to login as the maxadmin (Maximo) user. Customers are responsible for setting up additional users and security groups within each environment
 
 #### 3.4  On Boarding Meeting
 {: #onboarding-meeting}
@@ -350,19 +349,17 @@ IBM can schedule and provide an on-boarding meeting. This meeting serves as a br
 
 To schedule a meeting, please contact: cdsonboarding@ibmserviceengage.com
 
-A sample Maximo SaaS Flex onboarding slidedeck is attached below.
-
 #### 3.5  Case Ticket Submission
 {: #case-ticket-submission}
 
-At the onset of the project, Project manager(s) should determine who from their implementation team will be responsible for submitting case tickets to IBM. A single portal (https://www.ibm.com/mysupport) is used to establish cases for both SaaS environment related issues and product specific issues. It is generally advisable to have a limited number of individuals that can submit cases in order to prevent ticket duplication and better manage updates, followup and closure. Specific instructions on how to establish access to the IBM Support Community for case ticket submission can be found in the IBM SRE Services Support section.
+At the onset of the project, Project manager(s) should determine who from their implementation team will be responsible for submitting case tickets to IBM. A single portal (https://www.ibm.com/mysupport) is used to establish cases for both MAS environment related issues and product specific issues. It is generally advisable to have a limited number of individuals that can submit cases in order to prevent ticket duplication and better manage updates, followup and closure. Specific instructions on how to establish access to the IBM Support Community for case ticket submission can be found in the IBM SRE Services Support section.
 
 #### 3.6  Back End Access
 {: #back-end-access}
 
 Certain types of special back end access are usually needed at the beginning of projects for developers and/or consultants. It's important to note that this type of access can only be configured after environments have been provisioned and are accessible. Access of this type must be requested via case ticket submission
 
-Common back-end access types for most Maximo and TRIRIGA projects are:
+Common back-end access types for most MAS projects are:
 
 * VPN
 
@@ -372,13 +369,9 @@ This is particularly important if integrations, data migration or custom reports
 
 This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed?
 
-* RDC (Windows Remote Desktop) access
-
-This access allows connection to the Maximo Enhanced Access DEV Application server console. Who will need this type of access?
-
 * SFTP access
 
-This is typically used for files transfers to/from SaaS, file based integrations and Application Server log file access. Who will need it?
+This is typically used for files transfers to/from MAS, file based integrations and Application Server log file access. Who will need it?
 
 IBM recommends first determining who from the implementation team will need each of the above. Create and submit a single case for each access type. Within the case list each user who require that specific type of access.
 
@@ -391,24 +384,24 @@ IBM SRE has specific lead times established based on the type of request being s
 {: #report-customization}
 
 If custom reporting is part of the implementation, VPN access will first need to be established. There are 2 types of VPN access available. Please see the VPN Section in order to determine your best option.
-Please see Reporting Options section for details on reporting tools that can be leveraged with Maximo and TRIRIGA SaaS.
+Please see Reporting Options section for details on reporting tools that can be leveraged with MAS.
 
 #### 3.9  SAML and/or LDAP Authentication
 {: #saml-ladp-authentication}
 
-Maximo and TRIRIGA SaaS support Single Sign On (SSO). This can only be configured after environments have been initially provisioned. Further detail on how to initiate this configuration process with the IBM SRE support team can be found under Single Sign On (SSO) and SAML Authentication
+MAS supports Single Sign On (SSO). This can only be configured after environments have been initially provisioned. Further detail on how to initiate this configuration process with the IBM SRE support team can be found under Single Sign On (SSO) and SAML Authentication
 
 #### 3.10  Roles & Responsibilities
 {: #roles-responsibilities}
 
-Roles & Responsibilities for IBM SRE, Customers, GBS and other parties are described in the Environment Management & Responsibilities section. This includes RACI's for both Maximo and TRIRIGA that detail each level of responsibility (Responsible Accountable, Consulted, Informed) for specific tasks. It is important to review the applicable RACI and make sure all project team members agree to and understand their individual roles.
+Roles & Responsibilities for IBM SRE, Customers, GBS and other parties are described in the Environment Management & Responsibilities section. This includes a RACI that details each level of responsibility (Responsible Accountable, Consulted, Informed) for specific tasks. It is important to review the applicable RACI and make sure all project team members agree to and understand their individual roles.
 
 ### Go Live & Steady State Support
 {: #go-live-support}
 
-It is important to determine and clearly communicate any critical phases or go live support periods in your project schedule to the IBM SRE team as early as possible. The IBM SRE support team needs to be aware of these phases as specific SRE resources (DBA, Network, Firewall, Sys Admin) will need to be lined up in advance.  Typically implemention teams would have a detailed go live task list to support this and a "dry run" of the go live cutover activities is often performed in advance to validate the task list and timings. For guidelines on notifying CDS, see Requesting Off Hours & Weekend Support
+It is important to determine and clearly communicate any critical phases or go live support periods in your project schedule to the IBM SRE team as early as possible. The IBM SRE support team needs to be aware of these phases as specific SRE resources (DBA, Network, Firewall, Sys Admin) will need to be lined up in advance.  Typically implemention teams would have a detailed go live task list to support this and a "dry run" of the go live cutover activities is often performed in advance to validate the task list and timings. For guidelines on notifying IBM SRE, see Requesting Off Hours & Weekend Support
 
-It is important to determine how ownership and support will transition once the go live has been successfully completed and the system migrates to steady state. The IBM Support Community portal will be the primary means of communication for any SaaS or product related issues.
+It is important to determine how ownership and support will transition once the go live has been successfully completed and the system migrates to steady state. The IBM Support Community portal will be the primary means of communication for any MAS or product related issues.
 
 5.1 Steady State Roles
 
