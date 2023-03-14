@@ -19,6 +19,8 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
+Need a description of the SSP here
+
 ## Access Management Tool
 {: #access-management-tool}
 
