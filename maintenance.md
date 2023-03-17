@@ -136,4 +136,4 @@ Clients choosing the Dedicated Cluster deployment will determine when they wish 
 
 In the Shared Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data will be shared across multiple Production Instance(s) and Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the MAS Dedicated offering software upgrade policy that is set by IBM. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
 
-
+[MAS Continuous Delivery and Long Term Support Presentation](https://ibm.box.com/shared/static/xqn8znqlk69p8glipsxbxg9suxli643i.pptx){: external download="MAS CD and LTS Support Models.pptx"}
