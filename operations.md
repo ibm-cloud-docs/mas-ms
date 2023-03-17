@@ -322,6 +322,7 @@ The following onboarding roles should be defined:
 
 The following are common "traps" that can occur in MAS implementation projects.
 
+* Not allocating time to test any potential product issues found
 * Report Developer Access
 * Planning & Organizing VPN configuration to support integration(s)
 * Inability to submit case tickets (see IBM SRE Services Support)
@@ -333,12 +334,12 @@ The following are common "traps" that can occur in MAS implementation projects.
 #### 3.3  Welcome Kit
 {: #welcome-kit}
 
-When the MAS environments are provisioned and ready, the customer contacts on the order's Provisioning Form will receive a Welcome Kit from IBM with full details on accessing their environments. Customers will be provided a URL for each environment and will be able to login as the maxadmin (Maximo) user. Customers are responsible for setting up additional users and security groups within each environment
+When the MAS environments are provisioned and ready, the customer contacts on the order's Provisioning Form will receive a Welcome Kit from IBM with full details on accessing their environments. Customers will be provided a URL for each environment and will be able to login as the masadmin (Maximo) user. Customers are responsible for setting up additional users and security groups within each environment
 
 #### 3.4  On Boarding Meeting
 {: #onboarding-meeting}
 
-IBM can schedule and provide an on-boarding meeting. This meeting serves as a brief introduction to IBM SRE services and covers the following details:
+IBM will schedule and provide an on-boarding meeting. This meeting serves as a brief introduction to IBM SRE services and covers the following details:
 
 * Contacts, Support and Administration
 * Client Environments (how to access)
@@ -347,7 +348,7 @@ IBM can schedule and provide an on-boarding meeting. This meeting serves as a br
 * Tools & Access Control
 * Helpful Links
 
-To schedule a meeting, please contact: cdsonboarding@ibmserviceengage.com
+If you do not receive an invite for an onboarding meeting, please contact: cdsonboarding@ibmserviceengage.com
 
 #### 3.5  Case Ticket Submission
 {: #case-ticket-submission}
@@ -363,13 +364,13 @@ Common back-end access types for most MAS projects are:
 
 * VPN
 
-This is particularly important if integrations, data migration or custom reports are part of the implementation. If needed, what type: OpenVPN, Site-to-Site or both? Who will need it?
+This is particularly important if integrations, data migration or custom reports are part of the implementation.
 
 * Direct Database Access
 
-This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed?
+This is usually required for report developers and those who need to run SQL statements against the database. Which users will need access? What kind of access is needed? Note: read/write access is allowed on non-production environments; read-only allowed on production environments if a database replica is ordered and configured.
 
-* SFTP access
+* COS (Cloud Object Storage) access
 
 This is typically used for files transfers to/from MAS, file based integrations and Application Server log file access. Who will need it?
 
@@ -383,8 +384,7 @@ IBM SRE has specific lead times established based on the type of request being s
 #### 3.8  Report Customization
 {: #report-customization}
 
-If custom reporting is part of the implementation, VPN access will first need to be established. There are 2 types of VPN access available. Please see the VPN Section in order to determine your best option.
-Please see Reporting Options section for details on reporting tools that can be leveraged with MAS.
+If custom reporting is part of the implementation, please see access section above.
 
 #### 3.9  SAML and/or LDAP Authentication
 {: #saml-ladp-authentication}
@@ -394,7 +394,7 @@ MAS supports Single Sign On (SSO). This can only be configured after environment
 #### 3.10  Roles & Responsibilities
 {: #roles-responsibilities}
 
-Roles & Responsibilities for IBM SRE, Customers, GBS and other parties are described in the Environment Management & Responsibilities section. This includes a RACI that details each level of responsibility (Responsible Accountable, Consulted, Informed) for specific tasks. It is important to review the applicable RACI and make sure all project team members agree to and understand their individual roles.
+Roles & Responsibilities for IBM SRE, Customers, Implementors and other parties are described in the Environment Management & Responsibilities section. This includes a RACI that details each level of responsibility (Responsible Accountable, Consulted, Informed) for specific tasks. It is important to review the applicable RACI and make sure all project team members agree to and understand their individual roles.
 
 ### Go Live & Steady State Support
 {: #go-live-support}
@@ -406,6 +406,6 @@ It is important to determine how ownership and support will transition once the 
 5.1 Steady State Roles
 
 * Client Business Owner
-* Sustain Team (IBM AMS)
 * IBM SRE
 * Client IT Team
+* Additional Steady State teams as specified by the client
