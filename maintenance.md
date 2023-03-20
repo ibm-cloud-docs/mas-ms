@@ -50,10 +50,6 @@ Systems are not available to users during maintenance windows.
 
 Non-Production systems may be scheduled for maintenance during the week, 1- 2 weeks prior to planned maintenance on Production systems to allow additional time for testing.
 
-Customers can defer a scheduled maintenance window as long as 2 requirements are met:
-1. The patch is considered non-emergency
-2. Environment must remain on a supported version
-
 Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
 Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period. 
 
