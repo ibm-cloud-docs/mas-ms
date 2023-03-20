@@ -20,7 +20,8 @@ subcollection: mas-ms
 {: #faq}
 
 1. Does MAS-Dedicated support Java extensions?
-    Answer: MAS-Dedicated does not support Javas class extensions. It is recommended to you use automation script(s). See link below for further details.
+    Answer: MAS-Dedicated does not support Javas class extensions. It is recommended to you use automation script(s). See link below for further details:
+    
     https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
 2. Can the customer request DB2 backup for a NON-PROD or PROD environment?
     Answer: Yes, customer can request via [IBM Case ticket](https://www.ibm.com/mysupport){: external}
