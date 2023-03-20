@@ -24,14 +24,14 @@ subcollection: mas-ms
 
 The Cloud Service supports two architectural deployment options, Dedicated Cluster and Shared Cluster, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and used. For both deployment options, the client will have their own MAS Applications and their own database schemas. The Cloud Service will be configured based on the deployment option purchased.
 
-* Dedicated Cluster Deployment (default)
+**Dedicated Cluster Deployment** (default)
 
 With the Dedicated Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data are not shared by multiple Production Instances(s), Non-Production Instance(s) or Clients. Each MAS Client Production Instance and Non-Production Instance will have its own IBM Cloud Services and it will not be shared across clients. Clients choosing the Dedicated Cluster deployment will determine when they wish to implement MAS Dedicated software upgrades. The upgrade may be postponed or deferred by the client. Client will need to communicate to IBM Support if they wish to defer any upgrade. The following exceptions apply:
 
 - Client must always be on a supported version. Client will need to upgrade their current version before it reaches the end of support date.
 - Client will always be required to accept critical security patches. IBM alone will determine whether a patch is deemed a critical security patch and the date it will be applied.
 
-* Shared Cluster Deployment (Optional)
+**Shared Cluster Deployment** (optional)
 
 In the Shared Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data will be shared across multiple Production Instance(s) and Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the MAS Dedicated offering software upgrade policy that is set by IBM. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
 
