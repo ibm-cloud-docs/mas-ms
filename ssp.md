@@ -19,7 +19,7 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
-The purpose of the IoT SaaS Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments.  These pre-selected tasks can be run immediately or scheduled for future time. 
+The purpose of the Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time. 
 
 ## Supported Requests
 {: #supported-requests}
@@ -27,42 +27,53 @@ The purpose of the IoT SaaS Self-Service Portal is to empower our clients to exe
 ### Database Tasks
 {: #database-tasks}
 
-#### Run REORG / Runstats
+#### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
-This action runs one of the following 3 operations depending on user selection
 
-Runstats only operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.  This is the default operation. 
+This task will execute one of the following operations on the target environment.
 
-Offine reorganization of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. Please note, environment will be unavailable and depending on the size of the database this task may take up to several hours complete.
+`Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
-Online reorganization of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space.  The environment is not stopped for this option.
+`Offine reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. 
 
-{:note: Most cases require only the Runstats operation. Reorganization of tablespaces need only be run if a significant amount of data has been deleted from the database since the last tablespace reorganization.}
+> **Note:** The environment will be unavailable during the execution of this task, and depending on the size of the database, this task may take up to several hours complete.
+
+`Online reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. The environment is not stopped for this option.
+
+> **Note:** Most cases require only the Runstats operation. Reorganization of tablespaces need only be run if a significant amount of data has been deleted from the database since the last tablespace reorganization.
 
 ### Application Tasks
 {: #application-tasks}
 
-#### Start Application Server
-{: #start-application-server}
-This task can be used to start all servers or a comma delimited list of specified servers
+#### Start Asset Management Application
+{: #start-asset-management-application}
 
-#### Stop Application Server
-{: #stop-application-server}
-This task can be used to stop all servers or a comma delimited list of specified servers
+This task can be used to start the Maximo application for the target environment.
 
-#### Restart Application Server
-{: #restart-application-server}
-This task can be used to restart all servers or a comma delimited list of specified servers
+#### Stop Asset Management Application
+{: #stop-asset-management-application}
 
-#### Run DB Config
+This task can be used to stop the Maximo application for the target environment.
+
+#### Restart Asset Management Application
+{: #restart-asset-management-application}
+
+This task can be used to restart the Maximo application for the target environment.
+
+#### Run ConfigDB
 {: #run-configdb}
-This task stops the Maximo application, runs Maximo configdb process, then restarts Maximo.
 
-It is highly recommend a backup is performed prior to running this task. This can be performed using the portal. Client must certify they have completed a backup prior to task execution.
+This task can be used to apply all pending database configuration changes for the target environment. The task stops the Maximo application, runs the Maximo ConfigDB process, then restarts Maximo.
 
-#### Collect Application Server Logs
-{: #collect-application-server-logs}
-This task will collect Application Server logs from the target environment’s and upload the logs to the ECuRep (IBM Support) server.
+> **Note:** This task may take several hours to complete. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
+
+### Support Tasks
+{: #support-tasks}
+
+#### Run MAS MustGather and upload to ECuRep
+{: #run-mas-mustgather}
+
+This task will collect application logs from the target environment and upload the logs to the ECuRep (IBM Support) server.
 
 ## Access Management Tool
 {: #access-management-tool}
