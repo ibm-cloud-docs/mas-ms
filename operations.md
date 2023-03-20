@@ -174,8 +174,6 @@ https://www.ibm.com/support/pages/node/733923
 ## Project Implementation Guidelines
 {: #project-implementation-guildelines}
 
-Please Note: This section is under construction
-
 ### Planning
 {: #planning}
 
