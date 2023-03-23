@@ -65,7 +65,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 **Note:** "Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
 ![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On")
 
-6.     Save the record. 
+6. Save the record. 
 
 You have successfully submitted an access request for Self-Service Automation access! You will receive an email notification when your access request is reviewed and granted.
 
