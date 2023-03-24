@@ -62,11 +62,13 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 ![AMT-Sign-On](images/SSP-AMT-Manage-Tab.png "AMT-Sign-On"){: caption=""}
 
 4. Add an asset to the Assets table that you would like to request an access for. 
+
 **Note:** Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
 
 ![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
 
 5. Add Self-Service Portal access to the Specific Access in the Environment table and enter a reason for the access request in the Justification section.
+
 **Note:** "Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
 
 ![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On"){: caption=""}
@@ -569,7 +571,8 @@ Follow these steps to remove a user’s access.
 
     ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption=""}
 
-    ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2")
+    ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption=""}
+
 4. Select the user’s Manage Access tab to view their existing accesses.
 
     ![SSP-AM-Remove-User-3](images/SSP-AM-Remove-User-3.png "SSP-AM-Remove-User-3"){: caption=""}
@@ -588,7 +591,8 @@ Follow these steps to remove a user’s access.
 
     ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7"){: caption=""}
 
-    ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7")
+    ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7"){: caption=""}
+
 8. The status of the access will be updated to “REMOVED” once the access removal process is completed.
 
     ![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption=""}
