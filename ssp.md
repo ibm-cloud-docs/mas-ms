@@ -149,6 +149,7 @@ This task will collect application logs from the target environment and upload t
 
 ![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
 
+
 7. Request will move to INPROG State once the request has been picked up to be executed by the tool. ***Note:*** Once a request has been picked up by the tool for processing the task cannot be stopped.
 
 
@@ -568,6 +569,7 @@ Follow these steps to remove a user’s access.
 
     ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2"){: caption=""}
 
+    ![SSP-AM-Remove-User-2](images/SSP-AM-Remove-User-2.png "SSP-AM-Remove-User-2")
 4. Select the user’s Manage Access tab to view their existing accesses.
 
     ![SSP-AM-Remove-User-3](images/SSP-AM-Remove-User-3.png "SSP-AM-Remove-User-3"){: caption=""}
@@ -586,6 +588,7 @@ Follow these steps to remove a user’s access.
 
     ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7"){: caption=""}
 
+    ![SSP-AM-Remove-User-7](images/SSP-AM-Remove-User-7.png "SSP-AM-Remove-User-7")
 8. The status of the access will be updated to “REMOVED” once the access removal process is completed.
 
     ![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption=""}
