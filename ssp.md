@@ -278,8 +278,8 @@ The Access Management Tool provides the ability for users to request and manage 
 | Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
 | Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-ccc-access)|
 | Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with that is on the system. \n For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
-| MAS Object Storage File Access | MFA \n For details on how to request MAS Object Storage File access, see [How to Request MAS Object Storage File Access](#how-to-request-cos-file-access)|
-| MAS Object Storage Log Access | MLA \n For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-ccc-access)|
+| MAS Object Storage File Access | Not yet available. \n For details on how to request MAS Object Storage File access, see [How to Request MAS Object Storage File Access](#how-to-request-cos-file-access)|
+| MAS Object Storage Log Access | Not yet available. \n For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-ccc-access)|
 {: caption="Table 1. Supported Access Requests" caption-side="bottom"}
 
 ### How to Request CCC Access
@@ -398,16 +398,21 @@ Follow the steps below to request a Database Service Account.
 
 11.	Select the access type “Create Database Service Account” from the list.
 
-    ![MAS-MS-CCC-Access-10](images/MAS-MS-DB-Svc-Acct.png "MAS-MS-CCC-Access-10"){: caption=""}
+    ![MAS-MS-CCC-Access-10](images/SSP-AMT-DB-SVC-ACT.png "MAS-MS-CCC-Access-10"){: caption=""}
 
-12.	Enter a reason for requesting the Database Service Account in the **Justification** field.
+12.	Enter a reason for requesting the Database Service Account in the **Justification** field and an account id in the **Database Account ID** field. Make sure to comply with the naming restrictions.
 
-    ![MAS-MS-CCC-Access-12](images/MAS-MS-CCC-Access-12.png "MAS-MS-CCC-Access-12"){: caption=""}
+    ![MAS-MS-CCC-Access-12](images/SSP-AMT-DB-Svc-Detail.png "MAS-MS-CCC-Access-12"){: caption=""}
  
-13.	Save the record to submit the access request. You will receive an email notification when your access request has been approved.
+13.	Save the record to submit the access request. You will receive an email notification when your access request has been approved and the account has been created.
 
-    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}
 
+14. Once the account has been created you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
+
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
+
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
 
 ### How to Request a Database User Account
 {: #how-to-request-database-user-account}
@@ -458,21 +463,23 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-9](images/MAS-MS-CCC-Access-9.png "MAS-MS-CCC-Access-9"){: caption=""}
 
-11.	Select the access type “Client Communication Center” from the list.
+11.	Select the access type “Database User Account” from the list.
 
-    ![MAS-MS-CCC-Access-10](images/MAS-MS-CCC-Access-10.png "MAS-MS-CCC-Access-10"){: caption=""}
+    ![MAS-MS-CCC-Access-10](images/SSP-AMT-DB-User-Act.png "MAS-MS-CCC-Access-10"){: caption=""}
 
-12.	Once selected, a warning message will popup indicating that you only need to request Client Communications Center access for one asset per organization and that you will be automatically subscribed to email notifications for that organization. You can unsubscribe at any time by following the unsubscribe option located in the notification emails. Click “OK” to continue.
+12.	Enter a reason for requesting the Database Service Account in the **Justification** field. The Database Account ID will be populated for you.
 
-    ![MAS-MS-CCC-Access-11](images/MAS-MS-CCC-Access-11.png "MAS-MS-CCC-Access-11"){: caption=""}
+    ![MAS-MS-CCC-Access-12](images/SSP-AMT-DB-User-Detail.png "MAS-MS-CCC-Access-12"){: caption=""}
+ 
+13.	Save the record to submit the access request. You will receive an email notification when your access request has been approved and the account has been created.
 
-13.	Enter a reason for requesting Client Communications Center access in the **Justification** field.
+    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}
 
-    ![MAS-MS-CCC-Access-12](images/MAS-MS-CCC-Access-12.png "MAS-MS-CCC-Access-12"){: caption=""}
+14. Once the account has been created you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
 
-14.	Save the record to submit the access request. You will receive an email notification when your access request has been approved.
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
 
-    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
 
 
 ### How to Reset a Database Account Password
@@ -498,59 +505,38 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""} 
 
-5.	Add an asset to the **Assets** table by selecting the “New Row” button.
+5.	Select the asset in the **Assets** table associated with the Database Account you wish to reset the password for.
 
     ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""} 
 
-6.	Select the search icon to bring up a list of assets you have access to.
+6. Select the twistie(>) to the left of the Databae Account you wish to reset the password for. This will show the access details and actions that can be run against the access.
+
+    ![MAS-MS-CCC-Access-5](images/SSP-AMT-Select-DB-Act.png "MAS-MS-CCC-Access-5"){: caption=""} 
+
+7.	You can provide a new password in the **New Database Password** field, or leave it blank to have one generated.
     
-    **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+    ![MAS-MS-CCC-Access-5](images/SSP-AMT-DB-New-Pwd.png "MAS-MS-CCC-Access-5"){: caption=""} 
 
-    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
+8.	Submit the request by pressing the **Reset Database Password** button. No Manager approval is required for this. You will receive an email notification when the password has been reset.
 
-7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-PW-Reset.png "MAS-MS-CCC-Access-13"){: caption=""}
 
-    ![MAS-MS-CCC-Access-6](images/MAS-MS-CCC-Access-6.png "MAS-MS-CCC-Access-6"){: caption=""}
+9. Once the reset is complete you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
 
-8.	Click on the row in the **Assets** table of the asset you just added. This will link the asset to the access requested in the next step.
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
 
-    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""} 
-
-9.	Begin the access request process by selecting the “New Row” button under the **Specific Access in the Environment** table.
-
-    ![MAS-MS-CCC-Access-8](images/MAS-MS-CCC-Access-8.png "MAS-MS-CCC-Access-8"){: caption=""}
-
-10.	Select the search icon to bring up the list of accesses to choose from.
-
-    ![MAS-MS-CCC-Access-9](images/MAS-MS-CCC-Access-9.png "MAS-MS-CCC-Access-9"){: caption=""}
-
-11.	Select the access type “Client Communication Center” from the list.
-
-    ![MAS-MS-CCC-Access-10](images/MAS-MS-CCC-Access-10.png "MAS-MS-CCC-Access-10"){: caption=""}
-
-12.	Once selected, a warning message will popup indicating that you only need to request Client Communications Center access for one asset per organization and that you will be automatically subscribed to email notifications for that organization. You can unsubscribe at any time by following the unsubscribe option located in the notification emails. Click “OK” to continue.
-
-    ![MAS-MS-CCC-Access-11](images/MAS-MS-CCC-Access-11.png "MAS-MS-CCC-Access-11"){: caption=""}
-
-13.	Enter a reason for requesting Client Communications Center access in the **Justification** field.
-
-    ![MAS-MS-CCC-Access-12](images/MAS-MS-CCC-Access-12.png "MAS-MS-CCC-Access-12"){: caption=""}
-
-14.	Save the record to submit the access request. You will receive an email notification when your access request has been approved.
-
-    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
 
 
 ### How to Request MAS Object Storage File Access
 {: #how-to-request-cos-file-access}
 
-Coming
+Procedure will be documented when function is released.
 
 ### How to Request MAS Object Storage Log Access
 {: #how-to-request-cos-log-access}
 
-Coming
-
+Procedure will be documented when function is released.
 
 ## How to Remove a User's Access
 {: #remove-user-access-am-tool}
