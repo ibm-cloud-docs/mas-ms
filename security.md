@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -103,7 +103,7 @@ IBM Maximo Application Suite Dedicated supports Single Sign On (SSO). Details ca
 
 https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=configuring-users-identity
 
-LDAP and SAML (2.0) is supported. 
+LDAP and SAML (2.0) is supported.
 
 IBM does not certify any specific tool a client has implemented within their environment.  If the tool supports SAML 2.0 then it will work within the MAS MS environment.
 
@@ -200,15 +200,15 @@ https://www.ibm.com/downloads/cas/EEO0NVLK
 
 Details regarding specific Industry and Regulatory compliance can be found in the IBM Enterprise & Technology Security Community (this is accessible to IBMers only).
 
-All IBM Maximo Application Suite Dedicated servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/  
+All IBM Maximo Application Suite Dedicated servers are hardened using Center for Internet Security (CIS) Benchmarks. For further details, please visit:  https://www.cisecurity.org/cis-benchmarks/
 
 An IBM SaaS-wide central health checking service is used to automatically maintain baseline (hardened) configurations of systems against standard IBM policy.
 
-IBM Maximo development follow IBM Secure Engineering practices for application development. IBM Secure Engineering is outlined publicly at the following link: https://www.ibm.com/security/secure-engineering/index.html 
+IBM Maximo development follow IBM Secure Engineering practices for application development. IBM Secure Engineering is outlined publicly at the following link: https://www.ibm.com/security/secure-engineering/index.html
 
 IBM Maximo developers are required to follow secure coding practices, and complete education in the SANS top 25 and OWASP top 10. In addition, static (source) and web application scanning using IBM (HCL) AppScan product suite must be performed. These products check for SANS Top 25 and OWASP top 10 issues. Any vulnerabilities found by these scans must be resolved before product release or submitted through IBM's Product Security Incident Response Team (PSIRT) process for resolution via defect (IBM Authorized Program Analysis Report or APAR).
 
-IBM Maximo development uses Rational Team Concert for development (management of tasks, stories, epics, version control, test management, etc) Selenium and TestNG for test automation, Jenkins for deployment automation, and Rational Performance Tester (RPT) for performance load testing. 
+IBM Maximo development uses Rational Team Concert for development (management of tasks, stories, epics, version control, test management, etc) Selenium and TestNG for test automation, Jenkins for deployment automation, and Rational Performance Tester (RPT) for performance load testing.
 
 IBM Maximo Software Development Life Cycle (SDLC): https://www.ibm.com/support/pages/ibm-maximo-software-development-life-cycle
 
@@ -220,14 +220,14 @@ Manage application logging when configured with certain verbose options can allo
 https://www.ibm.com/support/pages/node/2801463
 
 IBM Data Security and Privacy Principles for IBM Cloud services can be found at the link below:
-https://www.ibm.com/support/customer/csol/terms/?cat=data-security 
+https://www.ibm.com/support/customer/csol/terms/?cat=data-security
 
 IBM Privacy Shield Privacy Policy for Certified IBM Cloud Services can be found below. This is applicable to EU-US and Swiss-US customers:
-https://www.ibm.com/privacy/details/us/en/privacy_shield.html 
+https://www.ibm.com/privacy/details/us/en/privacy_shield.html
 
 Data Responsibility at IBM
 https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
-If a government wants access to data held by IBM on behalf of a MAS-Dedicated client, IBM would expect that government to deal directly with that client 
+If a government wants access to data held by IBM on behalf of a MAS-Dedicated client, IBM would expect that government to deal directly with that client
 
 Data Processing Addendum (GDPR)
 https://www.ibm.com/support/customer/zz/en/dpa.html
@@ -253,7 +253,7 @@ IBM Maximo Application Suite Manage Servers (commercial public offerings) follow
 
 IBM SRE team does not use DLP monitoring. Access controls are implemented on all databases restricted to privileged users only. Database auditing is enabled and logs are retained for 365 days. Customers configure and manage the data their users can view, update and export within the Maximo Application Sutie  applications, as well as determine which of their users is permitted direct read-only access to their database(s).
 
-IBM purchases Professional Errors and Omissions including cyber risk insurance (see below) for IBM's liability arising out of actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission committed in the conduct of IBM’s professional services. This includes coverage for loss of intangible property, such as customer data, due to IBM’s negligence. This coverage is global in scope. 
+IBM purchases Professional Errors and Omissions including cyber risk insurance (see below) for IBM's liability arising out of actual or alleged breach of duty, neglect, error, misstatement, misleading statements or omission committed in the conduct of IBM’s professional services. This includes coverage for loss of intangible property, such as customer data, due to IBM’s negligence. This coverage is global in scope.
 
 ## DDoS Protection
 {: #ddos-protection}

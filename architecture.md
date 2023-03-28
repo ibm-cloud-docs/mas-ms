@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -60,7 +60,7 @@ IBM Cloud has a unique Triple Network architecture.  Every server provisioned in
 
 For the MAS Dedicated Service each client is provisioned with their own application instance and dedicated namespace(s).  The IBM MAS-Dedicated team will provision and configure all necessary underlying infrastructure and components.
 
-IBM Cloud Data Centers are SOC compliant and have full hardware redundancy implemented for all servers. All data centers have an N1 redundant power and cooling infrastructure, including backup power generators. All servers have redundant power supplies, NICs and use SAN based RAID storage. 
+IBM Cloud Data Centers are SOC compliant and have full hardware redundancy implemented for all servers. All data centers have an N1 redundant power and cooling infrastructure, including backup power generators. All servers have redundant power supplies, NICs and use SAN based RAID storage.
 
 The following diagram shows a high level overview of the architecture for each individual client instance.
 
@@ -89,7 +89,7 @@ IBM Maximo Application Suite Dedicated Service supports integration to / from ex
 * Use of common protocols and format such as Web Services, HTTP, JMS, REST, OSLC, XML, JSON, XML and .csv files, DB tables
 * Support of Create, Replace, Update, Delete and Query operation
 * Support for customizing integration processing using Processing Rules and Scripting
-     
+
 For the MS-Manage Application:
 
 * Maximo integration message generation and delivery based on application object events
@@ -112,7 +112,7 @@ For clients wanting to use App Connect or File integration for other application
 
 The following table shows the distribution of workload across worker nodes.  This is based on the T-Shirt sizes on the [Maximo Application Suite Dedicated T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-Dedicated-Tshirt-Calculator-v6.xls"} and will be the setup based on the selected size of the sites. For Development and Extra Small, all workloads (UI, MIF, RPT, CRON) go through the same (2) base worker nodes. For Small, Medium and Large, the workloads are distributed through specific worker nodes as per the below table. If a client needs a different configuration, please contact your sales representative.
 
-| T-Shirt Size | Max Concurrent Users | Base | UI | MIF | RPT | CRON | VPC on Order | 
+| T-Shirt Size | Max Concurrent Users | Base | UI | MIF | RPT | CRON | VPC on Order |
 | ------------ | -------------------- | ---- | -- | --- | --- | ---- | ------------ |
 | Development | | 2 | | | | | 4 |
 | Extra Small | 50 | 2 | | | | | 4 |
@@ -120,7 +120,3 @@ The following table shows the distribution of workload across worker nodes.  Thi
 | Medium | 250 | | 6 | 2 | 2 | 1 | 24 |
 | Large | 500 | | 12 | 3 | 2 | 2 | 48 |
 {: caption="Table 1. MAS-Dedicated Bundles" caption-side="bottom"}
-
-
-
-
