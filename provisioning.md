@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -34,18 +34,18 @@ The provisioning process is invoked when a client has placed an order using MAS-
 
 For details, see [Part Numbers and Order Considerations](/docs/mas-ms?topic=mas-dedicated-getting-started-with-ibm-maximo-application-suite-dedicated-service#part-numbers-and-order-considerations)
 
-Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
+Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed.
 
 The provisioning process has several steps, most of them automated, but some that require a manual update(s) to complete.  The time frame to complete a new provisioning will depend on several factors including:
- 
+
 * the size of the order
 * the order complexity
 * the number of orders in the queue ahead of the order
 
-In general, allow for at least 4 weeks for provisioning to be completed.  
+In general, allow for at least 4 weeks for provisioning to be completed.
 
 The provisioning itself can be broken down into a number of steps:
- 
+
 * Order validation
 * Information gathering
 * Initial provisioning of MAS base environment
@@ -66,7 +66,7 @@ Once this is complete, the order is sent to the IBM MAS Dedicated Provisioning T
 Once the order has been placed into the provisioning queue, additional information needs to be validated and gathered.  This includes preparing the final architecture for the order; specifying the infrastructure needed to meet the order requirements; ensuring requested URL(s) are valid and available; detailed review of the order to ensure completeness; meeting or clarifying specific items with the sales person or client as required and setting up the provisioning parameters.
 
 This step can take a few hours to several days depending on the initial quality and completeness of the information.  Critical information that is needed includes:
- 
+
 * products that to be deployed (not all products will be deployed by default).
 * anticipated sizing information for each product - this can be based on users, I/O or other metrics specific to each product URL being requested
 * Languages required
@@ -87,7 +87,7 @@ The base architecture is finalized regarding the size and number of OpenShift cl
 ## Provisioning of the Individual Products
 {: #provisioning-of-the-individual-products}
 
-At this point, the products the client has selected is provisioned based on the sizing parameters that were specified.  This includes deploying the appropriate containers within OpenShift and configuring the products to be available to the client.  This includes the application, database, any network configuration required, DNS registrations and set up of client administration users. 
+At this point, the products the client has selected is provisioned based on the sizing parameters that were specified.  This includes deploying the appropriate containers within OpenShift and configuring the products to be available to the client.  This includes the application, database, any network configuration required, DNS registrations and set up of client administration users.
 
 At this stage, all operational configuration is finalized including ensuring backups are configured properly, monitoring in place and security scans completed.  Alerting is configured and the sites added to the MAS-Dedicated escalation process.
 

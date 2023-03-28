@@ -65,6 +65,21 @@ It is the client's responsibility to ensure once access is no longer required fo
 | Create/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 {: caption="Table 1. MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"}
 
+## Running SQL Scripts in Production
+{: #running-sql-scripts}
+
+For production environments, the IBM SRE team highly discourages requests to run sql scripts with insert/update/delete statement(s). These are considered high risk and can break overall data integrity. If a SQL script of this type is required, clients can request this via IBM case ticket, with sql script attached along with business justification as to why its needed and why changing from Maximo front end is not possible. The case needs to include:
+
+* SQL Script (as an attachment)
+* Business justification for running the script
+* Request to take full offline backup of target database prior to running script
+
+Backups will be done in offline mode which will require target site to be down / unavailable. Backups can take several hours based on database size
+{: note}
+
+IBM SRE team is not responsible for script not working, script corrections and any issues that arise during or after sql execution. If issues arise, IBM SRE can only restore from backup
+{: note}
+
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
 
