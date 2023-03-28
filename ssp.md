@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -19,11 +19,11 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
-The purpose of the Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time. 
+The purpose of the Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time.
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
-This portal is available to all IBM Maximo Application Suite customers.  
+This portal is available to all IBM Maximo Application Suite customers.
 
 Use the following links to find more information:
 
@@ -61,7 +61,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
 ![AMT-Sign-On](images/SSP-AMT-Manage-Tab.png "AMT-Sign-On"){: caption=""}
 
-4. Add an asset to the Assets table that you would like to request an access for. 
+4. Add an asset to the Assets table that you would like to request an access for.
 
 **Note:** Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
 
@@ -73,7 +73,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
 ![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On"){: caption=""}
 
-6. Save the record. 
+6. Save the record.
 
 You have successfully submitted an access request for Self-Service Automation access! You will receive an email notification when your access request is reviewed and granted.
 
@@ -85,17 +85,17 @@ You have successfully submitted an access request for Self-Service Automation ac
 #### Start Asset Management Application
 {: #start-asset-management-application}
 
-This task can be used to start the Maximo application for the target environment.
+This task can be used to start the Maximo Manage application for the target environment.
 
 #### Stop Asset Management Application
 {: #stop-asset-management-application}
 
-This task can be used to stop the Maximo application for the target environment.
+This task can be used to stop the Maximo Manage application for the target environment.
 
 #### Restart Asset Management Application
 {: #restart-asset-management-application}
 
-This task can be used to restart the Maximo application for the target environment.
+This task can be used to restart the Maximo Manage application for the target environment.
 
 #### Run ConfigDB
 {: #run-configdb}
@@ -111,7 +111,7 @@ This task will execute one of the following operations on the target environment
 
 `Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
-`Offine reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. 
+`Offine reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space.
 
 > **Note:** The environment will be unavailable during the execution of this task, and depending on the size of the database, this task may take up to several hours complete.
 
@@ -181,7 +181,7 @@ Detailed log information surrounding the failure will be available in the log ta
 
 [How To Create A Case](https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated#how-to-create-a-case)
 
-Requests will be handled per the Service Description for non-production environments.  Issues with the portal are handled on the same service description. 
+Requests will be handled per the Service Description for non-production environments.  Issues with the portal are handled on the same service description.
 
 [Service Descriptions and SLA](https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-services#service-description)
 
@@ -190,7 +190,7 @@ Requests will be handled per the Service Description for non-production environm
 
 The Access Management Tool is a self-service tool, located in the IBM IoT Saas Self-Service Portal, where users can manage access to their MAS-Dedicated environments.
 
-IBM IoT Saas Self-Service Portal URL: 
+IBM IoT Saas Self-Service Portal URL:
 
 https://devops.maximo.com
 
@@ -199,7 +199,7 @@ https://devops.maximo.com
 
 ### User Roles
 {: #access-management-user-roles}
-    
+
 The Access Management Tool supports two user roles - standard users and manager users. Manager users have elevated accesses to manage the tool for their customer.
 
 ![SSP-AM-Overview-User-Roles](images/SSP-AM-Overview-User-Roles.png "SSP-AM-Overview-User-Roles"){: caption=""}
@@ -274,7 +274,7 @@ The Access Management Tool provides the ability for users to request and manage 
 | Access Type | Summary |
 | -------------- | -------------- |
 | Self-Service Portal | Grants a user access to submit service requests through the Self-Service Automation for the customer the access request’s asset is linked to. For more information on Self-Service Automation access navigate to the [Self-Service Automation page](#obtaining-access-to-self-service-automation)|
-| Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-dedicated-client-communications-center) page.   \n For details on how to request Client Communications Center access, see [How to Request Client Communications Center Access](#how-to-request-ccc-access)| 
+| Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-dedicated-client-communications-center) page.   \n For details on how to request Client Communications Center access, see [How to Request Client Communications Center Access](#how-to-request-ccc-access)|
 | Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
 | Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-ccc-access)|
 | Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with that is on the system. \n For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
@@ -295,25 +295,25 @@ Follow the steps below to request access to the Client Communications Center Das
 
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
-    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""} 
+    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""}
 
 3.	Select your IBMid from the list of users.
 
-    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""} 
+    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""}
 
 4.	Select the **Manage Access** tab.
 
-    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""} 
+    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""}
 
 5.	Add an asset to the **Assets** table by selecting the “New Row” button.
 
-    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""} 
+    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6.	Select the search icon to bring up a list of assets you have access to.
-    
+
     **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
-    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
+    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
 7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
 
@@ -321,7 +321,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 8.	Click on the row in the **Assets** table of the asset you just added. This will link the asset to the access requested in the next step.
 
-    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""} 
+    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""}
 
 9.	Begin the access request process by selecting the “New Row” button under the **Specific Access in the Environment** table.
 
@@ -345,7 +345,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 14.	Save the record to submit the access request. You will receive an email notification when your access request has been approved.
 
-    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 ### How to Request a Database Service Account
 {: #how-to-request-database-service-account}
@@ -360,25 +360,25 @@ Follow the steps below to request a Database Service Account.
 
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
-    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""} 
+    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""}
 
 3.	Select your IBMid from the list of users.
 
-    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""} 
+    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""}
 
 4.	Select the **Manage Access** tab.
 
-    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""} 
+    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""}
 
 5.	Add an asset to the **Assets** table by selecting the “New Row” button.
 
-    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""} 
+    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6.	Select the search icon to bring up a list of assets you have access to.
-    
+
     **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
-    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
+    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
 7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
 
@@ -386,7 +386,7 @@ Follow the steps below to request a Database Service Account.
 
 8.	Click on the row in the **Assets** table of the asset you just added. This will link the asset to the access requested in the next step.
 
-    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""} 
+    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""}
 
 9.	Begin the access request process by selecting the “New Row” button under the **Specific Access in the Environment** table.
 
@@ -403,16 +403,16 @@ Follow the steps below to request a Database Service Account.
 12.	Enter a reason for requesting the Database Service Account in the **Justification** field and an account id in the **Database Account ID** field. Make sure to comply with the naming restrictions.
 
     ![MAS-MS-CCC-Access-12](images/SSP-AMT-DB-Svc-Detail.png "MAS-MS-CCC-Access-12"){: caption=""}
- 
+
 13.	Save the record to submit the access request. You will receive an email notification when your access request has been approved and the account has been created.
 
     ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 14. Once the account has been created you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 ### How to Request a Database User Account
 {: #how-to-request-database-user-account}
@@ -427,25 +427,25 @@ Follow the steps below to request access to the Client Communications Center Das
 
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
-    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""} 
+    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""}
 
 3.	Select your IBMid from the list of users.
 
-    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""} 
+    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""}
 
 4.	Select the **Manage Access** tab.
 
-    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""} 
+    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""}
 
 5.	Add an asset to the **Assets** table by selecting the “New Row” button.
 
-    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""} 
+    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6.	Select the search icon to bring up a list of assets you have access to.
-    
+
     **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
-    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
+    ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
 7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
 
@@ -453,7 +453,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 8.	Click on the row in the **Assets** table of the asset you just added. This will link the asset to the access requested in the next step.
 
-    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""} 
+    ![MAS-MS-CCC-Access-7](images/MAS-MS-CCC-Access-7.png "MAS-MS-CCC-Access-7"){: caption=""}
 
 9.	Begin the access request process by selecting the “New Row” button under the **Specific Access in the Environment** table.
 
@@ -470,16 +470,16 @@ Follow the steps below to request access to the Client Communications Center Das
 12.	Enter a reason for requesting the Database Service Account in the **Justification** field. The Database Account ID will be populated for you.
 
     ![MAS-MS-CCC-Access-12](images/SSP-AMT-DB-User-Detail.png "MAS-MS-CCC-Access-12"){: caption=""}
- 
+
 13.	Save the record to submit the access request. You will receive an email notification when your access request has been approved and the account has been created.
 
     ![MAS-MS-CCC-Access-13](images/MAS-MS-CCC-Access-13.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 14. Once the account has been created you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 
 ### How to Reset a Database Account Password
@@ -495,27 +495,27 @@ Follow the steps below to request access to the Client Communications Center Das
 
 2.	Navigate to the Access Management Tool by selecting **Security** > **Access Management** from the applications menu.
 
-    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""} 
+    ![MAS-MS-CCC-Access-1](images/MAS-MS-CCC-Access-1.png "MAS-MS-CCC-Access-1"){: caption=""}
 
 3.	Select your IBMid from the list of users.
 
-    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""} 
+    ![MAS-MS-CCC-Access-2](images/MAS-MS-CCC-Access-2.png "MAS-MS-CCC-Access-2"){: caption=""}
 
 4.	Select the **Manage Access** tab.
 
-    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""} 
+    ![MAS-MS-CCC-Access-3](images/MAS-MS-CCC-Access-3.png "MAS-MS-CCC-Access-3"){: caption=""}
 
 5.	Select the asset in the **Assets** table associated with the Database Account you wish to reset the password for.
 
-    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""} 
+    ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6. Select the twistie(>) to the left of the Databae Account you wish to reset the password for. This will show the access details and actions that can be run against the access.
 
-    ![MAS-MS-CCC-Access-5](images/SSP-AMT-Select-DB-Act.png "MAS-MS-CCC-Access-5"){: caption=""} 
+    ![MAS-MS-CCC-Access-5](images/SSP-AMT-Select-DB-Act.png "MAS-MS-CCC-Access-5"){: caption=""}
 
 7.	You can provide a new password in the **New Database Password** field, or leave it blank to have one generated.
-    
-    ![MAS-MS-CCC-Access-5](images/SSP-AMT-DB-New-Pwd.png "MAS-MS-CCC-Access-5"){: caption=""} 
+
+    ![MAS-MS-CCC-Access-5](images/SSP-AMT-DB-New-Pwd.png "MAS-MS-CCC-Access-5"){: caption=""}
 
 8.	Submit the request by pressing the **Reset Database Password** button. No Manager approval is required for this. You will receive an email notification when the password has been reset.
 
@@ -523,9 +523,9 @@ Follow the steps below to request access to the Client Communications Center Das
 
 9. Once the reset is complete you can return to the access record to retrieve the database password and SSL Certificate information. Use the **Show Database Password** and **Show SSL Certificate** checkboxes to display/hide the information.
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Hidden.png "MAS-MS-CCC-Access-13"){: caption=""}
 
-    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}    
+    ![MAS-MS-CCC-Access-13](images/SSP-AMT-DB-Details-Display.png "MAS-MS-CCC-Access-13"){: caption=""}
 
 
 ### How to Request MAS Object Storage File Access
@@ -541,7 +541,7 @@ Procedure will be documented when function is released.
 ## How to Remove a User's Access
 {: #remove-user-access-am-tool}
 
-Users in the Access Management tool are able to remove accesses that they have. Manager users are able to remove accesses for all users under the customer they are managing. 
+Users in the Access Management tool are able to remove accesses that they have. Manager users are able to remove accesses for all users under the customer they are managing.
 
 Follow these steps to remove a user’s access.
 
@@ -600,7 +600,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-2](images/SSP-AM-Grant-User-Customer-2.png "SSP-AM-Grant-User-Customer-2"){: caption=""}
 
-4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. 
+4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field.
 
     **Note:** If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
 
@@ -621,7 +621,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
     ![SSP-AM-Grant-User-Customer-5](images/SSP-AM-Grant-User-Customer-5.png "SSP-AM-Grant-User-Customer-5"){: caption=""}
 
-7. The user should now be viewable in your List View and have access to the customer you are managing. 
+7. The user should now be viewable in your List View and have access to the customer you are managing.
 
     **Note:** If the user is not viewable in your List View refresh the page.
 
@@ -632,9 +632,9 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 ## How to Remove a User's Access to a Customer
 {: #remove-user-access-customer-am-tool}
 
-Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated. 
+Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated.
 
-**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
+**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List.
 
 Follow these steps to remove the user’s accesses if your user role is Manager.
 
@@ -652,7 +652,7 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
     ![SSP-AM-Remove-User-Customer-3](images/SSP-AM-Remove-User-Customer-3.png "SSP-AM-Remove-User-Customer-3"){: caption=""}
 
-5. A warning message will pop-up indicating that removing the user’s access to the customer will also remove all accesses under the customer for the user. If you are removing the last customer in the user’s Customer Access List, their account will be deactivated. If you want to continue with the removal process, select “Yes”. 
+5. A warning message will pop-up indicating that removing the user’s access to the customer will also remove all accesses under the customer for the user. If you are removing the last customer in the user’s Customer Access List, their account will be deactivated. If you want to continue with the removal process, select “Yes”.
 
     ![SSP-AM-Remove-User-Customer-4](images/SSP-AM-Remove-User-Customer-4.png "SSP-AM-Remove-User-Customer-4"){: caption=""}
 
@@ -705,7 +705,7 @@ Follow these steps to create a new user if your user role is Manager.
 ## How to Approve / Reject an Access Request
 {: #approve-reject-access-am-tool}
 
-Managers in the Access Management application are responsible for approving/rejecting access requests submitted by users assigned to their customer/vendor. Managers will receive an email when a user with their customer/vendor assignment submits an access request. 
+Managers in the Access Management application are responsible for approving/rejecting access requests submitted by users assigned to their customer/vendor. Managers will receive an email when a user with their customer/vendor assignment submits an access request.
 
 Follow these steps to review an access request if your user role is Manager.
 
@@ -732,7 +732,7 @@ Follow these steps to review an access request if your user role is Manager.
 ## Access Re-Validation
 {: #access-revalidation-am-tool}
 
-Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually. 
+Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually.
 
 **Note:** The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
 
@@ -744,7 +744,7 @@ When notified of the need to re-validate, follow these steps to review your curr
 
     ![SSP-AM-Access-Revalidation-1](images/SSP-AM-Access-Revalidation-1.png "SSP-AM-Access-Revalidation-1"){: caption=""}
 
-3. Select your IBMid from the list and proceed to the "Manage Access" tab. There you will see tables with all the assets and associated accesses. Remove any accesses you no longer have a business need for and press the “Save” button. 
+3. Select your IBMid from the list and proceed to the "Manage Access" tab. There you will see tables with all the assets and associated accesses. Remove any accesses you no longer have a business need for and press the “Save” button.
 
     ![SSP-AM-Access-Revalidation-2](images/SSP-AM-Access-Revalidation-2.png "SSP-AM-Access-Revalidation-2"){: caption=""}
 
@@ -753,4 +753,3 @@ When notified of the need to re-validate, follow these steps to review your curr
     ![SSP-AM-Access-Revalidation-3](images/SSP-AM-Access-Revalidation-3.png "SSP-AM-Access-Revalidation-3"){: caption=""}
 
 5. The "Re-validate CBN" button should be removed from the panel (indicating successful validation).
-
