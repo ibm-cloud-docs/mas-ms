@@ -23,7 +23,7 @@ The purpose of the Self-Service Portal is to empower our clients to execute sele
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
-This portal is available to all IBM Maximo Application Suite customers.  
+This portal is available to all IBM Maximo Application Suite – Managed Service and Maximo Application Suite – Dedicated Customers.  
 
 Use the following links to find more information:
 
@@ -63,13 +63,13 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
 4. Add an asset to the Assets table that you would like to request an access for. 
 
-**Note:** Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
+> **Note:** Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
 
 ![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
 
 5. Add Self-Service Portal access to the Specific Access in the Environment table and enter a reason for the access request in the Justification section.
 
-**Note:** "Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
+> **Note:** "Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
 
 ![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On"){: caption=""}
 
@@ -80,34 +80,34 @@ You have successfully submitted an access request for Self-Service Automation ac
 ### Supported Requests
 {: #supported-requests}
 
-***Note:*** Currently Service Requests are only supported in non-production environments.
+> **Note:** Currently Service Requests are only supported in non-production environments.
 
 #### Start Asset Management Application
 {: #start-asset-management-application}
 
-This task can be used to start the Maximo application for the target environment.
+This task can be used to start the Maximo Manage application for the target environment.
 
 #### Stop Asset Management Application
 {: #stop-asset-management-application}
 
-This task can be used to stop the Maximo application for the target environment.
+This task can be used to stop the Maximo Manage application for the target environment.
 
 #### Restart Asset Management Application
 {: #restart-asset-management-application}
 
-This task can be used to restart the Maximo application for the target environment.
+This task can be used to restart the Maximo Manage application for the target environment.
 
 #### Run ConfigDB
 {: #run-configdb}
 
-This task can be used to apply all pending database configuration changes for the target environment. The task stops the Maximo application, runs the Maximo ConfigDB process, then restarts Maximo.
+This task can be used to apply all pending database configuration changes for the target environment. The task stops the Maximo Manage application, runs the Maximo ConfigDB process, then restarts the Maximo Manage application.
 
 > **Note:** This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
 
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
 
-This task will execute one of the following operations on the target environment.
+This task will execute one of the following operations on the target environment depending on the option chosen.
 
 `Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
@@ -127,7 +127,7 @@ This task will collect application logs from the target environment and upload t
 ### Submitting a Service Request
 {: #submitting-requests}
 
-***Note:*** Currently Service Requests are only supported in non-production environments.
+> **Note:** Currently Service Requests are only supported in non-production environments.
 
 1. Using your IBMid, sign-on to the portal (https://devops.maximo.com)
 
@@ -143,16 +143,19 @@ This task will collect application logs from the target environment and upload t
 
 ![SSP-Select-Asset](images/SSP-Select-Asset.png "SSP-Select-Asset"){: caption=""}
 
-5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action. ***Note:*** If you selected a production asset then the pop-up list will be empty.
+5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action. 
+> **Note:** If you select a production asset then the pop-up list will be empty.
 
 ![SSP-Select-Action](images/SSP-Select-Action.png "SSP-Select-Action"){: caption=""}
 
-6. Click Save. And then Click the Queue Request button. ***Note:*** If the request is not Queued it will remain in New state and will not be run.
+6. Click Save. And then Click the Queue Request button. 
+> **Note:** If the request is not Queued it will remain in New state and will not be run.
 
 ![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
 
 
-7. Request will move to INPROG State once the request has been picked up to be executed by the tool. ***Note:*** Once a request has been picked up by the tool for processing the task cannot be stopped.
+7. Request will move to INPROG State once the request has been picked up to be executed by the tool. 
+> **Note:** Once a request has been picked up by the tool for processing the task cannot be stopped.
 
 
 ### Reviewing Service Request Results
@@ -311,7 +314,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 6.	Select the search icon to bring up a list of assets you have access to.
     
-    **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+> **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
 
@@ -376,7 +379,7 @@ Follow the steps below to request a Database Service Account.
 
 6.	Select the search icon to bring up a list of assets you have access to.
     
-    **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+> **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
 
@@ -443,7 +446,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
 6.	Select the search icon to bring up a list of assets you have access to.
     
-    **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+> **Note:** If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""} 
 
@@ -602,7 +605,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
 4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field. 
 
-    **Note:** If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+> **Note:** If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
 
     | Value | Description |
     | -------------- | -------------- |
@@ -623,7 +626,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
 7. The user should now be viewable in your List View and have access to the customer you are managing. 
 
-    **Note:** If the user is not viewable in your List View refresh the page.
+> **Note:** If the user is not viewable in your List View refresh the page.
 
     ![SSP-AM-Grant-User-Customer-6](images/SSP-AM-Grant-User-Customer-6.png "SSP-AM-Grant-User-Customer-6"){: caption=""}
 
@@ -634,7 +637,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
 Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated. 
 
-**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
+> **Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
 
 Follow these steps to remove the user’s accesses if your user role is Manager.
 
@@ -658,7 +661,7 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
 6. Save the record and return to the List View.
 
-    **Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
+> **Note:** The user will not be viewable in the List View because they no longer have access to the customer you are managing.
 
     ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption=""}
 
@@ -667,7 +670,7 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
 Managers in the Access Management application are able to create new users. These users can be another Manager or Standard User. When the new user is created they are granted access to submit access requests for the customer the Manager user is managing.
 
-**Note:** Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
+> **Note:** Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
 
 Follow these steps to create a new user if your user role is Manager.
 
@@ -734,7 +737,7 @@ Follow these steps to review an access request if your user role is Manager.
 
 Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually. 
 
-**Note:** The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
+> **Note:** The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
 
 When notified of the need to re-validate, follow these steps to review your current accesses and re-validate your need to keep them.
 
