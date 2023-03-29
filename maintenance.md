@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -51,12 +51,17 @@ Systems are not available to users during maintenance windows.
 Non-Production systems may be scheduled for maintenance during the week, 1- 2 weeks prior to planned maintenance on Production systems to allow additional time for testing.
 
 Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
-Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period. 
+Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period.
 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
+
+## LAFixes
+{: #lafixes}
+
+During the Manage upgrade process all LAFixes applied to a customer's environment will be removed.  It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should open a case with the product support team to troubleshoot.  If a new LAFix is required, this would need to be requested through the support case.  LAFix approvals by the SRE team will be determined on a case-by-case basis.
 
 ### Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
@@ -149,7 +154,7 @@ The following guidelines apply to planning for MAS upgrades:
 * Supporting Software such as Openshift and DB2 are on separate release schedules.  These will be updated according the support policies of those teams.  LTS releases will be updated to support newer versions of the supporting software.  This means even if on a LTS release over the three years, there will still be a need to upgrade some elements.
 
 Within these parameters:
-* Clients can request specific dates for upgrading their environments.  Clients on an LTS release can remain on that release for the time it is supported.   
+* Clients can request specific dates for upgrading their environments.  Clients on an LTS release can remain on that release for the time it is supported.
 * Non production environments will be done during the week
 * Production environments are typically done over the weekend
 * Clients can determine the length of time between upgrading non production and production assuming the production upgrade happens prior to the existing version being out of support.
