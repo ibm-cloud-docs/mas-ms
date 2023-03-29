@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -28,11 +28,14 @@ The following items are not included or allowed in the Maximo Application Suite 
 
 Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
 
-Note: DB2 Text Search is not supported.
+DB2 Text Search is not supported.
+{: note}
 
-Note: Running SQL statements (update/insert/delete) directly on databases (production or non-production) is not allowed and IBM SRE team will not be able to execute those statements for you. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
+Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
 
 https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
+
+SQL Scripts can be run on Production databases on an exception-only basis. Please see [Running SQL Scripts in Production](/docs/mas-ms?topic=mas-ms-support#running-sql-scripts) for details.
 
 ## Manage Application
 {: #manage-application}
@@ -52,7 +55,7 @@ Clients will not have access to the operating system, file system or overall sys
 ## MAS Administrator Functions
 {: #mas-administrator-functions}
 
-Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute. 
+Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute.
 
 ## AppConnect
 {: #mas-app-connect}
@@ -63,4 +66,3 @@ AppConnect is included as an entitlement with the Maximo Application Suite, but 
 {: #mas-ssp}
 
 A self service portal (SSP) for MAS Dedicated is not available at this time and is under construction.
-
