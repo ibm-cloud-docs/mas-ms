@@ -61,7 +61,7 @@ Application and MAS component Upgrades are on a defined schedule based on the Ma
 ## LAFixes
 {: #lafixes}
 
-During the Manage upgrade process all LAFixes applied to a customer's environment will be removed.  It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should open a case with the product support team to troubleshoot.  If a new LAFix is required, this would need to be requested through the support case.  LAFix approvals by the SRE team will be determined on a case-by-case basis.
+During the Manage upgrade process all LAFixes applied to a customer's environment will be removed.  It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open a case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LAFix is required, this would need to be requested through the support case.  LAFix approvals by the SRE team will be determined on a case-by-case basis.
 
 ### Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}

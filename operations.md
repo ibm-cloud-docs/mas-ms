@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -94,7 +94,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | -------------- | -------------- |
 | VPN Setup | 15 Days |
 | Root Cause Analysis | 10 Days |
-| Apply Patch | 5 Days | 
+| Apply Patch | 5 Days |
 | Backflow (Refresh) Database | 3 Days |
 | On Demand Backup and Restore | 3 Days |
 | Environment Migration (Database and Doclinks) | 3 Days |
@@ -105,6 +105,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Access to CP4D | 1 Day |
 | Log Request | 1 Day |
 | Application Server Restarts | 1 Day |
+| Run SQL script in Production | 3 Days |
 {: caption="Table 1. MAS-Dedicated IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
@@ -114,7 +115,7 @@ The IBM SRE team has monitoring in place for all sites and infrastructure under 
 
 At the same time, for production environments, a SRE Incident Response Team (IRT) provides 24/7 critical outage support. The goal of IRT is to ensure our customer's applications are running when they should, and to provide effective and timely customer communication during availability incidents or Severity 1 cases during off hours. IRT is sometimes referred to as the "on call" team.
 
-Please note IRT is not considered standard support. It is for emergency and Sev1 cases only. Please see our Support & Operations section for standard support details and hours of operation. 
+Please note IRT is not considered standard support. It is for emergency and Sev1 cases only. Please see our Support & Operations section for standard support details and hours of operation.
 
 How is the IBM SRE Incident Response Team (IRT) organized?
 
@@ -131,7 +132,7 @@ First Responder
 The first responder will respond to alerts and off hours Severity 1 cases to:
 
 * Determine the impact of the alert or case
-* Determine the cause of the alert or case 
+* Determine the cause of the alert or case
 * Initiate corrective action if appropriate
 * Alert the Client Communicator if escalation is determined necessary.
 
@@ -158,7 +159,7 @@ How to request an RCA
 
 * If the case in which the incident occurred is still open, customers can request a Root Cause Analysis as an entry within the case itself.
 * If the case in which the incident occurred is closed, a new case should be opened by the customer specifically requesting an RCA. It should include the original case number of the incident.
-* For example: "Request for RCA on TS00001111"     
+* For example: "Request for RCA on TS00001111"
 
 RCA lead times
 
@@ -294,7 +295,7 @@ IBM GBS, Expert Services or other 3rd party services projects that leverage IBM 
 - IT security documents or diagrams
 - Installation checklists or certifications
 
-In the IBM MAS-Dedicated model, the IT stack is the responsibility and domain of the IBM SRE team. IBM's MAS architecture is based on best practices and empirical experience supporting a large existing customer base. With a MAS subscription, the responsibility of IBM SRE is to deliver the application in accordance with the customer's MAS subscription terms and Service Level Agreement (SLA). IBM is not obligated to provide technical details of the infrastructure used to meet it's subscription commitments. As a result, specific infrastructure based deliverables should be avoided in consulting services contracts. Technical details regarding customer infrastructure can, in some cases, be provided by the SRE team depending on the nature of the request. 
+In the IBM MAS-Dedicated model, the IT stack is the responsibility and domain of the IBM SRE team. IBM's MAS architecture is based on best practices and empirical experience supporting a large existing customer base. With a MAS subscription, the responsibility of IBM SRE is to deliver the application in accordance with the customer's MAS subscription terms and Service Level Agreement (SLA). IBM is not obligated to provide technical details of the infrastructure used to meet it's subscription commitments. As a result, specific infrastructure based deliverables should be avoided in consulting services contracts. Technical details regarding customer infrastructure can, in some cases, be provided by the SRE team depending on the nature of the request.
 
 ### Provisioning
 {: #provisioning}
