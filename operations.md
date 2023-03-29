@@ -98,6 +98,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Backflow (Refresh) Database | 3 Days |
 | On Demand Backup and Restore | 3 Days |
 | Environment Migration (Database and Doclinks) | 3 Days |
+| Run SQL script in Production | 3 Days |
 | Maximo Configdb Request | 2 Days |
 | SSO/LDAP setup | 2 Days |
 | Cloud Object Storage (COS) Setup | 2 Days |
@@ -105,7 +106,6 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Access to CP4D | 1 Day |
 | Log Request | 1 Day |
 | Application Server Restarts | 1 Day |
-| Run SQL script in Production | 3 Days |
 {: caption="Table 1. MAS-Dedicated IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
@@ -115,7 +115,8 @@ The IBM SRE team has monitoring in place for all sites and infrastructure under 
 
 At the same time, for production environments, a SRE Incident Response Team (IRT) provides 24/7 critical outage support. The goal of IRT is to ensure our customer's applications are running when they should, and to provide effective and timely customer communication during availability incidents or Severity 1 cases during off hours. IRT is sometimes referred to as the "on call" team.
 
-Please note IRT is not considered standard support. It is for emergency and Sev1 cases only. Please see our Support & Operations section for standard support details and hours of operation.
+IRT is not considered standard support. It is for emergency and Sev1 cases only. Please see our Support & Operations section for standard support details and hours of operation.
+{: note}
 
 How is the IBM SRE Incident Response Team (IRT) organized?
 
