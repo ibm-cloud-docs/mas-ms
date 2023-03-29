@@ -32,7 +32,8 @@ Admin:
 
 INSTANCE_NAME = Your environment instance identifier found in your Welcome Letter.
 
-Please note... Once an environment has been provisioned, the URL can not be changed.
+Once an environment has been provisioned, the URL can not be changed.
+{: note}
 
 ## Database Support and Access
 {: #database-support}
@@ -69,24 +70,20 @@ It is the client's responsibility to ensure once access is no longer required fo
 ## Running SQL Scripts in Production
 {: #running-sql-scripts}
 
-For production environments, the IBM SRE team highly discourages requests to run sql scripts with insert/update/delete statement(s). These are considered high risk and can break overall data integrity. SRE will only execute statements that have been tested by the client on their non-production environments.  Every effort should be made to use [automation scripts](https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=scripts-automation){: external} or standard tools through the Maximo front end rather than altering data directly. If a SQL script of this type is required, clients can request this via [IBM case ticket](https://www.ibm.com/mysupport){: external}, with sql script attached along with business justification as to why its needed and why changing from Maximo front end is not possible. The case needs to include:
+For production environments, the IBM SRE team highly discourages requests to run sql scripts with insert/update/delete statement(s). These are considered high risk and can break overall data integrity. SRE will only execute statements that have been tested by the client on their non-production environments.  Every effort should be made to use [automation scripts](https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=scripts-automation){: external} or standard tools through the Maximo front end rather than altering data directly. If a SQL script of this type is required, clients can request this via [IBM case ticket](https://www.ibm.com/mysupport){: external}, with sql script attached along with business justification as to why its needed and why changing from Maximo front end is not possible. There is a 3 day lead time for SQL scripts. The case needs to include:
 
 * SQL Script (as an attachment)
 * Design or description of what the script is doing to the data
 * Business justification of why the script is required
-* Technical justification of why the script's commands cannot be done via Maximo front end using DB configuration)
+* Technical justification of why the script's commands cannot be done via Maximo front end using DB configuration
 * Request to take full offline backup of target database prior to running script
 
-SQL scripts cannot be run in Non-Production environments.
+SQL Script Limitations:
 
-Backups will be done in offline mode which will require target site to be down / unavailable. Backups can take several hours based on database size.
-{: note}
-
-IBM SRE team is not responsible for script not working, script corrections and any issues that arise during or after sql execution. If issues arise, IBM SRE can only restore from backup.
-{: note}
-
-Any outages caused by the execution of the script and time to recover will not be counted as an SLA breach.
-{: note}
+* SQL scripts cannot be run in Non-Production environments.
+* Backups will be done in offline mode which will require target site to be down / unavailable. Backups can take several hours based on database size.
+* IBM SRE team is not responsible for script not working, script corrections and any issues that arise during or after sql execution. If issues arise, IBM SRE can only restore from backup.
+* Any outages caused by the execution of the script and time to recover will not be counted as an SLA breach.
 
 ## How to Access IBM COS (Cloud Object Storage) Buckets
 {: #access-cos-buckets}
