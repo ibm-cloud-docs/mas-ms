@@ -74,7 +74,7 @@ For production environments, the IBM SRE team highly discourages requests to run
 * SQL Script (as an attachment)
 * Design or description of what the script is doing to the data
 * Business justification of why the script is required
-* Technical justification of why the script's commands can not be done via Maximo front end using DB configuration)
+* Technical justification of why the script's commands cannot be done via Maximo front end using DB configuration)
 * Request to take full offline backup of target database prior to running script
 
 SQL scripts cannot be run in Non-Production environments.
