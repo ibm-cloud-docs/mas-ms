@@ -45,7 +45,7 @@ https://devops.maximo.com
 ## Obtaining Access To Self-Service Automation
 {: #obtaining-access-to-self-service-automation}
 
-You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool navigate to the Obtaining Access to the Access Management Tool to learn how to get access.
+You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-the-access-management-tool).
 
 In order to obtain access to Self-Service Automation in the Self-Service Portal follow the steps below.
 
@@ -273,7 +273,10 @@ Follow the steps below to obtain access to the Access Management Tool.
 
 2. Request Access
 
-    A user managing the customer you want access to must add you to the tool. Contact one of the manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for a specific customer, submit a [support case](https://www.ibm.com/mysupport){: external} requesting this information.
+    A user managing the customer you want access to must add you to the tool. Contact one of your manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for your account, submit a [support case](https://www.ibm.com/mysupport){: external} requesting this information.
+
+    If you are new customer and manager users were not assigned during the onboarding process, you must submit a [support case](https://www.ibm.com/mysupport){: external} designating at least two (2) managers for your account (1 primary, 1 backup). The case must include the email address and first and last name for each of the users. All email adresses must be associated with an [IBMid](https://myibm.ibm.com){: external}.
+    {: note}
 
 3. Navigate to the Access Management Tool
 
