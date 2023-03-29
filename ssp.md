@@ -23,7 +23,7 @@ The purpose of the Self-Service Portal is to empower our clients to execute sele
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
-This portal is available to all IBM Maximo Application Suite – Managed Service and Maximo Application Suite – Dedicated Customers.  
+This portal is available to all IBM Maximo Application Suite – Managed Service and Maximo Application Suite – Dedicated Customers.
 
 Use the following links to find more information:
 
@@ -143,20 +143,21 @@ This task will collect application logs from the target environment and upload t
 
 ![SSP-Select-Asset](images/SSP-Select-Asset.png "SSP-Select-Asset"){: caption=""}
 
-5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action. 
+5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action.
+
 > **Note:** If you select a production asset then the pop-up list will be empty.
 
 ![SSP-Select-Action](images/SSP-Select-Action.png "SSP-Select-Action"){: caption=""}
 
-6. Click Save. And then Click the Queue Request button. 
+6. Click Save. And then Click the Queue Request button.
+
 > **Note:** If the request is not Queued it will remain in New state and will not be run.
 
 ![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
 
+7. Request will move to INPROG State once the request has been picked up to be executed by the tool.
 
-7. Request will move to INPROG State once the request has been picked up to be executed by the tool. 
 > **Note:** Once a request has been picked up by the tool for processing the task cannot be stopped.
-
 
 ### Reviewing Service Request Results
 {: #reviewing-request-results}
@@ -313,7 +314,7 @@ Follow the steps below to request access to the Client Communications Center Das
     ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6.	Select the search icon to bring up a list of assets you have access to.
-    
+
 If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 {: note}
 
@@ -379,7 +380,7 @@ Follow the steps below to request a Database Service Account.
     ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
 6.	Select the search icon to bring up a list of assets you have access to.
-   
+
 If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
 {: note}
 
@@ -640,7 +641,7 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
 Manager users in the Access Management tool are able to remove a user’s access to submit access requests for a customer. In addition, all existing accesses linked to the customer will be removed. If the user does not have access to submit access requests for other customers, their account will be deactivated.
 
-**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List. 
+**Note:** Manager user’s can only remove the customer they are managing from a user’s Customer Access List.
 {: note}
 
 Follow these steps to remove the user’s accesses if your user role is Manager.
