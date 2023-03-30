@@ -273,7 +273,7 @@ Follow the steps below to obtain access to the Access Management Tool.
 
 2. Request Access
 
-    A user managing the customer you want access to must add you to the tool. Contact one of your manager users to request they add you to the Access Management Tool. If you do not know who the manager users are for your account, submit a [support case](https://www.ibm.com/mysupport){: external} requesting this information.
+    A user managing the customer you want access to must add you to the tool. Contact one of your [manager users](#access-management-user-roles) to request they add you to the Access Management Tool. If you do not know who the manager users are for your account, submit a [support case](https://www.ibm.com/mysupport){: external} requesting this information.
 
     If you are new customer and manager users were not created for your account during the onboarding process, you must submit a [support case](https://www.ibm.com/mysupport){: external} designating at least two (2) managers for your account (1 primary, 1 backup). The case must include the email address and first and last name for each of the users. All email adresses must be associated with an [IBMid](https://myibm.ibm.com){: external}.
     {: note}
