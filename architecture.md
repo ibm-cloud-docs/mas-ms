@@ -24,15 +24,6 @@ subcollection: mas-ms
 
 Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Dedicated Service delivers this functionality on the IBM Cloud.
 
-The current IBM Cloud data centers being leveraged for MAS-Dedicated are:
-
-- Washington, DC, United States
-- Dallas, TX, United States
-- Frankfurt, Germany
-- London, UK
-- Sydney, Australia
-- Toronto, Canada
-
 IBM Cloud - YouTube Videos
 
 Inside the heart of an IBM Cloud Data Center:
