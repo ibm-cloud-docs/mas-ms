@@ -12,8 +12,8 @@ completion-time: 10m
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -25,7 +25,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-![MAS Dedicated Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-Dedicated Site Banner"){: caption=""} 
+![MAS Dedicated Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-Dedicated Site Banner"){: caption=""}
 
 ## About
 {: #about}
@@ -93,19 +93,19 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
 3. Enter the applicable information (you will need to provide a valid email address) and click **Next**
 
-    ![MAS-MS-IBMid-Enter-Applicable-Information](images/MAS-MS-IBMid-Enter-Applicable-Information.png "MAS-MS-IBMid-Enter-Applicable-Information"){: caption="Figure 2. IBMid - Enter Applicable Information" caption-side="bottom"} 
+    ![MAS-MS-IBMid-Enter-Applicable-Information](images/MAS-MS-IBMid-Enter-Applicable-Information.png "MAS-MS-IBMid-Enter-Applicable-Information"){: caption="Figure 2. IBMid - Enter Applicable Information" caption-side="bottom"}
 
 4. Upon submission, a confirmation code will be sent from `ibmacct@iam.ibm.com` to the email address you provided
 
     ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="Figure 3. MAS-Dedicated IBMid Confirmation Code" caption-side="bottom"}
 
 5. Open your email and copy & paste the 7 digit confirmation code (Verification token).
-    Click **Create Account** to activate your IBMid 
+    Click **Create Account** to activate your IBMid
 
     ![MAS-MS-IBMid-Confirmation-Code-Email](images/MAS-MS-IBMid-Confirmation-Code-Email.png "MAS-MS-IBMid-Confirmation-Code-Email"){: caption="Figure 4. MAS-Dedicated IBMid Confirmation Code Email" caption-side="bottom"}
 
     ![MAS-MS-IBMid-Create-Account](images/MAS-MS-IBMid-Create-Account.png "MAS-MS-IBMid-Create-Account"){: caption="Figure 5. MAS-Dedicated IBMid Create Account" caption-side="bottom"}
-     
+
 6. Accept IBM Account Privacy notification by clicking **Proceed**
 
     ![MAS-MS-IBMid-Privacy](images/MAS-MS-IBMid-Privacy.png "MAS-MS-IBMid-Privacy.png"){: caption="Figure 6. MAS-Dedicated IBMid Privacy Notification" caption-side="bottom"}
@@ -132,7 +132,7 @@ Maximo Application Suite Support covers support for both the Application and you
     Note: if you don't have an IBMid, please reference the following link: [How to Create an IBMid](#how-to-create-an-ibmid)
 
     ![MAS-MS-Register-IBMid-Login](images/MAS-MS-Register-IBMid-Login.png "MAS-MS-Register-IBMid-Login"){: caption="Figure 9. MAS-Dedicated Register IBMid Login" caption-side="bottom"}
-    
+
 3. Privacy Statement may appear. If it does, click **I consent**
 
     ![MAS-MS-Register-Privacy](images/MAS-MS-Register-Privacy.png "MAS-MS-Register-Privacy"){: caption="Figure 10. MAS-Dedicated Register Privacy" caption-side="bottom"}
@@ -150,12 +150,12 @@ Maximo Application Suite Support covers support for both the Application and you
     Select **Maximo Application Suite on Cloud** from the drop down list and click **Submit**
 
     ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="Figure 13. MAS-Dedicated Select Product" caption-side="bottom"}
-    
+
 7. If you are not already registered for Maximo Application Suite on Cloud support, the following screen will appear.
-    Complete the applicable information. Ensure Client / account name is populated and click **Submit** 
+    Complete the applicable information. Ensure Client / account name is populated and click **Submit**
 
     ![MAS-MS-Register-Enter-Customer-Number](images/MAS-MS-Register-Enter-Customer-Number.png "MAS-MS-Register-Enter-Customer-Number"){: caption="Figure 13. MAS-Dedicated Enter Customer Number" caption-side="bottom"}
-    
+
 8. The following dialog will appear. Click **Close**
 
     ![MAS-MS-Register-Request-Sent](images/MAS-MS-Register-Request-Sent.png "MAS-MS-Register-Request-Sent"){: caption="Figure 13. MAS-Dedicated Request Sent" caption-side="bottom"}
@@ -164,11 +164,11 @@ Maximo Application Suite Support covers support for both the Application and you
 
     ![MAS-MS-Register-Request-Sent-Confirm](images/MAS-MS-Register-Request-Sent-Confirm.png "MAS-MS-Register-Request-Sent-Confirm"){: caption="Figure 13. MAS-Dedicated Request Sent Confirmation" caption-side="bottom"}
 
-    Note: 
+    Note:
     Once you request has been submitted, please be patient. It will take some time (up to 24 hours) for IBM to review and approve your request.
 
     To confirm your access, login with your IBMid to the Support Access page:
-   
+
     https://www.ibm.com/mysupport/s/supportaccess
 
     You should see your product access with a Status of ‘Approved’ under your ACCOUNT:
@@ -199,7 +199,7 @@ This section describes how to create a case for Maximo Application Suite Dedicat
 4. On the following page, populate all required (*) fields ensuring **Maximo Application Suite on Cloud** is selected for Product and click on the **Submit Case** button
 
 5. Case Creation will be confirmed and case number referenced:
-    
+
     Note: Cases are (9) digit numbers preceded with “TS”
 
     You will also receive an email confirming the Case #
@@ -293,19 +293,20 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 ## Next steps
 {: #next-steps}
 
-1. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
+1. Specify two (2) users in your organization to be your account managers and have them created in the [Access Management Tool](/docs/mas-ms?topic=mas-ms-ssp#obtaining-access-to-am-tool) via [IBM case ticket](https://www.ibm.com/mysupport){: external}.
+
+2. Designate member(s) of your staff to subscribe to the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) in order to receive important information and notifications regarding your environment(s):
 
     https://status.suite.maximo.com
 
-2. Add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
+3. Add additional users to your account, login to Maximo Application Suite, click the administration icon in the menu bar, and select Administration > Users.
 
-3. Refer to the Reference section for further information on MAS-Dedicated operations and support, maintenance, security and the additional topics.
+4. Refer to the Reference section for further information on MAS-Dedicated operations and support, maintenance, security and the additional topics.
 
-4. For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
+5. For further details on IBM Maximo Application Suite, please refer to IBM Maximo Application Suite documentation:
 
     https://www.ibm.com/docs/en/mas
 
-5. To get help and support for your Maximo Application Suite Dedicated, see the IBM support guide on IBM.com:
+6. To get help and support for your Maximo Application Suite Dedicated, see the IBM support guide on IBM.com:
 
     https://www.ibm.com/support/pages/node/733923
-
