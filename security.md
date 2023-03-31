@@ -31,7 +31,8 @@ Before submitting questionnaires, IBMers and clients should first refer to the s
 Existing customers who need a security questionnaire or assessment completed should submit a case to the IBM Support Community Portal and attach the document or link. This will be routed to the proper SRE security resource for review / completion.
 Please note there is a 2-3 week turnaround time required for the SRE security team to respond to client provided security forms or questionnaires; additional time may also be required for Watson IoT Security team review.
 
-Although IBM will fill out security questionairres as above, client led Audit of the MAS Dedicated offering is not supported or allowed.  This includes onsite audit visits or performing validation tasks for individual clients.  IBM will provide certifications as below only.
+Although IBM will fill out security questionairres as above, client led audit of the MAS Dedicated offering is not supported or allowed.  This includes onsite audit visits or performing validation tasks for individual clients.  IBM will provide certifications as below only.
+{: note}
 
 ## Security Management
 {: #security-management}
