@@ -22,7 +22,7 @@ subcollection: mas-ms
 ## Cloud Architecture
 {: #cloud-architecture}
 
-Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Dedicated Service delivers this functionality on the IBM Cloud.
+Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Dedicated Service delivers this functionality on IBM Cloud and AWS platforms.
 
 IBM Cloud - YouTube Videos
 
@@ -72,7 +72,7 @@ The following diagram shows a high level overview of the architecture for each i
 ## MAS-Dedicated Integrations
 {: #mas-dedicated-integrations}
 
-IBM Maximo Application Suite Dedicated Service supports integration to / from external systems. There are different options available to provide secure integration connections such as SSL, VPN, and Cloud Object Storage integration. HTTPS (SSL) is the standard encryption method and is supported for XML based interfaces using HTTP Post and Web Service endpoints. In addition, the REST API is available over HTTPS. All these integration methods can also be implemented with authentication. Cloud Object Storage is available for integrations that require file based transfers. A Site-to-Site IPsec VPN Tunnel can also be established between the client network and the IBM cloud environment using IBM's firewall in order to support other integration transport methods.
+IBM Maximo Application Suite Dedicated Service supports integration to / from external systems. There are different options available to provide secure integration connections such as SSL, VPN, and Cloud Object Storage integration. HTTPS (SSL) is the standard encryption method and is supported for XML based interfaces using HTTP Post and Web Service endpoints. In addition, the REST API is available over HTTPS. All these integration methods can also be implemented with authentication. Cloud Object Storage is available for integrations that require file based transfers. A Site-to-Site IPsec VPN Tunnel can also be established between the client network and the IBM or AWS cloud environment using IBM's firewall in order to support other integration transport methods.
 
  Integration options include, but are not limited to:
 
