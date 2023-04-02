@@ -51,33 +51,33 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
 1. Sign into the portal at https://devops.maximo.com and Navigate to Security > Access Management in the toolbar.
 
-![AMT-Sign-On](images/SSP-AMT-Sign-On.png "AMT-Sign-On"){: caption=""}
+    ![AMT-Sign-On](images/SSP-AMT-Sign-On.png "AMT-Sign-On"){: caption=""}
 
 2. Select your IBMid from the list.
 
-![AMT-Sign-On](images/SSP-AMT-Select-ID.png "AMT-Sign-On"){: caption=""}
+    ![AMT-Sign-On](images/SSP-AMT-Select-ID.png "AMT-Sign-On"){: caption=""}
 
 3. Navigate to the Manage Access tab.
 
-![AMT-Sign-On](images/SSP-AMT-Manage-Tab.png "AMT-Sign-On"){: caption=""}
+    ![AMT-Sign-On](images/SSP-AMT-Manage-Tab.png "AMT-Sign-On"){: caption=""}
 
 4. Add an asset to the Assets table that you would like to request an access for.
 
 Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
 {: note}
 
-![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
+    ![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
 
 5. Add Self-Service Portal access to the Specific Access in the Environment table and enter a reason for the access request in the Justification section.
 
-"Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
-{: note}
+    "Self-Service Portal" access equates to Self-Service Automation access in the Self-Service Portal.
+    {: note}
 
-![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On"){: caption=""}
+    ![AMT-Sign-On](images/SSP-AMT-Request-SSP.png "AMT-Sign-On"){: caption=""}
 
 6. Save the record.
 
-You have successfully submitted an access request for Self-Service Automation access! You will receive an email notification when your access request is reviewed and granted.
+    You have successfully submitted an access request for Self-Service Automation access! You will receive an email notification when your access request is reviewed and granted.
 
 ### Supported Requests
 {: #supported-requests}
@@ -141,7 +141,7 @@ Currently Service Requests are only supported in non-production environments.
 
 ![SSP-Sign-On](images/SSP-New-Request.png "SSP-Sign-On"){: caption=""}
 
-3. Select the requested start time (if it is for the future). If you have not changed your timezone, the selection will be for UTC. Click the Calendar icon below the text field "Requested Start" and select the time and date you would like the job to start.
+3. Select the requested start time (if it is for the future). If you have not changed your timezone, the selection will be for UTC. Click the Calendar icon below the text field "Requested Start" and select the date and time you would like the job to start.
 
 ![SSP-Start-Time](images/SSP-SR-Start-Time.png "SSP-Start-Time"){: caption=""}
 
