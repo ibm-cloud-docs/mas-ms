@@ -167,8 +167,8 @@ Currently Service Requests are only supported in non-production environments.
 
 7. Request will move to INPROG State once the request has been picked up to be executed by the tool.
 
-Once a request has been picked up by the tool for processing the task cannot be stopped.
-{: note}
+    Once a request has been picked up by the tool for processing the task cannot be stopped.
+    {: note}
 
 ### Reviewing Service Request Results
 {: #reviewing-request-results}
