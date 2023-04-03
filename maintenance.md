@@ -40,7 +40,7 @@ Clients who purchased MAS-MS or were quoted prior to December 2022 are Shared Cl
 ## 2023 Maintenance Details
 {: #2021-maintenance-details}
 
-Standard maintenance times for production environments are planned and scheduled over weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production environments and then productio. Specific dates are communicated through the [Client Communication Center](#mas-ms-client-communication-center).
+Standard maintenance times for production environments are planned and scheduled over weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production environments and then productio. Specific dates are communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 The IBM Maximo Application Suite SRE team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
 
@@ -54,7 +54,7 @@ Systems are available to users and all standard automated processes such as data
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
 
 ## LAFixes
 {: #lafixes}
@@ -64,7 +64,7 @@ During the Manage upgrade process all LAFixes applied to a customer's environmen
 ### Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. It is expected customers will be upgraded to the current version within 6 months of release. Upgrades will be deployed first to test and then scheduled for production. The test window length will depend on the size and complexity of the change and will be communicated through the Customer Communications Center as soon as it is available.
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. It is expected customers will be upgraded to the current version within 6 months of release. Upgrades will be deployed first to test and then scheduled for production. The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
 
 Shared Cluster Upgrade Policy
 
@@ -85,7 +85,7 @@ The following guidelines apply to MAS-Dedicated (Shared Cluster) release schedul
 Planning Guidelines
 
 The following guidelines apply to planning for MAS upgrades:
-* Upgrade schedules are set by IBM & communicated via Client Communications Center (CCC)
+* Upgrade schedules are set by IBM & communicated via [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center)
 * Upgrade schedules are non-negotiable
 * All client stakeholders must register to receive CCC notifications & communications
 * IBM will share long-range anticipated upgrade windows upon request via ticket
@@ -188,7 +188,7 @@ After completion of an upgrade by the SRE team, it will be the customer's respon
 ## Emergency Maintenance
 {: #emergency-maintenance}
 
-In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Dedicated Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Dedicated team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible.
+In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Dedicated Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Dedicated team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible. Emergency Maintenance will be communicated via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 See below slidedeck for more information on upgrades, Continuous Delivery and Lon Term Support
 
