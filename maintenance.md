@@ -40,11 +40,9 @@ Clients who purchased MAS-MS or were quoted prior to December 2022 are Shared Cl
 ## 2023 Maintenance Details
 {: #2021-maintenance-details}
 
-Maintenance Windows generally apply to production environments only.
+Standard maintenance times for production environments are planned and scheduled over weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production environments and then productio. Specific dates are communicated through the [Client Communication Center](#mas-ms-client-communication-center).
 
-Standard maintenance times for PROD environments are planned and scheduled for weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production sites for clients to validate and then production later. Exact dates are communicated through the Client Communication Center.
-
-The IBM Maximo Application Suite Dedicated team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
+The IBM Maximo Application Suite SRE team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
 
 Systems are not available to users during maintenance windows.
 
