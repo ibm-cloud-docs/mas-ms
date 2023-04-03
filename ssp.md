@@ -63,10 +63,11 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
 4. Add an asset to the Assets table that you would like to request an access for.
 
-Requesting Self-Service Automation access to one asset will grant Self-Service Automation access to all assets assigned to your customer. It is not necessary to request access for each asset you wish to run requests against.
-{: note}
-
     ![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
+
+    Requesting Self-Service Automation access to one asset will grant access to all assets assigned to your customer account. It is not necessary to request access for each asset you wish to run requests against.
+    {: note}
+
 
 5. Add Self-Service Portal access to the Specific Access in the Environment table and enter a reason for the access request in the Justification section.
 
@@ -139,29 +140,29 @@ Currently Service Requests are only supported in non-production environments.
 
 2. Click on New Service Request
 
-![SSP-Sign-On](images/SSP-New-Request.png "SSP-Sign-On"){: caption=""}
+    ![SSP-Sign-On](images/SSP-New-Request.png "SSP-Sign-On"){: caption=""}
 
 3. Select the requested start time (if it is for the future). If you have not changed your timezone, the selection will be for UTC. Click the Calendar icon below the text field "Requested Start" and select the date and time you would like the job to start.
 
-![SSP-Start-Time](images/SSP-SR-Start-Time.png "SSP-Start-Time"){: caption=""}
+    ![SSP-Start-Time](images/SSP-SR-Start-Time.png "SSP-Start-Time"){: caption=""}
 
 4. Select the environment to run the action against by clicking on the magnifying glass next to the "Target Environment" field. Select the environment from the pop-up list.
 
-![SSP-Select-Asset](images/SSP-Select-Asset.png "SSP-Select-Asset"){: caption=""}
+    ![SSP-Select-Asset](images/SSP-Select-Asset.png "SSP-Select-Asset"){: caption=""}
 
 5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action.
 
-If you select a production asset then the pop-up list will be empty.
-{: note}
+    If you select a production asset then the pop-up list will be empty.
+    {: note}
 
-![SSP-Select-Action](images/SSP-Select-Action.png "SSP-Select-Action"){: caption=""}
+    ![SSP-Select-Action](images/SSP-Select-Action.png "SSP-Select-Action"){: caption=""}
 
 6. Click Save. And then Click the Queue Request button.
 
 If the request is not Queued it will remain in New state and will not be run.
 {: note}
 
-![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
+    ![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
 
 7. Request will move to INPROG State once the request has been picked up to be executed by the tool.
 
@@ -173,17 +174,17 @@ Once a request has been picked up by the tool for processing the task cannot be 
 
 1. Open the Service Requests App
 
-![SSP-Open-SR-App](images/SSP-Open-SR-App.png "SSP-Open-SR-App"){: caption=""}
+    ![SSP-Open-SR-App](images/SSP-Open-SR-App.png "SSP-Open-SR-App"){: caption=""}
 
 2. Find your service request and open it.
 
-![SSP-Select-SR](images/SSP-Select-SR.png "SSP-Select-SR"){: caption=""}
+    ![SSP-Select-SR](images/SSP-Select-SR.png "SSP-Select-SR"){: caption=""}
 
 In each of the fields including Service Request, Asset, Status you can enter filter criteria.  If you just want to display all requests just hit the "Enter" key.  Using your mouse, click on the desired service request number.
 
 3. Click the log tab and review the log information.
 
-![SSP-View-SR-Logs](images/SSP-View-SR-Logs.png "SSP-View-SR-Logs"){: caption=""}
+    ![SSP-View-SR-Logs](images/SSP-View-SR-Logs.png "SSP-View-SR-Logs"){: caption=""}
 
 ### In the event of a failure
 {: #what-to-do-for-failure}
@@ -621,8 +622,8 @@ Follow these steps to grant a user access to the customer you are assigned to ma
 
 4. Enter the following information for the user you are granting customer access to. During this process a question mark (?) icon will pop up in the IBMid field.
 
-If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
-{: note}
+    If a question mark icon does not pop up in the IBMid field, the user does not exist yet. Follow the steps in the [How to Create a New User](#create-new-user-am-tool) document to create the new user. The process of creating a new user will also grant the user access to the customer you are managing.
+    {: note}
 
     | Value | Description |
     | -------------- | -------------- |
@@ -643,8 +644,8 @@ If a question mark icon does not pop up in the IBMid field, the user does not ex
 
 7. The user should now be viewable in your List View and have access to the customer you are managing.
 
-If the user is not viewable in your List View refresh the page.
-{: note}
+    If the user is not viewable in your List View refresh the page.
+    {: note}
 
     ![SSP-AM-Grant-User-Customer-6](images/SSP-AM-Grant-User-Customer-6.png "SSP-AM-Grant-User-Customer-6"){: caption=""}
 
