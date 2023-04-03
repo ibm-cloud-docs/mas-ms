@@ -327,10 +327,10 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-4](images/MAS-MS-CCC-Access-4.png "MAS-MS-CCC-Access-4"){: caption=""}
 
-6.	Select the search icon to bring up a list of assets you have access to.
+6.  Select the search icon to bring up a list of assets you have access to.
 
-If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
-{: note}
+    If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+    {: note}
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
@@ -395,8 +395,8 @@ Follow the steps below to request a Database Service Account.
 
 6.	Select the search icon to bring up a list of assets you have access to.
 
-If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
-{: note}
+    If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+    {: note}
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
@@ -463,8 +463,8 @@ Follow the steps below to request access to the Client Communications Center Das
 
 6.	Select the search icon to bring up a list of assets you have access to.
 
-If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
-{: note}
+    If the asset you want to submit an access request for is not viewable in the asset list, you do not have access to the asset’s organization. To obtain access, contact the access manager for the organization. If you do not know who the access manager is, you may submit a support case [here](https://www.ibm.com/mysupport){: external} to request this information.
+    {: note}
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
