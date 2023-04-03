@@ -14,6 +14,7 @@ subcollection: mas-ms
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:attention: .attention}
 {:external: target="_blank" .external}
 
 # Self-Service Portal
@@ -65,7 +66,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 
     ![AMT-Sign-On](images/SSP-AMT-Add-Asset.png "AMT-Sign-On"){: caption=""}
 
-    Requesting Self-Service Automation access to one asset will grant access to all assets assigned to your customer account. It is not necessary to request access for each asset you wish to run requests against.
+    Requesting Self-Service Automation access to one asset will grant access to **all assets** assigned to your customer account. It is not necessary to request access for each asset you wish to run requests against.
     {: note}
 
 
@@ -107,7 +108,7 @@ This task can be used to restart the Maximo Manage application for the target en
 This task can be used to apply all pending database configuration changes for the target environment. The task stops the Maximo Manage application, runs the Maximo ConfigDB process, then restarts the Maximo Manage application.
 
 This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
-{: note}
+{: attention}
 
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
@@ -159,8 +160,8 @@ Currently Service Requests are only supported in non-production environments.
 
 6. Click Save. And then Click the Queue Request button.
 
-If the request is not Queued it will remain in New state and will not be run.
-{: note}
+    If the request is not queued it will remain in new state and will not be run.
+    {: note}
 
     ![SSP-Queue-Request](images/SSP-Queue-Request.png "SSP-Queue-Request"){: caption=""}
 
