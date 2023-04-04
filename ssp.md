@@ -173,6 +173,8 @@ Currently Service Requests are only supported in non-production environments.
 ### Reviewing Service Request Results
 {: #reviewing-request-results}
 
+Follow these steps to review Service Request information and status.
+
 1. Open the Service Requests App
 
     ![SSP-Open-SR-App](images/SSP-Open-SR-App.png "SSP-Open-SR-App"){: caption=""}
@@ -181,7 +183,7 @@ Currently Service Requests are only supported in non-production environments.
 
     ![SSP-Select-SR](images/SSP-Select-SR.png "SSP-Select-SR"){: caption=""}
 
-In each of the fields including Service Request, Asset, Status you can enter filter criteria.  If you just want to display all requests just hit the "Enter" key.  Using your mouse, click on the desired service request number.
+    In each of the fields including Service Request, Asset, Status you can enter filter criteria.  If you just want to display all requests just hit the "Enter" key.  Using your mouse, click on the desired service request number.
 
 3. Click the log tab and review the log information.
 
@@ -682,8 +684,8 @@ Follow these steps to remove the user’s accesses if your user role is Manager.
 
 6. Save the record and return to the List View.
 
-The user will not be viewable in the List View because they no longer have access to the customer you are managing.
-{: note}
+    The user will not be viewable in the List View because they no longer have access to the customer you are managing.
+    {: note}
 
     ![SSP-AM-Remove-User-Customer-5](images/SSP-AM-Remove-User-Customer-5.png "SSP-AM-Remove-User-Customer-5"){: caption=""}
 
