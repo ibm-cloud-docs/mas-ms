@@ -76,9 +76,9 @@ The following guidelines apply to MAS-Dedicated (Shared Cluster) release schedul
 
 | Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
 | -------------- | -------------- | -------------- | -------------- |
-| 8.9 | 1/22/22 | 1/17/23 | Mid March to June |
-| 8.10 | 3/28/23 | 5/2/23 | Late June to September |
-| 8.11 | 9/29/23 | 10/30/23 | Late Nov to Feb |
+| 8.9 | 11/22/22 | 1/17/23 | March to June |
+| 8.10 | 3/28/23 | 5/2/23 | June to September |
+| 8.11 | 9/29/23 | 10/30/23 | Nov to Feb |
 | 8.12 | March 2024 | April 2024 | TBD |
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
 
@@ -139,9 +139,9 @@ The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release sche
 
 | Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
 | -------------- | -------------- | -------------- | -------------- |
-| 8.9 | 1/22/22 | 1/17/23 | Mid March to June |
-| 8.10 | 3/28/23 | 5/2/23 | Late June to September |
-| 8.11 | 9/29/23 | 10/30/23 | Late Nov to Feb |
+| 8.9 | 11/22/22 | 1/17/23 | March to June |
+| 8.10 | 3/28/23 | 5/2/23 | June to September |
+| 8.11 | 9/29/23 | 10/30/23 | Nov to Feb |
 | 8.12 | March 2024 | April 2024 | TBD |
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
 
