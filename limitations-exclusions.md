@@ -61,8 +61,3 @@ Direct access to the clusters is not available.  Changes required must be submit
 {: #mas-app-connect}
 
 AppConnect is included as an entitlement with the Maximo Application Suite, but the Dedicated Service does not implement or support this within the MAS-Dedicated environment.  The client is responsible for implementing AppConnect or beginning with version MAS v8.7, AppConnect SaaS will be supported.
-
-## Self-Service Portal
-{: #mas-ssp}
-
-A self service portal (SSP) for MAS Dedicated is not available at this time and is under construction.
