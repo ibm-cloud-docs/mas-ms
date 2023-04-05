@@ -77,7 +77,7 @@ Email Subscription Important Notes:
  | Incident | Communication of a security incident or breach. |
  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
  | Security | Security specific announcements or planned maintenance related to a security issue. |
- {: caption="" caption-side="bottom"}
+ {: caption=""}
 
 If you have an environment that is down and you have not received a CCC notification regarding an outage, please submit a [support case](https://www.ibm.com/mysupport) with the environment URL and any further details. Production environments can be submitted as a Severity 1. Non-Production environments can be submitted as a Severity 2.
 {: note}
