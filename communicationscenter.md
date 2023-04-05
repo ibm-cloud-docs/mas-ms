@@ -70,14 +70,14 @@ Email Subscription Important Notes:
 
 * You can also unsubscribe to notifications by using the Subscription button, clicking the **Unsubscribe to Notifications** button and entering the email address.
 
-  | CCC Announcement Category | Description |
-  | -------------- | -------------- |
-  | Alert | Automatically generated system alerts. (Note: Alerts are not currently configured for use, but will be at a later date. |
-  | Announcement | General announcements regarding the MAS-MS and MAS-Dedicated platform. |
-  | Incident | Communication of a security incident or breach. |
-  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
-  | Security | Security specific announcements or planned maintenance related to a security issue. |
-  {: caption="Table 1. CCC Notification Categories" caption-side="bottom"}
+ | Category | Description |
+ | -------------- | -------------- |
+ | Alert | Automatically generated system alerts. (Note: Alerts are not currently configured for use, but will be at a later date. |
+ | Announcement | General announcements regarding the MAS-MS and MAS-Dedicated platform. |
+ | Incident | Communication of a security incident or breach. |
+ | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
+ | Security | Security specific announcements or planned maintenance related to a security issue. |
+ {: caption="" caption-side="bottom"}
 
 **RSS Feed**
 
