@@ -26,6 +26,9 @@ The Self-Service Portal is comprised of two main parts, the Access Management To
 
 This portal is available to all IBM Maximo Application Suite – Managed Service and Maximo Application Suite – Dedicated Customers.
 
+You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-am-tool).
+{: note}
+
 Use the following links to find more information:
 
 [Obtaining Access to the Self-Service Automation](#obtaining-access-to-self-service-automation)
@@ -45,8 +48,6 @@ https://devops.maximo.com
 
 ## Obtaining Access To Self-Service Automation
 {: #obtaining-access-to-self-service-automation}
-
-You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-the-access-management-tool).
 
 In order to obtain access to Self-Service Automation in the Self-Service Portal follow the steps below.
 
