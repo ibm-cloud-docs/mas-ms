@@ -19,7 +19,7 @@ subcollection: mas-ms
 # Client Communications Center
 {: #client-communications-center}
 
-IBM MAS-Dedicated Client Communications Center URL:
+IBM MAS Client Communications Center (CCC) URL:
 
 https://status.suite.maximo.com/
 
@@ -79,7 +79,7 @@ Email Subscription Important Notes:
  | Security | Security specific announcements or planned maintenance related to a security issue. |
  {: caption=""}
 
-If you have an environment that is down and you have not received a CCC notification regarding an outage, please submit a [support case](https://www.ibm.com/mysupport) with the environment URL and any further details. Production environments can be submitted as a Severity 1. Non-Production environments can be submitted as a Severity 2.
+If you have an environment that is not operational and you have not received a CCC notification regarding an outage, please submit a [support case](https://www.ibm.com/mysupport) with the environment URL and any further details. Production environments can be submitted as a Sev 1. Non-Production environments can be submitted as a Sev 2.
 {: note}
 
 **RSS Feed**
