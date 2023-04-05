@@ -46,7 +46,7 @@ Once the IBMid is activated you will receive an email confirmation.
 
 If you have any questions or concerns regarding this process please open a [Support Case](https://www.ibm.com/mysupport){: external}.
 
-### Notifications
+## Notifications
 
 Once you are able to login to the CCC portal, you can sign up to receive notifications directly via or email or RSS Feed. Further information is provided below.
 
@@ -78,6 +78,9 @@ Email Subscription Important Notes:
  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
  | Security | Security specific announcements or planned maintenance related to a security issue. |
  {: caption="" caption-side="bottom"}
+
+If you have an environment that is down and you have not received a CCC notification regarding an outage, please submit a [support case](https://www.ibm.com/mysupport) with the environment URL and any further details. Production environments can be submitted as a Severity 1. Non-Production environments can be submitted as a Severity 2.
+{: note}
 
 **RSS Feed**
 
