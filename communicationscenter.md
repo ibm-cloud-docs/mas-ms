@@ -25,7 +25,7 @@ https://status.suite.maximo.com/
 
 ![MAS-Dedicated CCC Main Page](images/MAS-MS-CCC-Main-Page.png "MAS-Dedicated CCC Main Page"){: caption="Figure 1. MAS-Dedicated CCC Main Page" caption-side="bottom"}
 
-The IBM MAS-Dedicated Client Communication Center (CCC) portal is the primary communication channel for environment alerts, incidents, maintenance, security and announcement notices for all MAS-Dedicated customer environments.
+The IBM MAS Client Communication Center (CCC) portal is the primary communication channel for environment alerts, incidents, maintenance, security and announcement notices for all MAS-Dedicated customer environments.
 
 It is important that all customers designate members of their staff to log in to the CCC portal and subscribe to email notifications in order to receive important information and notice of upcoming maintenance regarding their environment(s).
 
@@ -72,7 +72,7 @@ Email Subscription Important Notes:
 
  | Category | Description |
  | -------------- | -------------- |
- | Alert | Automatically generated system alerts. (Note: Alerts are not currently configured for use, but will be at a later date. |
+ | Alert | Automatically generated system alerts. (Note: Alerts are not currently configured for use, but will be at a later date.) |
  | Announcement | General announcements regarding the MAS-MS and MAS-Dedicated platform. |
  | Incident | Communication of a security incident or breach. |
  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
