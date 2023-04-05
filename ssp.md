@@ -24,7 +24,7 @@ The purpose of the Self-Service Portal is to empower our clients to execute sele
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
-This portal is available to all IBM Maximo Application Suite – Managed Service and Maximo Application Suite – Dedicated Customers.
+This portal is available to all IBM Maximo Application Suite – Managed Service and IBM Maximo Application Suite – Dedicated Customers.
 
 You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-am-tool).
 {: note}
@@ -91,22 +91,22 @@ Currently Service Requests are only supported in non-production environments.
 #### Start Asset Management Application
 {: #start-asset-management-application}
 
-This task can be used to start the Maximo Manage application for the target environment.
+This task can be used to start the IBM Maximo Manage application for the target environment.
 
 #### Stop Asset Management Application
 {: #stop-asset-management-application}
 
-This task can be used to stop the Maximo Manage application for the target environment.
+This task can be used to stop the IBM Maximo Manage application for the target environment.
 
 #### Restart Asset Management Application
 {: #restart-asset-management-application}
 
-This task can be used to restart the Maximo Manage application for the target environment.
+This task can be used to restart the IBM Maximo Manage application for the target environment.
 
 #### Run ConfigDB
 {: #run-configdb}
 
-This task can be used to apply all pending database configuration changes for the target environment. The task stops the Maximo Manage application, runs the Maximo ConfigDB process, then restarts the Maximo Manage application.
+This task can be used to apply all pending database configuration changes for the target environment. The task stops the IBM Maximo Manage application, runs the Maximo ConfigDB process, then restarts the IBM Maximo Manage application.
 
 This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
 {: attention}
@@ -114,7 +114,9 @@ This task could take several hours to complete depending on the types of changes
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
 
-This task will execute one of the following operations on the target environment depending on the option chosen.
+This task will execute one of the following operations on the target environment depending on the option chosen in the drop down list.
+
+   ![SSP-Reorg](images/SSP-Reorg-Chooser.png "SSP-Reorg"){: caption=""}
 
 `Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
