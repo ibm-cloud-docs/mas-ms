@@ -206,9 +206,9 @@ Requests will be handled per the Service Description for non-production environm
 ## Access Management Tool
 {: #access-management-tool}
 
-The Access Management Tool is a self-service tool, located in the IBM IoT Saas Self-Service Portal, where users can manage access to their MAS-Dedicated environments.
+The Access Management Tool is a self-service tool, located in the Saas Self-Service Portal, where users can manage access to their MAS-Dedicated environments.
 
-IBM IoT Saas Self-Service Portal URL:
+Self-Service Portal URL:
 
 https://devops.maximo.com
 
@@ -285,7 +285,7 @@ Follow the steps below to obtain access to the Access Management Tool.
 
 3. Navigate to the Access Management Tool
 
-    Navigate to the Access Management Tool by logging into the [IBM IoT Saas Self-Service Portal](https://devops.maximo.com){: external} with your IBMid. Once logged in, select **Security** > **Access Management** from the navigation menu.
+    Navigate to the Access Management Tool by logging into the [Self-Service Portal](https://devops.maximo.com){: external} with your IBMid. Once logged in, select **Security** > **Access Management** from the navigation menu.
 
 ## Supported Access Requests
 {: #suported-access-requests}
@@ -761,7 +761,7 @@ Follow these steps to review an access request if your user role is Manager.
 ## Access Re-Validation
 {: #access-revalidation-am-tool}
 
-Continued business need (CBN) for accesses provided through the IoT SaaS Self-Service portal access management tool must be validated annually.
+Continued business need (CBN) for accesses provided through the Self-Service portal access management tool must be validated annually.
 
 The re-validation process is run on an annual basis for all users, so it is possible that you will be notified of the need to re-validate less than a year after access is granted. You will receive an email when validation is required. Until that time the “Re-validate CBN” button will not be available on the “Manage Access” tab as indicated below.
 {: note}
