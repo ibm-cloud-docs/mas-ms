@@ -34,11 +34,11 @@ It is important that all customers designate members of their staff to log in to
 
 ### Access
 
-Access to the Client Communication Center is managed through the Access Management application in the Self-Service Portal (SSP).  This self service tool allows clients to submit access requests for their environments and revoke accesses they no longer need.
+Access to the Client Communication Center is managed through the [Access Management Tool](/docs/mas-ms?topic=mas-ms-ssp#obtaining-access-to-am-tool) in the [Self-Service Portal (SSP)](/docs/mas-ms?topic=mas-ms-ssp#ssp).  This self service tool allows clients to submit access requests for their environments and revoke accesses they no longer need.
 
 To obtain access to the Client Communication Center, follow the steps in the following link to submit an Access Request:  [How to Request CCC Access](/docs/mas-ms?topic=mas-ms-ssp#how-to-request-ccc-access)
 
-Please note an An IBMid and password is required to access the Client Communication Center.  If you do not have an IBMid, please sign up for one at:
+Please note an an IBMid and password is required to access the Client Communication Center.  If you do not have an IBMid, please sign up for one at:
 
 https://www.ibm.com/account/us-en/signup/register.html
 
@@ -52,32 +52,32 @@ Once you are able to login to the CCC, you can sign up to receive notifications 
 
 Email Subscription Important Notes:
 
-* Users with access to the Client Communication Center are automatically subscribed.
+* Users who are granted access to the Client Communication Center portal are automatically subscribed to all notifications.
 
 * Select the **E-Mail Subscription** button (in the upper right hand corner) to subscribe to notification emails (announcements)
 
-* Enter the email address for the user(s) who should receive email notifications. This option is provided to enable other members of your organization to still receive email announcements although they may not require access to the IBM Client Communication Center
+* Enter the email address for the user(s) who should receive email notifications. This option is provided to enable other members of your organization to still receive email announcements although they may not require access to the IBM Client Communication Center portal.
 
 * All emails referenced must be associated with an [IBMid](https://www.ibm.com/account/us-en/signup/register.html){: external}
 
 * Multiple email addresses can be specified, separated by comma
 
-* All announcement categories (Alert, Announcement, Incident, Maintenance, Security) are selected by default. Click the down arrow on the ‘Subscribe to’ field to uncheck any announcement types you do not wish to receive. All recipients entered in the Email field will receive the selected types
-
-  | Notification Category | Description |
-  | -------------- | -------------- |
-  | Alert | Automatically generated system alerts. Alerts are not currently configured or in use. |
-  | Announcement | General announcements regarding the MAS-MS and MAS-Dedicated platform. |
-  | Incident | Communication of security incident or breach. |
-  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
-  | Security | Security specific announcements or planned maintenance related to a security issue. |
-  {: caption="Table 1. CCC Notification Categories" caption-side="bottom"}
+* All announcement categories (Alert, Announcement, Incident, Maintenance, Security) are selected by default. Click the down arrow on the **Subscribe to** field to uncheck any announcement types you do not wish to receive. All recipients entered in the Email field will receive the selected types
 
 * Read the Privacy Policy terms
 
 * Select the Subscribe button
 
-* You can also unsubscribe to notifications by using the Subscription button, entering the email address and selecting the Unsubscribe button.
+* You can also unsubscribe to notifications by using the Subscription button, clicking the **Unsubscribe to Notifications** button and entering the email address.
+
+  | Notification Category | Description |
+  | -------------- | -------------- |
+  | Alert | Automatically generated system alerts. (Note: Alerts are not currently configured for use, but will be at a later date. |
+  | Announcement | General announcements regarding the MAS-MS and MAS-Dedicated platform. |
+  | Incident | Communication of a security incident or breach. |
+  | Maintenance | Planned maintenance windows including initial announcement and status of maintenance work in progress. |
+  | Security | Security specific announcements or planned maintenance related to a security issue. |
+  {: caption="Table 1. CCC Notification Categories" caption-side="bottom"}
 
 **RSS Feed**
 
