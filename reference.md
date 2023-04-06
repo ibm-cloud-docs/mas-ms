@@ -56,7 +56,8 @@ Please Note:
 * Credits are available for Production environments only
 * Outages experienced during planned and/or emergency maintenance windows do not qualify
 * Case must be submitted within 3 business days of the outage experienced
-   (For example, if an outage is experienced over a weekend, customer must submit the claim case by end of day the following Wednesday)
+
+    (For example, if an outage is experienced over a weekend, customer must submit the claim case by end of day the following Wednesday)
 * Credit requests are based on monthly calculation of downtime relative to a Production Availability SLA of 99.9% and the customer's monthly subscription cost
 * A separate case must be submitted for each outage being claimed
 
@@ -65,19 +66,26 @@ For reference, the 99.9% Availability SLA allows for approximately 8-9 hours a y
 The following information must be included in the case:
 
 * Customer Name
-   For example: Acme, Inc.
+
+    For example: Acme, Inc.
 * Contact name and email address of the person requesting the credit
 * The production environment URL that was impacted
-   For example: `https://main.home.INSTANCE_NAME.suite.maximo.com/`
+
+    For example: `https://main.home.INSTANCE_NAME.suite.maximo.com/`
 * Month and year of the outage
-   For example: October 2022
+
+    For example: October 2022
 * Start date and time of the outage experienced, including timezone
-   For example: Outage Start: 10-1-22 8:00AM AEDT
+
+    For example: Outage Start: 10-1-22 8:00AM AEDT
 * End date and time of the outage experienced, including timezone
-   For example: Outage End: 10-1-22 11:00AM AEDT
+
+    For example: Outage End: 10-1-22 11:00AM AEDT
 * Total outage minutes being claimed
-   For example, a three (3) hour outage would be 60 minutes x 3 or 180 minutes
-* Case #'s of any cases related to the outage (Cases numbers are nine digits starting with ‘TS’)
-   For example: TS000000000
+
+    For example, a three (3) hour outage would be 60 minutes x 3 or 180 minutes
+* Case #'s of any cases related to the outage (Cases numbers are nine digits starting with ‘TS’
+
+    For example: TS000000000
 
 Your case and claim will be reviewed by the IBM SRE team and the IBM Back Office. It will be responded to as soon as reasonably possible.
