@@ -20,6 +20,8 @@ subcollection: mas-ms
 # Self-Service Portal
 {: #ssp}
 
+![SSP-Main-Page](images/SSP-Main-Page.png "SSP-Main-Page"){: caption=""}
+
 The purpose of the Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time.
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
