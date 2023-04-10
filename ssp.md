@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-03-23"
+lastupdated: "2023-04-10"
 
 subcollection: mas-ms
 
@@ -22,7 +22,9 @@ subcollection: mas-ms
 
 ![SSP-Main-Page](images/SSP-Main-Page.png "SSP-Main-Page"){: caption=""}
 
-The purpose of the Self-Service Portal is to empower our clients to execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time.
+Self Service Portal URL: https://devops.maximo.com
+
+The purpose of the Self-Service Portal is to empower our clients to access and execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time.
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
