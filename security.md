@@ -192,8 +192,27 @@ Additional IBM Cloud compliance and reports information can be found here:
 
 https://www.ibm.com/cloud/compliance
 
+## Compliance - AWS (Infrastructure)
+{: #compliance-aws-infrastructure}
+
+All IBM Maximo Application Suite SaaS customer environments are managed to IBM IT Security Standards (ITSS) defined by IBM’s Chief Information Security Officer (CISO). This includes vulnerability scanning and subsequent remediation
+
+AWS holds ISO-27001 certification and can provide SOC 1, 2 and 3 reports to customers
+
+AWS (IaaS) ISO information:
+
+https://aws.amazon.com/compliance/iso-27001-faqs/
+
+AWS SOC information:
+
+https://aws.amazon.com/compliance/soc-faqs/
+
 ## Industry and Regulatory Compliance
 {: #industry-and-regulatory-compliance}
+
+AWS Security Controls:
+
+https://aws.amazon.com/compliance/data-center/controls/
 
 IBM Maximo Application Suite Dedicated environments are ISO-27001 certified. This certificate is publicly available and can be viewed / downloaded via the link below.
 
