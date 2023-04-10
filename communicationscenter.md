@@ -32,8 +32,6 @@ It is important that all customers designate members of their staff to log in to
 ## CCC Access
 {: #ccc-access}
 
-### Access
-
 Access to the Client Communication Center portal is managed through the [Access Management Tool](/docs/mas-ms?topic=mas-ms-ssp#obtaining-access-to-am-tool) in the [Self-Service Portal (SSP)](/docs/mas-ms?topic=mas-ms-ssp#ssp).  This self service tool allows clients to submit access requests for their environments and revoke accesses they no longer need.
 
 To obtain access to the Client Communication Center, follow the steps in the following link to submit an Access Request:  [How to Request CCC Access](/docs/mas-ms?topic=mas-ms-ssp#how-to-request-ccc-access)
