@@ -80,6 +80,10 @@ https://www.ibm.com/cloud/architecture/architectures/physical-security-arch/
 
 On site customer visits to IBM Cloud data centers are not allowed for security reasons. Street address locations of data centers are not disclosed. This is in accordance to IBM's NIST guidelines and AICPA Trust Services criteria.
 
+Physical Security for AWS Cloud:
+
+https://aws.amazon.com/compliance/data-center/controls/
+
 ## Customer Access
 {: #customer-access}
 
