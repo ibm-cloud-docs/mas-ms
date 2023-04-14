@@ -45,6 +45,7 @@ Once the IBMid is activated you will receive an email confirmation.
 If you have any questions or concerns regarding this process please open a [Support Case](https://www.ibm.com/mysupport){: external}.
 
 ## Notifications
+{: #notifications}
 
 Once you are able to login to the CCC portal, you can sign up to receive notifications directly via or email or RSS Feed. Further information is provided below.
 
@@ -80,6 +81,6 @@ Email Subscription Important Notes:
 If you have an environment that is not operational and you have not received a CCC notification regarding an outage, please submit a [support case](https://www.ibm.com/mysupport) with the environment URL and any further details. Production environments can be submitted as a Sev 1. Non-Production environments can be submitted as a Sev 2.
 {: note}
 
-**RSS Feed**
+* RSS Feed
 
 Select the RSS feed icon to view feeds and add the URL to your Feed viewer
