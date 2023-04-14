@@ -9,8 +9,8 @@ subcollection: mas-ms
 ---
 
 {:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -29,7 +29,7 @@ This page covers migration of an existing Maximo application, either on the IBM 
 
 The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks. This diagram represents a high-level overview of the migration path to MAS MS:
 
-![MAS-Migration-Steps](/images/MAS-Migration-Steps.png){: caption="Figure 1. MAS Migration Steps"} 
+![MAS-Migration-Steps](/images/MAS-Migration-Steps.png){: caption="Figure 1. MAS Migration Steps"}
 
 ## Planning
 {: #planning}
@@ -43,9 +43,9 @@ The initial set up includes several components including:
 
 Creation of the target MAS Dedicated environment
 Identification of all components that need to be migrated (database, code, attachments)
-Final documentation of the integration's and any initial set-up that can be done (including VPN's). 
+Final documentation of the integration's and any initial set-up that can be done (including VPN's).
 
-The goal of this step is to ensure all components are in place so the first test can begin. 
+The goal of this step is to ensure all components are in place so the first test can begin.
 
 ## Test 1
 {: #test-1}
@@ -72,7 +72,7 @@ This is the support for customers after the go live.  Any new issue is investiga
 
 There are several preconditions that need to be met in order to migrate to the new Dedicated offering.
 
-1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the SRE Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner. 
+1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the SRE Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner.
 2. The existing system is on DB2 (the supported version depends on the timing of the migration).
 3. MAS-Dedicated database timezone must be set to UTC. This cannot be changed.
 4. Customer has run Integrity Checker on source database and resolved all errors prior to sending to IBM.
