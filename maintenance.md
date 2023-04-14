@@ -124,6 +124,7 @@ Testing:
 Patch Upgrades
 
 The following guidelines apply to patch upgrades:
+* Minor patches are available 1 week (5 business days) after General Availability (GA)
 * Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
 * 1 week of advance notice is needed in ticket for Patch upgrade
 * If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
