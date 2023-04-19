@@ -256,7 +256,7 @@ https://www.ibm.com/blogs/policy/dataresponsibility-at-ibm/
 If a government wants access to data held by IBM on behalf of a MAS-Dedicated client, IBM would expect that government to deal directly with that client
 
 Data Processing Addendum (GDPR)
-https://www.ibm.com/support/customer/zz/en/dpa.html
+https://www.ibm.com/support/customer/csol/terms/?id=Z126-7870&lc=en#detail-document
 
 ## Data Privacy and Subject Rights
 {: #data-privacy-and-subject-rights}
