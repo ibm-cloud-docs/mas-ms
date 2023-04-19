@@ -65,6 +65,7 @@ It is the client's responsibility to ensure once access is no longer required fo
 | Create/Update Access for Indexes | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Create/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Run SQL Scripts | Not Allowed | Yes | See guidelines below |
+| Run DBC Scripts | Not Allowed | Not Allowed |
 {: caption="Table 1. MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"}
 
 ## Running SQL Scripts in Production
@@ -81,6 +82,7 @@ For production environments, the IBM SRE team highly discourages requests to run
 SQL Script Limitations:
 
 * SQL scripts cannot be run in Non-Production environments.
+* DBC Scripts are not allowed in any environment.
 * Backups will be done in offline mode which will require target site to be down / unavailable. Backups can take several hours based on database size.
 * IBM SRE team is not responsible for script not working, script corrections and any issues that arise during or after sql execution. If issues arise, IBM SRE can only restore from backup.
 * Any outages caused by the execution of the script and time to recover will not be counted as an SLA breach.

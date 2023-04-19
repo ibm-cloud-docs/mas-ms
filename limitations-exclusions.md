@@ -31,7 +31,7 @@ Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion serv
 DB2 Text Search is not supported.
 {: note}
 
-Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
+Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. DBC scripts are not allowed. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
 
 https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
 
