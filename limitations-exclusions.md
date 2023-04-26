@@ -26,16 +26,19 @@ The following items are not included or allowed in the Maximo Application Suite 
 ## Databases
 {: #databases}
 
-Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
+The following are database limitations of the MAS-Dedicated offering:
 
-DB2 Text Search is not supported.
-{: note}
+* Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
 
-Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. DBC scripts are not allowed. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
+* If converting from Oracle to DB2, Oracle compatibility mode is not supported.
+
+* DB2 Text Search is not supported.
+
+* Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. DBC scripts are not allowed. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
 
 https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
 
-SQL Scripts can be run on Production databases on an exception-only basis. Please see [Running SQL Scripts in Production](/docs/mas-ms?topic=mas-ms-support#running-sql-scripts) for details.
+* SQL Scripts can be run on Production databases on an exception-only basis. Please see [Running SQL Scripts in Production](/docs/mas-ms?topic=mas-ms-support#running-sql-scripts) for details.
 
 ## Manage Application
 {: #manage-application}
