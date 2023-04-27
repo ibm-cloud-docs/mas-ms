@@ -14,6 +14,7 @@ subcollection: mas-ms
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:attention: .attention}
 {:external: target="_blank" .external}
 
 # Client Communications Center

@@ -14,6 +14,7 @@ subcollection: mas-ms
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:attention: .attention}
 {:external: target="_blank" .external}
 
 # Migration from Maximo SaaS Flex or On-Premise
