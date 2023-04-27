@@ -32,6 +32,8 @@ completion-time: 10m
 
 Maximo Application Suite Dedicated (MAS-Dedicated) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud and AWS platforms. MAS-Dedicated combines key IBM technologies: Red Hat Open Shift, IBM Cloud Pak for Data and IBM Watson - into a focused MAS services solution, allowing customers to make implementation of product functionality & features a priority.
 
+Please note the Maxim Application Suite Managed Services was renamed MAS Dedicated in December 2022.  Client who purchased MAS Managed Services will remain on the Shared Cluster deployment option (see [Maintenance](/docs/mas-ms?topic=mas-ms-maintenance) page for details and differences between shared cluster deployment option and the dedicated cluster deployment option).  Clients on the shared cluster can contract their sales representative to discuss the upgrade to the dedicated service if needed.
+
 ## Before you begin
 {: #before-you-begin}
 
@@ -46,8 +48,8 @@ This section details the part numbers and considerations when placing an order f
 
 Before submitting an order, the following should be considered to ensure the order is 'right sized' and will meet the requirements of the client.
 
-Important:
-Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering MAS Dedicated. The dedicated service provides IBM Cloud or AWS based hosting, product installation, operation, maintenance and support for MAS.
+Customers must purchase (or own) App Points for MAS prior to (or in conjunction with) ordering MAS Dedicated. The dedicated service provides IBM Cloud or AWS based hosting, product installation, operation and maintenance.
+{: attention}
 
 Information should be gathered about the potential usage of the suite, including which applications will be required, how many users on each application and the primary usage of the applications.
 
