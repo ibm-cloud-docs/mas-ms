@@ -17,6 +17,7 @@ completion-time: 10m
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:attention: .attention}
 {:external: target="_blank" .external}
 { :toc-completion-time="10m"}
 
