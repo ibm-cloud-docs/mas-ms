@@ -97,20 +97,30 @@ Currently Service Requests are only supported in non-production environments.
 
 This task can be used to start the IBM Maximo Manage application for the target environment.
 
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
+
 #### Stop Asset Management Application
 {: #stop-asset-management-application}
 
 This task can be used to stop the IBM Maximo Manage application for the target environment.
+
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
 
 #### Restart Asset Management Application
 {: #restart-asset-management-application}
 
 This task can be used to restart the IBM Maximo Manage application for the target environment.
 
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
+
 #### Run ConfigDB
 {: #run-configdb}
 
 This task can be used to apply all pending database configuration changes for the target environment. The task stops the IBM Maximo Manage application, runs the Maximo ConfigDB process, then restarts the IBM Maximo Manage application.
+
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and check the box to certify that a recent backup has been taken in Step 5.
+
+    ![SSP-ConfigDB](images/SSP-ConfigDB-panel.png "SSP-ConfigDB"){: caption=""}
 
 This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
 {: attention}
@@ -137,6 +147,10 @@ Most cases require only the Runstats operation. Reorganization of tablespaces ne
 {: #run-mas-mustgather}
 
 This task will collect application logs from the target environment and upload the logs to the ECuRep (IBM Support) server.
+
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and fill-in the `Support Case ID` in Step 5.
+
+    ![SSP-MustGather](images/SSP-MustGather-panel.png "SSP-MustGather"){: caption=""}
 
 ### Submitting a Service Request
 {: #submitting-requests}
