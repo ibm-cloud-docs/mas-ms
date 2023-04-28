@@ -120,7 +120,7 @@ This task can be used to apply all pending database configuration changes for th
 
 To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and check the box to certify that a recent backup has been taken in Step 5.
 
-    ![SSP-ConfigDB](images/SSP-ConfigDB-panel.png "SSP-ConfigDB"){: caption=""}
+   ![SSP-ConfigDB](images/SSP-ConfigDB-panel.png "SSP-ConfigDB"){: caption=""}
 
 This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
 {: attention}
@@ -150,7 +150,7 @@ This task will collect application logs from the target environment and upload t
 
 To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and fill-in the `Support Case ID` in Step 5.
 
-    ![SSP-MustGather](images/SSP-MustGather-panel.png "SSP-MustGather"){: caption=""}
+   ![SSP-MustGather](images/SSP-MustGather-panel.png "SSP-MustGather"){: caption=""}
 
 ### Submitting a Service Request
 {: #submitting-requests}
