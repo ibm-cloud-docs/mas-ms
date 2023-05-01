@@ -20,6 +20,19 @@ subcollection: mas-ms
 # Support
 {: #support}
 
+Support for MAS Dedicated can be obtained by submitting an support case through the [IBM support portal](https://www.ibm.com/mysupport){: external}. You must have an [IBMid](https://myibm.ibm.com){: external} and be [registered for support](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated#how-to-register-for-mas-support) before you can [create a case](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated#how-to-create-a-case). Cases are reviewed base on the severity level assigned. Please see table below and link for further details.
+
+| Severity Level | Description | Response Time Objective | Response Time Coverage |
+| -------------- | -------------- | -------------- | -------------- |
+| 1 | Critical Business Impact/Service Down: Business critical functionality is inoperable or critical interface has failed. This should be used for Production environments only and indicates an inability to access services resulting in a critical impact on operations. | Within 1 hour | 24x7 |
+| 2 | Significant business impact: A service, business feature, or function of the service is severely restricted in its use, or you are in jeopardy of missing business deadlines. | Within 2 business hours | Monday – Friday business hours |
+| 3 | Minor business impact: The service or functionality is usable and the issue does not represent a critical impact on operations. | Within 4 business hours | Monday – Friday business hours |
+| 4 | Minimal business impact: An inquiry or non-technical request. | Within 1 business day | Monday – Friday business hours |
+{: caption="Table 1. IBM Support Case Severity Levels and Response Time" caption-side="bottom"}
+
+**Response Time Objective** is intended to describe IBM's goals only and do not represent a guarantee of performance.
+**Business Hours** reflect normal country business hours in your time zone. For example, 8:00 AM to 5:00 PM in North America or 9:00 AM to 6:00 PM in some parts of Asia and Europe, Monday through Friday, excluding national or statutory holidays.
+
 ## MAS-Dedicated Environment Route URLs
 {: #environment-route-urls}
 
