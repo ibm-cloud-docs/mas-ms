@@ -128,7 +128,7 @@ This task could take several hours to complete depending on the types of changes
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
 
-This task will execute one of the following operations on the target environment depending on the option chosen in the drop down list.
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and select one of the following options from the drop down list in Step 5.
 
    ![SSP-Reorg](images/SSP-Reorg-Chooser.png "SSP-Reorg"){: caption=""}
 
