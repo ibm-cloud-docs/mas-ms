@@ -33,7 +33,7 @@ subcollection: mas-ms
     Answer: No, this is not allowed. MAS-Dedicated environments do not allow class file customization.
 4. Does MAS-Dedicated support Site to Site VPN?
 
-    Answer: Yes, the request has to come through an IBM case ticket. Please keep in mind this requires the customer’s network team to collaborate with MAS-Dedicated SRE Network team. For turnaround time please refer to [SRE Task Lead Times](/docs/mas-ms?topic=operations#sre-task-lead-times). Click here for details on [Site to Site VPN](/docs/mas-ms?topic=mas-ms-support#site-to-site-vpn)
+    Answer: Yes, the request has to come through an IBM case ticket. Please keep in mind this requires the customer’s network team to collaborate with MAS-Dedicated SRE Network team. For turnaround time please refer to [SRE Task Lead Times](/docs/mas-ms?topic=mas-ms-operations#sre-task-lead-times). Click here for details on [Site to Site VPN](/docs/mas-ms?topic=mas-ms-support#site-to-site-vpn)
 5. Does MAS-Dedicated allow connection to the database?
 
     Answer: Yes, but there are restrictions and guildelines. Please refer to [Database Support](/docs/mas-ms?topic=mas-ms-support#database-support)

@@ -63,6 +63,21 @@ Asia Pacific:
 
 * Sydney, Australia
 
+On AWS, the following locations are utilized:
+
+North America:
+
+* Northern Virginia
+* Montreal, Canada
+
+Europe:
+
+* Frankfurt, Germany
+
+Asia Pacific:
+
+* Sydney
+
 ## Operations Support Locations
 {: #operations-support-locations}
 
