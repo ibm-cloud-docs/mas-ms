@@ -46,6 +46,11 @@ https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/wh
 
 No Java extensions are supported.  It is assumed the Manage auomation scripting capability will be used for these types of extensions.  Existing Maximo customers who have Java extensions will need to move these functions into automation scripts within the application. See link above for further details
 
+## LA Fixes
+{: #la-fixes}
+
+LA (Limited Availability) aka "one off" or "hot" fixes are the customer's responsibility to manage. Please see [Maintenance](/docs/mas-ms?topic=mas-ms-maintenance#lafixes) section for details.
+
 ## 3rd Party Applications
 {: #3rd-party-applications}
 
