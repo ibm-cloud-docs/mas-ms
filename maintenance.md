@@ -57,10 +57,10 @@ Systems are available to users and all standard automated processes such as data
 
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade.  It is expected customers will be upgraded to the current version within 6 months of release.  Upgrades will be deployed first to test and then scheduled for production.  The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
 
-## LAFixes
+## LA Fixes
 {: #lafixes}
 
-During the Manage upgrade process all LAFixes applied to a customer's environment will be removed.  It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open a case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LAFix is required, this would need to be requested through the support case.  LAFix approvals by the SRE team will be determined on a case-by-case basis.
+During the Manage upgrade process all LA (Limited Availability) aka "one off" or "hot" Fixes applied to a customer's environment will be removed. It is assumed the upgrade or fixpack contains the LA Fix. It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open a case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LA Fix is required, this would need to be requested through the support case.  LA Fix approvals by the SRE team will be determined on a case-by-case basis.
 
 ### Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
