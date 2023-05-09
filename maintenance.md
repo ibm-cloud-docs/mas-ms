@@ -41,13 +41,11 @@ Clients who purchased MAS-MS or were quoted prior to December 2022 are Shared Cl
 ## 2023 Maintenance Details
 {: #2021-maintenance-details}
 
-Standard maintenance times for production environments are planned and scheduled over weekend timeframes.  The maintenance duration can range from 4 to 48 hours on Saturday and/or Sunday depending on the scope of work being performed.  All updates are first applied to non-production environments and then productio. Specific dates are communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+Standard maintenance windows for Production environments are planned twice monthly on weekends (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays.
 
-The IBM Maximo Application Suite SRE team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5-10 days prior to any outage that will be taken.
+The IBM SRE team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5 days prior to any Non-Production outage and 10 days prior to any Production outage via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 Systems are not available to users during maintenance windows.
-
-Non-Production systems may be scheduled for maintenance during the week, 1- 2 weeks prior to planned maintenance on Production systems to allow additional time for testing.
 
 Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
 Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period.
