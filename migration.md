@@ -80,7 +80,8 @@ There are several preconditions that need to be met in order to migrate to the n
 5. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
 6. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-Dedicated. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
 7. Database conversion tools won't take care of Maximo stored queries, Maximo relationships and Reports. Ensure all these are converted, tested on v7.6.1.2+ before migrating to MAS.
-8. A new Maximo Application Suite Dedicated contract is in place.
+8. TEXT Search is not supported in MAS. Before sending database for migration all the field should be converted from TEXT search to another value (WILDCARD, EXACT, or NONE).
+9. A new Maximo Application Suite Dedicated contract is in place.
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
