@@ -81,22 +81,24 @@ There are several preconditions that need to be met in order to migrate to the n
 6. All items to be migrated are identified and confirmed. For SaaS Flex (IBM hosted) clients this is a shared responsibility; for on-premise the customer is responsible.
 7. All custom java classes must be remediated and removed. Please note java classes can / should be replaced with automation scripts in MAS-Dedicated. See link for further information:
 
-https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
+    https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
 
 8. Database conversion tools won't address or remediate Maximo stored queries, Maximo relationships and Maximo Reports. Ensure all these are converted and tested on v7.6.1.2+ before migrating to MAS.
 9. TEXT Search is not supported in MAS. Before sending database for migration all fields should be converted from TEXT search to another value (WILDCARD, EXACT, or NONE).
 10. Each user account can have only (1) primary email address.
 11. Each user account can have only (1) primary phone number.
 12. The user account added for the mxe.int.dfltuser property must have complete user application and related object access inside Manage for user syncronization to work after migration.
-13. Review the following technotes and resolve prior to submitting database to IBM:
+13. Maximo Object Structure Tables and Data Dictionary Tables must be aligned before sending the database to IBM. See link below for further information:
 
-https://www.ibm.com/support/pages/bmxaa7733e-error-loading-object-structure-or-generating-schema
+    https://www.ibm.com/support/pages/bmxaa7733e-error-loading-object-structure-or-generating-schema
 
-https://www.ibm.com/support/pages/error-initializing-micservicebmxaa7733e-after-applying-fix-pack-7505
+14. Insure maxtable and maxintobjdetail are updated properly before sending the database to IBM. See link below for further information:
 
-14. MAXSEQUENCES should be aligned before sending database to IBM. For example:
+    https://www.ibm.com/support/pages/error-initializing-micservicebmxaa7733e-after-applying-fix-pack-7505
 
-https://www.ibm.com/support/pages/integrity-checker-sequence-not-setup-correctly
+14. MaxSequence should be aligned before sending database to IBM. See link below for further information:
+
+    https://www.ibm.com/support/pages/integrity-checker-sequence-not-setup-correctly
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
