@@ -199,14 +199,14 @@ https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-f
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
 
-The MAS Manage environments use JMS queues for event stream processing. The JMS setup will be completed by the IBM MAS-Dedicated SRE provisioning team.
+The MAS Manage environments use Event Streams (IBM Kaftka) topics for integration. The event stream setup will be completed by the IBM MAS-Dedicated SRE provisioning team.
 
-* EndPoints will need to be configured to use the JMS queues
+* EndPoints will need to be configured to use the event stream topics (client responsibility to make necessary changes)
 * Cron activation will need to be enabled by the customer
 
-Maximo Manage JMS Server Documentation:
+Maximo Manage - Moving from JMS to Kafka:
 
-https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=deploy-configuring-java-message-service-jms-servers
+https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=upgrade-integration#concept_dhf_2hv_5tb
 
 ### Administrative Utilities (API Calls)
 {: #admin-util-api-calls}
