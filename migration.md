@@ -71,17 +71,32 @@ This is the support for customers after the go live.  Any new issue is investiga
 ## Pre-Conditions
 {: #pre-conditions}
 
-There are several preconditions that need to be met in order to migrate to the new Dedicated offering.
+There are several preconditions that need to be met in order to migrate to the new MAS-Dedicated offering:
 
-1. The existing version of Maximo has to be 7.6.1.2. For SaaS Flex clients, the technical upgrade is performed by the SRE Team as part of the SaaS Flex offering as per normal upgrade procedures. For on-premise clients, the upgrade is performed by the client or a partner.
-2. The existing system is on DB2 (the supported version depends on the timing of the migration).
-3. MAS-Dedicated database timezone must be set to UTC. This cannot be changed.
-4. Customer has run Integrity Checker on source database and resolved all errors prior to sending to IBM.
-5. All items to be migrated are identified and confirmed. For SaaS Flex clients this is a shared responsibility, for on-premise, the client is responsible for doing so.
-6. Remediation and removal of all custom JAVA classes. Please note Java classes can / should be replaced with automation scripts in MAS-Dedicated. See link for further information: https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
-7. Database conversion tools won't take care of Maximo stored queries, Maximo relationships and Reports. Ensure all these are converted, tested on v7.6.1.2+ before migrating to MAS.
-8. TEXT Search is not supported in MAS. Before sending database for migration all the field should be converted from TEXT search to another value (WILDCARD, EXACT, or NONE).
-9. A new Maximo Application Suite Dedicated contract is in place.
+1. A new Maximo Application Suite Dedicated (MAS-Dedicated) contract is in place.
+2. The source version of Maximo must be v7.6.1.2 or greater. For SaaS Flex (IBM hosted) clients, the technical upgrade is performed by the IBM SRE Team as part of the SaaS Flex offering per normal upgrade procedures. For on-premise clients, the technical upgrade is the responsibility of the client or business partner.
+3. The source database export is DB2 (the supported DB2 version depends on the timing of the migration).
+4. The MAS database timezone for each instance will be set to UTC when provisioned. This cannot be changed.
+5. Customer has run Maximo v7.6 Integrity Checker on source database and resolved all errors prior to sending to IBM.
+6. All items to be migrated are identified and confirmed. For SaaS Flex (IBM hosted) clients this is a shared responsibility; for on-premise the customer is responsible.
+7. All custom java classes must be remediated and removed. Please note java classes can / should be replaced with automation scripts in MAS-Dedicated. See link for further information:
+
+https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript/
+
+8. Database conversion tools won't address or remediate Maximo stored queries, Maximo relationships and Maximo Reports. Ensure all these are converted and tested on v7.6.1.2+ before migrating to MAS.
+9. TEXT Search is not supported in MAS. Before sending database for migration all fields should be converted from TEXT search to another value (WILDCARD, EXACT, or NONE).
+10. Each user account can have only (1) primary email address.
+11. Each user account can have only (1) primary phone number.
+12. The user account added for the mxe.int.dfltuser property must have complete user application and related object access inside Manage for user syncronization to work after migration.
+13. Review the following technotes and resolve prior to submitting database to IBM:
+
+https://www.ibm.com/support/pages/bmxaa7733e-error-loading-object-structure-or-generating-schema
+
+https://www.ibm.com/support/pages/error-initializing-micservicebmxaa7733e-after-applying-fix-pack-7505
+
+14. MAXSEQUENCES should be aligned before sending database to IBM. For example:
+
+https://www.ibm.com/support/pages/integrity-checker-sequence-not-setup-correctly
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
