@@ -43,7 +43,9 @@ The planning stage is driven by the customer and covers the internal processes a
 There are several preconditions that need to be met in order to migrate to the new MAS-Dedicated offering:
 
 - [ ] A new Maximo Application Suite Dedicated (MAS-Dedicated) contract is in place.
-- [ ] The source version of Maximo must be v7.6.1.2 or greater. For SaaS Flex (IBM hosted) clients, the technical upgrade is performed by the IBM SRE Team as part of the SaaS Flex offering per normal upgrade procedures. For on-premise clients, the technical upgrade is the responsibility of the client or business partner.
+- [ ] The source version of Maximo must be v7.6.1.2 or greater. For SaaS Flex (IBM hosted) clients, the technical upgrade is performed by the IBM SRE Team as
+    part of the SaaS Flex offering per normal upgrade procedures. For on-premise clients, the technical upgrade is the responsibility of the client or business
+    partner.
 - [ ] The source database export is DB2 (the supported DB2 version depends on the timing of the migration).
 - [ ] The MAS database timezone for each instance will be set to UTC when provisioned. This cannot be changed.
 - [ ] Customer has run Maximo v7.6 Integrity Checker on source database and resolved all errors prior to sending to IBM.
@@ -56,7 +58,8 @@ There are several preconditions that need to be met in order to migrate to the n
 - [ ] TEXT Search is not supported in MAS. All fields should be converted from TEXT search to another value (WILDCARD, EXACT, or NONE).
 - [ ] Each user account can have only (1) primary email address.
 - [ ] Each user account can have only (1) primary phone number.
-- [ ] The user account added for the mxe.int.dfltuser property must have complete user application and related object access inside Manage for user syncronization to work after migration.
+- [ ] The user account added for the mxe.int.dfltuser property must have complete user application and related object access inside Manage for user
+    syncronization to work after migration.
 - [ ] Maximo Object Structure Tables and Data Dictionary Tables must be aligned before sending the database to IBM. See link below for further information:
 
     https://www.ibm.com/support/pages/bmxaa7733e-error-loading-object-structure-or-generating-schema
