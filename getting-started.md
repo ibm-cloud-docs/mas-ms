@@ -313,3 +313,11 @@ https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
 6. To get help and support for your Maximo Application Suite Dedicated, see the IBM support guide on IBM.com:
 
     https://www.ibm.com/support/pages/node/733923
+
+7. Register for Maximo Application Suite Onboarding Kick-Off Training. To register, see link below:
+
+    https://ibm.webex.com/webappng/sites/ibm/webinar/webinarSeries/register/6f56e66f6c584bb3ac5dbd1a7601619f
+
+    Maximo Application Suite Onboarding Kick-Off Meeting Deck:
+
+    https://ibm.ent.box.com/s/3xixg4xr12rtzagrqumneo789yt3597r

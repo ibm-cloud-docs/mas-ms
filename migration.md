@@ -80,6 +80,18 @@ Final documentation of the integration's and any initial set-up that can be done
 
 The goal of this step is to ensure all components are in place so the first test can begin.
 
+| Task | IBM | Client (or Designate) |
+| -------------- | -------------- | -------------- |
+| Deploy MAS in selected data center | X | |
+| Install Applications | X | |
+| Perform initial configuration | X | |
+| Identify SaaS Flex site for data to use in initial test | | X |
+| Identify all components that need to be migrated (attachments, custom reports) | | X |
+| Begin VPN Set up (optional) | X | X |
+| Remediation of JAVA class files to Automation Script(s) | | X |
+| Configure any integrations in MAS | | X |
+{: caption="Table 1. Initial Setup Responsibilities" caption-side="bottom"}
+
 ## Test 1
 {: #test-1}
 
