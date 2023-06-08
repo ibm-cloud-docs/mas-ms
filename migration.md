@@ -37,37 +37,6 @@ The steps are similar for both, but the responsibilities vary as to which team i
 
 The planning stage is driven by the customer and covers the internal processes and approvals needed for the migration project.  This step requires collaboration with IBM to understand the complexity of the migration, timeframes, level of effort, and personnel needed to perform the migration.  In this step the customer determines if they have the necessary expertise and capacity internally to perform the migration or engage IBM GBS, IBM Expert Services or a Business Partner to perform this work.
 
-## Initial Set Up
-{: #initial-set-up}
-
-The initial set up includes several components including:
-
-Creation of the target MAS Dedicated environment
-Identification of all components that need to be migrated (database, code, attachments)
-Final documentation of the integration's and any initial set-up that can be done (including VPN's).
-
-The goal of this step is to ensure all components are in place so the first test can begin.
-
-## Test 1
-{: #test-1}
-
-Test 1 executes all of the steps required to move a customer from the SaaS Flex (or on-premise) implementation to the MAS Dedicated offering.  Data is exported from the source system, transferred to the Dedicated Service location and loaded into the new database instance.  Configuration is completed for integration's and any technical remediation performed for the technology differences.  Next the client tests to ensure all business flows are performing as expected.  Issues identified are then resolved until the testing is complete.
-
-## Test 2
-{: #test-2}
-
-This is similar to test 1, except the focus is ensuring all steps are documented and accurate timings taken for the final migration of production.  This is a dress rehearsal for the go live as well as to ensure all issues identified in the first test have been resolved.  This test should take place close to the final cut-over date (within a few weeks).
-
-## Live on MAS-Dedicated
-{: #live-on-mas-dedicated}
-
-The final execution of the steps in the scheduled migration window.  Once complete, the customer is now live on the Dedicated Service offering.
-
-## Post Live MAS-Dedicated Activities
-{: #post-live-mas-dedicated-activities}
-
-This is the support for customers after the go live.  Any new issue is investigated and resolved and then the client moves to steady state.
-
 ## Pre-Conditions
 {: #pre-conditions}
 
@@ -99,6 +68,37 @@ There are several preconditions that need to be met in order to migrate to the n
 - [ ] MaxSequence should be aligned before sending database to IBM. See link below for further information:
 
     https://www.ibm.com/support/pages/integrity-checker-sequence-not-setup-correctly
+
+## Initial Set Up
+{: #initial-set-up}
+
+The initial set up includes several components including:
+
+Creation of the target MAS Dedicated environment
+Identification of all components that need to be migrated (database, code, attachments)
+Final documentation of the integration's and any initial set-up that can be done (including VPN's).
+
+The goal of this step is to ensure all components are in place so the first test can begin.
+
+## Test 1
+{: #test-1}
+
+Test 1 executes all of the steps required to move a customer from the SaaS Flex (or on-premise) implementation to the MAS Dedicated offering.  Data is exported from the source system, transferred to the Dedicated Service location and loaded into the new database instance.  Configuration is completed for integration's and any technical remediation performed for the technology differences.  Next the client tests to ensure all business flows are performing as expected.  Issues identified are then resolved until the testing is complete.
+
+## Test 2
+{: #test-2}
+
+This is similar to test 1, except the focus is ensuring all steps are documented and accurate timings taken for the final migration of production.  This is a dress rehearsal for the go live as well as to ensure all issues identified in the first test have been resolved.  This test should take place close to the final cut-over date (within a few weeks).
+
+## Live on MAS-Dedicated
+{: #live-on-mas-dedicated}
+
+The final execution of the steps in the scheduled migration window.  Once complete, the customer is now live on the Dedicated Service offering.
+
+## Post Live MAS-Dedicated Activities
+{: #post-live-mas-dedicated-activities}
+
+This is the support for customers after the go live.  Any new issue is investigated and resolved and then the client moves to steady state.
 
 ## Roles and Responsibilities
 {: #roles-and-responsibilities}
