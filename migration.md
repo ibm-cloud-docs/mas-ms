@@ -74,9 +74,9 @@ There are several preconditions that need to be met in order to migrate to the n
 
 The initial set up includes several components including:
 
-Creation of the target MAS Dedicated environment
-Identification of all components that need to be migrated (database, code, attachments)
-Final documentation of the integration's and any initial set-up that can be done (including VPN's).
+* Creation of the target MAS Dedicated environment
+* Identification of all components that need to be migrated (database, code, attachments)
+* Final documentation of the integration's and any initial set-up that can be done (including VPN's)
 
 The goal of this step is to ensure all components are in place so the first test can begin.
 
