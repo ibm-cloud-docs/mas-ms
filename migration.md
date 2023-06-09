@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2023-02-02"
+lastupdated: "2023-06-09"
 
 subcollection: mas-ms
 
@@ -97,15 +97,54 @@ The goal of this step is to ensure all components are in place so the first test
 
 Test 1 executes all of the steps required to move a customer from the SaaS Flex (or on-premise) implementation to the MAS Dedicated offering.  Data is exported from the source system, transferred to the Dedicated Service location and loaded into the new database instance.  Configuration is completed for integration's and any technical remediation performed for the technology differences.  Next the client tests to ensure all business flows are performing as expected.  Issues identified are then resolved until the testing is complete.
 
+| Task | IBM | Client (or Designate) |
+| -------------- | -------------- | -------------- |
+| Export data from SaaS Flex and transfer to MAS | X | |
+| Remediate technical changes in MAS through Maxadmin | | X |
+| Remediate technical changes in MAS at OS Level | X | |
+| Deploy Attachments | X | |
+| Import Database | X | |
+| Finalize any changes needed | | X |
+| Ensure any integrations | | X |
+| Test Changes | | X |
+| Remediate errors | Secondary | Primary |
+{: caption="Table 1. Test 1 Responsibilities" caption-side="bottom"}
+
 ## Test 2
 {: #test-2}
 
 This is similar to test 1, except the focus is ensuring all steps are documented and accurate timings taken for the final migration of production.  This is a dress rehearsal for the go live as well as to ensure all issues identified in the first test have been resolved.  This test should take place close to the final cut-over date (within a few weeks).
 
+| Task | IBM | Client (or Designate) |
+| -------------- | -------------- | -------------- |
+| Export data from SaaS Flex and transfer to MAS | X | |
+| Remediate technical changes in MAS through Maxadmin | | X |
+| Remediate technical changes in MAS at OS Level | X | |
+| Import Database | X | |
+| Finalize any changes needed | | X |
+| Finalize integrations | | X |
+| Test Changes | | X |
+| Remediate errors | Secondary | Primary |
+| Ensure timings for all steps recorded | X | X |
+{: caption="Table 1. Test 2 Responsibilities" caption-side="bottom"}
+
 ## Live on MAS-Dedicated
 {: #live-on-mas-dedicated}
 
 The final execution of the steps in the scheduled migration window.  Once complete, the customer is now live on the Dedicated Service offering.
+
+| Task | IBM | Client (or Designate) |
+| -------------- | -------------- | -------------- |
+| Export data from SaaS Flex and transfer to MAS | X | |
+| Remediate technical changes in MAS through Maxadmin | | X |
+| Remediate technical changes in MAS at OS Level | X | |
+| Deploy Attachments | X | |
+| Import Database | X | |
+| Finalize any changes needed | | X |
+| Finalize Integrations | | X |
+| Test Changes | | X |
+| Go Live | | X |
+{: caption="Table 1. Go Live Responsibilities" caption-side="bottom"}
 
 ## Post Live MAS-Dedicated Activities
 {: #post-live-mas-dedicated-activities}
