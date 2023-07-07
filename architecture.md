@@ -54,9 +54,11 @@ For the MAS Dedicated Service each client is provisioned with their own applicat
 
 IBM Cloud Data Centers are SOC compliant and have full hardware redundancy implemented for all servers. All data centers have an N1 redundant power and cooling infrastructure, including backup power generators. All servers have redundant power supplies, NICs and use SAN based RAID storage.
 
-The following diagram shows a high level overview of the architecture for each individual client instance.
+The following diagrams show a high level overview of the architecture for each individual client instance.
 
-![MAS-Dedicated Architecture](images/MAS-MS-Architecture.png "MAS-Dedicated Architecture"){: caption="Figure 1. MAS-Dedicated Architecture" caption-side="bottom"}
+![MAS-Dedicated Architecture](images/MAS-MS-Architecture.png "MAS-Dedicated Architecture"){: caption="Figure 1. MAS-Dedicated Architecture on IBM CLoud" caption-side="bottom"}
+
+![MAS-Dedicated Architecture AWS](images/MAS-MS-Architecture-AWS-Single-Tenant.png "MAS-Dedicated Architecture AWS"){: caption="Figure 1. MAS-Dedicated Architecture on AWS" caption-side="bottom"}
 
 ## MAS-Dedicated Architecture Highlights
 {: #mas-dedicated-highlights}
