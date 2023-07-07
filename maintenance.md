@@ -69,16 +69,15 @@ Shared Cluster Upgrade Policy
 
 The following guidelines apply to MAS-Dedicated (Shared Cluster) release schedule:
 * MAS (8.x) GA versions are released twice a year by IBM development (approx)
-* MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
-* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
-* The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
+* MAS-Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
+* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-Dedicated 8.10 on 5/2/2023
+* The release of MAS-Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS-Dedicated will be 1/17/2023
 
-| Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
-| -------------- | -------------- | -------------- | -------------- |
-| 8.9 | 11/22/22 | 1/17/23 | March to June |
-| 8.10 | 3/28/23 | 5/2/23 | June to September |
-| 8.11 | 9/29/23 | 10/30/23 | Nov to Feb |
-| 8.12 | March 2024 | April 2024 | TBD |
+| Version | MAS (GA) Release | MAS-Dedicated Release |
+| -------------- | -------------- | -------------- |
+| 8.9 | 11/22/22 | 1/17/23 |
+| 8.10 (LTS) | 3/28/23 | 5/2/23 |
+| 8.11 | 9/26/23 | 10/30/23 |
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
 
 Planning Guidelines
@@ -88,7 +87,6 @@ The following guidelines apply to planning for MAS upgrades:
 * Upgrade schedules are non-negotiable
 * All client stakeholders must register to receive CCC notifications & communications
 * IBM will share long-range anticipated upgrade windows upon request via ticket
-* Upgrade window information is shared for planning purposes only & is not a commitment
 * Timing is subject to change at IBM’s sole discretion based on software availability & other factors
 
 Non-Production Upgrades
@@ -133,16 +131,15 @@ The following guidelines apply to patch upgrades:
 
 The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release schedule:
 * MAS (8.x) GA versions are released twice a year by IBM development (approx)
-* MAS Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
-* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS Dedicated 8.10 on 5/2/2023
+* MAS-Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
+* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-Dedicated 8.10 on 5/2/2023
 * The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
 
-| Version | MAS Release | MAS Dedicated Release | Approx Upgrade Window |
+| Version | MAS (GA) Release | MAS-Dedicated Release | Approx Upgrade Window |
 | -------------- | -------------- | -------------- | -------------- |
 | 8.9 | 11/22/22 | 1/17/23 | March to June |
-| 8.10 | 3/28/23 | 5/2/23 | June to September |
-| 8.11 | 9/29/23 | 10/30/23 | Nov to Feb |
-| 8.12 | March 2024 | April 2024 | TBD |
+| 8.10 (LTS) | 3/28/23 | 5/2/23 | June to September |
+| 8.11 | 9/26/23 | 10/30/23 | By Request after 10/30/23 |
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
 
 Planning Guidelines
