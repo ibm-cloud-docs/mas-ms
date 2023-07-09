@@ -53,15 +53,15 @@ Systems are available to users and all standard automated processes such as data
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
+
 ## LA Fixes
 {: #lafixes}
 
 During the Manage upgrade process all LA (Limited Availability) aka "one off" or "hot" Fixes applied to a customer's environment will be removed. It is assumed the upgrade or fixpack contains the LA Fix. It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open a case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LA Fix is required, this would need to be requested through the support case.  LA Fix approvals by the SRE team will be determined on a case-by-case basis.
 
-### Shared Cluster Deployment Customers
+## Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
-
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to test and then scheduled for production. The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
 
 Shared Cluster Upgrade Policy
 
@@ -124,8 +124,10 @@ The following guidelines apply to patch upgrades:
 * 1 week of advance notice is needed in ticket for Patch upgrade
 * If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
-### Dedicated Cluster Deployment Customers
+## Dedicated Cluster Deployment Customers
 {: #dedicated-cluster-upgrades}
+
+Dedicated Cluster Upgrade Policy
 
 The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release schedule:
 * MAS (8.x) GA versions are released twice a year by IBM development (approx)
