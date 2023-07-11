@@ -23,37 +23,43 @@ subcollection: mas-ms
 ## Deployment Options
 {: #deployment-options}
 
-The Cloud Service supports two architectural deployment options, Dedicated Cluster and Shared Cluster, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and used. For both deployment options, the client will have their own MAS Applications and their own database schemas. The Cloud Service will be configured based on the deployment option purchased.
+The MAS Cloud Service supports two architectural deployment options, Dedicated Cluster and Shared Cluster, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and used. For both deployment options, the client will have their own MAS Applications and their own database schemas, but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
+
+Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are Shared Cluster deployment.  Clients who were quoted and purchased off that quote after January 2023 are MAS-Dedicated Cluster deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 
 **Dedicated Cluster Deployment** (default)
 
-With the Dedicated Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data are not shared by multiple Production Instances(s), Non-Production Instance(s) or Clients. Each MAS Client Production Instance and Non-Production Instance will have its own IBM Cloud Services and it will not be shared across clients. Clients choosing the Dedicated Cluster deployment will determine when they wish to implement MAS Dedicated software upgrades. The upgrade may be postponed or deferred by the client. Client will need to communicate to IBM Support if they wish to defer any upgrade. The following exceptions apply:
+With the Dedicated Cluster deployment (otherwise known as MAS-Dedicated), Red Hat OpenShift is not shared by multiple Production Instances(s), Non-Production Instance(s) or Clients. Each MAS Client Production Instance and Non-Production Instance will have its own Services and it will not be shared across clients. Clients choosing the Dedicated Cluster deployment will determine when they wish to implement MAS-Dedicated software upgrades. The upgrade may be postponed or deferred by the client. Client will need to communicate to IBM Support if they wish to defer an upgrade. The following exceptions apply:
 
 - Client must always be on a supported version. Client will need to upgrade their current version before it reaches the end of support date.
 - Client will always be required to accept critical security patches. IBM alone will determine whether a patch is deemed a critical security patch and the date it will be applied.
 
 **Shared Cluster Deployment** (optional)
 
-In the Shared Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data will be shared across multiple Production Instance(s) and Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the MAS Dedicated offering software upgrade policy that is set by IBM. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
-
-Clients who purchased MAS-MS or were quoted prior to December 2022 are Shared Cluster deployment.  Clients who were quoted and purchased off that quote after January 2023 are Dedicated Cluster deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
+In the Shared Cluster deployment (otherwise known as MAS-MAS), Red Hat OpenShift will be shared across multiple Production Instance(s), Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the software upgrade policy that is set by IBM SRE. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
 
 ## 2023 Maintenance Details
 {: #2021-maintenance-details}
 
-Standard maintenance windows for Production environments are planned twice monthly on weekends (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays.
+Standard maintenance windows for Production environments are planned on weekends (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays.
 
-The IBM SRE team may choose to use all, some, or none of the planned maintenance windows and will proactively notify customers 5 days prior to any Non-Production outage and 10 days prior to any Production outage via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+The IBM SRE team will proactively notify customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
-Systems are not available to users during maintenance windows.
+Systems are usually not available to users during maintenance windows, but the following maintenance categories will be applied as needed:
 
-Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024
-Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments like application upgrades as an example are not available during this time.  The IBM Maximo Application Suite Dedicated team also does not schedule any maintenance during the change freeze period.
+- Outage - systems will not be available to users during the scheduled window
+- Low Impact - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
+- No Outage - maintenance will be performed, but it will not impact users
+
+## Change Freeze Period
+{: #change-freeze-period}
+
+The Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The test window length will depend on the size and complexity of the change and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center) as soon as it is available.
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade isd will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 ## LA Fixes
 {: #lafixes}
