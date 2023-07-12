@@ -38,8 +38,8 @@ With the Dedicated Cluster deployment (otherwise known as MAS-Dedicated), Red Ha
 
 In the Shared Cluster deployment (otherwise known as MAS-MAS), Red Hat OpenShift will be shared across multiple Production Instance(s), Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the software upgrade policy that is set by IBM SRE. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
 
-## 2023 Maintenance Details
-{: #2021-maintenance-details}
+## Maintenance Windows
+{: #maintenance-windows}
 
 Standard maintenance windows for Production environments are planned on weekends (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays.
 
@@ -61,6 +61,8 @@ The Change Freeze period for year end 2023 is December 16, 2023 through January 
 
 Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade isd will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
+MAS (8.x) GA (General Availability) versions are released twice a year by IBM Development (approx)
+
 ## LA Fixes
 {: #lafixes}
 
@@ -72,7 +74,6 @@ During the Manage upgrade process all LA (Limited Availability) aka "one off" or
 Shared Cluster Upgrade Policy
 
 The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
-* MAS (8.x) GA (General Availability) versions are released twice a year by IBM development (approx)
 * MAS-MS comes out on the first Tuesday 30 days after MAS (GA) release.
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-MS 8.10 on 5/2/2023
 * The release of MAS-MS can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS-Dedicated will be 1/17/2023
@@ -117,11 +118,6 @@ Notes:
 * Non-prod upgrade broke a business functionality that is critical to the business, so Prod cannot be updated until the bug is fixed
 * We need upgrade soon, because the new release has feature we need asap
 
-Testing:
-
-* SRE team cannot do any front end test such as can a user login check after upgrade
-* Customer needs to do smoke test of critical business functionalities
-
 Patch Upgrades
 
 The following guidelines apply to patch upgrades:
@@ -136,10 +132,9 @@ The following guidelines apply to patch upgrades:
 Dedicated Cluster Upgrade Policy
 
 The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release schedule:
-* MAS (8.x) GA versions are released twice a year by IBM development (approx)
 * MAS-Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-Dedicated 8.10 on 5/2/2023
-* The release of MAS Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
+* The release of MAS-Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
 
 | Version | MAS (GA) Release | MAS-Dedicated Release | Approx Upgrade Window |
 | -------------- | -------------- | -------------- | -------------- |
@@ -173,10 +168,6 @@ Production Upgrades
 * Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
 * Production environments are upgraded on weekends
 
-Testing:
-* SRE team cannot do any front end test such as can a user login check after upgrade
-* Customer needs to do smoke test of critical business functionalities
-
 Patch Upgrades
 The following guidelines apply to patch upgrades:
 * Minor patches are available 1 week (5 business days) after General Availability (GA)
@@ -184,16 +175,16 @@ The following guidelines apply to patch upgrades:
 * 1 week of advance notice is needed in ticket for Patch upgrade
 * If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
-## Post Upgrade Customer Testing / Validation
+## Post Maintenance Customer Testing / Validation
 {: #post-upgrade-customer-testing-validation}
 
-After completion of an upgrade by the SRE team, it will be the customer's responsibility to perform regression testing and validate that the application is working as expected. Customers are required to check general applicaton functionality and any business critical components. Additionally, any customer specific integrations (JMS) or custom configurations (automation scripts, applications, etc) will need to be validated as well.
+After completion of maintenance windows or upgrades by the SRE team, it will be the customer's responsibility to perform regression testing and validate that the application is working as expected. The IBM SRE team do not have front end application access to customer environmentd. Customers are required to check general applicaton functionality and any business critical components. Additionally, any customer specific integrations (JMS) or custom configurations (automation scripts, applications, etc) will need to be validated as well.
 
 ## Emergency Maintenance
 {: #emergency-maintenance}
 
 In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Dedicated Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Dedicated team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible. Emergency Maintenance will be communicated via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
-See below slidedeck for more information on upgrades, Continuous Delivery and Lon Term Support
+See below slidedeck for more information on upgrades, Continuous Delivery and Long Term Support
 
 [MAS Continuous Delivery and Long Term Support Presentation](https://ibm.box.com/shared/static/xqn8znqlk69p8glipsxbxg9suxli643i.pptx){: external download="MAS CD and LTS Support Models.pptx"}
