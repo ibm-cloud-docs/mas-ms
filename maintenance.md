@@ -66,7 +66,16 @@ MAS (8.x) GA (General Availability) versions are released twice a year by IBM De
 ## LA Fixes
 {: #lafixes}
 
-During the Manage upgrade process all LA (Limited Availability) aka "one off" or "hot" Fixes applied to a customer's environment will be removed. It is assumed the upgrade or fixpack contains the LA Fix. It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open a case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LA Fix is required, this would need to be requested through the support case.  LA Fix approvals by the SRE team will be determined on a case-by-case basis.
+During the Manage upgrade process all LA (Limited Availability) aka "one off" or "hot" Fixes applied to a customer's environment will be removed. It is assumed the upgrade or fixpack contains the LA Fix. It is the customer's responsibility to retest and revalidate all functionality after an upgrade.  If an issue is found, the customer should [open an IBM support case](https://www.ibm.com/mysupport){: external} with the product support team to troubleshoot.  If a new LA Fix is required, this would need to be requested through the support case.  LA Fix approvals by the SRE team will be determined on a case-by-case basis.
+
+## Patch Releases
+{: #patch-releases}
+The following guidelines apply to Maximo Application Suite patch releases:
+* Minor patches are available 1 week (5 business days) after General Availability (GA)
+* Minor patch releases are designated at the last digits in the version. For example Maximo 8.9.0.X, where 'X' is the patch release
+* Patch releases for MAS or any Apps have to be requested via an [IBM support case](https://www.ibm.com/mysupport){: external}
+* 1 week of advance notice is needed in ticket for Patch release update
+* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
 ## Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
@@ -98,7 +107,7 @@ Non-Production Upgrades
 
 * Clients will be notified via CCC at least 5 business days prior to non-production environment upgrades
 * All non-production environments will be upgraded concurrently, without exception
-* Non Production environments are upgraded during weekdays.
+* Non-Production environments are upgraded during weekdays.
 
 Production Upgrades
 
@@ -117,14 +126,6 @@ Notes:
 * We have an executive demo
 * Non-prod upgrade broke a business functionality that is critical to the business, so Prod cannot be updated until the bug is fixed
 * We need upgrade soon, because the new release has feature we need asap
-
-Patch Upgrades
-
-The following guidelines apply to patch upgrades:
-* Minor patches are available 1 week (5 business days) after General Availability (GA)
-* Patch upgrade for MAS or any Apps have to be requested via IBM suppport case
-* 1 week of advance notice is needed in ticket for Patch upgrade
-* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
 ## Dedicated Cluster Deployment Customers
 {: #dedicated-cluster-upgrades}
@@ -160,20 +161,13 @@ Within these parameters:
 * IBM will share long-range anticipated upgrade windows upon request via ticket
 
 Non-Production Upgrades
-* Client must request via tickets which environment and the dates upgrades can happen
-* Non Production environments are upgraded during weekdays.
+* Client must request upgrades via [IBM support case](https://www.ibm.com/mysupport){: external} including the target environment and suggested dates when upgrades can occur
+* Non-Production environments are upgraded during weekdays.
 
 Production Upgrades
 * Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
 * Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
 * Production environments are upgraded on weekends
-
-Patch Upgrades
-The following guidelines apply to patch upgrades:
-* Minor patches are available 1 week (5 business days) after General Availability (GA)
-* Patch upgrade for MAS or any Apps have to be requested via IBM support case
-* 1 week of advance notice is needed in ticket for Patch upgrade
-* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
 
 ## Post Maintenance Customer Testing / Validation
 {: #post-upgrade-customer-testing-validation}
