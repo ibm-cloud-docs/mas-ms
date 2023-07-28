@@ -70,6 +70,7 @@ During the Manage upgrade process all LA (Limited Availability) aka "one off" or
 
 ## Patch Releases
 {: #patch-releases}
+
 The following guidelines apply to Maximo Application Suite patch releases:
 * Minor patches are available 1 week (5 business days) after General Availability (GA)
 * Minor patch releases are designated at the last digits in the version. For example Maximo 8.9.0.X, where 'X' is the patch release
