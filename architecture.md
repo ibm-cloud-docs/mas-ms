@@ -72,6 +72,25 @@ The following diagrams show a high level overview of the architecture for each i
 * All servers are Red Hat Linux O/S
 * Maximo Manage databases are IBM DB2. Oracle and MS SQLServer are not supported.
 
+## MAS-Dedicated Monitoring
+{: #mas-dedicated-monitoring}
+
+Monitoring tasks performed
+
+IBM SRE carries out the following types of monitoring to evaluate the health status of our MAS on cloud production instances and set up proactive alerts and notifications for timely identification and response to critical issues.
+
+System and infrastructure monitoring
+* Use of Instana and OpenShift storage metrics through Prometheus. Monitor the entire Kubernetes Eco-System from Nodes and Pods to Containers and Applications - for ALL K8s Distributions. This type of monitoring ensures that the infrastructure supporting our application is stable and operating optimally.
+
+Application monitoring
+* Instana APM and custom metrics exposed through Prometheus helps monitor and analyze the performance and behavior of our application in real time. Monitor logs using LogDNA in real time to troubleshoot issues and obtain insights into application.
+
+Synthetic monitoring
+* Performs availability checks on customer site URLs for each individual Application of MAS - core, manage, health, predict, monitor, MVI, and IoT.
+
+These monitoring tasks enable IBM SRE to proactively identify issues, perfrom efficient troubleshooting, and continuously optimize our infrastructure to ensure the smooth operation of
+MAS on the cloud.
+
 ## MAS-Dedicated Integrations
 {: #mas-dedicated-integrations}
 
