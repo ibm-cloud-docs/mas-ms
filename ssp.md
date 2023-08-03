@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-07-31"
+lastupdated: "2023-08-03"
 
 subcollection: mas-ms
 
@@ -28,7 +28,7 @@ The purpose of the Self-Service Portal is to empower our clients to access and e
 
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
-This portal is available to all IBM Maximo Application Suite – Managed Service and IBM Maximo Application Suite – Dedicated Customers.
+This portal is available to all IBM Maximo Application Suite – Managed Service, IBM Maximo Application Suite – Dedicated and IBM Maximo Application Suite - SaaS Customers.
 
 You must have access to the Access Management tool in the Self-Service Portal before obtaining access to Self-Service Automation. If you do not have access to the Access Management tool please see [Obtaining Access to the Access Management Tool](#obtaining-access-to-am-tool).
 {: note}
@@ -89,7 +89,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 ### Supported Requests
 {: #supported-requests}
 
-Currently Service Requests are only supported in non-production environments.
+With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maxmo Manage environments. MAS Must Gather is supported for all IBM Maximo Manage and SaaS environments.
 {: note}
 
 #### Start Asset Management Application
@@ -310,7 +310,9 @@ Follow the steps below to obtain access to the Access Management Tool.
 ## Supported Access Requests
 {: #suported-access-requests}
 
-The Access Management Tool provides the ability for users to request and manage accesses to their MAS-Dedicated environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
+The Access Management Tool provides the ability for users to request and manage accesses to their MAS-Dedicated and MAS SaaS environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
+
+\n **Note:** At this time, only Self-Service Portal, Client Communications Center,  Database User Account and Database Service Account access is available for MAS SaaS assets.
 
 | Access Type | Summary |
 | -------------- | -------------- |
