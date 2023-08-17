@@ -24,6 +24,16 @@ Maximo Application Suite Dedicated is implemented using a defined set of technol
 
 The following items are not included or allowed in the Maximo Application Suite Dedicated offering:
 
+## Access
+{: #access}
+
+Clients will not have access to the operating system, file system, Red Hat OpenShift or overall system administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
+
+## MAS Administrator Functions
+{: #mas-administrator-functions}
+
+Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute.
+
 ## Databases
 {: #databases}
 
@@ -55,16 +65,6 @@ LA (Limited Availability) aka "one off" or "hot" fixes are the customer's respon
 {: #3rd-party-applications}
 
 Maximo Application Suite Dedicated will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-Dedicated environment can be integrated to applications with the Suite provided they follow standard integration protocols.
-
-## Access
-{: #access}
-
-Clients will not have access to the operating system, file system or overall system administration of the Suite.  DBAdmin access or direct updating of the database is not allowed.
-
-## MAS Administrator Functions
-{: #mas-administrator-functions}
-
-Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute.
 
 ## AppConnect
 {: #mas-app-connect}
