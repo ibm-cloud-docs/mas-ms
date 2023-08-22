@@ -109,7 +109,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | IBM SRE Task | Duration |
 | -------------- | -------------- |
 | VPN Setup | 15 Days |
-| Root Cause Analysis | 10 Days |
+| Root Cause Analysis | 20 Days |
 | Apply Patch | 5 Days |
 | Backflow (Refresh) Database | 3 Days |
 | On Demand Backup and Restore | 3 Days |
