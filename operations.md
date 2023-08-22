@@ -180,7 +180,7 @@ How to request an RCA
 
 RCA lead times
 
-An RCA can take between 5 to 10 business days to be completed. RCA detail will be provided in the applicable case.
+An RCA can take up to 20 business days to be completed. RCA detail will be provided in the applicable case.
 
 ## IBM Support Guides
 {: #ibm-support-guides}
