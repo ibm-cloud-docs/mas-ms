@@ -89,7 +89,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 ### Supported Requests
 {: #supported-requests}
 
-With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maxmo Manage environments. MAS Must Gather is supported for all IBM Maximo Manage and SaaS environments.
+With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maximo Manage environments. MAS Must Gather is supported for all IBM Maximo Manage and SaaS environments.
 {: note}
 
 #### Start Asset Management Application
