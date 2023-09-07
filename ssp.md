@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-08-03"
+lastupdated: "2023-09-07"
 
 subcollection: mas-ms
 
@@ -89,36 +89,46 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 ### Supported Requests
 {: #supported-requests}
 
-With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maximo Manage environments. MAS Must Gather is supported for all IBM Maximo Manage and SaaS environments.
+With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maximo Manage environments. MAS Must Gather is supported for all product types in both production and non-production environments.
 {: note}
+
+| Request | Non-Production | Production |
+| -------------- | :--------------: | :--------------: |
+| [Start Asset Management Application](#start-asset-management-application) | X | |
+| [Stop Asset Management Application](#stop-asset-management-application) | X | |
+| [Restart Asset Management Application](#restart-asset-management-application) | X | |
+| [Run ConfigDB](#run-configdb) | X | |
+| [Run REORG and RUNSTATS](#run-reorg-and-runstats) | X | |
+| [Run MAS MustGather](#run-mas-mustgather) | X | X |
+{: caption="Supported Requests Matrix" caption-side="bottom"}
 
 #### Start Asset Management Application
 {: #start-asset-management-application}
 
 This task can be used to start the IBM Maximo Manage application for the target environment.
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests).
 
 #### Stop Asset Management Application
 {: #stop-asset-management-application}
 
 This task can be used to stop the IBM Maximo Manage application for the target environment.
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests).
 
 #### Restart Asset Management Application
 {: #restart-asset-management-application}
 
 This task can be used to restart the IBM Maximo Manage application for the target environment.
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request).
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests).
 
 #### Run ConfigDB
 {: #run-configdb}
 
 This task can be used to apply all pending database configuration changes for the target environment. The task stops the IBM Maximo Manage application, runs the Maximo ConfigDB process, then restarts the IBM Maximo Manage application.
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and check the box to certify that a recent backup has been taken in Step 5.
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests), and check the box to certify that a recent backup has been taken in Step 5.
 
    ![SSP-ConfigDB](images/SSP-ConfigDB-panel.png "SSP-ConfigDB"){: caption=""}
 
@@ -128,7 +138,7 @@ This task could take several hours to complete depending on the types of changes
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and select one of the following options from the drop down list in Step 5.
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests), and select one of the following options from the drop down list in Step 5.
 
    ![SSP-Reorg](images/SSP-Reorg-Chooser.png "SSP-Reorg"){: caption=""}
 
@@ -148,7 +158,7 @@ Most cases require only the Runstats operation. Reorganization of tablespaces ne
 
 This task will collect application logs from the target environment and upload the logs to the ECuRep (IBM Support) server.
 
-To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-a-service-request), and fill-in the `Support Case ID` in Step 5.
+To execute this task on an environment, follow the instructions for [Submitting a Service Request](#submitting-requests), and fill-in the `Support Case ID` in Step 5.
 
    ![SSP-MustGather](images/SSP-MustGather-panel.png "SSP-MustGather"){: caption=""}
 
@@ -310,19 +320,17 @@ Follow the steps below to obtain access to the Access Management Tool.
 ## Supported Access Requests
 {: #suported-access-requests}
 
-The Access Management Tool provides the ability for users to request and manage accesses to their MAS-Dedicated and MAS SaaS environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
-
-\n **Note:** At this time, only Self-Service Portal, Client Communications Center,  Database User Account and Database Service Account access is available for MAS SaaS assets.
+The Access Management Tool provides the ability for users to request and manage accesses to their MAS-Dedicated environments. The table below describes the accesses users can request. The table will be updated as new accesses are supported.
 
 | Access Type | Summary |
 | -------------- | -------------- |
 | Self-Service Portal | Grants a user access to submit service requests through the Self-Service Automation for the customer the access request’s asset is linked to. For more information on Self-Service Automation access navigate to the [Self-Service Automation page](#obtaining-access-to-self-service-automation)|
 | Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.   \n For details on how to request Client Communications Center access, see [How to Request Client Communications Center Access](#how-to-request-ccc-access)|
-| Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
-| Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. Passwords can be reset through the Access Management Tool. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-ccc-access)|
-| Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with that is on the system. \n For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
+| Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
+| Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-database-service-account)|
+| Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with what is on the system. \n For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
 | MAS Object Storage File Access | Not yet available. \n For details on how to request MAS Object Storage File access, see [How to Request MAS Object Storage File Access](#how-to-request-cos-file-access)|
-| MAS Object Storage Log Access | Not yet available. \n For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-ccc-access)|
+| MAS Object Storage Log Access | Not yet available. \n For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-cos-log-access)|
 {: caption="Table 1. Supported Access Requests" caption-side="bottom"}
 
 ### How to Request CCC Access
@@ -425,7 +433,7 @@ Follow the steps below to request a Database Service Account.
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
-7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
+7.	Select an asset from the list for the environment you want to request a Database Service Account for.
 
     ![MAS-MS-CCC-Access-6](images/MAS-MS-CCC-Access-6.png "MAS-MS-CCC-Access-6"){: caption=""}
 
@@ -462,7 +470,7 @@ Follow the steps below to request a Database Service Account.
 ### How to Request a Database User Account
 {: #how-to-request-database-user-account}
 
-Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.
+Follow the steps below to request a Database User Account.
 
 1.	Sign into the Self-Service Portal with your IBMid:
 
@@ -493,7 +501,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-5](images/MAS-MS-CCC-Access-5.png "MAS-MS-CCC-Access-5"){: caption=""}
 
-7.	Select an asset from the list for the organization you want to request Client Communications Center access to. Obtaining Client Communications Center access to one asset will grant you communications access to all assets for that organization.
+7.	Select an asset from the list for the environment you want to request a Database User Account for.
 
     ![MAS-MS-CCC-Access-6](images/MAS-MS-CCC-Access-6.png "MAS-MS-CCC-Access-6"){: caption=""}
 
@@ -513,7 +521,7 @@ Follow the steps below to request access to the Client Communications Center Das
 
     ![MAS-MS-CCC-Access-10](images/SSP-AMT-DB-User-Act.png "MAS-MS-CCC-Access-10"){: caption=""}
 
-12.	Enter a reason for requesting the Database Service Account in the **Justification** field. The Database Account ID will be populated for you.
+12.	Enter a reason for requesting the Database User Account in the **Justification** field. The Database Account ID will be populated for you.
 
     ![MAS-MS-CCC-Access-12](images/SSP-AMT-DB-User-Detail.png "MAS-MS-CCC-Access-12"){: caption=""}
 
@@ -531,7 +539,7 @@ Follow the steps below to request access to the Client Communications Center Das
 ### How to Reset a Database Account Password
 {: #how-to-reset-database-password}
 
-Follow the steps below to request access to the Client Communications Center Dashboard for your organization. For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.
+Follow the steps below to request a password reset for a Database Service or Database User account.
 
 1.	Sign into the Self-Service Portal with your IBMid:
 
