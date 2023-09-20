@@ -89,7 +89,7 @@ In order to obtain access to Self-Service Automation in the Self-Service Portal 
 ### Supported Requests
 {: #supported-requests}
 
-With the exception of the MAS Must Gather request, Service Requests are currently only supported in non-production IBM Maximo Manage environments. MAS Must Gather is supported for all product types in both production and non-production environments.
+With the exception of the MAS Must Gather request, Service Requests are currently only supported in IBM Maximo Manage environments. MAS Must Gather is supported for all product types in both production and non-production environments.
 {: note}
 
 | Request | Non-Production | Production |
@@ -98,7 +98,7 @@ With the exception of the MAS Must Gather request, Service Requests are currentl
 | [Stop Asset Management Application](#stop-asset-management-application) | X | |
 | [Restart Asset Management Application](#restart-asset-management-application) | X | |
 | [Run ConfigDB](#run-configdb) | X | |
-| [Run REORG and RUNSTATS](#run-reorg-and-runstats) | X | |
+| [Run REORG and RUNSTATS](#run-reorg-and-runstats) | X | X |
 | [Run MAS MustGather](#run-mas-mustgather) | X | X |
 {: caption="Supported Requests Matrix" caption-side="bottom"}
 
@@ -144,7 +144,7 @@ To execute this task on an environment, follow the instructions for [Submitting 
 
 `Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
-`Offine reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space.
+`Offline reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. This option is only supported for non-production environments.
 
 The environment will be unavailable during the execution of this task, and depending on the size of the database, this task may take up to several hours complete.
 
