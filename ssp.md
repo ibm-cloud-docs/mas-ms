@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2023
-lastupdated: "2023-09-07"
+lastupdated: "2023-09-21"
 
 subcollection: mas-ms
 
@@ -165,7 +165,7 @@ To execute this task on an environment, follow the instructions for [Submitting 
 ### Submitting a Service Request
 {: #submitting-requests}
 
-Currently Service Requests are only supported in non-production environments.
+Currently, aside from Run REORG and RUNSTATS and Run MAS MustGather, Service Requests are only supported in non-production environments.
 {: note}
 
 1. Using your IBMid, sign-on to the portal (https://devops.maximo.com)
@@ -183,9 +183,6 @@ Currently Service Requests are only supported in non-production environments.
     ![SSP-Select-Asset](images/SSP-Select-Asset.png "SSP-Select-Asset"){: caption=""}
 
 5. Select the action you would like to take by clicking on the magnifying glass next to the "Requested Action" field. Select the action from the pop-up list. Fill in any required information for the chosen action.
-
-    If you select a production asset then the pop-up list will be empty.
-    {: note}
 
     ![SSP-Select-Action](images/SSP-Select-Action.png "SSP-Select-Action"){: caption=""}
 
@@ -326,8 +323,8 @@ The Access Management Tool provides the ability for users to request and manage 
 | -------------- | -------------- |
 | Self-Service Portal | Grants a user access to submit service requests through the Self-Service Automation for the customer the access request’s asset is linked to. For more information on Self-Service Automation access navigate to the [Self-Service Automation page](#obtaining-access-to-self-service-automation)|
 | Client Communications Center | Obtain access to the Client Communications Center Dashboard for your organization and subscribe to email notifications.  \n For more information on the Client Communications Center, navigate to the [Client Communications Center](/docs/mas-ms?topic=mas-ms-client-communications-center) page.   \n For details on how to request Client Communications Center access, see [How to Request Client Communications Center Access](#how-to-request-ccc-access)|
-| Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
-| Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets (not yet available) will be granted read only access on the standby database server. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-database-service-account)|
+| Create Database Service Account | Creates a database service account on the asset the access request is linked to. This account should be used for integration (i.e. used by a program not by a user). \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets will be granted read only access on the standby database server. \n **Note:** Since the database accounts for production systems are created on the standby database, they can only be requested in environments that have HADR (High Availability Disaster Recovery) configured. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database service account passwords expire every 365 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database Service Account, see [How to Request a Database Service Account](#how-to-request-database-service-account)|
+| Create Database User Account | Creates a database user account on the asset the access request is linked to. \n Database accounts requested for non-production assets will be granted read/write access to the primary database server. Accounts for production assets will be granted read only access on the standby database server. \n **Note:** Since the database accounts for production systems are created on the standby database, they can only be requested in environments that have HADR (High Availability Disaster Recovery) configured. \n The database password and the required SSL certificate information will be populated on the Access record when the account is created. \n **Note:** Database user account passwords expire every 90 days. You will be notified by email two weeks prior to the expiration date. If you do not reset the password prior to the expiration date the password will be automatically reset and the new password will be loaded into the access record for the account. \n For details on how to request a Database User Account, see [How to Request a Database User Account](#how-to-request-database-user-account)|
 | Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with what is on the system. \n For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
 | MAS Object Storage File Access | Not yet available. \n For details on how to request MAS Object Storage File access, see [How to Request MAS Object Storage File Access](#how-to-request-cos-file-access)|
 | MAS Object Storage Log Access | Not yet available. \n For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-cos-log-access)|
@@ -539,7 +536,7 @@ Follow the steps below to request a Database User Account.
 ### How to Reset a Database Account Password
 {: #how-to-reset-database-password}
 
-Follow the steps below to request a password reset for a Database Service or Database User account.
+Follow the steps below to request a password reset for a Database Service or Database User Account.
 
 1.	Sign into the Self-Service Portal with your IBMid:
 
