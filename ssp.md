@@ -144,10 +144,6 @@ To execute this task on an environment, follow the instructions for [Submitting 
 
 `Runstats only` operation to improve SQL performance. This option updates statistics in the system catalog about tables, view, and indexes. DB2’s query optimizer uses these statistics to improve query performance.
 
-`Offline reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. This option is only supported for non-production environments.
-
-The environment will be unavailable during the execution of this task, and depending on the size of the database, this task may take up to several hours complete.
-
 `Online reorganization` of tablespaces along with runstats operation for the target asset to improve SQL performance and reclaim fragmented disk space. The environment is not stopped for this option.
 
 Most cases require only the Runstats operation. Reorganization of tablespaces need only be run if a significant amount of data has been deleted from the database since the last tablespace reorganization.
