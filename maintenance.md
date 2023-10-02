@@ -59,7 +59,7 @@ The Change Freeze period for year end 2023 is December 16, 2023 through January 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade isd will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade and  will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 MAS (8.x) GA (General Availability) versions are released twice a year by IBM Development (approx)
 
