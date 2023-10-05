@@ -95,7 +95,7 @@ The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
 | 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
 
-<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade
+<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
 <sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
@@ -148,7 +148,7 @@ The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release sche
 | 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
 
-<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade
+<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
 <sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
