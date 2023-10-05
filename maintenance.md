@@ -59,7 +59,7 @@ The Change Freeze period for year end 2023 is December 16, 2023 through January 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade and  will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 MAS (8.x) GA (General Availability) versions are released twice a year by IBM Development (approx)
 
@@ -84,16 +84,19 @@ The following guidelines apply to Maximo Application Suite patch releases:
 Shared Cluster Upgrade Policy
 
 The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
+* Starting with v8.10, all MAS releases are Long Term Support (LTS) Releases
 * MAS-MS comes out on the first Tuesday 30 days after MAS (GA) release.
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-MS 8.10 on 5/2/2023
 * The release of MAS-MS can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS-Dedicated will be 1/17/2023
 
-| Version | MAS (GA) Release | MAS-MS Release |
+| MAS Version | MAS (GA) Release Date | MAS-MS Release Date |
 | -------------- | -------------- | -------------- |
-| 8.9 | 11/22/22 | 1/17/23 |
-| 8.10 (LTS) | 3/28/23 | 5/2/23 |
-| 8.11 | 9/26/23 | 10/30/23 |
+| 8.10 | 3/28/23 | 5/2/23 |
+| 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
+
+<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade
+<sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
 
@@ -134,16 +137,19 @@ Notes:
 Dedicated Cluster Upgrade Policy
 
 The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release schedule:
+* Starting with v8.10, all MAS releases are Long Term Support (LTS) Releases
 * MAS-Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
 * For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-Dedicated 8.10 on 5/2/2023
 * The release of MAS-Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
 
-| Version | MAS (GA) Release | MAS-Dedicated Release | Approx Upgrade Window |
-| -------------- | -------------- | -------------- | -------------- |
-| 8.9 | 11/22/22 | 1/17/23 | March to June |
-| 8.10 (LTS) | 3/28/23 | 5/2/23 | June to September |
-| 8.11 | 9/26/23 | 10/30/23 | By Request after 10/30/23 |
+| MAS Version | MAS (GA) Release Date | MAS-Dedicated Release Date |
+| -------------- | -------------- | -------------- |
+| 8.10 | 3/28/23 | 5/2/23 |
+| 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
+
+<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade
+<sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
 The following guidelines apply to planning for MAS upgrades:
