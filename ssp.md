@@ -26,6 +26,8 @@ Self Service Portal URL: https://devops.maximo.com
 
 The purpose of the Self-Service Portal is to empower our clients to access and execute selected services in both production and non-production environments. These pre-selected tasks can be run immediately or scheduled for a future time.
 
+The Self Service Portal should be used in lieu of submitting a support case. Before submitting a case, check to see if your issue can be addressed by using the SSP. If a case/ticket is submitted to execute a request that is available on the Self Service Portal, the case will be rejected and closed. Customers can open a case if their job fails in the Self Service Portal. Be sure to include detail of failed job in the case. Please note as more features are added to Self Service Portal, the expectation is that customers will use this functionality in lieu of submitting individual support cases.
+
 The Self-Service Portal is comprised of two main parts, the Access Management Tool for administering Access Requests, and the Self-Service Automation for submitting Service Requests to run against assets.
 
 This portal is available to all IBM Maximo Application Suite – Managed Service, IBM Maximo Application Suite – Dedicated and IBM Maximo Application Suite - SaaS Customers.

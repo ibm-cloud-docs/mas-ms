@@ -22,6 +22,8 @@ subcollection: mas-ms
 
 Support for MAS Dedicated can be obtained by submitting a support case through the [IBM support portal](https://www.ibm.com/mysupport){: external}. You must have an [IBMid](https://myibm.ibm.com){: external} and be [registered for support](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated#how-to-register-for-mas-support) before you can [create a case](/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated#how-to-create-a-case). Cases are reviewed based on the severity level assigned. Please see table below for further details.
 
+Before submitting a case, check to see if your issue can be addressed using the [Self Service Portal (SSP)](/docs/mas-ms?topic=mas-ms-ssp#supported-requests). If a case/ticket is submitted to execute a request that is available on the Self Service Portal, the case will be rejected and closed. Customers can open a case if their job fails in the Self Service Portal. Be sure to include detail of failed job in the case. Please note as more Self Service features are added to Self Service Portal, the expectation is that customers will use this functionality in lieu of submitting individual support cases.
+
 | Case Severity Level | Description | Response Time Objective | Response Time Coverage |
 | -------------- | -------------- | -------------- | -------------- |
 | 1 | Critical Business Impact/Service Down: Business critical functionality is inoperable or critical interface has failed. This should be used for Production environments only and indicates an inability to access services resulting in a critical impact on operations. | Within 1 hour | 24x7 |
