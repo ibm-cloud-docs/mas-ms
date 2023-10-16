@@ -152,6 +152,7 @@ The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release sche
 <sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
+
 The following guidelines apply to planning for MAS upgrades:
 * Clients must remain on a supported version.  This means either be on n or n-1 or a Long Term Support version.  For example once 8.13 is released, 8.11 is no longer in support so a customer will need to be on 8.12 before 8.13 is released.
 * Long Term Support (LTS) releases are designated by development.  8.10 has been designated as a Long Term Support release.  LTS releases are supported for up to three years.  No new functionality will be delivered on this release, but fixes and security patches will be available and delivered to clients on LTS releases.
