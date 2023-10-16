@@ -92,7 +92,7 @@ The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
 | MAS Version | MAS (GA) Release Date | MAS-MS Release Date |
 | -------------- | -------------- | -------------- |
 | 8.10 | 3/28/23 | 5/2/23 |
-| 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
+| 8.11 | 9/26/23 | 10/31/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
 
 <sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
@@ -145,7 +145,7 @@ The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release sche
 | MAS Version | MAS (GA) Release Date | MAS-Dedicated Release Date |
 | -------------- | -------------- | -------------- |
 | 8.10 | 3/28/23 | 5/2/23 |
-| 8.11 | 9/26/23 | 10/30/23 <sup>1,2</sup>|
+| 8.11 | 9/26/23 | 10/31/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
 
 <sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
