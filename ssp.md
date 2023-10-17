@@ -96,10 +96,10 @@ With the exception of the MAS Must Gather request, Service Requests are currentl
 
 | Request | Non-Production | Production |
 | -------------- | :--------------: | :--------------: |
-| [Start Asset Management Application](#start-asset-management-application) | X | |
-| [Stop Asset Management Application](#stop-asset-management-application) | X | |
-| [Restart Asset Management Application](#restart-asset-management-application) | X | |
-| [Run ConfigDB](#run-configdb) | X | |
+| [Start Asset Management Application](#start-asset-management-application) | X | X |
+| [Stop Asset Management Application](#stop-asset-management-application) | X | X |
+| [Restart Asset Management Application](#restart-asset-management-application) | X | X |
+| [Run ConfigDB](#run-configdb) | X | X |
 | [Run REORG and RUNSTATS](#run-reorg-and-runstats) | X | X |
 | [Run MAS MustGather](#run-mas-mustgather) | X | X |
 {: caption="Supported Requests Matrix" caption-side="bottom"}
