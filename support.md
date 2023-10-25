@@ -33,11 +33,21 @@ Before submitting a case, check to see if your issue can be addressed using the 
 | 4 | Minimal business impact: An inquiry or non-technical request. | Within 1 business day | Monday – Friday business hours |
 {: caption="Table 1. IBM Support Case Severity Levels and Response Time" caption-side="bottom"}
 
+**Off Shift Weekend/Holiday Support** (Severity 1 Only)
+
+If you require support between the hours of Friday 8pm to Sunday 6pm US Eastern Time (and Christmas Day and New Years Day) for a Severity 1 case, the following steps are required:
+
+1. Log a new case using the IBM Support Community and set the Severity to 1 (only if not related to an existing Sev1). Provide as much detail as possible, including the business impact and confirm it is a production system issue.
+2. Call your local IBM Support Center ([click here for IBM Directory of worldwide contacts](https://www.ibm.com/planetwide)) and request to speak to the duty engineer.
+
+Failure to follow this process results in no support during off-shift hours.
+{: note}
+
 **Response Time Objective** describes IBM's goals only and do not represent a guarantee of performance.
 
 **Business Hours** reflect normal country business hours in your time zone. For example, 8:00 AM to 5:00 PM in North America or 9:00 AM to 6:00 PM in some parts of Asia and Europe, Monday through Friday, excluding weekends and national or statutory holidays.
 
-For further details, please refer to the [IBM Support Guide](https://www.ibm.com/support/pages/node/733923){: external}
+For further details, please refer to the [IBM Support Guide](https://www.ibm.com/support/pages/node/6443339){: external}
 
 ## MAS-Dedicated Environment Route URLs
 {: #environment-route-urls}
