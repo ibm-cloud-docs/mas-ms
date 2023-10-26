@@ -59,9 +59,13 @@ The Change Freeze period for year end 2023 is December 16, 2023 through January 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Application and MAS component Upgrades are on a defined schedule based on the Maximo Application Suite release schedule and complexity of the upgrade. Upgrades will be deployed first to non-production and then scheduled for production. The upgrade window duration will depend on the size and complexity of the upgrade and will be communicated through the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+Starting November 1st, 2023 all MAS-MS and MAS-Dedicated customers must request MAS upgrades by [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s).
 
-MAS (8.x) GA (General Availability) versions are released twice a year by IBM Development (approx)
+IBM SRE will then put you in a queue to receive the upgrade.
+
+It should be noted that IBM SRE will determine the date, start time and duration for the upgrade based on your environment(s) and our available resources and overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+
+Please also note the IBM SRE Change / Freeze period of December 16th, 2023 to January 2nd, 2024. MAS Upgrades will not be scheduled or performed during this timeframe.
 
 ## LA Fixes
 {: #lafixes}
