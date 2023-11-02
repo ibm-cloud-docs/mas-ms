@@ -188,7 +188,7 @@ Make the following API request:
 
 The API request creates an entry in the LOGREQUEST table of the Maximo Manage database for each server bundle. A continuously running cron task uploads the compressed log files to your S3 storage location when the table is updated. The name of each file contains the source location and the timestamp of when the command started to run.  You will have a Bucket for Logs.  This bucket name will be defined in your Welcome Letter.
 
-* Maximo Manage API Documentation - https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
+* Maximo Manage API Documentation - https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=applications-integration-apis
 
 How to use the new Tools API with Maximo Application Suite:
 
@@ -232,7 +232,7 @@ In your welcome letter you will receive details on a bucket for customer files. 
 
 All integrations are done through API Keys. See link below for further details.
 
-https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=applications-integration-framework-overview
+https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=applications-integration-framework-overview
 
 ### Maximo Manage Queues
 {: #integration-maximo-manage-queues}
@@ -244,14 +244,14 @@ The MAS Manage environments use Event Streams (IBM Kaftka) topics for integratio
 
 Maximo Manage - Moving from JMS to Kafka:
 
-https://www.ibm.com/docs/en/maximo-manage/continuous-delivery?topic=upgrade-integration#concept_dhf_2hv_5tb
+https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=applications-integration-apache-kafka
 
 ### Administrative Utilities (API Calls)
 {: #admin-util-api-calls}
 
 You can run script commands for several key utilities by using API requests. The script commands can run the integrity checker utilities, start and stop the Maximo® Manage pods, download log files or a list of log files, and upload logs to Simple Storage Service (S3) Cloud Object Storage.
 
-* More details can be found at: https://www.ibm.com/docs/en/maximo-manage/8.1.0?topic=suite-apis-administrative-utilities
+* More details can be found at: https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=reference-apis-administrative-utilities
 
 | Description | API Call Example |
 | -------------- | -------------- |
@@ -372,6 +372,6 @@ A Site-to-Site IPsec VPN can be configured between the IBM Cloud environment and
 {: #maximo-mobile}
 
 For questions related to use of Maximo Mobile in MAS-Dedicated Manage, please refer to the link below.
-https://www.ibm.com/docs/en/maximo-manage/8.0.0?topic=managing-maximo-mobile
+https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=managing-using-maximo-mobile
 
 Once on the resulting page, select the desired version of Maximo Mobile from the drop-down 'Change version' in the top left corner.
