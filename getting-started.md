@@ -290,7 +290,7 @@ To acquire your license keys:
 
 For further information on AppPoints, see the link below:
 
-https://www.ibm.com/docs/en/mas86/8.6.0?topic=overview-apppoints
+https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=overview-apppoints
 
 
 ## Next steps

@@ -286,10 +286,10 @@ The first step of the configuration is for the MAS SRE team to create the SAML S
 Note: When creating a case requesting your SAML SSO setup please include one of the above User Identifiers in the case details.
 
 MAS User and Identity Details:
-https://www.ibm.com/docs/en/mas85/8.5.0?topic=administering-configuring-suite#users-id-section
+https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=configuring-users-identity
 
 MAS SAML Authentication:
-https://www.ibm.com/docs/en/mas86/8.6.0?topic=administering-configuring-suite#sa
+https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=authentication-methods#configuring-authentication__saml-authentication__title__1
 
 ## LDAP user registry synchronization
 {: #ldap-registry-sync}
@@ -324,7 +324,7 @@ Other:
 Note: typically a site-to-site VPN is required to make a connection from the MAS-Dedicated environment to your LDAP server.
 
 Additional details on LDAP user registry synchronization can be found here:
-https://www.ibm.com/docs/en/mas86/8.6.0?topic=access-administering-ldap-user-registry-synchronization
+https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=identity-ldap-user-registry-synchronization
 
 ## SMTP Setup
 {: #smtp-setup}
