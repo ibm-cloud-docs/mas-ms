@@ -166,7 +166,7 @@ IBM and the customer share the responsibility to ensure the appropriate personne
 ## Database Export
 {: #migration-backup-image}
 
-The IBM SRE team requires a database export at the same database version level that is running in the target MAS-Dedicated environment.  We can accept/use an export done using db2move/db2look.  The database export file should be uploaded to your IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
+The IBM SRE team requires a DB2 export of the source production database using db2move/db2look.  The database export file should be uploaded to your IBM Cloud COS bucket. The bucket detail and its connection detail will be send via welcome letter.
 
 Bucket name: masms-XX-X-XXX-XXXXX-"InstanceName"-XX-XXX-cust-files
 
