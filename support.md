@@ -199,25 +199,21 @@ https://www.ibm.com/support/pages/node/6519816?myns=swgother&mynp=OCSSRHPA&mync=
 
 Connecting to the MAS Manage database using a DB2 ODBC Driver
 
-* Download the ODBC driver for DB2 Version 11.5.8.0. The ODBC driver should match with the db2 database version on cloud. So download the correct ODBC driver using the below link:
+* Download the ODBC driver for your DB2 Version using the link below. The ODBC driver should match with the DB2 database version on Cloud. If you do not know your DB2 version, please submit a case asking for this information.
 
 https://www.ibm.com/support/pages/db2-odbc-cli-driver-download-and-installation-information
 
-* After you download the correct driver follow the steps in the **Installation** section
+* After you download the correct driver follow the steps in the applicable **Installation** section
 
-For example:
-
-When using Windows your command will be;
-
-db2oreg1 -i and db2oreg1 -setup
-
-Lastly open the ODBC data source administration and select the above installed driver. Enter the username and password in the Data Source section and add below parameters in the Advance Setting.
+Lastly open the ODBC data source administration and select the above installed driver. Enter the username and password in the Data Source section and add below parameters in the Advance Setting:
 
 - Database
 - Hostname
 - Port
 - Security - SSL
 - SSLServerCertificate <- Path of the your database certificate which we have provided to make the ssl connection
+
+Pleae note ODBC driver setup and configuration with your specific tool is not support by IBM. The above information is provided for reference purposes only.
 
 ## Integration
 {: #integration}
