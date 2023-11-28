@@ -264,10 +264,10 @@ The **Adminurl** will be defined in the Welcome Letter.
 
 Note: The above API calls are only available in the non-production environments. The only call which is available for Prod environment is Upload logs from Maximo Manage pods to S3 Cloud Object Storage.
 
-### Exporting and Importing File-based data in Maximo Manage
+### Exporting and Importing File-based Data in Maximo Manage
 {: #file-based-data}
 
-See link below for further information on Exporting and Importing File-based data in Maximo Manage:
+See link below for further information on Exporting and Importing File-based Data in Maximo Manage:
 
 https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=applications-exporting-importing-file-based-data
 
