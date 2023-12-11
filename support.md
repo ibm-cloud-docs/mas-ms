@@ -98,6 +98,17 @@ It is the client's responsibility to ensure once access is no longer required fo
 | Run DBC Scripts | Not Allowed | Not Allowed |
 {: caption="Table 1. MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"}
 
+## Best Practices for Configuring Maximo Databases and Migrating Changes
+{: #configuring-maximo-database}
+
+The Maximo Database Configuration Application should be used for making database configuration changes. For further details, please see link below:
+
+https://www.ibm.com/support/pages/best-practice-configuring-your-maximo-database
+
+Migration Manager should be used for migrating changes from one environment to another (for example from DEV to TEST). For further details, please see link below:
+
+https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=content-migration
+
 ## Running SQL Scripts in Production
 {: #running-sql-scripts}
 
