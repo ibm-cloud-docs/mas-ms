@@ -109,6 +109,9 @@ Migration Manager should be used for migrating changes from one environment to a
 
 https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=content-migration
 
+The above processes have all validation built in, which reduces the chances of failure.
+{: note}
+
 ## Running SQL Scripts in Production
 {: #running-sql-scripts}
 
