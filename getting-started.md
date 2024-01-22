@@ -314,10 +314,6 @@ https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=overview-apppoints
 
     https://www.ibm.com/support/pages/node/733923
 
-7. Register for Maximo Application Suite Onboarding Kick-Off Training. To register, see link below:
+7. Before using your new environment, please be sure to complete the Maximo Application Suite Dedicated onboarding training for administration tasks. There is no cost for this online training. Your team can reference and retake this training as a refresher as often as needed. See link below.
 
-    https://ibm.webex.com/webappng/sites/ibm/webinar/webinarSeries/register/6f56e66f6c584bb3ac5dbd1a7601619f
-
-    Maximo Application Suite Onboarding Kick-Off Meeting Deck:
-
-    https://ibm.ent.box.com/s/3xixg4xr12rtzagrqumneo789yt3597r
+    https://learn.ibm.com/course/view.php?id=16174
