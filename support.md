@@ -142,6 +142,9 @@ SQL Script Limitations:
 
 * Some buckets are read-only which means you can only download data from that bucket while some are read/write meaning you can upload and download data.
 
+All Custfile bucket data will be purged automatically by IBM SRE when it is 15 days old and Log bucket data when it is 30 days old.
+{: note}
+
 The below steps can only be performed by the client once they have received their Welcome Letter.
 
 ### Rclone Config for COS file Upload and Download - Step-by-Step Guide
