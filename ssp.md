@@ -632,8 +632,27 @@ Follow these steps to remove a user’s access.
 
     ![SSP-AM-Remove-User-8](images/SSP-AM-Remove-User-8.png "SSP-AM-Remove-User-8"){: caption=""}
 
-## How to Grant a User Access to a Customer
+## How to Grant an Existing User Access to a Customer
 {: #grant-user-access-customer-am-tool}
+
+If your user role is Manager follow these steps to make an existing user a Manager for your Customer.
+
+Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
+{: note}
+
+1. Sign into the Self-Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application.
+
+    ![SSP-AM-Grant-User-Customer-1](images/SSP-AM-Grant-User-Customer-1.png "SSP-AM-Grant-User-Customer-1"){: caption=""}
+
+3. If the user does not have access to your Customer, follow the instructions for [How to Grant a User Access to a Customer](#how-to-grant-a-user-access-to-a-customer)
+
+4. Once the user has access to your Customer if they are a STD_USER then all you need to do is open their access record and change the Role on the Person Information page to MANAGER. This will automatically assign them as a Manager for your customer.
+
+5. If the user is already a Manager for another Customer then you must first change their Role to STD_USER. You can then change it to MANAGER. This will automatically assign them as a Manager for your customer.
+
+
 
 Managers in the Access Management application are able to grant existing users access to the customer they are managing. This process is similar to adding a new user to the Access Management tool. Once a user is granted access to a customer they can submit access requests for that customer. All access requests must be approved by a Manager User for that customer before they are granted.
 
@@ -755,6 +774,26 @@ Follow these steps to create a new user if your user role is Manager.
     ![SSP-AM-Create-User-4](images/SSP-AM-Create-User-4.png "SSP-AM-Create-User-4"){: caption=""}
 
 6. The new user will be created once the backend processing is completed. You will know the new user was successfully created when the user status changes to "ACTIVE". The new user will receive an email with instructions on how to login to the Self-Service Portal once their user is activated.
+
+## How to Promote an Existing User to Manage Your Customer
+{: #promote-manager-access-am-tool}
+
+If your user role is Manager follow these steps to make an existing user a Manager for your Customer.
+
+Only users that will be responsible for approving/rejecting access requests should be assigned the Manager role.
+{: note}
+
+1. Sign into the Self-Service Portal: https://devops.maximo.com
+
+2. Navigate to the Access Management application.
+
+    ![SSP-AM-Create-User-1](images/SSP-AM-Create-User-1.png "SSP-AM-Create-User-1"){: caption=""}
+
+3. If the user does not have access to your Customer, follow the instructions for [How to Grant a User Access to a Customer](#how-to-grant-a-user-access-to-a-customer)
+
+4. Once the user has access to your Customer if they are a STD_USER then all you need to do is open their access record and change the Role on the Person Information page to MANAGER. This will automatically assign them as a Manager for your customer.
+
+5. If the user is already a Manager for another Customer then you must first change their Role to STD_USER. You can then change it to MANAGER. This will automatically assign them as a Manager for your customer.
 
 ## How to Approve / Reject an Access Request
 {: #approve-reject-access-am-tool}
