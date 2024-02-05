@@ -25,18 +25,18 @@ subcollection: mas-ms
 
 The MAS Cloud Service supports two architectural deployment options, Dedicated Cluster and Shared Cluster, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and used. For both deployment options, the client will have their own MAS Applications and their own database schemas, but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
 
-Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are Shared Cluster deployment.  Clients who were quoted and purchased off that quote after January 2023 are MAS-Dedicated Cluster deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
+Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 
 **Dedicated Cluster Deployment** (default)
 
-With the Dedicated Cluster deployment (otherwise known as MAS-Dedicated), Red Hat OpenShift is not shared by multiple Production Instances(s), Non-Production Instance(s) or Clients. Each MAS Client Production Instance and Non-Production Instance will have its own Services and it will not be shared across clients. Clients choosing the Dedicated Cluster deployment will determine when they wish to implement MAS-Dedicated software upgrades. The upgrade may be postponed or deferred by the client. Client will need to communicate to IBM Support if they wish to defer an upgrade. The following exceptions apply:
+With Dedicated Cluster deployment (otherwise known as MAS-Dedicated), Red Hat OpenShift is not shared by multiple Production Instances(s), Non-Production Instance(s) or Clients. Each MAS Client Production Instance and Non-Production Instance will have its own Services and it will not be shared across clients. Clients choosing the Dedicated Cluster deployment will determine when they wish to implement MAS-Dedicated software upgrades. The upgrade may be postponed or deferred by the client. Client will need to communicate to IBM Support if they wish to defer an upgrade. The following exceptions apply:
 
 - Client must always be on a supported version. Client will need to upgrade their current version before it reaches the end of support date.
 - Client will always be required to accept critical security patches. IBM alone will determine whether a patch is deemed a critical security patch and the date it will be applied.
 
 **Shared Cluster Deployment** (optional)
 
-In the Shared Cluster deployment (otherwise known as MAS-MAS), Red Hat OpenShift will be shared across multiple Production Instance(s), Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment will be subject to the software upgrade policy that is set by IBM SRE. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed.
+In the Shared Cluster deployment (otherwise known as MAS-MAS), Red Hat OpenShift will be shared across multiple Production Instance(s), Non-Production Instance(s) and Clients. Clients choosing the Shared Cluster deployment **will be subject to the software upgrade policy that is set by IBM SRE.** IBM will determine and communicate when upgrades will occur, and **no deferrals or exceptions** will be allowed.
 
 ## Maintenance Windows
 {: #maintenance-windows}
@@ -49,6 +49,7 @@ Systems are usually not available to users during maintenance windows, but the f
 
 - Outage - systems will not be available to users during the scheduled window
 - Low Impact - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
+- Medium Impact - users may experience a period of intermittent connectivity (30 mins to 1 hour) durig the scheduled window
 - No Outage - maintenance will be performed, but it will not impact users
 
 ## Change Freeze Period
@@ -59,11 +60,11 @@ The Change Freeze period for year end 2023 is December 16, 2023 through January 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Starting November 1st, 2023 all MAS-MS and MAS-Dedicated customers must request MAS upgrades by [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s).
+Starting March 1st, 2023 all MAS-MS and MAS-Dedicated customers can request specfic MAS upgrade times via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s).
 
 IBM SRE will then put you in a queue to receive the upgrade.
 
-It should be noted that IBM SRE will determine the date, start time and duration for the upgrade based on your environment(s) and our available resources and overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+It should be noted that IBM SRE will determine the date, start time and duration for the upgrade based on your environment(s), our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 Please also note the IBM SRE Change / Freeze period of December 16th, 2023 to January 2nd, 2024. MAS Upgrades will not be scheduled or performed during this timeframe.
 
@@ -95,11 +96,11 @@ The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
 
 | MAS Version | MAS (GA) Release Date | MAS-MS Release Date |
 | -------------- | -------------- | -------------- |
-| 8.10 | 3/28/23 | 5/2/23 |
 | 8.11 | 9/26/23 | 10/31/23 <sup>1,2</sup>|
 {: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
 
-<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
+<sup>1</sup> After 10/31/23 – v8.11 available, will be pushed out direclyto customerect
+must open ticket to request upgrade<br>
 <sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
 Planning Guidelines
