@@ -23,25 +23,25 @@ subcollection: mas-ms
 ## Deployment Options
 {: #deployment-options}
 
-The MAS Cloud Service supports two architectural deployment options, _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and maintained. For both deployment options, the client will have their own MAS Application(s) and their own database schema(s) (for example PROD, TEST, DEV), but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
+The MAS Cloud Service supports two architectural deployment options: _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and maintained. For both deployment options, the client will have their own MAS Application(s) and their own database schema(s) (for example PROD, TEST, DEV), but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
 
 Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 {: note}
 
-**Dedicated Cluster Deployment**
+**Dedicated Cluster Deployment** (MAS-Dedicated)
 
-With Dedicated Cluster deployment (otherwise known as MAS-Dedicated), clients maintain their own individual MAS Applications and database schemas, and Red Hat OpenShift clusters are not shared. Each MAS Client environment (PROD, TEST, DEV, etc) resides on it's own dedicated RHOS cluster and service. IBM determines, schedules and communicates when upgrades will occur, but customer initiated deferrals and exceptions are permitted.
+With Dedicated Cluster deployment, clients maintain their own individual MAS Applications and database schemas, and Red Hat OpenShift clusters are not shared. Each MAS Client environment (PROD, TEST, DEV, etc) resides on it's own dedicated RHOS cluster and service. IBM determines, schedules and communicates when upgrades will occur, but customer initiated deferrals and exceptions are permitted.
 
-**Shared Cluster Deployment**
+**Shared Cluster Deployment** (MAS-MS)
 
-With a Shared Cluster deployment (otherwise known as MAS-MS), clients still maintain their own individual MAS Applications and database schemas, but these reside on one or more shared Red Hat OpenShift instances with other customers. Clients choosing the Shared Cluster deployment **are subject to the software upgrade policy that is set by IBM SRE.** IBM determines, schedules and communicates when upgrades will occur, and **no deferrals or exceptions** are allowed.
+With a Shared Cluster deployment, clients still maintain their own individual MAS Applications and database schemas, but these reside on one or more _shared_ Red Hat OpenShift instances with other customers. Clients choosing the Shared Cluster deployment are subject to the software upgrade policy that is set by IBM SRE. IBM determines, schedules and communicates when upgrades will occur. **No deferrals or exceptions** are allowed.
 
 ## Maintenance Windows
 {: #maintenance-windows}
 
 The standard maintenance window for all production environments is over the weekend (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays (Mon-Fri).
 
-The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). It is important all customers subscribe in order to receive CCC notifications.
+The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). **It is important all customers subscribe in order to receive CCC maintenance notifications.**
 
 Systems are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
 
@@ -53,20 +53,18 @@ Systems are usually not available to users during maintenance windows, but the f
 ## Change Freeze Period
 {: #change-freeze-period}
 
-The Change Freeze period for year end 2023 is December 16, 2023 through January 2, 2024. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
+The Change Freeze period for year end 2024 is December 18th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Starting March 1st, 2024 all MAS-MS and MAS-Dedicated customers will receieve  MAS 8.1 1 upgrades. Customer will be assigned a an initial date and time. Customers can request specfic upgrade times via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s).
-
-IBM SRE will then put you in a queue to receive the upgrade.
+Starting March 1st, 2024 all MAS-MS and MAS-Dedicated customers will receieve  MAS 8.1 1 upgrades. Customer will be assigned an initial date and time. Customers can request specfic upgrade times via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
 
 It should be noted that IBM SRE will initially determine the date, start time and duration for the upgrade based on your environment(s), our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 Shared Cluster customers are not allowed to defer or re-schedule the 8.11 upgrade. Dedicated Cluster custonmers can submit deferral date(s) for consideration.
 
-Please also note the IBM SRE Change / Freeze period of December 16th, 2023 to January 2nd, 2024. MAS Upgrades will not be scheduled or performed during this timeframe.
+Please also note the IBM SRE Change / Freeze period of December 16th, 2024 to January 2nd, 2025. MAS Upgrades will not be scheduled or performed during this timeframe.
 
 ## LA Fixes
 {: #lafixes}
