@@ -23,27 +23,27 @@ subcollection: mas-ms
 ## Deployment Options
 {: #deployment-options}
 
-The MAS Cloud Service supports two architectural deployment options, _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and maintained. For both deployment options, the client will have their own MAS Application(s) and their own database schema(s), but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
+The MAS Cloud Service supports two architectural deployment options, _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Units, Virtual Processor Cores and Gigabyte entitlements. The difference between the two options is how the Cloud Service is deployed and maintained. For both deployment options, the client will have their own MAS Application(s) and their own database schema(s) (for example PROD, TEST, DEV), but the underlying architecture will be different. The Cloud Service will be configured based on the deployment option purchased.
 
 Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 {: note}
 
-**Dedicated Cluster Deployment** (default)
+**Dedicated Cluster Deployment**
 
-With Dedicated Cluster deployment (otherwise known as MAS-Dedicated), clients maintain their own individual MAS Applications and database schemas, and Red Hat OpenShift is not shared. Each MAS Client environment (PROD, TEST, DEV, etc) resides on it's own dedicated RHOS cluster and service. IBM determines, schedules and communicates when upgrades will occur, but customer deferrals and exceptions are permitted.
+With Dedicated Cluster deployment (otherwise known as MAS-Dedicated), clients maintain their own individual MAS Applications and database schemas, and Red Hat OpenShift clusters are not shared. Each MAS Client environment (PROD, TEST, DEV, etc) resides on it's own dedicated RHOS cluster and service. IBM determines, schedules and communicates when upgrades will occur, but customer initiated deferrals and exceptions are permitted.
 
-**Shared Cluster Deployment** (optional)
+**Shared Cluster Deployment**
 
-With a Shared Cluster deployment (otherwise known as MAS-MS), clients still maintain their own individual MAS Applications and database schemas, but these reside on onre or more shared Red Hat OpenShift instances with other customers. Clients still maintain their own individual MAS Applications and their own database schemas. Clients choosing the Shared Cluster deployment **are subject to the software upgrade policy that is set by IBM SRE.** IBM will determine and communicate when upgrades will occur, and **no deferrals or exceptions** are allowed.
+With a Shared Cluster deployment (otherwise known as MAS-MS), clients still maintain their own individual MAS Applications and database schemas, but these reside on one or more shared Red Hat OpenShift instances with other customers. Clients choosing the Shared Cluster deployment **are subject to the software upgrade policy that is set by IBM SRE.** IBM determines, schedules and communicates when upgrades will occur, and **no deferrals or exceptions** are allowed.
 
 ## Maintenance Windows
 {: #maintenance-windows}
 
 The standard maintenance window for all production environments is over the weekend (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays (Mon-Fri).
 
-The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). It is important all customers subscribe in order to receive CCC notifications.
 
-Systems are usually not available to users during maintenance windows, but the following maintenance categories may be applied as needed:
+Systems are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
 
 - Outage - systems will not be available to users during the scheduled window
 - Low Impact - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
