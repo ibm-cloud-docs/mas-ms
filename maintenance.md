@@ -23,7 +23,7 @@ subcollection: mas-ms
 ## Deployment Options
 {: #deployment-options}
 
-The MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both deployment options, the client will have separate MAS Applications and database instances for each environment ordered (for example PROD, TEST, DEV) but the underlying infrastructure will be different. The Cloud Service will be configured based on the deployment option purchased.
+The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_, each of which require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both deployment options, the client will have separate MAS Applications and database instances for each environment ordered (for example PROD, TEST, DEV) but the underlying infrastructure will be different. The Cloud Service will be configured based on the deployment option purchased.
 
 Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 {: note}
