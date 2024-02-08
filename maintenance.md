@@ -23,13 +23,13 @@ subcollection: mas-ms
 ## Infrastructure Deployment Options
 {: #deployment-options}
 
-The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both scenarios the client is provided separate MAS Applications and database instances for each environment ordered (for example PROD, TEST, DEV) - but the underlying infrastructure will differ according to the deployment type ordered.
+The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both scenarios the client is provided separate MAS Applications and database instances for each environment (for example PROD, TEST, DEV) - but the underlying infrastructure will differ according to the deployment type ordered.
 
 **Dedicated Cluster Deployment** (MAS-Dedicated)
 
 In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift cluster and service. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
 
-**Shared Cluster Deployment** (MAS-MS)
+**Shared Cluster Deployment** (MAS-MS "Managed Service")
 
 In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift instances (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule set and determined by IBM SRE. In this scenario, IBM determines, schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
 
@@ -39,7 +39,9 @@ Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 
 ## Maintenance Windows
 {: #maintenance-windows}
 
-The standard maintenance window for all production environments is over the weekend (Saturday / Sunday). Non-Production environment maintenance is performed on weekdays (Mon-Fri).
+Maintenance windows for production environments are scheduled over the weekend (Saturday 00:00 UTC -> Sunday 24:00 UTC).
+Non-Production environment maintenance is scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
+There may be exceptions in which case Customers will be notified in advance
 
 The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). **It is important all customers subscribe in order to receive CCC maintenance notifications.**
 
@@ -58,7 +60,7 @@ The Change Freeze period for year end 2024 is December 18th, 2024 through Januar
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will will be assigned an upgrade date and time and recieve MAS 8.1 1 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
+Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and recieve MAS 8.1 1 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
 
 It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
