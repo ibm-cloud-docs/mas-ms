@@ -43,7 +43,10 @@ Maintenance windows for production environments are scheduled over the weekend (
 Non-Production environment maintenance is scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
 There may be exceptions in which case Customers will be notified in advance
 
-The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). **It is important all customers subscribe in order to receive CCC maintenance notifications.**
+The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+
+It is important all customers subscribe in order to receive CCC maintenance notifications.
+{: note}
 
 Environments are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
 
