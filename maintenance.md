@@ -45,12 +45,12 @@ There may be exceptions in which case Customers will be notified in advance
 
 The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). **It is important all customers subscribe in order to receive CCC maintenance notifications.**
 
-Systems are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
+Environments are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
 
-- Outage - systems will not be available to users during the scheduled window
-- Low Impact - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
-- Medium Impact - users may experience a period of intermittent connectivity (30 mins to 1 hour) durig the scheduled window
-- No Outage - maintenance will be performed, but it will not impact users
+- **Outage** - systems will not be available to users for the duration of the scheduled window
+- **Low Impact** - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
+- **Medium Impact** - users may experience a period of intermittent connectivity (30 mins to 1 hour) during the scheduled window
+- **No Outage** - maintenance will be performed, but it will not impact users
 
 ## Change Freeze Period
 {: #change-freeze-period}
