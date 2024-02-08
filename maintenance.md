@@ -29,7 +29,7 @@ The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedic
 
 In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift cluster and service. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
 
-**Shared Cluster Deployment** (MAS-MS "Managed Service")
+**Shared Cluster Deployment** (MAS-MS aka "Managed Service")
 
 In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift instances (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule set and determined by IBM SRE. In this scenario, IBM determines, schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
 
@@ -67,7 +67,7 @@ Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned
 
 It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
-Shared Cluster customers are not allowed to defer or re-schedule the 8.11 upgrades. Dedicated Cluster custonmers can submit deferral date(s) for consideration.
+Shared Cluster (MAS-MS) customers are not allowed to defer or re-schedule upgrades. Dedicated Cluster custonmers (MAS-Dedicated) can submit deferral date(s) for consideration.
 {: #note}
 
 Please also note the IBM SRE Change / Freeze period of December 18th, 2024 to January 3rd, 2025. MAS Upgrades will not be scheduled or performed during this timeframe.
@@ -83,10 +83,10 @@ During the Manage upgrade process all LA (Limited Availability) aka "one off" or
 
 The following guidelines apply to Maximo Application Suite patch releases:
 * Minor patches are available 1 week (5 business days) after General Availability (GA)
-* Minor patch releases are designated at the last digits in the version. For example Maximo 8.9.0.X, where 'X' is the patch release
+* Minor patch releases are designated at the last digits in the version. For example Maximo 8.10.0.X, where 'X' is the patch release
 * Patch releases for MAS or any Apps have to be requested via an [IBM support case](https://www.ibm.com/mysupport){: external}
 * 1 week of advance notice is needed in ticket for Patch release update
-* If Patch contains security fixes or any security fix available, IBM SRE team will apply fix as soon as its available. No exceptions.
+* If Patch contains security fixes or any security fix available, IBM SRE team will apply fixes as soon as they are available. No exceptions.
 
 ## Shared Cluster Deployment Customers
 {: #shared-cluster-upgrades}
@@ -108,11 +108,11 @@ The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
 must open ticket to request upgrade<br>
 <sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
 
-Planning Guidelines
+Planning Guidelines - Shared Cluster
 
-The following guidelines apply to planning for MAS upgrades:
+The following guidelines apply to planning upgrades for MAS-MS (Shared) cluster deployments:
 * Upgrade schedules are set by IBM & communicated via [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center)
-* Upgrade schedules are non-negotiable
+* Upgrade schedules are non-negotiable for MAS-MS (Shared Cluster) deployments.
 * All client stakeholders must register to receive CCC notifications & communications
 * IBM will share long-range anticipated upgrade windows upon request via ticket
 * Timing is subject to change at IBM’s sole discretion based on software availability & other factors
@@ -120,20 +120,20 @@ The following guidelines apply to planning for MAS upgrades:
 Non-Production Upgrades
 
 * Clients will be notified via CCC at least 5 business days prior to non-production environment upgrades
-* All non-production environments will be upgraded concurrently, without exception
+* All non-production environments will be upgraded concurrently, without exception.
 * Non-Production environments are upgraded during weekdays.
 
 Production Upgrades
 
 * Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
-* Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
+* Some requests (e.g. data back-flow) are unavailable between Non-Production & Production upgrades
 * Clients will be notified via CCC at least 10 business days prior to the Production environment upgrade
-* The Production environment will be upgraded on schedule, without exception
+* The Production environment will be upgraded on schedule; deferal requests permitted
 * Production environments are upgraded on weekends
 
 Notes:
 
-* Upgrades of both prod or non-prod cannot requested to be done earlier or deferred to later for any reason, such as:
+Upgrades of both prod or non-prod cannot requested to be done earlier or deferred to later for any reason, such as:
 * We have training scheduled on planned maintenance window
 * We are in critical stage of implementation phase and env cannot be touched
 * We have a golive coming up and system cannot be touched
