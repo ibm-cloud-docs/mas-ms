@@ -20,21 +20,21 @@ subcollection: mas-ms
 # Maintenance
 {: #maintenance}
 
-## Deployment Options
+## Infrastructure Deployment Options
 {: #deployment-options}
 
-The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both deployment options, the client will have separate MAS Applications and database instances for each environment ordered (for example PROD, TEST, DEV) - but the underlying infrastructure will differ according to the descriptions below. The Cloud Service will be configured based on the deployment option purchased.
-
-Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
-{: note}
+The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both scenarios the client is provided separate MAS Applications and database instances for each environment ordered (for example PROD, TEST, DEV) - but the underlying infrastructure will differ according to the deployment type ordered.
 
 **Dedicated Cluster Deployment** (MAS-Dedicated)
 
-In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances, and Red Hat OpenShift clusters are not shared. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift cluster and service. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are allowed.
+In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift cluster and service. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
 
 **Shared Cluster Deployment** (MAS-MS)
 
-In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift instances (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade policy that is set by IBM SRE. IBM determines, schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** allowed.
+In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift instances (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule set and determined by IBM SRE. In this scenario, IBM determines, schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
+
+Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
+{: note}
 
 ## Maintenance Windows
 {: #maintenance-windows}
