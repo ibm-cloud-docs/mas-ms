@@ -63,7 +63,7 @@ The Change Freeze period for year end 2024 is December 18th, 2024 through Januar
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and recieve MAS 8.1 1 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.1.1, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
+Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and recieve MAS 8.11 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.11, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
 
 It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
