@@ -27,11 +27,11 @@ The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedic
 
 **Dedicated Cluster Deployment** (MAS-Dedicated)
 
-In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift cluster and service. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
+In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift Cluster. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
 
 **Shared Cluster Deployment** (MAS-MS aka "Managed Service")
 
-In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift instances (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule set and determined by IBM SRE. In this scenario, IBM determines, schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
+In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift Clusters (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule (determined by IBM SRE). In this scenario, IBM schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
 
 Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 {: note}
