@@ -23,7 +23,7 @@ subcollection: mas-ms
 ## Infrastructure Deployment Options
 {: #deployment-options}
 
-The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both scenarios the client is provided separate MAS Applications and database instances for each environment (for example PROD, TEST, DEV) - but the underlying infrastructure will differ according to the deployment type ordered.
+The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedicated Cluster_ and _Shared Cluster_. Both require Capacity Unit, Virtual Processor Core and Gigabyte entitlements. The difference between the two options is how the Cloud Service is provisioned, deployed and maintained. In both scenarios the client is provided separate MAS Applications and database instances for each environment (for example PROD, TEST, DEV) on IBM Cloud - but the underlying infrastructure will differ according to the deployment type ordered.
 
 **Dedicated Cluster Deployment** (MAS-Dedicated)
 
@@ -41,7 +41,7 @@ Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 
 
 Maintenance windows for production environments are scheduled over the weekend (Saturday 00:00 UTC -> Sunday 24:00 UTC).
 Non-Production environment maintenance is scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
-There may be exceptions in which case Customers will be notified in advance
+There may be exceptions, in which case Customers will be notified in advance.
 
 The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production maintenance and 10 business days prior to any Production maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
