@@ -28,7 +28,7 @@ completion-time: 10m
 
 ![MAS Dedicated Site Banner](images/MAS-MS-Site-Banner.jpg "MAS-Dedicated Site Banner"){: caption=""}
 
-On January 23rd 2024, IBM announced the end of marketing for the Maximo Application Suite Dedicated offering. The official announcement can be found on the link below.
+On January 23rd 2024, IBM announced the end of marketing for the Maximo Application Suite Dedicated offering. The official announcement can be found in the link below.
 {: .attention}
 
 [End of marketing of IBM Maximo Application Suite Dedicated and IBM TRIRIGA Application Suite Managed Service - IBM Documentation](https://www.ibm.com/docs/en/announcements/mas-dedicated-tas-managed-service-saas-eom)
