@@ -76,10 +76,9 @@ IBM Maximo Application Suite Dedicated supports DB2 as the database for the Suit
 
 Please note, if a client has been granted write access to a database, and there are issues with data, the SRE team will only restore the database back to the last version.  SRE personnel will not troubleshoot queries or data issues in these databases.
 
-A support case must be submitted listing the names and emails of the users needing access.
-One ticket is required for each database.
+The Access Management Tool located on the Self Service Portal (SSP) should be used to request and/or remove Database Access Acounts. Please see link below for further information:
 
-It is the client's responsibility to ensure once access is no longer required for a user, a support case is submitted to have the IBM SRE team remove that user's access.
+https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-ssp#access-management-overview
 
 ## Summary of MAS-Dedicated Database Access Rules & Guidelines
 {: #mas-dedicated-database-access-rules-summary}
