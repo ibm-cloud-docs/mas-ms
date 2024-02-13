@@ -38,6 +38,7 @@ Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 
 
 ## Maintenance Windows
 {: #maintenance-windows}
+(Applies to both Dedicated and Shared Cluster Deployments)
 
 Maintenance Windows for Production Environments are scheduled on weekends (Saturday 00:00 UTC -> Sunday 24:00 UTC).
 Maintenance Windows for Non-Production Environments are scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
