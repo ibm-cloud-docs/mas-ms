@@ -80,7 +80,7 @@ The Access Management Tool located on the Self Service Portal (SSP) should be us
 
 https://cloud.ibm.com/docs/mas-ms?topic=mas-ms-ssp#access-management-overview
 
-It is the client's responsibility to ensure once access is no longer required for a user, they remove that user's access using the SSP.
+It is the client's responsibility to ensure once database access is no longer required for a user, they remove that user's access using the SSP.
 {: note}
 
 ## Summary of MAS-Dedicated Database Access Rules & Guidelines
