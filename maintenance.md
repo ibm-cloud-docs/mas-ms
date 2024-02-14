@@ -27,11 +27,11 @@ The IBM MAS Cloud Service supports two infrastructure deployment options: _Dedic
 
 **Dedicated Cluster Deployment** (MAS-Dedicated)
 
-In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift Cluster. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when upgrades will occur. Customer initiated deferrals are permitted.
+In a Dedicated Cluster Deployment, clients maintain their own individual MAS Applications and database instances. Each MAS Client environment (PROD, TEST, DEV) resides on it's own dedicated Red Hat OpenShift Cluster. Red Hat OpenShift clusters are not shared. IBM determines, schedules and communicates when MAS and Application upgrades will occur. Customer initiated deferrals are permitted, but must scheduled at a mutally agreeable time and date with the IBM SRE team.
 
 **Shared Cluster Deployment** (MAS-MS aka "Managed Service")
 
-In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift Clusters (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule (determined by IBM SRE). In this scenario, IBM schedules and communicates when upgrades will occur. Customer intiated deferrals are **not** permitted.
+In a Shared Cluster Deployment, clients maintain their own individual MAS Applications and database instances, but these reside on one or more _shared_ Red Hat OpenShift Clusters (along with other customers). Clients choosing the Shared Cluster deployment must follow the software upgrade schedule (determined by IBM SRE). In this scenario, IBM schedules and communicates when MAS and Application upgrades will occur. Customer intiated deferrals are **not** permitted.
 
 Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 2022 are _Shared Cluster_ deployment.  Clients who were quoted and purchased off that quote after January 2023 are _Dedicated Cluster_ deployment.  If you are not sure which deployment option you have please contact your IBM sales person, CSM or open a support ticket.
 {: note}
@@ -52,14 +52,16 @@ It is important all customers subscribe in order to receive CCC maintenance noti
 Environments are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
 
 - **Outage** - systems will not be available to users for the duration of the scheduled window
-- **Low Impact** - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
 - **Medium Impact** - users may experience a period of intermittent connectivity (30 mins to 1 hour) during the scheduled window
+- **Low Impact** - users may experience a brief period of intermittent connectivity (up to 15 mins) during the scheduled window
 - **No Outage** - maintenance will be performed, but it will not impact users
 
 ## Change Freeze Period
 {: #change-freeze-period}
 
 The Change Freeze period for year end 2024 is December 18th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
+
+The [Self Service Portal](/docs/mas-ms?topic=mas-ms-ssp) is available for Non-Production environments during the change freeze window. Production environment SSP access, with the exception of running MAS Must Gather, is not allowed.
 
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
