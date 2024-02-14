@@ -66,9 +66,9 @@ The [Self Service Portal](/docs/mas-ms?topic=mas-ms-ssp) is available for Non-Pr
 ## Upgrade Rules, Policy and Plans
 {: #upgrade-rules}
 
-Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and recieve MAS 8.11 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.11, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
+Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and receive MAS 8.11 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.11, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
 
-It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on our available resources and the overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
+It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
 Shared Cluster (MAS-MS) customers are not allowed to defer or re-schedule upgrades. Dedicated Cluster custonmers (MAS-Dedicated) can submit deferral date(s) for consideration.
 {: #note}
@@ -91,105 +91,6 @@ The following guidelines apply to Maximo Application Suite patch releases:
 * 1 week of advance notice is needed in ticket for Patch release update
 * If Patch contains security fixes or any security fix available, IBM SRE team will apply fixes as soon as they are available. No exceptions.
 
-## Shared Cluster Deployment Customers
-{: #shared-cluster-upgrades}
-
-Shared Cluster Upgrade Policy
-
-The following guidelines apply to MAS-MS (Shared Cluster) release schedule:
-* Starting with v8.10, all MAS releases are Long Term Support (LTS) Releases
-* MAS-MS comes out on the first Tuesday 30 days after MAS (GA) release.
-* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-MS 8.10 on 5/2/2023
-* The release of MAS-MS can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS-Dedicated will be 1/17/2023
-
-| MAS Version | MAS (GA) Release Date | MAS-MS Release Date |
-| -------------- | -------------- | -------------- |
-| 8.11 | 9/26/23 | 10/31/23 <sup>1,2</sup>|
-{: caption="Table 1. MAS-MS Release Planning" caption-side="bottom"}
-
-<sup>1</sup> After 10/31/23 – v8.11 available, will be pushed out direclyto customerect
-must open ticket to request upgrade<br>
-<sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
-
-Planning Guidelines - Shared Cluster
-
-The following guidelines apply to planning upgrades for MAS-MS (Shared) cluster deployments:
-* Upgrade schedules are set by IBM & communicated via [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center)
-* Upgrade schedules are non-negotiable for MAS-MS (Shared Cluster) deployments.
-* All client stakeholders must register to receive CCC notifications & communications
-* IBM will share long-range anticipated upgrade windows upon request via ticket
-* Timing is subject to change at IBM’s sole discretion based on software availability & other factors
-
-Non-Production Upgrades
-
-* Clients will be notified via CCC at least 5 business days prior to non-production environment upgrades
-* All non-production environments will be upgraded concurrently, without exception.
-* Non-Production environments are upgraded during weekdays.
-
-Production Upgrades
-
-* Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
-* Some requests (e.g. data back-flow) are unavailable between Non-Production & Production upgrades
-* Clients will be notified via CCC at least 10 business days prior to the Production environment upgrade
-* The Production environment will be upgraded on schedule; deferal requests permitted
-* Production environments are upgraded on weekends
-
-Notes:
-
-Upgrades of both prod or non-prod cannot requested to be done earlier or deferred to later for any reason, such as:
-* We have training scheduled on planned maintenance window
-* We are in critical stage of implementation phase and env cannot be touched
-* We have a golive coming up and system cannot be touched
-* We have an executive demo
-* Non-prod upgrade broke a business functionality that is critical to the business, so Prod cannot be updated until the bug is fixed
-* We need upgrade soon, because the new release has feature we need asap
-
-## Dedicated Cluster Deployment Customers
-{: #dedicated-cluster-upgrades}
-
-Dedicated Cluster Upgrade Policy
-
-The following guidelines apply to MAS-Dedicated (Dedicated Cluster) release schedule:
-* Starting with v8.10, all MAS releases are Long Term Support (LTS) Releases
-* MAS-Dedicated comes out on the first Tuesday 30 days after MAS (GA) release.
-* For example, MAS 8.10 (GA) will be released by IBM on 3/28/2023 and MAS-Dedicated 8.10 on 5/2/2023
-* The release of MAS-Dedicated can be delayed beyond 30 days due to holidays and freeze periods. For example MAS 8.9 was released on 11/22/2022 and MAS Dedicated will be 1/17/2023
-
-| MAS Version | MAS (GA) Release Date | MAS-Dedicated Release Date |
-| -------------- | -------------- | -------------- |
-| 8.10 | 3/28/23 | 5/2/23 |
-| 8.11 | 9/26/23 | 10/31/23 <sup>1,2</sup>|
-{: caption="Table 1. MAS-Dedicated Release Planning" caption-side="bottom"}
-
-<sup>1</sup> After 10/31/23 – v8.11 available, customer must open ticket to request upgrade<br>
-<sup>2</sup> Please note change / freeze period in effect 12/16/23 – 1/2/24
-
-Planning Guidelines
-
-The following guidelines apply to planning for MAS upgrades:
-* Clients must remain on a supported version.  This means either be on n or n-1 or a Long Term Support version.  For example once 8.13 is released, 8.11 is no longer in support so a customer will need to be on 8.12 before 8.13 is released.
-* Long Term Support (LTS) releases are designated by development.  8.10 has been designated as a Long Term Support release.  LTS releases are supported for up to three years.  No new functionality will be delivered on this release, but fixes and security patches will be available and delivered to clients on LTS releases.
-* Supporting Software such as Openshift and DB2 are on separate release schedules.  These will be updated according the support policies of those teams.  LTS releases will be updated to support newer versions of the supporting software.  This means even if on a LTS release over the three years, there will still be a need to upgrade some elements.
-
-Within these parameters:
-* Clients can request specific dates for upgrading their environments.  Clients on an LTS release can remain on that release for the time it is supported.
-* Non production environments will be done during the week
-* Production environments are typically done over the weekend
-* Clients can determine the length of time between upgrading non production and production assuming the production upgrade happens prior to the existing version being out of support.
-* Clients must request via a ticket the dates.
-* Clients on non Long Term Support versions will be notified via Client Communication Center (CCC) with proposed dates to ensure clients remain in support. Clients can defer, but only within the window to stay on a supported version.
-* All client stakeholders must register to receive CCC notifications & communications
-* IBM will share long-range anticipated upgrade windows upon request via ticket
-
-Non-Production Upgrades
-* Client must request upgrades via [IBM support case](https://www.ibm.com/mysupport){: external} including the target environment and suggested dates when upgrades can occur
-* Non-Production environments are upgraded during weekdays.
-
-Production Upgrades
-* Production environments will be upgraded no earlier than 4 weeks after the non-production upgrade
-* Some requests (e.g. data back-flow) are unavailable between non-production & Production upgrades
-* Production environments are upgraded on weekends
-
 ## Post Maintenance Customer Testing / Validation
 {: #post-upgrade-customer-testing-validation}
 
@@ -199,7 +100,3 @@ After completion of maintenance windows or upgrades by the SRE team, it will be 
 {: #emergency-maintenance}
 
 In exceptional cases such as critical security patching, the The IBM Maximo Application Suite Dedicated Services team may need to schedule unplanned emergency maintenance outages outside of a Planned Maintenance window for Production systems.  The IBM Maximo Application Suite Dedicated team will provide as much advanced notice as possible, however depending on criticality of the security patch, 5-10 business days notice may not be possible. Emergency Maintenance will be communicated via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
-
-See below slidedeck for more information on upgrades, Continuous Delivery and Long Term Support
-
-[MAS Continuous Delivery and Long Term Support Presentation](https://ibm.box.com/shared/static/xqn8znqlk69p8glipsxbxg9suxli643i.pptx){: external download="MAS CD and LTS Support Models.pptx"}
