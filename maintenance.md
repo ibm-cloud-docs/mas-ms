@@ -69,8 +69,8 @@ The [Self Service Portal](/docs/mas-ms?topic=mas-ms-ssp) is available for Non-Pr
 Starting March 1st, 2024 all MAS-Dedicated and MAS-MS customers will be assigned an upgrade date and time and receive MAS 8.11 upgrade notifications. Customers can also request the upgrade via case ticket [case ticket](https://support.ibm.com). If you wish to upgrade to v8.11, submit a case ticket requesting the upgrade, along with the target environment URL(s). IBM SRE will then put you in a queue to receive the upgrade.
 
 Customers can request a specific date and time for MAS and Appliction upgrades as long as the following conditions apply:
-- The request is may at least 10 business days proior to the requested upgrade date
-- The customer and IBM are able to find a mutually agreeable date and time where the proper resources on both sides are available.
+- The request is may at least 10 business days prior to the requested upgrade date
+- The customer and MAS SRE Operations team are able to find a mutually agreeable date and time where the proper resources on both sides will be available.
 
 It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
