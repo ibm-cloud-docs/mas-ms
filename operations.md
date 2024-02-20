@@ -108,6 +108,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 
 | IBM SRE Task | Duration |
 | -------------- | -------------- |
+| MAS Environment Upgrade | 10 Days |
 | VPN Setup | 15 Days |
 | Root Cause Analysis | 20 Days |
 | Apply Patch | 5 Days |
