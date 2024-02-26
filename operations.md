@@ -85,6 +85,7 @@ IBM's MAS-Dedicated support personnel are located across the globe in the follow
 
 * United States
 * Canada
+* Costa Rica
 * Brazil
 * United Kingdom
 * Ireland
