@@ -58,8 +58,6 @@ The following diagrams show a high level overview of the architecture for each i
 
 ![MAS-Dedicated Architecture](images/MAS-MS-Architecture.png "MAS-Dedicated Architecture"){: caption="Figure 1. MAS-Dedicated Architecture on IBM CLoud" caption-side="bottom"}
 
-![MAS-Dedicated Architecture AWS](images/MAS-MS-Architecture-AWS-Single-Tenant.png "MAS-Dedicated Architecture AWS"){: caption="Figure 1. MAS-Dedicated Architecture on AWS" caption-side="bottom"}
-
 ## MAS-Dedicated Architecture Highlights
 {: #mas-dedicated-highlights}
 
