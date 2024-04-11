@@ -73,10 +73,6 @@ There are three (3) MAS-Dedicated part numbers:
 * D02QUZX - Data
 * D02QWZX - VPC (Virtual Processor Core)
 
-To correctly size an order, please use the MAS-Dedicated T-Shirt Calculator:
-
-[Maximo Application Suite Dedicated T-Shirt Calculator v6](https://ibm.box.com/shared/static/aydqzy5in7coc0995vfcctyhg55ic4ar.xlsm){: external download="MAS-Dedicated-Tshirt-Calculator-v6.xls"}
-
 For additional information, please contact Mike Cookson:
 
 michael.cookson@ibm.com
