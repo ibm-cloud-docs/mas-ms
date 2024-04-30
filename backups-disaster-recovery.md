@@ -25,7 +25,7 @@ subcollection: mas-ms
 
 Data used by applications within the Maximo Application Suite portfolio are backed up according to the following:
 
-All backups are encrypted. Communication between applications, backup scripts the storage layer and DB services are perfromed via secure transport and accessed only via private endpoints that are offered by the service. Production backups are performed once a day. Backups are stored in a separate IBM Cloud data center location.
+All backups are encrypted. Communication between applications, backup scripts the storage layer and DB services are performed via secure transport and accessed only via private endpoints that are offered by the service. Production backups are performed once a day. Backups are stored in a separate IBM Cloud data center location.
 
 ## System Configuration Backups
 {: #system-configuration-backups}
