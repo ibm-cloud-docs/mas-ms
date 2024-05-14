@@ -64,7 +64,15 @@ LA (Limited Availability) aka "one off" or "hot" fixes are the customer's respon
 ## 3rd Party Applications
 {: #3rd-party-applications}
 
-Maximo Application Suite Dedicated will not host or support any 3rd party applications.  3rd Party applications hosted outside the MAS-Dedicated environment can be integrated to applications with the Suite provided they follow standard integration protocols.
+MAS-Dedicated and MAS-MS offer limited support of customer owned third party applications in the IBM cloud environment.
+
+* Third party applications must be considered "Add-On" or complimentary components necessary to the operation of Maximo
+* Customer must provide all required media and licensing for third party products
+* Stand alone third party applications (those with no connectivity or interaction with Maximo) are not supported
+* It should be assumed that IBM SRE has no awareness or expertise in using or managing customer owned third party applications
+* Third party applications must be small footprint (enterprise level applications are not supported within Maximo Cloud environments)
+* All proposed third party applications must be reviewed and approved by the IBM SRE management team prior to contract approval
+* A Third Party Application Vendor Questionnaire must be completed for review by the IBM SRE team. See Attachments tab below.
 
 ## AppConnect
 {: #mas-app-connect}
