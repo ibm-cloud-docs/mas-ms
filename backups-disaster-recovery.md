@@ -66,6 +66,7 @@ RPO is the longest possible time since data was last backed up.
 
 These are Service Level Objectives (SLO's) and not Service Level Agreements.
 
-For information on IBM business continuity, please refer to IBM's Business Continuity Management Position Paper:
+## Business Continuity
+For information on IBM business continuity, please refer to IBM's Business Continuity Management Position Paper. It is IBM Confidential and can be shared under a non-disclosure agreement.  Please note only IBM personnel can access the link below.  If required, please contact your IBM Sales person or Customer Success Manager.
 
-https://www.ibm.com/downloads/cas/81M5VGP7
+https://w3.ibm.com/w3publisher/global-bcm/education/copy-of-faq

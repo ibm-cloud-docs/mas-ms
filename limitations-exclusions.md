@@ -64,7 +64,7 @@ LA (Limited Availability) aka "one off" or "hot" fixes are the customer's respon
 ## 3rd Party Applications
 {: #3rd-party-applications}
 
-MAS-Dedicated and MAS-MS offer limited support of customer owned third party applications in the IBM cloud environment.
+MAS-Dedicated and MAS-MS offer limited support of customer owned third party applications in the IBM cloud environment. You environment(s) must be on their own dedicated cluster in order to support the below scenario.
 
 * Third party applications must be considered "Add-On" or complimentary components necessary to the operation of Maximo
 * Customer must provide all required media and licensing for third party products
