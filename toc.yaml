@@ -7,13 +7,11 @@ toc:
     product-page: https://www.ibm.com/products/maximo
     path: mas-ms
     label: Maximo Application Suite Dedicated
-
   entries:
   - navgroup:
       id: learn
       topics:
       - getting-started.md
-
   - navgroup:
       id: reference
       topics:
@@ -30,8 +28,6 @@ toc:
       - limitations-exclusions.md
       - communicationscenter.md
       - ssp.md
-
-
   - navgroup:
       id: help
       topics:
