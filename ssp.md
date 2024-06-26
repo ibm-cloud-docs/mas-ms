@@ -137,6 +137,11 @@ To execute this task on an environment, follow the instructions for [Submitting 
 This task could take several hours to complete depending on the types of changes being made and how much data resides in the database tables being modified. Additionally, access to the database will be limited during the execution of this task to users belonging to restricted access groups.
 {: attention}
 
+##### Database Restore When ConfigDB Fails
+- For scenarios where there is a ConfigDB failure, automation restores the database to a timestamp previous to the start of the ConfigDB process.
+- Depending on the backup history for this database, this process can be very time consuming.
+
+
 #### Run REORG and RUNSTATS
 {: #run-reorg-and-runstats}
 
