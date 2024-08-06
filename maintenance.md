@@ -40,15 +40,15 @@ Clients who purchased MAS-MS (Managed Service) or were quoted prior to December 
 {: #maintenance-windows}
 (Applies to both Dedicated and Shared Cluster Deployments)
 
-Maintenance Windows for **Production** Environments are scheduled on weekends (Saturday 00:00 UTC -> Sunday 24:00 UTC).
+Maintenance Windows for Production Environments are scheduled on weekends (Saturday 00:00 UTC -> Sunday 24:00 UTC).
 
-Maintenance Windows for **Non-Production** Environments are scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
+Maintenance Windows for Non-Production Environments are scheduled on weekdays (Monday 00:00 UTC -> Friday 24:00 UTC).
 
 There may be exceptions, in which case Customers will be notified in advance.
 
 The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production environment impacting maintenance and 10 business days prior to any Production environment impacting maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). This pertains to environment impacting (outage) maintenanace only. Non-environment impacting (no outage) maintenance is not subject to this policy.
 
-Customers must [subscribe](/docs/mas-ms?topic=topic=guide-self-service-portal#how-to-request-ccc-access) in order to receive CCC maintenance notifications via email.
+Customers must [subscribe](/docs/mas-ms?topic=topic=guide-self-service-portal#how-to-request-ccc-access) in order to receive maintenance notifications via email.
 {: note}
 
 Environments are usually not available to users during maintenance windows, but the following maintenance categories may be applied:
