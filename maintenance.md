@@ -89,7 +89,7 @@ During the Manage upgrade process all LA (Limited Availability) aka "one off" or
 
 The following guidelines apply to Maximo Application Suite patch releases:
 * Minor patches are available 1 week (5 business days) after General Availability (GA)
-* Minor patch releases are designated at the last digits in the version. For example Maximo 8.10.0.X, where 'X' is the patch release
+* Minor patch releases are designated at the last digits in the version. For example Maximo 8.10.X, 8.11.x or 8.9.x where 'X' is the patch release
 * Patch releases for MAS or any Apps have to be requested via an [IBM support case](https://www.ibm.com/mysupport){: external}
 * 1 week of advance notice is needed in ticket for Patch release update
 * If Patch contains security fixes or any security fix available, IBM SRE team will apply fixes as soon as they are available. No exceptions.
