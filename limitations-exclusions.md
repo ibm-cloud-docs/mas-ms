@@ -34,22 +34,19 @@ Clients will not have access to the operating system, file system, Red Hat OpenS
 
 Direct access to the clusters is not available.  Changes required must be submitted using an IBM support case system and the IBM SRE team will execute.
 
-## Databases
-{: #databases}
-
 The following are database limitations of the MAS-Dedicated offering:
 
-* Only DB2 is supported.  Oracle and SQLServer are not supported.  Conversion services are available.
+## Databases
 
+* Only IBM DB2 Warehouse is supported.  Oracle and SQLServer are not currently supported.
+* The source database must be DB2. It should be fully tested and verified prior to providing an export to IBM.
+* IBM must be informed if the source database was converted from a different source platform (SQLServer, Oracle) 
+* Conversion effort must include all custom saved queries, reports, max relationships, conditions, restrictions, properties etc.
 * If converting from Oracle to DB2, Oracle compatibility mode is not supported.
 
 * DB2 Text Search is not supported.
 
-* Running SQL statements (update/insert/delete) directly on databases is not allowed and IBM SRE team will not be able to execute those statements for you. DBC scripts are not allowed. Customers must carry out these changes using the UI via different means for example using Automation scripts or MIF. For further details on use of automation scripts, please see document below:
-
-https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript
-
-* SQL Scripts can be run on Production databases on an exception-only basis. Please see [Running SQL Scripts in Production](/docs/mas-ms?topic=mas-ms-support#running-sql-scripts) for details.
+* Running SQL statements (update/insert/delete) directly on the database is not allowed and IBM SRE team will not be able to execute those statements for you. DBC scripts are not allowed. Customers should carry out these changes using the Maximo UI via [Automation Scripts](https://ibm-maximo-dev.github.io/maximo-autoscript-documentation/introduction/whatisautoscript){: external} or the [Maximo Integration Framework](https://www.ibm.com/docs/en/mas-cd/maximo-manage/continuous-delivery?topic=integrating-data-external-applications){: external}.
 
 ## Manage Application
 {: #manage-application}
