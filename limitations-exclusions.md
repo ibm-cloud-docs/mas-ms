@@ -37,6 +37,7 @@ Direct access to the clusters is not available.  Changes required must be submit
 The following are database limitations of the MAS-Dedicated offering:
 
 ## Databases
+{: #databases}
 
 * Only IBM DB2 Warehouse is supported.  Oracle and SQLServer are not currently supported.
 * The source database must be DB2. It should be fully tested and verified prior to providing an export to IBM.

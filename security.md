@@ -131,6 +131,7 @@ Vulnerability scanning results and logs are considered IBM Confidential Informat
 IBM does not permit external penetration tests on MAS offerings for security and compliance reasons. However, IBM can provide comprehensive penetration test reports conducted by IBM’s Product Transformation Center (PTC). These reports are thorough and should address the objectives and concerns of external parties, ensuring they have a clear understanding of IBM MAS system security posture and the measures we have in place to safeguard our offerings.
 
 ## SQL Injection
+{: #sql-injection}
 
 Please see FAQ link below regarding how Maximo protects against SQL injection:
 https://www-01.ibm.com/support/docview.wss?uid=swg21419049
