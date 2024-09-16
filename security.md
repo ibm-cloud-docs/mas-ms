@@ -120,9 +120,9 @@ Customers will be responsible to ensure the appropriate user setup and mapping i
 ## Penetration and Vulnerability Testing
 {: #penetration-and-vulnerability-testing}
 
-IBM’s Product Transformation Center (PTC) conducts penetration testing on IBM Maximo Application Suite Dedicated Service offering annually.
+IBM’s Product Transformation Center (PTC) conducts penetration testing on the IBM Maximo Application Suite as a Service offering annually.
 
-IBM performs external and internal vulnerability scanning and subsequent remediation in all IBM Maximo Application Suite Dedicated environments on a quarterly basis per IBM IT Security Standards (ITSS). This includes Operating System, Middleware, Application and TCP/IP vulnerability scanning.
+IBM performs external and internal vulnerability scanning and subsequent remediation in all IBM Maximo Application Suite SaaS environments on a quarterly basis per IBM IT Security Standards (ITSS). This includes Operating System, Middleware, Application and TCP/IP vulnerability scanning.
 
 Vulnerabilities are assigned individual vulnerability ratings and exploitation categories (Critical, High, Medium or Low). These ratings are used to determine an IBM mandated time requirement to remediate and resolve the vulnerability.
 
