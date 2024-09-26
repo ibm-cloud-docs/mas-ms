@@ -56,7 +56,9 @@ IBM Cloud Data Centers are SOC compliant and have full hardware redundancy imple
 
 The following diagrams show a high level overview of the architecture for each individual client instance.
 
-![MAS-Dedicated Architecture](images/MAS-MS-Architecture.png "MAS-Dedicated Architecture"){: caption="Figure 1. MAS-Dedicated Architecture on IBM CLoud" caption-side="bottom"}
+![MAS-Dedicated Shared Architecture](images/MAS-Dedicated-Shared-Cluster.png "MAS-Dedicated Shared Architecture"){: caption="Figure 1. MAS-Dedicated / MS Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
+
+![MAS-Dedicated Non-Shared Architecture](images/MAS-Dedicated-Non-Shared-Cluster.png "MAS-Dedicated Non-Shared Architecture"){: caption="Figure 1. MAS-Dedicated / MS Non-Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
 
 ## MAS-Dedicated Architecture Highlights
 {: #mas-dedicated-highlights}
