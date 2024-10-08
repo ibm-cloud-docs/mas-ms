@@ -138,7 +138,7 @@ This task could take several hours to complete depending on the types of changes
 {: attention}
 
 ##### Database Restore When ConfigDB Fails
-[: #when-configdb-fails}
+{: #when-configdb-fails}
 
 - For scenarios where there is a ConfigDB failure, automation restores the database to a timestamp previous to the start of the ConfigDB process.
 - Depending on the backup history for this database, this process can be very time consuming.
