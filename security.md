@@ -328,7 +328,7 @@ https://www.ibm.com/software/sla/sladb.nsf/sla/tou-gen-terms
 {: #cloud-service-agreement}
 
 IBM Cloud Services Agreement (CSA)
-https://www.ibm.com/support/customer/pdf/csa_us.pdf
+https://www.ibm.com/support/customer/csol/terms/?id=Z126-6304&cc=us&lc=en
 
 For more on IBM Cloud security, privacy and compliance:
 https://www.ibm.com/cloud/security
