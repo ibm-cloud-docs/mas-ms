@@ -110,7 +110,7 @@ For the MS-Manage Application:
 * Pre-defined (75+) interface components provided along with applications to configure new interfaces
 * Support for customizing integration processing using Processing Rules and Scripting
 
-For file based integrations, an IBM Cloud Object Storage location will be allocated for each order.  5 API Keys will be generated for the client to use to move files in and out of the location.  Additional keys can be ordered.  To initiate this process, customers must submit a support case.
+For file based integrations, an AWS S3 Cloud Object Storage location will be allocated for each order. **One API Key** will be generated for the client to use to move files in and out of the location. Additional keys can be ordered. To initiate this process, customers must work with salesrep in placing the order.
 
 One Site-to-Site VPN is included in the order.  To initiate the creation of this VPN, customers must submit a support case.  At this time, the VPN is only available for LDAP integrations.
 

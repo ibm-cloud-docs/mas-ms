@@ -46,7 +46,7 @@ Maintenance Windows for Non-Production Environments are scheduled on weekdays (M
 
 There may be exceptions, in which case Customers will be notified in advance.
 
-The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production environment impacting maintenance and 10 business days prior to any Production environment impacting maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). This pertains to environment impacting (outage) maintenanace only. Non-environment impacting (no outage) maintenance is not subject to this policy.
+The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production environment impacting maintenance and 10 business days prior to any Production environment impacting maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). This pertains to environment impacting (outage) maintenance only. Non-environment impacting (no outage) maintenance is not subject to this policy.
 
 Customers must [subscribe](/docs/mas-ms?topic=topic=guide-self-service-portal#how-to-request-ccc-access) in order to receive maintenance notifications via email.
 {: note}
@@ -61,7 +61,7 @@ Environments are usually not available to users during maintenance windows, but 
 ## Change Freeze Period
 {: #change-freeze-period}
 
-The Change Freeze period for year end 2024 is December 18th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
+The Change Freeze period for year end 2024 is December 16th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
 
 The [Self Service Portal](/docs/mas-ms?topic=mas-ms-ssp) is available for Non-Production environments during the change freeze window. Production environment SSP access, with the exception of running MAS Must Gather, is not allowed.
 
