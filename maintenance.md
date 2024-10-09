@@ -61,7 +61,7 @@ Environments are usually not available to users during maintenance windows, but 
 ## Change Freeze Period
 {: #change-freeze-period}
 
-The Change Freeze period for year end 2024 is December 18th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
+The Change Freeze period for year end 2024 is December 16th, 2024 through January 3rd, 2025. Systems are available to users and all standard automated processes such as database backups continue as normal during the change freeze period.  Coordinated changes to environments such as application upgrades are not available during this time.  The IBM SRE team does not schedule maintenance during the change freeze period.
 
 The [Self Service Portal](/docs/mas-ms?topic=mas-ms-ssp) is available for Non-Production environments during the change freeze window. Production environment SSP access, with the exception of running MAS Must Gather, is not allowed.
 
