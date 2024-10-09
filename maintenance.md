@@ -46,7 +46,7 @@ Maintenance Windows for Non-Production Environments are scheduled on weekdays (M
 
 There may be exceptions, in which case Customers will be notified in advance.
 
-The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production environment impacting maintenance and 10 business days prior to any Production environment impacting maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). This pertains to environment impacting (outage) maintenanace only. Non-environment impacting (no outage) maintenance is not subject to this policy.
+The IBM SRE team proactively notifies customers at least 5 business days prior to any Non-Production environment impacting maintenance and 10 business days prior to any Production environment impacting maintenance via email using the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center). This pertains to environment impacting (outage) maintenance only. Non-environment impacting (no outage) maintenance is not subject to this policy.
 
 Customers must [subscribe](/docs/mas-ms?topic=topic=guide-self-service-portal#how-to-request-ccc-access) in order to receive maintenance notifications via email.
 {: note}
