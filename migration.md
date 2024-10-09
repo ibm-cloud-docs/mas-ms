@@ -30,7 +30,7 @@ This page covers migration of an existing Maximo application, either on the IBM 
 
 The steps are similar for both, but the responsibilities vary as to which team is responsible for some of the tasks. This diagram represents a high-level overview of the migration path to MAS MS:
 
-![MAS-Migration-Steps](/images/MAS-Migration-Steps.png){: caption="Figure 1. MAS Migration Steps"}
+![MAS-Migration-Steps](/images/MAS-Migration-Steps.png){: caption="MAS Migration Steps"}
 
 ## Planning
 {: #planning}
@@ -90,7 +90,7 @@ The goal of this step is to ensure all components are in place so the first test
 | Begin VPN Set up (optional) | X | X |
 | Remediation of JAVA class files to Automation Script(s) | | X |
 | Configure any integrations in MAS | | X |
-{: caption="Table 1. Initial Setup Responsibilities" caption-side="bottom"}
+{: caption="Initial Setup Responsibilities" caption-side="bottom"}
 
 ## Test 1
 {: #test-1}
@@ -108,7 +108,7 @@ Test 1 executes all of the steps required to move a customer from the SaaS Flex 
 | Ensure any integrations | | X |
 | Test Changes | | X |
 | Remediate errors | Secondary | Primary |
-{: caption="Table 1. Test 1 Responsibilities" caption-side="bottom"}
+{: caption="Test 1 Responsibilities" caption-side="bottom"}
 
 ## Test 2
 {: #test-2}
@@ -126,7 +126,7 @@ This is similar to test 1, except the focus is ensuring all steps are documented
 | Test Changes | | X |
 | Remediate errors | Secondary | Primary |
 | Ensure timings for all steps recorded | X | X |
-{: caption="Table 1. Test 2 Responsibilities" caption-side="bottom"}
+{: caption="Test 2 Responsibilities" caption-side="bottom"}
 
 ## Live on MAS-Dedicated
 {: #live-on-mas-dedicated}
@@ -144,7 +144,7 @@ The final execution of the steps in the scheduled migration window.  Once comple
 | Finalize Integrations | | X |
 | Test Changes | | X |
 | Go Live | | X |
-{: caption="Table 1. Go Live Responsibilities" caption-side="bottom"}
+{: caption="Go Live Responsibilities" caption-side="bottom"}
 
 ## Post Live MAS-Dedicated Activities
 {: #post-live-mas-dedicated-activities}

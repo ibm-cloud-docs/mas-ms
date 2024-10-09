@@ -24,7 +24,7 @@ IBM MAS Client Communications Center (CCC) URL:
 
 https://status.suite.maximo.com/
 
-![MAS-Dedicated CCC Main Page](images/MAS-MS-CCC-Main-Page.png "MAS-Dedicated CCC Main Page"){: caption="Figure 1. MAS-Dedicated CCC Main Page" caption-side="bottom"}
+![MAS-Dedicated CCC Main Page](images/MAS-MS-CCC-Main-Page.png "MAS-Dedicated CCC Main Page"){: caption="MAS-Dedicated CCC Main Page" caption-side="bottom"}
 
 The IBM MAS Client Communication Center (CCC) portal is the primary communication channel for environment alerts, incidents, maintenance, security and announcement notices for all MAS-Dedicated customer environments.
 

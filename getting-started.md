@@ -101,32 +101,32 @@ Note: If you already have an IBMid, please proceed to [How to Register for Maxim
 
 2. Click **Create an IBMid**
 
-    ![MAS-MS-IBMid-Click-Create](images/MAS-MS-IBMid-Click-Create.png "MAS-MS-IBMid-Click-Create"){: caption="Figure 1. Create IBMid" caption-side="bottom"}
+    ![MAS-MS-IBMid-Click-Create](images/MAS-MS-IBMid-Click-Create.png "MAS-MS-IBMid-Click-Create"){: caption="Create IBMid" caption-side="bottom"}
 
 3. Enter the applicable information (you will need to provide a valid email address) and click **Next**
 
-    ![MAS-MS-IBMid-Enter-Applicable-Information](images/MAS-MS-IBMid-Enter-Applicable-Information.png "MAS-MS-IBMid-Enter-Applicable-Information"){: caption="Figure 2. IBMid - Enter Applicable Information" caption-side="bottom"}
+    ![MAS-MS-IBMid-Enter-Applicable-Information](images/MAS-MS-IBMid-Enter-Applicable-Information.png "MAS-MS-IBMid-Enter-Applicable-Information"){: caption="IBMid - Enter Applicable Information" caption-side="bottom"}
 
 4. Upon submission, a confirmation code will be sent from `ibmacct@iam.ibm.com` to the email address you provided
 
-    ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="Figure 3. MAS-Dedicated IBMid Confirmation Code" caption-side="bottom"}
+    ![MAS-MS-IBMid-Confirmation-Code](images/MAS-MS-IBMid-Confirmation-Code.png "MAS-MS-IBMid-Confirmation-Code"){: caption="MAS-Dedicated IBMid Confirmation Code" caption-side="bottom"}
 
 5. Open your email and copy & paste the 7 digit confirmation code (Verification token).
     Click **Create Account** to activate your IBMid
 
-    ![MAS-MS-IBMid-Confirmation-Code-Email](images/MAS-MS-IBMid-Confirmation-Code-Email.png "MAS-MS-IBMid-Confirmation-Code-Email"){: caption="Figure 4. MAS-Dedicated IBMid Confirmation Code Email" caption-side="bottom"}
+    ![MAS-MS-IBMid-Confirmation-Code-Email](images/MAS-MS-IBMid-Confirmation-Code-Email.png "MAS-MS-IBMid-Confirmation-Code-Email"){: caption="MAS-Dedicated IBMid Confirmation Code Email" caption-side="bottom"}
 
-    ![MAS-MS-IBMid-Create-Account](images/MAS-MS-IBMid-Create-Account.png "MAS-MS-IBMid-Create-Account"){: caption="Figure 5. MAS-Dedicated IBMid Create Account" caption-side="bottom"}
+    ![MAS-MS-IBMid-Create-Account](images/MAS-MS-IBMid-Create-Account.png "MAS-MS-IBMid-Create-Account"){: caption="MAS-Dedicated IBMid Create Account" caption-side="bottom"}
 
 6. Accept IBM Account Privacy notification by clicking **Proceed**
 
-    ![MAS-MS-IBMid-Privacy](images/MAS-MS-IBMid-Privacy.png "MAS-MS-IBMid-Privacy.png"){: caption="Figure 6. MAS-Dedicated IBMid Privacy Notification" caption-side="bottom"}
+    ![MAS-MS-IBMid-Privacy](images/MAS-MS-IBMid-Privacy.png "MAS-MS-IBMid-Privacy.png"){: caption="MAS-Dedicated IBMid Privacy Notification" caption-side="bottom"}
 
 7. Your new IBMid will be created and registration completed:
 
-    ![MAS-MS-IBMid-Ready](images/MAS-MS-IBMid-Ready.png "MAS-MS-IBMid-Ready"){: caption="Figure 7. MAS-Dedicated IBMid Ready" caption-side="bottom"}
+    ![MAS-MS-IBMid-Ready](images/MAS-MS-IBMid-Ready.png "MAS-MS-IBMid-Ready"){: caption="MAS-Dedicated IBMid Ready" caption-side="bottom"}
 
-    ![MAS-MS-IBMid-Activated](images/MAS-MS-IBMid-Activated.png "MAS-MS-IBMid-Activated.png"){: caption="Figure 8. MAS-Dedicated IBMid Activated" caption-side="bottom"}
+    ![MAS-MS-IBMid-Activated](images/MAS-MS-IBMid-Activated.png "MAS-MS-IBMid-Activated.png"){: caption="MAS-Dedicated IBMid Activated" caption-side="bottom"}
 
 After verification/creation of your IBMid has been completed, proceed to the next section [How to Register for MAS Support Services](#how-to-register-for-mas-support)
 
@@ -143,38 +143,38 @@ Maximo Application Suite Support covers support for both the Application and you
 
     Note: if you don't have an IBMid, please reference the following link: [How to Create an IBMid](#how-to-create-an-ibmid)
 
-    ![MAS-MS-Register-IBMid-Login](images/MAS-MS-Register-IBMid-Login.png "MAS-MS-Register-IBMid-Login"){: caption="Figure 9. MAS-Dedicated Register IBMid Login" caption-side="bottom"}
+    ![MAS-MS-Register-IBMid-Login](images/MAS-MS-Register-IBMid-Login.png "MAS-MS-Register-IBMid-Login"){: caption="MAS-Dedicated Register IBMid Login" caption-side="bottom"}
 
 3. Privacy Statement may appear. If it does, click **I consent**
 
-    ![MAS-MS-Register-Privacy](images/MAS-MS-Register-Privacy.png "MAS-MS-Register-Privacy"){: caption="Figure 10. MAS-Dedicated Register Privacy" caption-side="bottom"}
+    ![MAS-MS-Register-Privacy](images/MAS-MS-Register-Privacy.png "MAS-MS-Register-Privacy"){: caption="MAS-Dedicated Register Privacy" caption-side="bottom"}
 
 4. After entering your IBMid & password, the following page will be displayed.
     Click on the Request access button:
 
-    ![MAS-MS-Register-Request-Access](images/MAS-MS-Register-Request-Access.png "MAS-MS-Register-Request-Access"){: caption="Figure 11. MAS-Dedciated  Register Request Access" caption-side="bottom"}
+    ![MAS-MS-Register-Request-Access](images/MAS-MS-Register-Request-Access.png "MAS-MS-Register-Request-Access"){: caption="MAS-Dedciated  Register Request Access" caption-side="bottom"}
 
 5. The following dialog box will appear:
 
-    ![MAS-MS-Register-Request-Access-Dialog](images/MAS-MS-Register-Request-Access-Dialog.png "MAS-MS-Register-Request-Access-Dialog.png"){: caption="Figure 12. MAS-Dedicated Request Access Dialog" caption-side="bottom"}
+    ![MAS-MS-Register-Request-Access-Dialog](images/MAS-MS-Register-Request-Access-Dialog.png "MAS-MS-Register-Request-Access-Dialog.png"){: caption="MAS-Dedicated Request Access Dialog" caption-side="bottom"}
 
 6. Be sure the I consent checkbox is checked, then type **Maximo Application Suite on Cloud** in the Product field.
     Select **Maximo Application Suite on Cloud** from the drop down list and click **Submit**
 
-    ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="Figure 13. MAS-Dedicated Select Product" caption-side="bottom"}
+    ![MAS-MS-Register-Select-Product](images/MAS-MS-Register-Select-Product.png "MAS-MS-Register-Select-Product"){: caption="MAS-Dedicated Select Product" caption-side="bottom"}
 
 7. If you are not already registered for Maximo Application Suite on Cloud support, the following screen will appear.
     Complete the applicable information. Ensure Client / account name is populated and click **Submit**
 
-    ![MAS-MS-Register-Enter-Customer-Number](images/MAS-MS-Register-Enter-Customer-Number.png "MAS-MS-Register-Enter-Customer-Number"){: caption="Figure 13. MAS-Dedicated Enter Customer Number" caption-side="bottom"}
+    ![MAS-MS-Register-Enter-Customer-Number](images/MAS-MS-Register-Enter-Customer-Number.png "MAS-MS-Register-Enter-Customer-Number"){: caption="MAS-Dedicated Enter Customer Number" caption-side="bottom"}
 
 8. The following dialog will appear. Click **Close**
 
-    ![MAS-MS-Register-Request-Sent](images/MAS-MS-Register-Request-Sent.png "MAS-MS-Register-Request-Sent"){: caption="Figure 13. MAS-Dedicated Request Sent" caption-side="bottom"}
+    ![MAS-MS-Register-Request-Sent](images/MAS-MS-Register-Request-Sent.png "MAS-MS-Register-Request-Sent"){: caption="MAS-Dedicated Request Sent" caption-side="bottom"}
 
 9. An email notification will be sent confirming your request:
 
-    ![MAS-MS-Register-Request-Sent-Confirm](images/MAS-MS-Register-Request-Sent-Confirm.png "MAS-MS-Register-Request-Sent-Confirm"){: caption="Figure 13. MAS-Dedicated Request Sent Confirmation" caption-side="bottom"}
+    ![MAS-MS-Register-Request-Sent-Confirm](images/MAS-MS-Register-Request-Sent-Confirm.png "MAS-MS-Register-Request-Sent-Confirm"){: caption="MAS-Dedicated Request Sent Confirmation" caption-side="bottom"}
 
     Note:
     Once you request has been submitted, please be patient. It will take some time (up to 24 hours) for IBM to review and approve your request.
@@ -185,7 +185,7 @@ Maximo Application Suite Support covers support for both the Application and you
 
     You should see your product access with a Status of ‘Approved’ under your ACCOUNT:
 
-    ![MAS-MS-Register-Request-Approved](images/MAS-MS-Register-Request-Approved.png "MAS-MS-Register-Request-Approved"){: caption="Figure 13. MAS-Dedicated Request Approved" caption-side="bottom"}
+    ![MAS-MS-Register-Request-Approved](images/MAS-MS-Register-Request-Approved.png "MAS-MS-Register-Request-Approved"){: caption="MAS-Dedicated Request Approved" caption-side="bottom"}
 
     If you need support, see the next section **How to Create a Case**
 
@@ -225,39 +225,39 @@ You will need to set a temporary password and then change it when you first logi
 
 1. Navigate to your MAS-Dedicated login URL and enter your username (sent via Welcome Letter in the username file) and click **Continue**.
 
-    ![MAS-MS-Password-Change-1](images/MAS-MS-Password-Change-1.png "MAS-MS-Password-Change-1"){: caption="Figure 1. MAS Login Screen" caption-side="bottom"}
+    ![MAS-MS-Password-Change-1](images/MAS-MS-Password-Change-1.png "MAS-MS-Password-Change-1"){: caption="MAS Login Screen" caption-side="bottom"}
 
 2. Click on **Forgot password?** option in below screen.
 
-    ![MAS-MS-Password-Change-2](images/MAS-MS-Password-Change-2.png "MAS-MS-Password-Change-2"){: caption="Figure 2. MAS Login Screen" caption-side="bottom"}
+    ![MAS-MS-Password-Change-2](images/MAS-MS-Password-Change-2.png "MAS-MS-Password-Change-2"){: caption="MAS Login Screen" caption-side="bottom"}
 
 3. A confirmation code will be sent to your e-mail address. Enter the code contained in your email and click **Continue**
 
-    ![MAS-MS-Password-Change-3](images/MAS-MS-Password-Change-3.png "MAS-MS-Password-Change-3"){: caption="Figure 3. MAS Login Code Confirmation" caption-side="bottom"}
+    ![MAS-MS-Password-Change-3](images/MAS-MS-Password-Change-3.png "MAS-MS-Password-Change-3"){: caption="MAS Login Code Confirmation" caption-side="bottom"}
 
 4. The email with the confirmation code will look similar to below.
 
-    ![MAS-MS-Password-Change-4](images/MAS-MS-Password-Change-4.png "MAS-MS-Password-Change-4"){: caption="Figure 4. MAS Login Code Email" caption-side="bottom"}
+    ![MAS-MS-Password-Change-4](images/MAS-MS-Password-Change-4.png "MAS-MS-Password-Change-4"){: caption="MAS Login Code Email" caption-side="bottom"}
 
 5. After the code is enter in the above screen with the code you received over an email, you will see below screen asking for the password. You will receive the temporary password (again via email).
 
-    ![MAS-MS-Password-Change-5](images/MAS-MS-Password-Change-5.png "MAS-MS-Password-Change-5"){: caption="Figure 5. MAS Login Temp Password" caption-side="bottom"}
+    ![MAS-MS-Password-Change-5](images/MAS-MS-Password-Change-5.png "MAS-MS-Password-Change-5"){: caption="MAS Login Temp Password" caption-side="bottom"}
 
 6. Email with the temporary password will look similar to below.
 
-     ![MAS-MS-Password-Change-6](images/MAS-MS-Password-Change-6.png "MAS-MS-Password-Change-6"){: caption="Figure 6. MAS Login Temp Password email" caption-side="bottom"}
+     ![MAS-MS-Password-Change-6](images/MAS-MS-Password-Change-6.png "MAS-MS-Password-Change-6"){: caption="MAS Login Temp Password email" caption-side="bottom"}
 
 7. Enter the temporary password you received via email in the below screen and you will be able to login to MAS.
 
-    ![MAS-MS-Password-Change-7](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-7"){: caption="Figure 7. MAS Login Temp Password" caption-side="bottom"}
+    ![MAS-MS-Password-Change-7](images/MAS-MS-Password-Change-7.png "MAS-MS-Password-Change-7"){: caption="MAS Login Temp Password" caption-side="bottom"}
 
 8. After you login to MAS, change your password by clicking **Manage profile** under Profile in the right top hand corner.
 
-    ![MAS-MS-Password-Change-8](images/MAS-MS-Password-Change-8.png "MAS-MS-Password-Change-8"){: caption="Figure 8. MAS Login Manage Profile" caption-side="bottom"}
+    ![MAS-MS-Password-Change-8](images/MAS-MS-Password-Change-8.png "MAS-MS-Password-Change-8"){: caption="MAS Login Manage Profile" caption-side="bottom"}
 
 9. Select **Change password** to change your password. Enter the temporary password and then set your new password.
 
-    ![MAS-MS-Password-Change-9](images/MAS-MS-Password-Change-9.png "MAS-MS-Password-Change-9"){: caption="Figure 9. MAS Login Set Password" caption-side="bottom"}
+    ![MAS-MS-Password-Change-9](images/MAS-MS-Password-Change-9.png "MAS-MS-Password-Change-9"){: caption="MAS Login Set Password" caption-side="bottom"}
 
 
 ## How to activate your environments
@@ -288,7 +288,7 @@ To acquire your license keys:
     | Hostname | customerinstancename-rlks-0.rlks |
     | Port | 27000 |
     | Description | Environment Name |
-    {: caption="Table 1. MAS-Dedicated License Key Parameter Examples" caption-side="bottom"}
+    {: caption="MAS-Dedicated License Key Parameter Examples" caption-side="bottom"}
 
 9. Download your license key(s)
 10. Open a case using the IBM Support Portal and upload the license key files to IBM by clicking the following link:
