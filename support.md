@@ -31,7 +31,7 @@ Before submitting a case, check to see if your issue can be addressed using the 
 | 2 | Significant business impact: A service, business feature, or function of the service is severely restricted in its use, or you are in jeopardy of missing business deadlines. | Within 2 business hours | Monday – Friday business hours |
 | 3 | Minor business impact: The service or functionality is usable and the issue does not represent a critical impact on operations. | Within 4 business hours | Monday – Friday business hours |
 | 4 | Minimal business impact: An inquiry or non-technical request. | Within 1 business day | Monday – Friday business hours |
-{: caption="Table 1. IBM Support Case Severity Levels and Response Time" caption-side="bottom"}
+{: caption="IBM Support Case Severity Levels and Response Time" caption-side="bottom"}
 
 **Off Shift Weekend/Holiday Support** (Severity 1 Only)
 
@@ -98,7 +98,7 @@ It is the client's responsibility to ensure once database access is no longer re
 | Create/Update Access for Sequences | Maximo DB Configuration App (UI) | Maximo DB Configuration App (UI) |
 | Run SQL Scripts | Not Allowed | Yes | See guidelines below |
 | Run DBC Scripts | Not Allowed | Not Allowed |
-{: caption="Table 1. MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"}
+{: caption="MAS-Dedicated Database Access Rules & Guidelines" caption-side="bottom"}
 
 ## Best Practices for Configuring Maximo Databases and Migrating Changes
 {: #configuring-maximo-database}
@@ -190,7 +190,7 @@ The below steps can only be performed by the client once they have received thei
 | Copy a file from local to remote (COS) | rclone copy /Users/file.txt RemoteName:bucketname |
 | Copy a file from remote (COS) to local | rclone copy RemoteName:bucketname /Users/Documents/ |
 | rclone sync | rclone sync source:path dest:path |
-{: caption="Table 2. Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"}
+{: caption="Common IBM COS (Cloud Object Storage) Commands" caption-side="bottom"}
 
 ## Accessing Server Logs for Maximo Manage
 {: #accessing-server-logs}
@@ -277,7 +277,7 @@ You can run script commands for several key utilities by using API requests. The
 | Upload logs from Maximo Manage pods to S3 Cloud Object Storage | POST https://**ManageInstanceHostname**/maximo/api/service/logging?action=wsmethod:submitUploadLogRequest |
 | Stop the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestop |
 | Start the Maximo Manage pods | POST http://**Adminurl**/toolsapi/toolservice/managestart |
-{: caption="Table 4. Sample API Calls" caption-side="bottom"}
+{: caption="Sample API Calls" caption-side="bottom"}
 
 The **Adminurl** will be defined in the Welcome Letter.
 

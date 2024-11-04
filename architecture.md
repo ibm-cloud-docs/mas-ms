@@ -56,9 +56,9 @@ IBM Cloud Data Centers are SOC compliant and have full hardware redundancy imple
 
 The following diagrams show a high level overview of the architecture for each individual client instance.
 
-![MAS-Dedicated Shared Architecture](images/MAS-Dedicated-Shared-Cluster.png "MAS-Dedicated Shared Architecture"){: caption="Figure 1. MAS-Dedicated / MS Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
+![MAS-Dedicated Shared Architecture](images/MAS-Dedicated-Shared-Cluster.png "MAS-Dedicated Shared Architecture"){: caption="MAS-Dedicated / MS Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
 
-![MAS-Dedicated Non-Shared Architecture](images/MAS-Dedicated-Non-Shared-Cluster.png "MAS-Dedicated Non-Shared Architecture"){: caption="Figure 2. MAS-Dedicated / MS Non-Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
+![MAS-Dedicated Non-Shared Architecture](images/MAS-Dedicated-Non-Shared-Cluster.png "MAS-Dedicated Non-Shared Architecture"){: caption="MAS-Dedicated / MS Non-Shared Cluster Architecture on IBM CLoud" caption-side="bottom"}
 
 ## MAS-Dedicated Architecture Highlights
 {: #mas-dedicated-highlights}
@@ -132,4 +132,4 @@ The following table shows the distribution of workload across worker nodes.  Thi
 | Small | 100 | | 2 | 1 | 1 | 1 | 8 |
 | Medium | 250 | | 6 | 2 | 2 | 1 | 24 |
 | Large | 500 | | 12 | 3 | 2 | 2 | 48 |
-{: caption="Table 1. MAS-Dedicated Bundles" caption-side="bottom"}
+{: caption="MAS-Dedicated Bundles" caption-side="bottom"}

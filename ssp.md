@@ -333,7 +333,7 @@ The Access Management Tool provides the ability for users to request and manage 
 | Reset Database Account Password | Issues a request to reset the password for the selected Database User or Service Account. The new password will be made available in the access record when the request is completed. Additionally the Database SSL certificate information will be refreshed to ensure it is current with what is on the system. <br> For details on how to Reset a Database Account Password, see [How to Reset a Database Account Password](#how-to-reset-database-password)|
 | MAS Object Storage File Access | Not yet available. <br> For details on how to request MAS Object Storage File access, see [How to Request MAS Object Storage File Access](#how-to-request-cos-file-access)|
 | MAS Object Storage Log Access | Not yet available. <br> For details on how to request MAS Object Storage Log access, see [How to Request MAS Object Storage Log Access](#how-to-request-cos-log-access)|
-{: caption="Table 1. Supported Access Requests" caption-side="bottom"}
+{: caption="Supported Access Requests" caption-side="bottom"}
 
 ### How to Request CCC Access
 {: #how-to-request-ccc-access}

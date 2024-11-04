@@ -76,7 +76,7 @@ Customers can request a specific date and time for MAS and Appliction upgrades a
 
 It should be noted that IBM SRE initially determines the date, start time and duration for the upgrade your environment(s), based on overall schedule. IBM SRE will then send you an upgrade notification with those details via the [Client Communications Center (CCC)](/docs/mas-ms?topic=mas-ms-client-communications-center).
 
-Please also note the IBM SRE Change / Freeze period of December 18th, 2024 to January 3rd, 2025. MAS Upgrades will not be scheduled or performed during this timeframe.
+Please also note the IBM SRE Change / Freeze period of December 16th, 2024 to January 3rd, 2025. MAS Upgrades will not be scheduled or performed during this timeframe.
 {: note}
 
 ## LA Fixes

@@ -124,7 +124,7 @@ The following table lists the expected lead time for the IBM SRE team (CDS) to c
 | Access to CP4D | 1 Day |
 | Log Request | 1 Day |
 | Application Server Restarts | 1 Day |
-{: caption="Table 1. MAS-Dedicated IBM SRE Lead Times" caption-side="bottom"}
+{: caption="MAS-Dedicated IBM SRE Lead Times" caption-side="bottom"}
 
 ## Incident Management and RCA Process
 {: #incident-management-and-rca-process}
