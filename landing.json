@@ -1,0 +1,44 @@
+{
+    "version": 2,
+    "title": "Maximo Application Suite Dedicated",
+    "introduction": "Maximo Application Suite Dedicated (MAS-Dedicated) provides IBM managed provisioning, installation, configuration, operational support, security, maintenance and administration of Maximo Application Suite for customers on the IBM Cloud and AWS platforms.",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Getting started with IBM Maximo Application Suite",
+          "href": "/docs/mas-ms?topic=mas-ms-getting-started-with-ibm-maximo-application-suite-dedicated"
+        },
+        {
+          "title": "Architecture",
+          "href": "/docs/mas-ms?topic=mas-ms-architecture"
+        },
+        {
+          "title": "Services",
+          "href": "/docs/mas-ms?topic=mas-ms-services"
+        },
+        {
+          "title": "FAQ",
+          "href": "/docs/mas-ms?topic=mas-ms-faq"
+        },
+        {
+          "title": "Support",
+          "href": "/docs/mas-ms?topic=mas-ms-support"
+        }
+      ]
+    },
+    "section_highlights": [
+      {
+        "title": "IBM Maximo Application Suite documentation",
+        "description": "Access the full product documentation for IBM Maximo Application Suite.",
+        "href": "https://www.ibm.com/docs/en/mas",
+        "type": "article"
+      },
+      {
+        "title": "IBM Maximo",
+        "description": "Learn more about Maximo and take a product tour.",
+        "href": "https://www.ibm.com/products/maximo",
+        "type": "article",
+        "recommended": true
+      }
+    ]
+  }
