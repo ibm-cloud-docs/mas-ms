@@ -23,7 +23,7 @@ subcollection: mas-ms
 ## Cloud Architecture
 {: #cloud-architecture}
 
-Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Dedicated Service delivers this functionality on the IBM Cloud platform.
+Maximo Application Suite (MAS) is a feature rich suite of applications delivered using key IBM and Red Hat technologies. The MAS Dedicated Service delivers this functionality on the IBM Cloud platform. 
 
 IBM Cloud - YouTube Videos
 
