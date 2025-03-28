@@ -88,7 +88,7 @@ Application monitoring
 Synthetic monitoring
 * Performs availability checks on customer site URLs for each individual Application of MAS - core, manage, health, predict, monitor, MVI, and IoT.
 
-These monitoring tasks enable IBM SRE to proactively identify issues, perfrom efficient troubleshooting, and continuously optimize our infrastructure to ensure the smooth operation of
+These monitoring tasks enable IBM SRE to proactively identify issues, perform efficient troubleshooting, and continuously optimize our infrastructure to ensure the smooth operation of
 MAS on the cloud.
 
 ## MAS-Dedicated Integrations
