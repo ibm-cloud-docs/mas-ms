@@ -39,7 +39,7 @@ IBM updates its offering portfolio from time to time to reflect market direction
 
 Customers on existing MAS Dedicated contracts will have them fulfilled at the current terms, conditions, and availability through the length of those contracts.   While the contract is in force, customers will be able to expand their usage to take advantage of other applications in the suite or increase their usage of currently installed applications, however, MAS Dedicated purchases will not be available to new customers.
 
-For more information and clarification of how this announcement affects you, please refer to [this presentation](https://ibm.box.com/shared/static/upx33sinwuk7jjne3x8734j4n4qp3koq.pdf){: external download="MAS-Dedicated-EOM.pdf"} or contact your Sales Representative or Customer Success Manager.  As customers approach their contract end date, they should work with their Sales Representative and Customer Success Manager to discuss alternatives available to them, and plan for the transition.
+For more information and clarification of how this announcement affects you, contact your Sales Representative or Customer Success Manager.  As customers approach their contract end date, they should work with their Sales Representative and Customer Success Manager to discuss alternatives available to them, and plan for the transition.
 
 ## About
 {: #about}
@@ -271,7 +271,7 @@ https://www.ibm.com/support/pages/ibm-support-licensing-start-page
 
 To acquire your license keys:
 1. Locate your IBM License Key Center Welcome Letter(s)
-2. Login to the [IBM License Key Center](https://licensing.subscribenet.com/control/ibmr/login) using the credentials provided in the License Key Center Welcome Letter
+2. Login to the [IBM License Key Center](https://licensing.flexnetoperations.com/control/ibmr/login?nextURL=%2Fcontrol%2Fibmr%2Fibmrindex) using the credentials provided in the License Key Center Welcome Letter
 3. Select your company name
 4. Select the IBM AppPoints product line
 5. Select the IBM MAXIMO APPLICATION SUITE license key name
